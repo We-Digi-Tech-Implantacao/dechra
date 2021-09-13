@@ -1,0 +1,16 @@
+@import 'variables';
+
+.menuContainer--menu-footer{
+    align-items: flex-start;
+    .menuItem--menu-footer{
+        .styledLinkContainer--menu-footer{
+            margin: 0 !important;
+            .styledLink--menu-footer{
+                color: #fff!important;
+                font-weight: 100;
+                font-size: 14px;
+                line-height: 2.5;
+            }
+        }
+    }
+}

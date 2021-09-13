@@ -1,23 +1,23 @@
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Light.ttf);
+	font-family: 'LibreFranklin';
+	src: url(assets/fonts/LibreFranklin/LibreFranklin-Light.ttf);
 	font-weight: 300;
 }
 
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Regular.ttf);
+	font-family: 'LibreFranklin';
+	src: url(assets/fonts/LibreFranklin/LibreFranklin-Regular.ttf);
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Medium.ttf);
+	font-family: 'LibreFranklin';
+	src: url(assets/fonts/LibreFranklin/LibreFranklin-Medium.ttf);
 	font-weight: 500;
 }
 
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Bold.ttf);
+	font-family: 'LibreFranklin';
+	src: url(assets/fonts/LibreFranklin/LibreFranklin-Bold.ttf);
 	font-weight: 700;
 }

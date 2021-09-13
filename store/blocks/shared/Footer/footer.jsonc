@@ -7,23 +7,438 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
     ]
   },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#attendance",
+      "vtex.menu@2.x:menu#Institucional",
+      "vtex.menu@2.x:menu#Ajuda"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "rich-text#footer",
+      "rich-text#dev-seals"
+    ],
+    "props": {
+      "blockClass": "credits",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Todos os direitos reservados © 2021",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#dev-seals": {
+    "props": {
+      "text": "[![](https://redfeather.vtexassets.com/arquivos/vtex-logo.png)](https://vtex.com/br-pt/) [![](https://redfeather.vtexassets.com/arquivos/wedigi-logo.png?v=1)](https://www.wedigi.com.br)",
+      "blockClass": "dev-seals"
+    }
+  },
+
+  "flex-layout.col#attendance":{
+    "props":{
+      "blockClass": "container-attendance"
+    },
+    "children":[
+      "rich-text#attendance",
+      "flex-layout.row#atendimento-contact",
+      "link.product#ombudsman"
+    ]
+  },
+  "link.product#ombudsman": {
+    "props": {
+      "href": "/ouvidoria",
+      "label": "Ouvidoria",
+      "blockClass": "text-ombudsman"
+    }
+  },
+  "rich-text#attendance":{
+    "props": {
+      "text": "**Central de Atendimento para os Alunos de Medicina**\nCanal exclusivo para alunos das instituições IDOMED",
+      "blockClass": "title-attendance"
+    }
+  },
+  "flex-layout.row#atendimento-contact":{
+    "props":{
+      "blockClass": "container-attendance-contact"
+    },
+    "children":[
+      "image#tel",
+      "flex-layout.col#atendimento-contact-number"
+    ]
+  },
+  "image#tel": {
+    "props": {
+      "src": "https://idomed.vtexassets.com/arquivos/carbon_phone-voice.png",
+      "blockClass": "tel"
+    }
+  },
+  "flex-layout.col#atendimento-contact-number":{
+    "props":{
+      "blockClass": "container-attendance-contact-number"
+    },
+    "children":[
+      "rich-text#contact-number"
+    ]
+  },
+  "rich-text#contact-number":{
+    "props": {
+      "text": "**0800 880 6770**\nSeg a Sex das 8h às 19h Sáb das 8h às 12h",
+      "blockClass": "title-contact-number"
+    }
+  },
+  "vtex.menu@2.x:menu#Institucional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer",
+      "items": [
+        {
+          "id": "menu-item-conheca-o-idomed",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/conheca-o-idomed",
+            "noFollow": false,
+            "tagTitle": "Conheça o IDOMED",
+            "text": "Conheça o IDOMED"
+          }
+        },
+        {
+          "id": "menu-item-Iniciativas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Iniciativas",
+            "noFollow": false,
+            "tagTitle": "Iniciativas",
+            "text": "Iniciativas"
+          }
+        },
+        {
+          "id": "menu-item-onde-estudar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/onde-estudar",
+            "noFollow": false,
+            "tagTitle": "Onde estudar",
+            "text": "Onde estudar"
+          }
+        },
+        {
+          "id": "menu-item-fale-com-a-gente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fale-com-a-gente",
+            "noFollow": false,
+            "tagTitle": "Fale com a gente",
+            "text": "Fale com a gente"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#title-footer-menu-Institucional"
+    ]
+  },
+  "rich-text#title-footer-menu-Institucional": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "menu-footer"
+    }
+  },
+  "vtex.menu@2.x:menu#Ajuda": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer",
+      "items": [
+        {
+          "id": "menu-item-duvidas-frequentes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/duvidas-frequentes",
+            "noFollow": false,
+            "tagTitle": "Dúvidas Frequentes",
+            "text": "Dúvidas Frequentes"
+          }
+        },
+        {
+          "id": "menu-item-como-comprar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/como-comprar",
+            "noFollow": false,
+            "tagTitle": "Como comprar",
+            "text": "Como comprar"
+          }
+        },
+        {
+          "id": "menu-item-politicas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/politicas",
+            "noFollow": false,
+            "tagTitle": "Políticas",
+            "text": "Políticas"
+          }
+        },
+        {
+          "id": "menu-item-sac",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/sac",
+            "noFollow": false,
+            "tagTitle": "SAC",
+            "text": "SAC"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#title-footer-menu-Ajuda"
+    ]
+  },
+  "rich-text#title-footer-menu-Ajuda": {
+    "props": {
+      "text": "DÚVIDAS",
+      "blockClass": "menu-footer"
+    }
+  },
+  
+
+  // MOBILE
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-mobile",
+      "flex-layout.row#footer-2-mobile"
     ]
   },
-  "flex-layout.row#footer": {
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+  "flex-layout.row#footer-2-mobile": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "container-credits",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#footer",
+      "rich-text#dev-seals"
+    ]
+  },
+  "flex-layout.row#footer-mobile": {
+    "props": {
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "flex-layout.col#footer-menu-mobile"
+    ]
+  },
+  "flex-layout.col#footer-menu-mobile": {
+    "children": [
+      "flex-layout.col#menu-mobile"
+    ],
+    "props": {
+      "blockClass": "container-menu",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#menu-mobile": {
+    "children": [
+      "menu-item#Institucional-mobile",
+      "menu-item#Ajuda-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-mobile"
+      ]
+    }
+  },
+  "menu-item#Institucional-mobile": {
+    "props": {
+      "id": "menu-item-Institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Institucional-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Institucional-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#Institucional-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Institucional-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile",
+      "items": [
+        {
+          "id": "menu-item-conheca-o-idomed",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/conheca-o-idomed",
+            "noFollow": false,
+            "tagTitle": "Conheça o IDOMED",
+            "text": "Conheça o IDOMED"
+          }
+        },
+        {
+          "id": "menu-item-Iniciativas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Iniciativas",
+            "noFollow": false,
+            "tagTitle": "Iniciativas",
+            "text": "Iniciativas"
+          }
+        },
+        {
+          "id": "menu-item-onde-estudar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/onde-estudar",
+            "noFollow": false,
+            "tagTitle": "Onde estudar",
+            "text": "Onde estudar"
+          }
+        },
+        {
+          "id": "menu-item-fale-com-a-gente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fale-com-a-gente",
+            "noFollow": false,
+            "tagTitle": "Fale com a gente",
+            "text": "Fale com a gente"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#Ajuda-mobile": {
+    "props": {
+      "id": "menu-item-Ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "DÚVIDAS",
+        "text": "DÚVIDAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ajuda-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Ajuda-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#Ajuda-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Ajuda-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile",
+      "items": [
+        {
+          "id": "menu-item-trocas-e-devolucoes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/trocas-e-devolucoes",
+            "noFollow": false,
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        },
+        {
+          "id": "menu-item-politica-de-privacidade",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/politica-de-privacidade",
+            "noFollow": false,
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
+          }
+        },
+        {
+          "id": "menu-item-termos-de-uso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/termos-de-uso",
+            "noFollow": false,
+            "tagTitle": "Termos de Uso",
+            "text": "Termos de Uso"
+          }
+        }
+      ]
     }
   }
 }

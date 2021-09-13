@@ -1,0 +1,29 @@
+@import 'variables'; 
+
+.container--menu-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerLayout {
+    z-index: 1;
+    position: relative;
+    background: #EFEEE7;
+}
+.socialNetworkWrapper--redes-sociais-footer {
+    width: 100%;
+    .socialNetworksContainer {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
+}
+.socialNetworksContainer--redes-sociais-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container--menu-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
