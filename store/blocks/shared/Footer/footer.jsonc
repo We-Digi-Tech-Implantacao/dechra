@@ -278,7 +278,8 @@
   "flex-layout.col#menu-mobile": {
     "children": [
       "menu-item#Institucional-mobile",
-      "menu-item#Ajuda-mobile"
+      "menu-item#Ajuda-mobile",
+      "flex-layout.col#attendance"
     ],
     "props": {
       "blockClass": [
@@ -381,8 +382,8 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "DÚVIDAS",
-        "text": "DÚVIDAS"
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
       }
     },
     "blocks": [
@@ -400,42 +401,55 @@
       "blockClass": "footer-mobile",
       "items": [
         {
-          "id": "menu-item-trocas-e-devolucoes",
+          "id": "menu-item-duvidas-frequentes",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/trocas-e-devolucoes",
+            "href": "/duvidas-frequentes",
             "noFollow": false,
-            "tagTitle": "Trocas e Devoluções",
-            "text": "Trocas e Devoluções"
+            "tagTitle": "Dúvidas Frequentes",
+            "text": "Dúvidas Frequentes"
           }
         },
         {
-          "id": "menu-item-politica-de-privacidade",
+          "id": "menu-item-como-comprar",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/politica-de-privacidade",
+            "href": "/como-comprar",
             "noFollow": false,
-            "tagTitle": "Política de Privacidade",
-            "text": "Política de Privacidade"
+            "tagTitle": "Como comprar",
+            "text": "Como comprar"
           }
         },
         {
-          "id": "menu-item-termos-de-uso",
+          "id": "menu-item-politicas",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/termos-de-uso",
+            "href": "/politicas",
             "noFollow": false,
-            "tagTitle": "Termos de Uso",
-            "text": "Termos de Uso"
+            "tagTitle": "Políticas",
+            "text": "Políticas"
+          }
+        },
+        {
+          "id": "menu-item-sac",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/sac",
+            "noFollow": false,
+            "tagTitle": "SAC",
+            "text": "SAC"
           }
         }
       ]

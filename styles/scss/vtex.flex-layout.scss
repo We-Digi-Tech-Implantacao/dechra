@@ -7,7 +7,6 @@
 		padding: 50px;
 		@media (max-width: $maxTablet) {
 			padding: 0;
-			padding-bottom: 30px;
 		}
 		.stretchChildrenWidth {
 		}
@@ -117,12 +116,14 @@
 }
 .flexCol--menu-mobile {
 	.flexColChild--menu-mobile {
-		border-top: 1px solid #707070;
+		padding: 20px 0;
+		border-bottom: 1px solid #fff;
 		&:last-child {
-			border-bottom: 1px solid #707070;
+			border-bottom: 1px solid #fff;
 		}
 	}
 }
+
 .flexRowContent--credits{
 	background-color: #fff;
 	align-items: center;
@@ -136,6 +137,10 @@
 	.flexRowContent--container-attendance-contact{
 		padding: 10px 20px;
 		align-items: center;
+		@media(max-width: $maxMobile){
+			padding: 10px 15px;
+			display: flex;
+		}
 		.stretchChildrenWidth{
 			&:first-child{
 				width: 20% !important;
@@ -149,4 +154,12 @@
 
 .flexColChild--container-attendance{
 	height: auto !important;
+}
+.flexCol--container-attendance{
+	@media(max-width: $maxTablet){
+		padding: 0 50px;
+	}
+	@media(max-width: $maxMobile){
+		padding: 0 20px;
+	}
 }

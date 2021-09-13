@@ -65,6 +65,10 @@
     }
 }
 .container--title-attendance{
+    @media(max-width: $maxTablet){
+        align-items: center;
+        justify-content: center;
+    }
     .wrapper--title-attendance{
         .paragraph--title-attendance{
             color: #fff;
@@ -72,6 +76,12 @@
             margin-top: 0;
             margin-bottom: 22px;
             font-weight: 100;
+            @media(max-width: $maxTablet){
+                text-align: center;
+            }
+            @media(max-width: $maxMobile){
+                text-align: center;
+            }
             .strong--title-attendance{
                 font-size: 18px;
                 font-weight: 500;

@@ -5,4 +5,9 @@
     color: #fff;
     font-size: 14px;
     line-height: 3.5;
+    @media(max-width: $maxMobile){
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }
