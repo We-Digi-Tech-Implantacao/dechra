@@ -209,3 +209,35 @@
 		}
 	}
 }
+.flexRow--container-bonner{
+    position: relative;
+    width: 100%;
+    height: 555px;
+    background: linear-gradient(89.33deg,#0A3F3C 40.67%,rgba(196,196,196,0) 86.78%);
+}
+.flexRowContent--container-bonner{
+	display: flex;
+    justify-content: flex-end;
+	align-items: center;
+	.stretchChildrenWidth{
+		&:first-child{
+			width: 100% !important;
+		}
+		&:last-child{
+			width: 90% !important;
+		}
+		.flexCol--container-bonner-col{
+			.flexColChild--container-bonner-col{
+				height: auto !important;
+				display: flex;
+				align-items: center;
+				margin: 0 70px;
+			}
+		}
+		.flexRow--container-bonner-2{
+			.flexRowContent--container-bonner-2{
+				justify-content: flex-end;
+			}
+		}
+	}
+}

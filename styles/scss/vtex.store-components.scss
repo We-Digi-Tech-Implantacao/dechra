@@ -26,3 +26,11 @@
     width: 10px;
     height: 10px;
 }
+.imageElement--img-banner-2{
+    opacity: 0.8;
+}
+:global(.vtex-button){
+    :global(.vtex-button__label){
+        padding: 0 !important;
+    }
+}
