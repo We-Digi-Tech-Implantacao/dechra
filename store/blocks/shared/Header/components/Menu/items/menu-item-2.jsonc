@@ -1,0 +1,18 @@
+{
+    "menu-item#menu-item-2": {
+        "title": "Item 2 Menu Desktop",
+        "props": {
+            "id": "menu-item-menu-item-2",
+            "blockClass": "menu-item-header-desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Iniciativas",
+                "noFollow": false,
+                "tagTitle": "Iniciativas",
+                "text": "Iniciativas"
+            }
+        }
+    }
+}

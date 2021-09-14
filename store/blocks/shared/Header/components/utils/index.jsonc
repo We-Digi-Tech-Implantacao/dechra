@@ -1,0 +1,178 @@
+{
+    "header-row#util-desktop": {
+        "props":{
+            "blockClass": "container-util-desktop"
+        },
+        "children": [
+            "flex-layout.row#util-desktop"
+        ]
+    },
+    "flex-layout.row#util-desktop":{
+        "props":{
+            "blockClass": "container-util",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.col#util-1",
+            "flex-layout.col#util-2",
+            "flex-layout.col#util-3"
+        ]
+    },
+    "flex-layout.col#util-1":{
+        "props":{
+            "blockClass": "util"
+        },
+        "children":[
+            "link.product#util-1"
+        ]
+    },
+    "link.product#util-1": {
+        "props": {
+          "href": "/assistir",
+          "label": "Assistir",
+          "blockClass": "button"
+        },
+        "children":[
+            "image#icon"
+        ]
+    },
+    "image#icon": {
+        "props": {
+          "src": "https://idomed.vtexassets.com/arquivos/iconsvideo.png",
+          "blockClass": "icon-button"
+        }
+    },
+    "flex-layout.col#util-2":{
+        "props":{
+            "blockClass": "util"
+        },
+        "children":[
+            "image#icon-2",
+            "login"
+        ]
+    },
+    "image#icon-2": {
+        "props": {
+          "src": "https://idomed.vtexassets.com/arquivos/login.png",
+          "blockClass": "icon-button"
+        }
+    },
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "blockClass": "login",
+          "iconLabel": "Minha Conta"
+        }
+    },
+    "flex-layout.col#util-3":{
+        "props":{
+            "blockClass": ["util", "util-3"]
+        },
+        "children":[
+            "image#icon-3",
+            "rich-text#minicart",
+            "minicart.v2"
+        ]
+    },
+    "image#icon-3": {
+        "props": {
+          "src": "https://idomed.vtexassets.com/arquivos/Frame.png",
+          "blockClass": "icon-button"
+        }
+    },
+    "rich-text#minicart":{
+        "props": {
+            "text": "Carrinho",
+            "blockClass": "text-minicart"
+        }
+    },
+    "minicart.v2": {
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "minicart-base-content": {
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children": [
+            "minicart-product-list",
+            "flex-layout.row#minicart-footer"
+        ]
+    },
+    "flex-layout.row#minicart-footer": {
+        "props": {
+            "blockClass": "minicart-footer"
+        },
+        "children": [
+            "flex-layout.col#minicart-footer"
+        ]
+    },
+    "flex-layout.col#minicart-footer": {
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ]
+    },
+    "minicart-product-list": {
+        "blocks": [
+            "product-list#minicart"
+        ]
+    },
+    "product-list#minicart": {
+        "blocks": [
+            "product-list-content-mobile"
+        ]
+    },
+    "minicart-summary": {
+        "blocks": [
+            "checkout-summary.compact#minicart"
+        ]
+    },
+    "checkout-summary.compact#minicart": {
+        "children": [
+            "summary-totalizers#minicart"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items",
+                "Discounts"
+            ]
+        }
+    },
+    "summary-totalizers#minicart": {
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": false
+        }
+    },
+    "minicart-empty-state": {
+        "children": [
+            "flex-layout.row#empty-state"
+        ]
+    },
+    "flex-layout.row#empty-state": {
+        "children": [
+            "flex-layout.col#empty-state"
+        ]
+    },
+    "flex-layout.col#empty-state": {
+        "children": [
+            "rich-text#minicart-default-empty-state"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "rowGap": 0
+        }
+    },
+    "rich-text#minicart-default-empty-state": {
+        "props": {
+            "text": "Seu carrinho está vazio."
+        }
+    }
+}

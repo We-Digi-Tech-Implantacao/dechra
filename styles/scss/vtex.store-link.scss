@@ -11,3 +11,12 @@
         display: flex;
     }
 }
+.link--button{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-decoration: none;
+    color: #0A3F3C;
+    font-size: 14px;
+    font-weight: bold;
+}

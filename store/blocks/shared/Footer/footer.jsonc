@@ -234,7 +234,7 @@
   },
   "rich-text#title-footer-menu-Ajuda": {
     "props": {
-      "text": "DÚVIDAS",
+      "text": "Ajuda",
       "blockClass": "menu-footer"
     }
   },

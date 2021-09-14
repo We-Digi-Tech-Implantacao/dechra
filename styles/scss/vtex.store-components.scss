@@ -7,3 +7,22 @@
 :global(.vtex-store-components-3-x-container){
     padding: 0;
 }
+:global(.vtex-store-components-3-x-logoContainer){
+    padding: 0 !important;
+}
+:global(.vtex-login-2-x-label){
+    white-space: nowrap !important;
+    color: #0A3F3C;
+    text-transform: none;
+    font-weight: bold;
+}
+:global(.vtex-minicart-2-x-minicartIconContainer){
+    position: unset;
+    :global(.vtex-minicart-2-x-cartIcon){
+        opacity: 0;
+    }
+}
+:global(.vtex-minicart-2-x-minicartQuantityBadge){
+    width: 10px;
+    height: 10px;
+}
