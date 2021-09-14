@@ -1,54 +1,64 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#banner"
+      //"flex-layout.row#banner"
+      "list-context.info-card-list#home-list-instructions"
     ]
   },
-  "flex-layout.row#banner":{
+  "list-context.info-card-list#home-list-instructions": {
+    "title": "Lista de sliders principal",
     "props": {
-      "blockClass": "container-bonner",
-      "colSizing": "auto"
-  },
-  "children": [
-      "flex-layout.col#banner-2",
-      "flex-layout.row#banner-2"
-    ]
-  },
-  "flex-layout.row#banner-2":{
-    "props": {
-      "blockClass": "container-bonner-2"
+        "blockClass": "home-list-instructions",
+        "infoCards": [
+            {
+                "title": "Instrução 1",
+                "id": "home-instruction-1",
+                "blockClass": "home-instructions",
+                "htmlId": "home-instruction-1",
+                "isFullModeStyle": true,
+                "imageUrl": "assets/images/banner.jpg",
+                "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                "textPosition": "left",
+                "textAlignment": "center",
+                "headline": "## Primeiro streaming voltado para residentes médicos.",
+                "subhead": "Uma assinatura que pode mudar sua carreira, vídeos para ajudar nos processos do dia-dia!",
+                "textMode": "rich-text",
+                "callToActionMode": "link",
+                "callToActionText": "Conheça nossos planos",
+                "callToActionUrl": "/nossos-planos"
+            },
+            {
+              "title": "Instrução 1",
+              "id": "home-instruction-1",
+              "blockClass": "home-instructions",
+              "htmlId": "home-instruction-1",
+              "isFullModeStyle": false,
+              "imageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+              "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+              "textPosition": "left",
+              "textAlignment": "center",
+              "headline": "### Cadastre-se",
+              "subhead": "Para aprovar seu cadastro, envie sua documentação",
+              "textMode": "rich-text",
+              "callToActionMode": "none"
+          }
+        ]
     },
     "children": [
-      "image#img-banner"
+        "slider-layout#home-list-instructions"
     ]
   },
-  "image#img-banner": {
-    "props": {
-      "src": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
-      "blockClass": "img-banner-2"
-    }
-  },
-  "flex-layout.col#banner-2":{
-    "props": {
-      "blockClass": "container-bonner-col",
-      "colSizing": "auto"
-    },
-    "children": [
-      "rich-text#text-banner",
-      "link.product#button-banner"
-    ]
-  },
-  "rich-text#text-banner":{
-    "props": {
-      "text": "# Primeiro streaming voltado para residentes médicos.\n\nUma assinatura que pode mudar sua carreira, vídeos para ajudar nos processos do dia-dia!",
-      "blockClass": "text-banner"
-    }
-  },
-  "link.product#button-banner": {
-    "props": {
-      "href": "/nossos-planos",
-      "label": "Conheça nossos planos",
-      "blockClass": "button-banner"
-    }
+  "slider-layout#home-list-instructions": {
+      "title": "Slider principal",
+      "props": {
+          "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 3,
+              "phone": 2
+          },
+          "infinite": true,
+          "showPaginationDots": "never",
+          "blockClass": "home-list-instructions"
+      }
   }
 }
