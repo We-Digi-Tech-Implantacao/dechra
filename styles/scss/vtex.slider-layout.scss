@@ -12,13 +12,13 @@
     .wrapper--home-list-instructions{
         .heading--home-list-instructions{
             font-size: 36px;
-            color: #fff;
+            color: #000;
             font-weight: 500;
         }
         .paragraph--home-list-instructions{
             font-size: 25px;
             line-height: 1.1;
-            color: #fff;
+            color: #000;
             font-weight: 100;
             margin: 10px 0;
         }
@@ -38,4 +38,34 @@
     .infoCardCallActionText--home-list-instructions{
         text-decoration: none;
     }
+}
+
+:global(.vtex-slider-layout-0-x-slide){
+    position: initial !important;
+
+}
+.sliderLayoutContainer--home-list-instructions{
+    position: initial !important;
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+            position: absolute;
+            top: 74px;
+            right: 0;
+            left: 760px;
+        .caretIcon--home-list-instructions{
+            color: #0A3F3C;
+        }
+    }
+    :global(.vtex-slider-layout-0-x-sliderRightArrow){
+            position: absolute;
+            top: 74px;
+            right: 0;
+            left: 850px;
+        .caretIcon--home-list-instructions{
+            color: #0A3F3C;
+        }
+    }
+}
+
+.headingLevel2--home-list-instructions{
+    color: #000 !important;
 }

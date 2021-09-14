@@ -183,7 +183,7 @@
 			height: 100%;
 			position: absolute;
 			left: -10px;
-			top: -3px;
+			top: -5px;
 			width: 100%;
 		}
 	}
@@ -240,4 +240,12 @@
 			}
 		}
 	}
+}
+.flexRow--container-home-list-user{
+	position: relative;
+	padding: 50px 95px;
+}
+.flexRowContent--container-home-list-user{
+	display: flex;
+    flex-direction: column;
 }
