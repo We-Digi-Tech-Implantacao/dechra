@@ -12,13 +12,13 @@
     .wrapper--home-list-instructions{
         .heading--home-list-instructions{
             font-size: 36px;
-            color: #000;
+            color: #fff;
             font-weight: 500;
         }
         .paragraph--home-list-instructions{
             font-size: 25px;
             line-height: 1.1;
-            color: #000;
+            color: #fff;
             font-weight: 100;
             margin: 10px 0;
         }
@@ -44,28 +44,69 @@
     position: initial !important;
 
 }
-.sliderLayoutContainer--home-list-instructions{
+.sliderLayoutContainer--home-list-user{
     position: initial !important;
-    :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+    .sliderLeftArrow--home-list-user{
             position: absolute;
-            top: 74px;
+            top: 90px;
             right: 0;
             left: 760px;
-        .caretIcon--home-list-instructions{
+        .caretIcon--home-list-user{
             color: #0A3F3C;
         }
     }
-    :global(.vtex-slider-layout-0-x-sliderRightArrow){
+    .sliderRightArrow--home-list-user{
             position: absolute;
-            top: 74px;
+            top: 90px;
             right: 0;
             left: 850px;
-        .caretIcon--home-list-instructions{
+        .caretIcon--home-list-user{
             color: #0A3F3C;
         }
     }
 }
 
-.headingLevel2--home-list-instructions{
-    color: #000 !important;
+.infoCardImageContainer--home-list-user{
+    width: auto !important
+}
+.infoCardTextContainer--home-list-user{
+    width: 80% !important;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px ;
+    .container--home-list-user{
+        width: 60% !important;
+        .wrapper--home-list-user{
+            .paragraph--home-list-user{
+                color: #727272;
+                font-size: 16px;
+                line-height: 2;
+                margin-bottom: 20px;
+                margin-top: 0;
+                .strong--home-list-user{
+                    &:first-child{
+                        color: #0A3F3C;
+                        font-size: 18px;
+                    }
+                    &:last-child{
+                        color: #0A3F3C;
+                        font-size: 18px;
+                        font-weight: 400 !important;
+                    }
+                }   
+            }
+            
+        }
+    }
+}
+.slideChildrenContainer--home-list-user{
+    .infoCardContainer--home-list-user{
+        padding: 0;
+        .infoCardImageContainer--home-list-user{
+            .infoCardImage--home-list-user{
+                width: 180px;
+                height: 180px;
+            }
+        }
+    }
 }

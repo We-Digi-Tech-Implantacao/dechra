@@ -5,6 +5,7 @@
 	margin-top: 0;
 	.flexRowContent--menu-footer {
 		padding: 50px;
+		width: 85% !important;
 		@media (max-width: $maxTablet) {
 			padding: 0;
 		}
@@ -243,9 +244,12 @@
 }
 .flexRow--container-home-list-user{
 	position: relative;
-	padding: 50px 95px;
+	padding: 70px 95px;
 }
 .flexRowContent--container-home-list-user{
 	display: flex;
     flex-direction: column;
+}
+.flexCol--container-home-title{
+	padding-bottom: 50px;
 }
