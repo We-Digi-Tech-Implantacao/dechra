@@ -1,0 +1,56 @@
+{
+    "list-context.info-card-list#home-container-5": {
+        "title": "Lista de sliders principal",
+        "props": {
+            "blockClass": "home-list-platform",
+            "infoCards": [
+                {
+                    "title": "Instrução 5",
+                    "id": "home-instruction-5",
+                    "blockClass": "home-platform",
+                    "htmlId": "home-instruction-5",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/image-1.png",
+                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Plataforma virtuais de ensino personalizado",
+                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 5",
+                    "id": "home-instruction-5",
+                    "blockClass": "home-platform",
+                    "htmlId": "home-instruction-5",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/image-1.png",
+                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Plataforma virtuais de ensino personalizado",
+                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#home-container-5"
+        ]
+      },
+      "slider-layout#home-container-5": {
+          "title": "Slider principal",
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 1,
+                  "tablet": 3,
+                  "phone": 2
+              },
+              "infinite": true,
+              "showPaginationDots": "never",
+              "blockClass": "home-list-platform"
+          }
+      }
+}

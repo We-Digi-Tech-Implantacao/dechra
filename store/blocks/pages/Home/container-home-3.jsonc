@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#container-home-3":{
+        "props":{
+            "blockClass": "container-container-home-3",
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#wallpaper-medical-carrer",
+            "rich-text#title-medical-carrer"
+        ]
+    },
+    "image#wallpaper-medical-carrer": {
+        "props": {
+          "src": "assets/images/component-2.jpg",
+          "blockClass": "wallpaper-medical-carrer"
+        }
+    },
+    "rich-text#title-medical-carrer": {
+        "props": {
+          "text": "## Apoio em todas as\n## fases da formação e carreira médica\n\nCursos reconhecidos pelo MEC para a formação em todos os níveis.",
+          "blockClass": "title-medical-carrer"
+        }
+    }
+}
