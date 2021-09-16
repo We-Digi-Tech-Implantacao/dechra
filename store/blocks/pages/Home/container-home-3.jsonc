@@ -11,7 +11,7 @@
     },
     "image#wallpaper-medical-carrer": {
         "props": {
-          "src": "assets/images/component-2.jpg",
+          "src": "assets/images/container-3.png",
           "blockClass": "wallpaper-medical-carrer"
         }
     },

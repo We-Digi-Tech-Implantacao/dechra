@@ -269,9 +269,22 @@
 }
 .flexRowContent--container-container-home-3{
 	position: relative;
+	background: #F2E5D9;
 	.stretchChildrenWidth{
 		&:first-child{
-			width: 100% !important
+			justify-content: end;
+			width: 100%!important;
 		}
+	}
+}
+.flexRow--container-container-home-4{
+	position: relative;
+	background: linear-gradient(269.63deg, rgba(25, 209, 195, 0.72) 0.28%, rgba(196, 196, 196, 0) 133.7%);
+	height: 650px;
+}
+.flexCol--container-container-home-4-col{
+	@media(max-width: $maxMobile){
+		flex-direction: row-reverse;
+    	display: flex;
 	}
 }

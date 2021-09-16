@@ -55,13 +55,19 @@
     }
 }
 .imageElement--wallpaper-medical-carrer{
-    width: 100%;
     height: 650px;
     @media(max-width: $maxMobile){
-        height: auto;
+        height: 540px;
     }
 }
 .imageElement--wallpaper-container-home-4{
     width: 100%;
     height: auto;
+}
+.imageElement--wallpaper-container-4{
+    padding-top: 20px;
+    @media(max-width: $maxMobile){
+        height: 326px;
+        transform: scaleX(-1);
+    }
 }

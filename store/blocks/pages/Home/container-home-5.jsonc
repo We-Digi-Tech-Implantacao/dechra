@@ -1,7 +1,7 @@
 {
     "flex-layout.row#container-home-5":{
         "props":{
-           "blockClass": "container-container-home-4"
+           "blockClass": "container-container-home-5"
        },
        "children":[
            "tab-layout#home"

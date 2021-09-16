@@ -1,3 +1,31 @@
 {
-    
+    "flex-layout.row#container-home-4":{
+        "props":{
+            "blockClass": "container-container-home-4"
+        },
+        "children":[
+            "flex-layout.col#container-home-4",
+            "rich-text#container-4"
+        ]
+    },
+    "flex-layout.col#container-home-4":{
+        "props":{
+            "blockClass": "container-container-home-4-col"
+        },
+        "children":[
+            "image#wallpaper-container-4"
+        ] 
+    },
+    "image#wallpaper-container-4": {
+        "props": {
+          "src": "assets/images/Frame.png",
+          "blockClass": "wallpaper-container-4"
+        }
+    },
+    "rich-text#container-4": {
+        "props": {
+          "text": "O encontro entre as escolas de medicina da Estácio, FAMEAC, FAPAN e UniFacid. Instituições que acreditam que medicina se faz na prática.\n\nCom corpo docente altamente especializado e titulado, com laboratórios equipados, parceria com os principais hospitais e unidades de Saúde, com tecnologia aplicada à prática clínica. E, acima de tudo, com o cuidado humano.\n\n## Nossos pilares",
+          "blockClass": "text-container-4"
+        }
+    }
 }

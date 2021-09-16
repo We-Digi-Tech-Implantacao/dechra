@@ -152,3 +152,37 @@
         }
     }
 }
+.container--text-container-4{
+    position: absolute;
+    width: 700px !important;
+    top: 225px;
+    right: 230px;
+    @media(max-width: $maxTablet){
+        position: absolute;
+        width: 350px !important;
+        top: 134px;
+        right: 30px;
+    }
+    @media(max-width: $maxMobile){
+        position: absolute;
+        width: 350px!important;
+        top: 190px;
+        right: 33px;
+    }
+    .wrapper--text-container-4{
+        .paragraph--text-container-4{
+            font-size: 18px;
+            line-height: 1.5;
+            @media(max-width: $maxMobile){
+                font-size: 16px;
+            }
+        }
+        .heading--text-container-4{
+            color: #0A3F3C;
+            font-size: 30px;
+            @media(max-width: $maxMobile){
+                font-size: 20px;
+            }
+        }
+    }
+}
