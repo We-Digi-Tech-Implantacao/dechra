@@ -250,10 +250,16 @@
 	@media(max-width: $maxTablet){
 		padding: 70px 55px;
 	}
+	@media(max-width: $maxTablet){
+		padding: 50px 15px;
+	}
 }
 .flexRowContent--container-home-list-user{
 	display: flex;
     flex-direction: column;
+	@media(max-width: $maxMobile){
+		align-items: center;
+	}
 }
 .flexCol--container-home-title{
 	padding-bottom: 50px;

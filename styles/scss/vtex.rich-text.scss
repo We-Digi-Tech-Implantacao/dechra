@@ -102,6 +102,9 @@
 }
 .container--title-home-2 {
     width: 466px !important;
+    @media(max-width: $maxMobile){
+        width: 100% !important;
+    }
     .wrapper--title-home-2{
         .paragraph--title-home-2{
             font-size: 30px;
@@ -110,6 +113,9 @@
             color: #0A3F3C;
             @media(max-width: $maxTablet){
                 font-size: 26px;
+            }
+            @media(max-width: $maxMobile){
+                font-size: 19px;
             }
         }
     }

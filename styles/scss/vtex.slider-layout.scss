@@ -42,28 +42,47 @@
 
 :global(.vtex-slider-layout-0-x-slide){
     position: initial !important;
-
+    @media(max-width: $maxMobile){
+        position: relative !important;
+    }
 }
 .sliderLayoutContainer--home-list-user{
     position: initial !important;
+    @media(max-width: $maxMobile){
+        position: relative !important;
+    }
     .sliderLeftArrow--home-list-user{
             position: absolute;
             top: 80px;
             right: 0;
             left: 760px;
+            @media(max-width: $maxTablet){
+                left: 550px;
+            }
+            @media(max-width: $maxMobile){
+                position: absolute;
+                left: -2% !important;
+                top: 50%;
+                padding: 0;
+            }
             &::before{
                 content: '';
                 display: block;
                 background-image: url("https://idomed.vtexassets.com/arquivos/akar-icons_arrow-left.png");
                 width: 50px;
                 height: 50px;
+                @media(max-width: $maxMobile){
+                    content: none;
+                }
             }
-            @media(max-width: $maxTablet){
-                left: 550px;
-            }
+           
         .caretIcon--home-list-user{
             color: #0A3F3C;
             opacity: 0;
+            @media(max-width: $maxMobile){
+                opacity: 1;
+                width: 20px;
+            }
         }
     }
     .sliderRightArrow--home-list-user{
@@ -71,19 +90,33 @@
             top: 80px;
             right: 0;
             left: 850px;
+            @media(max-width: $maxTablet){
+                left: 650px;
+            }
+            @media(max-width: $maxMobile){
+                position: absolute;
+                /* right: auto; */
+                top: 50%;
+                left: 94% !important;
+                padding: 0;
+            }
             &::before{
                 content: '';
                 display: block;
                 background-image: url("https://idomed.vtexassets.com/arquivos/akar-icons_arrow-right.png");
                 width: 50px;
                 height: 50px;
-            }
-            @media(max-width: $maxTablet){
-                left: 650px;
+                @media(max-width: $maxMobile){
+                    content: none;
+                }
             }
         .caretIcon--home-list-user{
             color: #0A3F3C;
             opacity: 0;
+            @media(max-width: $maxMobile){
+                opacity: 1;
+                width: 20px;
+            }
         }
     }
 }
@@ -101,10 +134,19 @@
         margin-left: 20px;
         margin-top: 20px;
     }
+    @media(max-width: $maxMobile){
+        width: 100% !important;
+        margin: 0;
+        align-items: center;
+    }
     .container--home-list-user{
         width: 60% !important;
         @media(max-width: $maxTablet){
             width: 80% !important;
+        }
+        @media(max-width: $maxMobile){
+            width: 92% !important;
+            justify-content: center;
         }
         .wrapper--home-list-user{
             .paragraph--home-list-user{
@@ -113,6 +155,11 @@
                 line-height: 1.5;
                 margin-bottom: 20px;
                 margin-top: 0;
+                @media(max-width: $maxMobile){
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                }
                 .strong--home-list-user{
                     &:first-child{
                         color: #0A3F3C;
@@ -133,6 +180,11 @@
     .infoCardContainer--home-list-user{
         padding: 0;
         align-items: flex-start;
+        @media(max-width: $maxMobile){
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
         .infoCardImageContainer--home-list-user{
             .infoCardImage--home-list-user{
                 width: 180px;
@@ -140,6 +192,10 @@
                 @media(max-width: $maxTablet){
                     width: 150px;
                     height: 140px;
+                }
+                @media(max-width: $maxMobile){
+                    width: 103px;
+                    height: 103px;
                 }
             }
         }
@@ -192,7 +248,7 @@
                 font-size: 18px;
             }
             @media(max-width: $maxMobile){
-                font-size: 14px;
+                font-size: 16px;
                 text-align: center;
             }
         }

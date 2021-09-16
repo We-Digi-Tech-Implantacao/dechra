@@ -48,6 +48,11 @@
     @media(max-width: $maxTablet){
         width: 175px;
     }
+    @media(max-width: $maxMobile){
+        display: none;
+        // width: 155px;
+        // opacity: .8;
+    }
 }
 .imageElement--wallpaper-medical-carrer{
     width: 100%;

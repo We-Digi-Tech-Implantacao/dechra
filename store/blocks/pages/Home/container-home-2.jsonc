@@ -6,7 +6,8 @@
         },
         "children":[
             "flex-layout.col#container-home-title",
-            "flex-layout.row#container-home-body",
+            "list-context.info-card-list#slider-user",
+            //"flex-layout.row#container-home-body",
             "image#wallpaper"
         ]
     },
