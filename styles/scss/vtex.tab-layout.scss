@@ -1,0 +1,184 @@
+@import 'variables';
+
+.listItem--tab-list-button{
+    :global(.vtex-button){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        background: #77C2BD;
+        padding: 0;
+        border-radius: 5px;
+        width: 300px;
+        height: 80px;
+        :global(.vtex-button__label){
+            color: #fff;
+            text-transform: initial;
+            font-size: 16px;
+            text-align: left;
+        }
+    }
+}
+.listItemActive--tab-list-button{
+    :global(.vtex-button){
+        background: #fff;
+        padding: 0;
+        border-radius: 5px;
+        width: 300px;
+        height: 80px;
+        border: none;
+        :global(.vtex-button__label){
+            color: #0A3F3C;
+            font-size: 16px;
+            text-align: left;
+        }
+    }
+}
+.listItem--tab-list-button-1{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon1white);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.listItem--tab-list-button-2{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon2white);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.listItem--tab-list-button-3{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon3white);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.listItem--tab-list-button-4{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon4white);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.listItemActive--tab-list-button-1{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon1green);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+                color: #0A3F3C;
+            }
+        }
+    }
+}
+.listItemActive--tab-list-button-2{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon2green);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+                color: #0A3F3C;
+            }
+        }
+    }
+}
+.listItemActive--tab-list-button-3{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon3green);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+                color: #0A3F3C;
+            }
+        }
+    }
+}
+.listItemActive--tab-list-button-4{
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            align-items: center;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url($icon4green);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 42px;
+                height: 42px;
+                margin-right: 10px;
+                color: #0A3F3C;
+            }
+        }
+    }
+}

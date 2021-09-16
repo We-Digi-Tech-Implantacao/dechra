@@ -1,16 +1,3 @@
 {
-    "flex-layout.row#container-home-4":{
-        "props":{
-            "blockClass": "container-container-home-4"
-        },
-        "children":[
-            "image#wallpaper-home-4"
-        ]
-    },
-    "image#wallpaper-home-4": {
-        "props": {
-          "src": "assets/images/component-4.jpg",
-          "blockClass": "wallpaper-container-home-4"
-        }
-    }
+    
 }

@@ -1,56 +1,104 @@
 {
-    "list-context.info-card-list#home-container-5": {
-        "title": "Lista de sliders principal",
-        "props": {
-            "blockClass": "home-list-platform",
-            "infoCards": [
-                {
-                    "title": "Instrução 5",
-                    "id": "home-instruction-5",
-                    "blockClass": "home-platform",
-                    "htmlId": "home-instruction-5",
-                    "isFullModeStyle": false,
-                    "imageUrl": "assets/images/image-1.png",
-                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
-                    "textPosition": "left",
-                    "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
-                    "textMode": "rich-text",
-                    "callToActionMode": "none"
-                },
-                {
-                    "title": "Instrução 5",
-                    "id": "home-instruction-5",
-                    "blockClass": "home-platform",
-                    "htmlId": "home-instruction-5",
-                    "isFullModeStyle": false,
-                    "imageUrl": "assets/images/image-1.png",
-                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
-                    "textPosition": "left",
-                    "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
-                    "textMode": "rich-text",
-                    "callToActionMode": "none"
-                }
-            ]
-        },
-        "children": [
-            "slider-layout#home-container-5"
-        ]
-      },
-      "slider-layout#home-container-5": {
-          "title": "Slider principal",
-          "props": {
-              "itemsPerPage": {
-                  "desktop": 1,
-                  "tablet": 1,
-                  "phone": 1
-              },
-              "infinite": true,
-              "showPaginationDots": "never",
-              "blockClass": "home-list-platform"
-          }
-      }
+    "flex-layout.row#container-home-5":{
+        "props":{
+           "blockClass": "container-container-home-4"
+       },
+       "children":[
+           "tab-layout#home"
+       ]
+   },
+     "tab-layout#home":{
+       "children": [
+         "tab-list#home",
+         "tab-content#home"
+       ],
+       "props": {
+         "blockClass": "tab-list",
+         "defaultActiveTabId": "home1"
+       }
+     },
+     "tab-list#home": {
+       "props":{
+           "blockClass": "container-tab-list-home"
+       },
+       "children": [
+         "tab-list.item#home1",
+         "tab-list.item#home2",
+         "tab-list.item#home3",
+         "tab-list.item#home4"
+       ]
+     },
+     "tab-list.item#home1": {
+       "props": {
+         "tabId": "home1",
+         "label": "Excelência acadêmica ",
+         "blockClass": ["tab-list-button", "tab-list-button-1"],
+         "defaultActiveTab": true
+       }
+     },
+     "tab-list.item#home2": {
+       "props": {
+         "tabId": "home2",
+         "label": "Foco no aprendizado prático",
+         "blockClass": ["tab-list-button", "tab-list-button-2"]
+       }
+     },
+     "tab-list.item#home3": {
+       "props": {
+         "tabId": "home3",
+         "label": "Tecnologia aplicada",
+         "blockClass": ["tab-list-button", "tab-list-button-3"]
+       }
+     },
+     "tab-list.item#home4": {
+       "props": {
+         "tabId": "home4",
+         "label": "Conexão com a\ncarreira médica ",
+         "blockClass": ["tab-list-button", "tab-list-button-4"]
+       }
+     },
+
+   "tab-content#home": {
+       "props":{
+           "blockClass": "container-tab-content-item"
+       },
+     "children": [
+       "tab-content.item#home1",
+       "tab-content.item#home2",
+       "tab-content.item#home3",
+       "tab-content.item#home4"
+     ]
+   },
+   "tab-content.item#home1": {
+     "children": [
+        "list-context.info-card-list#home-container-1"
+     ],
+     "props": {
+       "tabId": "home1"
+     }
+   },
+   "tab-content.item#home2": {
+     "children": [
+        "list-context.info-card-list#home-container-2"
+     ],
+     "props": {
+       "tabId": "home2"
+     }
+   },
+   "tab-content.item#home3": {
+       "children": [
+        "list-context.info-card-list#home-container-3"
+       ],
+       "props": {
+         "tabId": "home3"
+       }
+   },
+   "tab-content.item#home4": {
+       "children": [
+        "list-context.info-card-list#home-container-4"
+       ],
+       "props": {
+         "tabId": "home4"
+       }
+   }
 }
