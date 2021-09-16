@@ -58,6 +58,9 @@
                 width: 50px;
                 height: 50px;
             }
+            @media(max-width: $maxTablet){
+                left: 550px;
+            }
         .caretIcon--home-list-user{
             color: #0A3F3C;
             opacity: 0;
@@ -75,6 +78,9 @@
                 width: 50px;
                 height: 50px;
             }
+            @media(max-width: $maxTablet){
+                left: 650px;
+            }
         .caretIcon--home-list-user{
             color: #0A3F3C;
             opacity: 0;
@@ -90,8 +96,10 @@
     display: flex;
     align-items: flex-start;
     padding: 0px ;
+    margin-top: 40px;
     @media(max-width: $maxTablet){
         margin-left: 20px;
+        margin-top: 20px;
     }
     .container--home-list-user{
         width: 60% !important;
@@ -124,6 +132,7 @@
 .slideChildrenContainer--home-list-user{
     .infoCardContainer--home-list-user{
         padding: 0;
+        align-items: flex-start;
         .infoCardImageContainer--home-list-user{
             .infoCardImage--home-list-user{
                 width: 180px;
