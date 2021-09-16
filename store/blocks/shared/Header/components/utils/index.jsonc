@@ -28,8 +28,8 @@
     },
     "link.product#util-1": {
         "props": {
-          "href": "/assistir",
-          "label": "https://idomed.blackboard.com/",
+          "href": "https://idomed.blackboard.com/",
+          "label": "Login",
           "blockClass": "button"
         },
         "children":[
