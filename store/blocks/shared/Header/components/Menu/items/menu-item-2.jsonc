@@ -8,10 +8,10 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/Iniciativas",
+                "href": "/cursos",
                 "noFollow": false,
-                "tagTitle": "Iniciativas",
-                "text": "Iniciativas"
+                "tagTitle": "Cursos",
+                "text": "Cursos"
             }
         }
     }

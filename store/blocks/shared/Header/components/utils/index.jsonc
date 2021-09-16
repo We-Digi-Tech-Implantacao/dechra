@@ -29,7 +29,7 @@
     "link.product#util-1": {
         "props": {
           "href": "/assistir",
-          "label": "Assistir",
+          "label": "https://idomed.blackboard.com/",
           "blockClass": "button"
         },
         "children":[
