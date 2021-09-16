@@ -125,7 +125,13 @@
     left: 0;
     top: 0;
     .wrapper--title-medical-carrer{
-        padding: 50px 0 0 15px;
+        padding: 50px 0 0 95px;
+        @media(max-width: $maxTablet){
+            padding: 50px 0 0 15px;
+        }
+        @media(max-width: $maxMobile){
+            padding: 50px 0 0 15px;
+        }
         .heading--title-medical-carrer{
             font-size: 30px;
             font-weight: 500;

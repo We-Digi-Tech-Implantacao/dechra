@@ -7,11 +7,18 @@
         width: 57%!important;
         margin-left: 50px;
     }
+    @media(max-width: $maxMobile){
+        width: 65%!important;
+        margin-left: 25px;
+    }
 }
 .infoCardContainer--home-list-instructions{
     height: calc(100vh - 90px);
     align-items: center;
     @media(max-width: $maxTablet){
+        height: calc(50vh - 90px);
+    }
+    @media(max-width: $maxMobile){
         height: calc(50vh - 90px);
     }
 }
@@ -24,6 +31,9 @@
             @media(max-width: $maxTablet){
                 font-size: 30px;
             }
+            @media(max-width: $maxMobile){
+                font-size: 17px;
+            }
         }
         .paragraph--home-list-instructions{
             font-size: 25px;
@@ -33,6 +43,9 @@
             margin: 10px 0;
             @media(max-width: $maxTablet){
                 font-size: 20px;
+            }
+            @media(max-width: $maxMobile){
+                font-size: 14px;
             }
         }
     }
@@ -51,8 +64,16 @@
     @media(max-width: $maxTablet){
         width: 280px;
     }
+    @media(max-width: $maxMobile){
+        width: 180px;
+        height: 40px;
+        text-align: center;
+    }
     .infoCardCallActionText--home-list-instructions{
         text-decoration: none;
+        @media(max-width: $maxMobile){
+            font-size: 12px;
+        }
     }
 }
 
