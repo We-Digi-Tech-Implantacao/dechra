@@ -137,7 +137,7 @@
                         padding: 70px 55px;
                     }
                     @media(max-width: $maxMobile){
-                        padding: 50px 35px;
+                        padding: 50px 15px;
                     }
                 }
             }
@@ -188,7 +188,7 @@
             padding-left: 10px;
         }
         @media(max-width: $maxMobile){
-            padding-left: 5px;
+            padding-left: 0;
         }
     }
 }
@@ -201,7 +201,7 @@
             padding-right: 10px;
         }
         @media(max-width: $maxMobile){
-            padding-left: 5px;
+            padding-left: 0;
         }
     }
 }
@@ -218,7 +218,7 @@
         width: 100%;
         @media(max-width: $maxMobile){
             height: 103px;
-            width: 100%;
+            width: 103px;
             /* display: none; */
             border-radius: 100%;
         }

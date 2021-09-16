@@ -116,18 +116,24 @@
     left: 0;
     top: 0;
     .wrapper--title-medical-carrer{
-        padding: 50px 0 0 95px;
+        padding: 50px 0 0 15px;
         .heading--title-medical-carrer{
             font-size: 30px;
             font-weight: 500;
             color: #0A3F3C;
             margin: 0;
             line-height: 1.5;
+            @media(max-width: $maxMobile){
+                font-size: 20px;
+            }
         }
         .paragraph--title-medical-carrer{
             font-size: 20px;
             color: #000;
             font-weight: 100;
+            @media(max-width: $maxMobile){
+                font-size: 16px;
+            }
         }
     }
 }
