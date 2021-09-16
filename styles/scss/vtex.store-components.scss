@@ -45,6 +45,9 @@
     height: auto;
     bottom: 0;
     right: 0;
+    @media(max-width: $maxTablet){
+        width: 175px;
+    }
 }
 .imageElement--wallpaper-medical-carrer{
     width: 100%;

@@ -90,8 +90,14 @@
     display: flex;
     align-items: flex-start;
     padding: 0px ;
+    @media(max-width: $maxTablet){
+        margin-left: 20px;
+    }
     .container--home-list-user{
         width: 60% !important;
+        @media(max-width: $maxTablet){
+            width: 80% !important;
+        }
         .wrapper--home-list-user{
             .paragraph--home-list-user{
                 color: #727272;
@@ -122,6 +128,10 @@
             .infoCardImage--home-list-user{
                 width: 180px;
                 height: 180px;
+                @media(max-width: $maxTablet){
+                    width: 150px;
+                    height: 140px;
+                }
             }
         }
     }

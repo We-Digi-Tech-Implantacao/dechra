@@ -247,6 +247,9 @@
 .flexRow--container-home-list-user{
 	position: relative;
 	padding: 70px 95px;
+	@media(max-width: $maxTablet){
+		padding: 70px 55px;
+	}
 }
 .flexRowContent--container-home-list-user{
 	display: flex;
@@ -254,6 +257,9 @@
 }
 .flexCol--container-home-title{
 	padding-bottom: 50px;
+	@media(max-width: $maxTablet){
+		padding-bottom: 30px;
+	}
 }
 .flexRowContent--container-container-home-3{
 	position: relative;
