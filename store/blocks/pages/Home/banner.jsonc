@@ -11,7 +11,7 @@
                     "htmlId": "home-instruction-1",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/banner.jpg",
-                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "mobileImageUrl": "assets/images/banner.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
                     "headline": "## Primeiro streaming voltado para residentes médicos.",

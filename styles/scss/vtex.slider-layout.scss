@@ -3,10 +3,17 @@
 .infoCardTextContainer--home-list-instructions{
     width: 46% !important;
     margin-left: 100px;
+    @media(max-width: $maxTablet){
+        width: 57%!important;
+        margin-left: 50px;
+    }
 }
 .infoCardContainer--home-list-instructions{
     height: calc(100vh - 90px);
     align-items: center;
+    @media(max-width: $maxTablet){
+        height: calc(50vh - 90px);
+    }
 }
 .container--home-list-instructions{
     .wrapper--home-list-instructions{
@@ -14,6 +21,9 @@
             font-size: 36px;
             color: #fff;
             font-weight: 500;
+            @media(max-width: $maxTablet){
+                font-size: 30px;
+            }
         }
         .paragraph--home-list-instructions{
             font-size: 25px;
@@ -21,6 +31,9 @@
             color: #fff;
             font-weight: 100;
             margin: 10px 0;
+            @media(max-width: $maxTablet){
+                font-size: 20px;
+            }
         }
     }
 }
@@ -35,6 +48,9 @@
     display: flex;
     font-weight: bold;
     text-decoration: none;
+    @media(max-width: $maxTablet){
+        width: 280px;
+    }
     .infoCardCallActionText--home-list-instructions{
         text-decoration: none;
     }
