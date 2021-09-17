@@ -291,7 +291,7 @@
 .flexRow--container-signature{
 	background-color: #F2E5D9;
     width: 100%;
-	padding: 50px 0;
+	padding: 30px 100px 60px 100px;
 }
 .flexColChild--container-signature-card{
 	width: 250px !important;
@@ -303,4 +303,8 @@
 	display: flex;
     align-items: center;
     justify-content: center;
+}
+.flexRowContent--container-signature{
+	display: flex;
+    flex-direction: column;
 }

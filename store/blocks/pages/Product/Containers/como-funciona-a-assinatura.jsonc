@@ -1,13 +1,38 @@
 {
     "flex-layout.row#signature": {
         "props":{
-            "blockClass": "container-signature"
+            "blockClass": "container-signature",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.row#title-container-2",
+            "flex-layout.row#signature-container-2"
+        ]
+    },
+    "flex-layout.row#title-container-2":{
+        "props":{
+            "blockClass": "container-title"
+        },
+        "children":[
+            "rich-text#title-container-2"
+        ]
+    },
+    "rich-text#title-container-2": {
+        "props": {
+          "text": "Como funciona a assinatura?",
+          "blockClass": "title-container-2"
+        }
+    },
+    "flex-layout.row#signature-container-2":{
+        "props":{
+            "blockClass": "container-signature-container-2",
+            "colSizing": "auto"
         },
         "children":[
             "flex-layout.col#signature-1",
             "flex-layout.col#signature-2",
             "flex-layout.col#signature-3"
-        ]
+        ]  
     },
     "flex-layout.col#signature-1":{
         "props":{

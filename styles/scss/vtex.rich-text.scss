@@ -186,3 +186,17 @@
         }
     }
 }
+.container--title-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper--title-container-2{
+        .paragraph--title-container-2{
+            font-size: 30px;
+            color: #0A3F3C;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+    }
+}
