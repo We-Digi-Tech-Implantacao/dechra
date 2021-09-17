@@ -200,3 +200,20 @@
         }
     }
 }
+.container--title-plans{
+    .wrapper--title-plans{
+        position: absolute;
+        left: 100px;
+        top: 85px;
+        width: 470px;
+        .heading--title-plans{
+            color: #fff;
+            font-size: 48px;
+            font-weight: 500;
+        }
+        .paragraph--title-plans{
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+}

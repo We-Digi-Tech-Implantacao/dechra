@@ -1,7 +1,8 @@
 {
   "store.custom#product": {
     "children": [
-      "flex-layout.row#signature"
+      "flex-layout.row#signature",
+      "flex-layout.row#plans"
     ]
   }
 }

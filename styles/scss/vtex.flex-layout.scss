@@ -308,3 +308,13 @@
 	display: flex;
     flex-direction: column;
 }
+.flexRow--container-plans{
+	position: relative;
+}
+.flexRowContent--container-plans{
+	.stretchChildrenWidth{
+		&:first-child{
+			width: 100% !important;
+		}
+	}
+}

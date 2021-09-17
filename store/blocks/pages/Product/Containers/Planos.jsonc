@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#plans": {
+        "props":{
+            "blockClass": "container-plans",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.row#wallpaper-plans",
+            "rich-text#title-plans"
+        ]
+    },
+    "flex-layout.row#wallpaper-plans":{
+        "props":{
+            "blockClass": "container-wallpaper"
+        },
+        "children":[
+            "image#wallpaper-plans"
+        ]
+    },
+    "image#wallpaper-plans": {
+        "props": {
+          "src": "assets/images/component-3.jpg",
+          "blockClass": "wallpaper-plans"
+        }
+    },
+    "rich-text#title-plans": {
+        "props": {
+          "text": "## Planos\n\nNisi incididunt culpa qui voluptate aliquip proident cillum nisi laborum sunt velit dolor occaecat?",
+          "blockClass": "title-plans"
+        }
+    }
+}
