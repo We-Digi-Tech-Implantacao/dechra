@@ -344,6 +344,7 @@
 }
 
 .infoCardContainer--container-opinion{
+    align-items: flex-start;
     .infoCardTextContainer--container-opinion{
         align-items: flex-start;
         width: auto !important;
@@ -378,6 +379,8 @@
     .wrapper--container-opinion{
         .paragraph--container-opinion{
             color: #727272;
+            line-height: 1.8;
+            margin-top: 0;
         }
         .strong--container-opinion{
             &:first-child{
