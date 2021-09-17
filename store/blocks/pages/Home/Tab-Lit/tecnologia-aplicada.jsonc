@@ -18,6 +18,21 @@
                     "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 3",
+                    "id": "home-instruction-3",
+                    "blockClass": "home-platform",
+                    "htmlId": "home-instruction-3",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/image-1.png",
+                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Plataforma virtuais de ensino personalizado 3",
+                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
                 }
             ]
         },

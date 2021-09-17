@@ -71,3 +71,22 @@
         transform: scaleX(-1);
     }
 }
+
+.logoLink--logo-signature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    .logoContainer--logo-signature{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logoImage--logo-signature{
+            width: 63px;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "store.home":{
+        "path": "/"
+    },
+    "store.custom#product":{
+        "path": "/produto"
+    }
+}

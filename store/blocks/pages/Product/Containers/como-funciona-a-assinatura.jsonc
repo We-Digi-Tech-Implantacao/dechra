@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#signature": {
+        "props":{
+            "blockClass": "container-signature"
+        },
+        "children":[
+            "flex-layout.col#signature-1",
+            "flex-layout.col#signature-2",
+            "flex-layout.col#signature-3"
+        ]
+    },
+    "flex-layout.col#signature-1":{
+        "props":{
+            "blockClass": "container-signature-card"
+        },
+        "children":[
+            "logo#plans-1",
+            "link.product#plans-1"
+        ]
+    },
+    "logo#plans-1": {
+        "props": {
+          "title": "Logo",
+          "href": "/planos",
+          "url": "assets/images/carrinho.png",
+          "blockClass": "logo-signature"
+        }
+      },
+    "link.product#plans-1": {
+        "props": {
+          "href": "/planos",
+          "label": "Selecione o plano desejado e finalize sua compra",
+          "blockClass": "button-signature"
+        }
+    },
+    "flex-layout.col#signature-2":{
+        "props":{
+            "blockClass": "container-signature-card"
+        },
+        "children":[
+            "logo#plans-2",
+            "link.product#plans-2"
+        ]
+    },
+    "logo#plans-2": {
+        "props": {
+          "title": "Logo",
+          "href": "/e-mail",
+          "url": "assets/images/user.png",
+          "blockClass": "logo-signature"
+        }
+      },
+    "link.product#plans-2": {
+        "props": {
+          "href": "/e-mail",
+          "label": "Receba no e-mail dados de acesso",
+          "blockClass": "button-signature"
+        }
+    },
+    "flex-layout.col#signature-3":{
+        "props":{
+            "blockClass": "container-signature-card"
+        },
+        "children":[
+            "logo#plans-3",
+            "link.product#plans-3"
+        ]
+    },
+    "logo#plans-3": {
+        "props": {
+          "title": "Logo",
+          "href": "/assistir",
+          "url": "assets/images/assista.png",
+          "blockClass": "logo-signature"
+        }
+      },
+    "link.product#plans-3": {
+        "props": {
+          "href": "/assistir",
+          "label": "Assista sempre que precisar",
+          "blockClass": "button-signature"
+        }
+    }
+}
