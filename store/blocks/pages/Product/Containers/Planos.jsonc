@@ -5,7 +5,7 @@
             "colSizing": "auto"
         },
         "children":[
-            "flex-layout.row#wallpaper-plans",
+            "image#wallpaper-plans",
             "rich-text#title-plans"
         ]
     },

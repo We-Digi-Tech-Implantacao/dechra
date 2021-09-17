@@ -11,7 +11,7 @@
     },
     "image#wallpaper-why-sign": {
         "props": {
-          "src": "assets/images/container-3.png",
+          "src": "assets/images/container-3.svg",
           "blockClass": "wallpaper-why-sign"
         }
     },

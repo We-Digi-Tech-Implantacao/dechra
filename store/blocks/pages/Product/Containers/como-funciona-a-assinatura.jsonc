@@ -39,22 +39,19 @@
             "blockClass": "container-signature-card"
         },
         "children":[
-            "logo#plans-1",
-            "link.product#plans-1"
+            "image#plans-1",
+            "rich-text#plans-1"
         ]
     },
-    "logo#plans-1": {
+    "image#plans-1": {
         "props": {
-          "title": "Logo",
-          "href": "/planos",
-          "url": "assets/images/carrinho.png",
+          "src": "assets/images/carrinho.png",
           "blockClass": "logo-signature"
         }
-      },
-    "link.product#plans-1": {
+    },
+    "rich-text#plans-1": {
         "props": {
-          "href": "/planos",
-          "label": "Selecione o plano desejado e finalize sua compra",
+          "text": "Selecione o plano desejado e finalize sua compra",
           "blockClass": "button-signature"
         }
     },
@@ -63,22 +60,19 @@
             "blockClass": "container-signature-card"
         },
         "children":[
-            "logo#plans-2",
-            "link.product#plans-2"
+            "image#plans-2",
+            "rich-text#plans-2"
         ]
     },
-    "logo#plans-2": {
+    "image#plans-2": {
         "props": {
-          "title": "Logo",
-          "href": "/e-mail",
-          "url": "assets/images/user.png",
+          "src": "assets/images/user.png",
           "blockClass": "logo-signature"
         }
-      },
-    "link.product#plans-2": {
+    },
+    "rich-text#plans-2": {
         "props": {
-          "href": "/e-mail",
-          "label": "Receba no e-mail dados de acesso",
+          "text": "Receba no e-mail dados de acesso",
           "blockClass": "button-signature"
         }
     },
@@ -87,22 +81,19 @@
             "blockClass": "container-signature-card"
         },
         "children":[
-            "logo#plans-3",
-            "link.product#plans-3"
+            "image#plans-3",
+            "rich-text#plans-3"
         ]
     },
-    "logo#plans-3": {
+    "image#plans-3": {
         "props": {
-          "title": "Logo",
-          "href": "/assistir",
-          "url": "assets/images/assista.png",
+          "src": "assets/images/assista.png",
           "blockClass": "logo-signature"
         }
-      },
-    "link.product#plans-3": {
+    },
+    "rich-text#plans-3": {
         "props": {
-          "href": "/assistir",
-          "label": "Assista sempre que precisar",
+          "text": "Assista sempre que precisar",
           "blockClass": "button-signature"
         }
     }

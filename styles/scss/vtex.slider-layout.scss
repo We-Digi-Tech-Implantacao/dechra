@@ -342,3 +342,83 @@
         align-items: flex-start;
     }
 }
+
+.infoCardContainer--container-opinion{
+    .infoCardTextContainer--container-opinion{
+        align-items: flex-start;
+        width: auto !important;
+        .container--container-opinion{
+            &:first-child{
+                width: 466px!important;
+            }
+            &:last-child{
+                width: auto !important;
+               
+            }        
+        }
+    }
+    .infoCardImageContainer--container-opinion{
+        width: auto !important;
+        .infoCardImage--container-opinion{
+            margin-right: 30px;
+            width: 175px;
+        }
+    }
+}
+.slideChildrenContainer--container-opinion{
+    padding: 70px 0;
+}
+.sliderLeftArrow--container-opinion{
+    padding-left: 90px;
+}
+.sliderRightArrow--container-opinion{
+    padding-right: 90px;
+}
+.container--container-opinion{
+    .wrapper--container-opinion{
+        .paragraph--container-opinion{
+            color: #727272;
+        }
+        .strong--container-opinion{
+            &:first-child{
+                color: #0A3F3C;
+                font-size: 18px;
+            }
+            &:last-child{
+                color: #0A3F3C;
+                font-size: 18px;
+                font-weight: 400 !important;
+            }
+        } 
+    }
+}
+.sliderLeftArrow--container-opinion{
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("https://idomed.vtexassets.com/arquivos/akar-icons_arrow-left.png");
+        width: 50px;
+        height: 50px;
+        @media(max-width: $maxMobile){
+            content: none;
+        }
+    }
+    .caretIcon--container-opinion{
+        opacity: 0;
+    }
+}
+.sliderRightArrow--container-opinion{
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("https://idomed.vtexassets.com/arquivos/akar-icons_arrow-right.png");
+        width: 50px;
+        height: 50px;
+        @media(max-width: $maxMobile){
+            content: none;
+        }
+    }
+    .caretIcon--container-opinion{
+        opacity: 0;
+    }
+}

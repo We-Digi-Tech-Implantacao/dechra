@@ -6,6 +6,7 @@
 }
 :global(.vtex-store-components-3-x-container){
     padding: 0;
+    max-width: 100% !important;
 }
 :global(.vtex-store-components-3-x-logoContainer){
     padding: 0 !important;
@@ -91,8 +92,18 @@
     }
 }
 .imageElement--wallpaper-plans{
+    max-width: 100% !important;
     width: 100%;
+    height: 900px;
+    object-fit: cover;
+    object-position: center;
 }
 .imageElement--wallpaper-why-sign{
-    transform: scaleX(-1);
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.imageElement--logo-signature{
+    width: 63px;
+    padding: 40px;
 }

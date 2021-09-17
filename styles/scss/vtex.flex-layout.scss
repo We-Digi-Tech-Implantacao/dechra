@@ -294,10 +294,16 @@
 	padding: 30px 100px 60px 100px;
 }
 .flexColChild--container-signature-card{
-	width: 250px !important;
-    display: flex;
-	align-items: center;
-    justify-content: center;
+	&:first-child{
+		width: 150px!important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 63px;
+		background: #fff;
+		border-radius: 100%;
+		height: 150px !important;
+	}
 }
 .flexCol--container-signature-card{
 	display: flex;

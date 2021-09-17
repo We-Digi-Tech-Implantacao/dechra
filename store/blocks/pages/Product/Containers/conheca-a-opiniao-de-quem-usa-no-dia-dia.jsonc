@@ -1,48 +1,22 @@
 {
-    "flex-layout.row#container-home-2":{
-        "props":{
-            "blockClass": "container-home-list-user",
-            "colSizing": "auto"
-        },
-        "children":[
-            "flex-layout.col#container-home-title",
-            "list-context.info-card-list#slider-user",
-            //"flex-layout.row#container-home-body",
-            "image#wallpaper"
-        ]
-    },
-    "flex-layout.col#container-home-title":{
-        "props":{
-            "blockClass": "container-home-title"
-        },
-        "children":[
-            "rich-text#title"
-        ]
-    },
-    "rich-text#title": {
-        "props": {
-          "text": "Conheça a opinião de quem usa no dia-dia",
-          "blockClass": "title-home-2"
-        }
-    },
     "flex-layout.row#container-home-body":{
         "props":{
-            "blockClass": "container-home-slider"
+            "blockClass": "container-product-slider"
         },
         "children":[
-            "list-context.info-card-list#slider-user"
+            "list-context.info-card-list#opinion"
         ]
     },
-    "list-context.info-card-list#slider-user": {
+    "list-context.info-card-list#opinion": {
         "title": "Lista de sliders principal",
         "props": {
-            "blockClass": "home-list-user",
+            "blockClass": "container-opinion",
             "infoCards": [
                 {
-                    "title": "Instrução 1",
-                    "id": "home-instruction-2",
-                    "blockClass": ["home-sliders-users"],
-                    "htmlId": "home-instruction-2",
+                    "title": "Conheça a opinião de quem usa no dia-dia",
+                    "id": "opinion",
+                    "blockClass": "list-opinion",
+                    "htmlId": "opinion",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/list.png",
                     "mobileImageUrl": "assets/images/list.png",
@@ -55,9 +29,9 @@
                 },
                 {
                     "title": "Instrução 1",
-                    "id": "home-instruction-2",
-                    "blockClass": ["home-sliders-users"],
-                    "htmlId": "home-instruction-2",
+                    "id": "opinion",
+                    "blockClass": "list-opinion",
+                    "htmlId": "opinion",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/list.png",
                     "mobileImageUrl": "assets/images/list.png",
@@ -71,10 +45,10 @@
             ]
         },
         "children": [
-            "slider-layout#slider-user"
+            "slider-layout#opinion"
         ]
-    },
-    "slider-layout#slider-user": {
+      },
+      "slider-layout#opinion": {
           "title": "Slider principal",
           "props": {
               "itemsPerPage": {
@@ -84,13 +58,7 @@
               },
               "infinite": true,
               "showPaginationDots": "never",
-              "blockClass": "home-list-user"
+              "blockClass": "container-opinion"
           }
-    },
-    "image#wallpaper": {
-        "props": {
-          "src": "assets/images/wallpaper.png",
-          "blockClass": "wallpaper"
-        }
-    }
+      }
 }
