@@ -425,3 +425,45 @@
         opacity: 0;
     }
 }
+.infoCardContainer--list-1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.infoCardTextContainer--list-1{
+    .container--list-1{
+        .wrapper--list-1{
+            .heading--list-1{
+                color: #0A3F3C;
+                font-size: 24px;
+                text-align: center;
+            }
+            .paragraph--list-1{
+                color: #0A3F3C;
+                text-align: center;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.infoCardImageContainer--list-1{
+    display: flex;
+    justify-content: center;
+    .infoCardImage--list-1{
+        
+    }
+}
+.sliderTrack--list-1{
+    width: 100%!important;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    transform: unset!important;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    //gap: 15px;
+    .slide--list-1{
+        width: 50% !important;
+        margin-top: 15px;
+        padding: 20px 0;
+    }
+}

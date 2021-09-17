@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#differentials": {
+        "props":{
+            "blockClass": "container-differentials",
+            "colSizing": "auto"
+        },
+        "children":[
+            "rich-text#title-differentials",
+            "flex-layout.col#differentials"
+        ]
+    },
+    "rich-text#title-differentials":{
+        "props": {
+            "text": "## Diferenciais",
+            "blockClass": "title-differentials"
+        }
+    },
+    "flex-layout.col#differentials":{
+        "props":{
+            "blockClass": "container-differentials-col"
+        },
+        "children":[
+            "flex-layout.row#list-01"
+            //"flex-layout.row#list-2"
+        ]
+    }
+}
