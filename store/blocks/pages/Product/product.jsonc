@@ -2,7 +2,8 @@
   "store.custom#product": {
     "children": [
       "flex-layout.row#signature",
-      "flex-layout.row#plans"
+      "flex-layout.row#plans",
+      "flex-layout.row#why-sign"
     ]
   }
 }

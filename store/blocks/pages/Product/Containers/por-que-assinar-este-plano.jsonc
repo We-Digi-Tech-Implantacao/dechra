@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#why-sign": {
+        "props":{
+            "blockClass": "container-why-sign",
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#wallpaper-why-sign",
+            "flex-layout.row#title-why-sign"
+        ]
+    },
+    "image#wallpaper-why-sign": {
+        "props": {
+          "src": "assets/images/container-3.png",
+          "blockClass": "wallpaper-why-sign"
+        }
+    },
+    "flex-layout.row#title-why-sign":{
+        "props":{
+            "blockClass": "container-title-why-sign",
+            "colSizing": "auto"
+        },
+        "children":[
+            "rich-text#title-why-sign",
+            "flex-layout.row#faq"
+        ]
+    },
+    "rich-text#title-why-sign": {
+        "props": {
+          "text": "Por que assinar este plano?",
+          "blockClass": "title-why-sign"
+        }
+    }
+}

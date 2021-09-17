@@ -203,7 +203,7 @@
 .container--title-plans{
     .wrapper--title-plans{
         position: absolute;
-        left: 100px;
+        left: 130px;
         top: 85px;
         width: 470px;
         .heading--title-plans{
@@ -215,5 +215,117 @@
             color: #fff;
             font-size: 24px;
         }
+    }
+}
+.container--title-why-sign{
+    // position: absolute;
+    // left: 420px;
+    // top: 64px;
+    width: 462px!important;
+    .wrapper--title-why-sign{
+        .paragraph--title-why-sign{
+            font-size: 36px;
+            color: #0A3F3C;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+    }
+}
+.container--faq {
+    .heading-level-1 {
+        color: black;
+        margin: 30px;
+        font-size: 40px;
+        text-transform: uppercase;
+
+        @media (max-width: $maxMobile) {
+            margin: 15px;
+        }
+    }
+}
+.container--title-faq {
+    .wrapper {
+        width: 100%;
+        display: block;
+        .heading {
+            color: $dark;
+            font-size: $size5;
+            text-align: left;
+            text-transform: uppercase;
+        }
+    }
+}
+.container--subtitle-faq {
+    .wrapper {
+        width: 100%;
+        display: block;
+        .heading {
+            color: $dark;
+            font-size: $size5;
+            margin-top: 0;
+            text-align: left;
+            text-transform: uppercase;
+        }
+    }
+}
+.container--faq-content {
+    .wrapper {
+        .paragraph {
+            color: $dark;
+            font-size: $size2;
+
+            .link {
+                color: $orange;
+                font-size: $size2;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.container--disclosure-faq-title {
+    .heading {
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 1.6px;
+        color: #0A3F3C;
+        font-weight: 500;
+        @media(max-width: 767px) {
+            font-size: 1rem;
+        }
+    }
+}
+.container--disclosure-faq-content {
+    border-top: 1px solid #0A3F3C;
+    padding-top: 30px; 
+    .paragraph {
+        margin-top: 0;
+        font-size: 14px;
+        color: #0A3F3C;
+        line-height: 2;
+        margin-bottom: 35px;
+        @media(max-width: 767px) {
+            font-size: 12px;
+        }
+        .link {
+            color: #0A3F3C;
+            text-decoration: none;
+        }
+    }
+    .list {
+        .listItem {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+            .paragraph {
+                margin: 0;
+                line-height: 1.7;
+            }
+        }
+    }
+}
+.container--franqueados-question {
+    .paragraph {
+        font-size: $size2;
     }
 }

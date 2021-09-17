@@ -1,0 +1,42 @@
+{
+    "disclosure-layout#faq-item-6": {
+        "props": {
+            "animated": true,
+            "initialVisibility": "hidden"
+        },
+        "children": [
+            "disclosure-trigger#faq-item-6",
+            "disclosure-content#faq-item-6"
+        ]
+    },
+    "disclosure-trigger#faq-item-6": {
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        },
+        "children": [
+            "disclosure-state-indicator",
+            "rich-text#faq-item-title-6"
+        ]
+    },
+    "disclosure-content#faq-item-6": {
+        "props": {
+            "blockClass": "answer"
+        },
+        "children": [
+            "rich-text#faq-item-content-6"
+        ]
+    },
+    "rich-text#faq-item-title-6": {
+        "props": {
+            "text": "## Nisi incididunt culpa qui voluptate aliquip proident cillum nisi laborum sunt velit dolor occaecat?",
+            "blockClass": "disclosure-faq-title"
+        }
+    },
+    "rich-text#faq-item-content-6": {
+        "props": {
+            "text": "Et consequat ipsum ea fugiat veniam aliquip deserunt magna deserunt esse. Sit sunt adipisicing deserunt enim aliqua officia exercitation reprehenderit veniam aute. Lorem veniam consequat laboris quis magna occaecat ea. Veniam duis quis occaecat nisi velit consequat amet Lorem est adipisicing incididunt. Lorem elit nisi aliquip magna ipsum enim deserunt ullamco deserunt cillum labore nisi. Adipisicing sint aute dolor dolor pariatur. Et anim esse nostrud ipsum eu qui occaecat do nostrud labore do laboris. Sint id fugiat velit irure consequat proident voluptate do occaecat. Eu fugiat reprehenderit aliqua duis ad duis mollit cillum. Occaecat sit elit amet ex consequat consequat ipsum magna.\n\n**[Acesse aqui  a documentação](/&target=_blank)**",
+            "blockClass": "disclosure-faq-content"
+        }
+    }
+}
