@@ -381,6 +381,9 @@
             color: #0A3F3C;
             font-weight: bold;
             font-size: 40px;
+            @media(max-width: $maxMobile) {
+                font-size: 35px;
+            }
         }
     }
 }

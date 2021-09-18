@@ -20,8 +20,7 @@
             "blockClass": "container-differentials-col"
         },
         "children":[
-            "flex-layout.row#list-01"
-            //"flex-layout.row#list-2"
+            "responsive-layout.desktop"
         ]
     }
 }
