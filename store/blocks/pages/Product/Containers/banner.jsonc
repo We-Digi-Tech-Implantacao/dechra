@@ -1,0 +1,43 @@
+{
+    "list-context.info-card-list#wallpaper-product": {
+        "title": "Lista de sliders principal",
+        "props": {
+            "blockClass": "home-list-instructions",
+            "infoCards": [
+                {
+                    "title": "Instrução 1",
+                    "id": "home-instruction-1",
+                    "blockClass": "home-instructions",
+                    "htmlId": "home-instruction-1",
+                    "isFullModeStyle": true,
+                    "imageUrl": "assets/images/wallpaper-product.jpg",
+                    "mobileImageUrl": "assets/images/wallpaper-product.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Acesso exclusivo a vídeos que auxiliam na sua prática médica do dia-dia",
+                    "subhead": "",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                    //"callToActionText": "Conheça Nossos Planos",
+                    //"callToActionUrl": "/nossos-planos"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#home-list-instructions"
+        ]
+      },
+      "slider-layout#home-list-instructions": {
+          "title": "Slider principal",
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 1,
+                  "tablet": 3,
+                  "phone": 2
+              },
+              "infinite": true,
+              "showPaginationDots": "never",
+              "blockClass": "home-list-instructions"
+          }
+      }
+}

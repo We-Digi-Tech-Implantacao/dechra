@@ -292,6 +292,12 @@
 	background-color: #F2E5D9;
     width: 100%;
 	padding: 30px 100px 60px 100px;
+	@media(max-width: $maxTablet){
+	    padding: 30px 40px 60px 40px;
+	}
+	@media(max-width: $maxMobile){
+		padding: 50px 0;
+	}
 }
 .flexColChild--container-signature-card{
 	&:first-child{
@@ -309,6 +315,9 @@
 	display: flex;
     align-items: center;
     justify-content: center;
+	@media(max-width: $maxMobile){
+		margin: 0 30px;
+	}
 }
 .flexRowContent--container-signature{
 	display: flex;
@@ -404,4 +413,15 @@
     justify-content: center;
 	flex-direction: column;
 	padding: 20px 0 0;
+}
+.flexRowContent--container-signature-container-2{
+	@media(max-width: $maxMobile){
+		overflow: hidden;
+		display: flex;
+		flex-flow: row nowrap;
+		overflow-x: auto;
+		list-style: none;
+		align-items: center;
+		justify-content: flex-start;
+	}
 }
