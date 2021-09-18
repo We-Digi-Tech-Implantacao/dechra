@@ -97,6 +97,9 @@
     height: 900px;
     object-fit: cover;
     object-position: center;
+    @media(max-width: $maxMobile){
+        height: 800px;
+    }
 }
 .imageElement--wallpaper-why-sign{
     object-fit: cover;

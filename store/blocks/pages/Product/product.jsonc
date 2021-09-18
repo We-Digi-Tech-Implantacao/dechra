@@ -2,8 +2,8 @@
   "store.custom#product": {
     "children": [
       //"list-context.info-card-list#wallpaper-product",
-      "flex-layout.row#signature"
-      //"flex-layout.row#plans",
+      //"flex-layout.row#signature",
+      "flex-layout.row#plans"
       //"flex-layout.row#differentials",
       //"flex-layout.row#why-sign",
       //"list-context.info-card-list#opinion"

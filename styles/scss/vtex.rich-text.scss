@@ -212,14 +212,28 @@
         left: 130px;
         top: 85px;
         width: 470px;
+        @media(max-width: $maxTablet){
+            left: 70px;
+            top: 100px;
+        }
+        @media(max-width: $maxMobile){
+            left: 35px;
+            width: 300px;
+        }
         .heading--title-plans{
             color: #fff;
             font-size: 48px;
             font-weight: 500;
+            @media(max-width: $maxMobile){
+                font-size: 40px;
+            }
         }
         .paragraph--title-plans{
             color: #fff;
             font-size: 24px;
+            @media(max-width: $maxMobile){
+                font-size: 18px
+            }
         }
     }
 }
