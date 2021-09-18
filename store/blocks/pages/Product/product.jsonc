@@ -6,8 +6,8 @@
       //"flex-layout.row#plans",
       //"flex-layout.row#differentials",
       //"responsive-layout.mobile",
-      "flex-layout.row#why-sign"
-      //"list-context.info-card-list#opinion"
+      //"flex-layout.row#why-sign",
+      "list-context.info-card-list#opinion"
     ]
   }
 }

@@ -363,12 +363,40 @@
 
 .infoCardContainer--container-opinion{
     align-items: flex-start;
+    @media(max-width: $maxTablet){
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    @media(max-width: $maxMobile){
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
     .infoCardTextContainer--container-opinion{
         align-items: flex-start;
         width: auto !important;
+        @media(max-width: $maxTablet){
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            width: 400px !important;
+        }
+        @media(max-width: $maxMobile){
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            width: 300px !important;
+        }
         .container--container-opinion{
             &:first-child{
                 width: 466px!important;
+                @media(max-width: $maxTablet){
+                    width: auto !important;
+                }
+                @media(max-width: $maxMobile){
+                    width: auto !important;
+                }
             }
             &:last-child{
                 width: auto !important;
@@ -381,17 +409,42 @@
         .infoCardImage--container-opinion{
             margin-right: 30px;
             width: 200px;
+            @media(max-width: $maxTablet){
+                width: 170px;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            @media(max-width: $maxMobile){
+                width: 150px;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
         }
     }
 }
 .slideChildrenContainer--container-opinion{
     padding: 100px 0;
+    @media(max-width: $maxMobile){
+        padding: 60px 0;
+    }
 }
 .sliderLeftArrow--container-opinion{
     padding-left: 90px;
+    @media(max-width: $maxMobile){
+        padding-left: 10px;
+    }
+    .caretIcon--container-opinion{
+        color: #0A3F3C;
+    }
 }
 .sliderRightArrow--container-opinion{
     padding-right: 90px;
+    @media(max-width: $maxMobile){
+        padding-right: 10px;
+    }
+    .caretIcon--container-opinion{
+        color: #0A3F3C;
+    }
 }
 .container--container-opinion{
     .wrapper--container-opinion{
@@ -399,6 +452,12 @@
             color: #727272;
             line-height: 1.8;
             margin-top: 0;
+            @media(max-width: $maxTablet){
+                text-align: center;
+            }
+            @media(max-width: $maxMobile){
+                text-align: center;
+            }
         }
         .strong--container-opinion{
             &:first-child{
@@ -426,6 +485,9 @@
     }
     .caretIcon--container-opinion{
         opacity: 0;
+        @media(max-width: $maxMobile){
+            opacity: 1;
+        }
     }
 }
 .sliderRightArrow--container-opinion{
@@ -441,6 +503,9 @@
     }
     .caretIcon--container-opinion{
         opacity: 0;
+        @media(max-width: $maxMobile){
+            opacity: 1;
+        }
     }
 }
 .infoCardContainer--list-1{
