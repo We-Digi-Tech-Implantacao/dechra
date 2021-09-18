@@ -104,6 +104,12 @@
 .imageElement--wallpaper-why-sign{
     object-fit: cover;
     object-position: bottom;
+    @media(max-width: $maxTablet){
+        display: none;
+    }
+    @media(max-width: $maxMobile){
+        display: none;
+    }
 }
 
 .imageElement--logo-signature{

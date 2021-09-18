@@ -242,12 +242,22 @@
     // left: 420px;
     // top: 64px;
     width: 462px!important;
+    @media (max-width: $maxTablet) {
+        width: auto !important;
+    }
+    @media (max-width: $maxMobile) {
+        width: auto !important;
+    }
     .wrapper--title-why-sign{
         .paragraph--title-why-sign{
             font-size: 36px;
             color: #0A3F3C;
             font-weight: 500;
             margin-bottom: 0;
+            @media (max-width: $maxMobile) {
+                font-size: 26px;
+                margin-bottom: 40px;
+            }
         }
     }
 }
@@ -324,9 +334,6 @@
         color: #0A3F3C;
         line-height: 2;
         margin-bottom: 35px;
-        @media(max-width: 767px) {
-            font-size: 12px;
-        }
         .link {
             color: #0A3F3C;
             text-decoration: none;

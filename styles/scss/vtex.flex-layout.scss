@@ -340,6 +340,12 @@
 .flexRow--faq {
 	.flexRowContent--faq {
 		width: 830px;
+		@media (max-width: $maxTablet) {
+			width: auto !important;
+		}
+		@media (max-width: $maxMobile) {
+			width: auto !important;
+		}
 		.stretchChildrenWidth {
 			.flexCol {
 				.flexColChild {
@@ -396,6 +402,14 @@
     flex-direction: column;
     align-items: flex-start;
 	margin-top: 90px;
+	@media (max-width: $maxTablet) {
+		margin-top: 0;
+		align-items: center;
+	}
+	@media (max-width: $maxMobile) {
+		margin-top: 0;
+		align-items: center;
+	}
 }
 .flexRowContent--container-why-sign{
 	.stretchChildrenWidth{
@@ -404,6 +418,13 @@
 		}
 		&:last-child{
 			width: 70% !important;
+			@media(max-width: $maxTablet){
+				width: 100% !important;
+				padding: 30px 25px;
+			}
+			@media(max-width: $maxMobile){
+				width: 100% !important;
+			}
 		}
 	}
 }
