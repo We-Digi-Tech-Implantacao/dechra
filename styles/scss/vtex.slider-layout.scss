@@ -13,13 +13,13 @@
     }
 }
 .infoCardContainer--home-list-instructions{
-    height: calc(100vh - 90px);
+    height: calc(700px - 90px);
     align-items: center;
     @media(max-width: $maxTablet){
-        height: calc(66vh - 90px);
+        height: calc(655px - 90px);
     }
     @media(max-width: $maxMobile){
-        height: calc(100vh - 90px);
+        height: calc(735px - 90px);
     }
 }
 .container--home-list-instructions{
