@@ -18,7 +18,7 @@
   },
   "header-layout.mobile": {
     "children": [
-      "flex-layout.row#header"
+      //"flex-layout.row#header"
     ]
   },
   "flex-layout.row#header":{

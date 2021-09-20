@@ -347,9 +347,9 @@
 }
 .flexRow--faq {
 	.flexRowContent--faq {
-		width: 100%;
+		width: auto !important;
 		justify-content: center;
-		margin-left: 132px;
+		margin-left: 255px;
 		@media (max-width: $maxTablet) {
 			margin: 0;
 			width: auto !important;

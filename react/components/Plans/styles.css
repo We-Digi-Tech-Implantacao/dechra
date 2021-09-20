@@ -1,12 +1,32 @@
 .container{
     position: absolute;
-    left: 120px;
+    left: 100px;
     top: 400px;
-    width: 100% !important;
+    width: auto !important;
 
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+@media(max-width: 1025px){
+    .container{
+        width: 100% !important;
+        overflow: hidden;
+        flex-flow: row nowrap;
+        overflow-x: auto;
+        list-style: none;
+        justify-content: flex-start;
+        left: 0;
+        padding: 0 40px;
+    }
+}
+@media(max-width: 767px){
+    .container{
+        width: 100% !important;
+        top: 360px;
+        left: 0;
+        padding: 0 20px;
+    }
 }
 
 .container .containerPlans {
@@ -62,7 +82,37 @@
     justify-content: center;
     padding: 0 50px 50px;
 }
+@media(max-width: 767px){
+    .container .containerPlans .button{
+        padding: 0 30px 40px;
+    }
+}
+
+.container .containerPlans .buttonSave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 65px 50px;
+}
+@media(max-width: 767px){
+    .container .containerPlans .buttonSave{
+        padding: 0 40px 40px;
+    }
+}
+
 .container .containerPlans .button a{
+    background-color: #19D1C3;
+    color: #fff;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .containerPlans .buttonSave a{
     background-color: #19D1C3;
     color: #fff;
     text-decoration: none;

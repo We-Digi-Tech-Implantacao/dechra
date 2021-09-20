@@ -28,7 +28,7 @@ export default function Plans(){
                     <h2>R$ 2.990,90</h2>
                     <strong className={styles.access}>ACESSO ILIMITADO</strong>
                 </div>
-                <div className={styles.button}>
+                <div className={styles.buttonSave}>
                     <a href="">Assine agora</a>
                 </div>
             </div>

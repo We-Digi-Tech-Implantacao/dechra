@@ -210,15 +210,15 @@
 .container--title-plans{
     .wrapper--title-plans{
         position: absolute;
-        left: 120px;
+        left: 100px;
         top: 85px;
         width: 470px;
         @media(max-width: $maxTablet){
-            left: 70px;
+            left: 40px;
             top: 100px;
         }
         @media(max-width: $maxMobile){
-            left: 35px;
+            left: 20px;
             width: 300px;
         }
         .heading--title-plans{
