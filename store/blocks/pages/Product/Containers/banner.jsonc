@@ -1,13 +1,24 @@
 {
+    "flex-layout.row#wallpaper-product":{
+        "props":{
+            "blockClass": "container-wallpaper-product",
+            "colSizing": "auto"
+        },
+        "children":[
+            "list-context.info-card-list#wallpaper-product",
+            "custom-signNow"
+        ]
+    },
+
     "list-context.info-card-list#wallpaper-product": {
         "title": "Lista de sliders principal",
         "props": {
-            "blockClass": "home-list-instructions",
+            "blockClass": ["home-list-instructions", "wallpaper-product"],
             "infoCards": [
                 {
                     "title": "Instrução 1",
                     "id": "home-instruction-1",
-                    "blockClass": "home-instructions",
+                    "blockClass": ["home-instructions", "wallpaper-product"],
                     "htmlId": "home-instruction-1",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/wallpaper-product.jpg",
@@ -37,7 +48,7 @@
               },
               "infinite": true,
               "showPaginationDots": "never",
-              "blockClass": "home-list-instructions"
+              "blockClass": ["home-list-instructions", "wallpaper-product"]
           }
       }
 }

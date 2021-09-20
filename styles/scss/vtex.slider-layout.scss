@@ -16,7 +16,7 @@
     height: calc(100vh - 90px);
     align-items: center;
     @media(max-width: $maxTablet){
-        height: calc(50vh - 90px);
+        height: calc(66vh - 90px);
     }
     @media(max-width: $maxMobile){
         height: calc(100vh - 90px);
@@ -598,4 +598,8 @@
     .sliderTrackContainer--list-1-mobile {
 
     }
+}
+.heading--wallpaper-product{
+    bottom: 100px;
+    position: relative;
 }

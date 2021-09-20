@@ -1,5 +1,8 @@
 {
     "custom-plans":{
         "component": "Plans"
+    },
+    "custom-signNow":{
+        "component": "SignNow"
     }
 }
