@@ -1,11 +1,10 @@
 {
     "flex-layout.row#why-sign": {
         "props":{
-            "blockClass": "container-why-sign",
-            "colSizing": "auto"
+            "blockClass": "container-why-sign"
         },
         "children":[
-            "image#wallpaper-why-sign",
+            //"image#wallpaper-why-sign",
             "flex-layout.row#title-why-sign"
         ]
     },

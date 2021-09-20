@@ -96,7 +96,7 @@
             line-height: 1;
             color: #0A3F3C;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 13px;
         }
     }
 }
@@ -201,7 +201,8 @@
             margin-top: 0;
             margin-bottom: 50px;
             @media(max-width: $maxMobile){
-                font-size: 25px;
+                font-size: 20px;
+                margin-bottom: 20px;
             }
         }
     }
@@ -241,11 +242,16 @@
     // position: absolute;
     // left: 420px;
     // top: 64px;
+    margin-left: 402px;
+    margin-bottom: 40px;
     width: 462px!important;
     @media (max-width: $maxTablet) {
+        margin-left: 41px;
+        margin-bottom: 20px;
         width: auto !important;
     }
     @media (max-width: $maxMobile) {
+        margin-left: 0px;
         width: auto !important;
     }
     .wrapper--title-why-sign{
@@ -256,7 +262,6 @@
             margin-bottom: 0;
             @media (max-width: $maxMobile) {
                 font-size: 26px;
-                margin-bottom: 40px;
             }
         }
     }
@@ -367,6 +372,9 @@
             color: #0A3F3C;
             font-size: 16px;
             font-weight: bold;
+            @media(max-width: $maxMobile) {
+                font-size: 14px
+            }
         }
     }
 }
@@ -389,7 +397,8 @@
             font-weight: bold;
             font-size: 40px;
             @media(max-width: $maxMobile) {
-                font-size: 35px;
+                font-size: 30px;
+                margin-bottom: 50px;
             }
         }
     }

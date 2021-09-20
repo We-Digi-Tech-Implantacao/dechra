@@ -18,7 +18,7 @@
   },
   "header-layout.mobile": {
     "children": [
-      
+      "flex-layout.row#header"
     ]
   },
   "flex-layout.row#header":{
@@ -37,7 +37,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://idomed.vtexassets.com/arquivos/_logo_.png",
-      "width": "120"
+      "width": "130"
     }
   },
   "vtex.menu@2.x:menu#header-desktop": {

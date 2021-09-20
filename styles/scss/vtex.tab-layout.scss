@@ -8,6 +8,8 @@
         background: #77C2BD;
         padding: 0 0 0 20px;
         border-radius: 5px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
         width: 300px;
         height: 80px;
         :global(.vtex-button__label){
@@ -23,6 +25,8 @@
         background: #fff;
         padding: 0;
         border-radius: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
         width: 300px;
         height: 80px;
         border: none;
@@ -186,7 +190,7 @@
     }
 }
 .listContainer--container-tab-list-home{
-    margin-top: -76px;
+    margin-top: -88px;
     @media(max-width: $maxMobile){
         overflow:hidden;
         padding: 0 15px 0 15px;

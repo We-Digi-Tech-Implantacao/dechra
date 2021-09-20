@@ -8,7 +8,7 @@
         margin-left: 50px;
     }
     @media(max-width: $maxMobile){
-        width: 65%!important;
+        width: 80%!important;
         margin-left: 25px;
     }
 }
@@ -19,7 +19,7 @@
         height: calc(50vh - 90px);
     }
     @media(max-width: $maxMobile){
-        height: calc(50vh - 90px);
+        height: calc(100vh - 90px);
     }
 }
 .container--home-list-instructions{
@@ -32,7 +32,7 @@
                 font-size: 30px;
             }
             @media(max-width: $maxMobile){
-                font-size: 17px;
+                font-size: 22px;
             }
         }
         .paragraph--home-list-instructions{
@@ -244,6 +244,7 @@
             .infoCardImage--home-list-user{
                 width: 180px;
                 height: 180px;
+                border-radius: 100%;
                 @media(max-width: $maxTablet){
                     width: 150px;
                     height: 140px;
@@ -264,7 +265,7 @@
                 .slideChildrenContainer--home-list-platform{
                     padding: 100px 95px;
                     @media(max-width: $maxTablet){
-                        padding: 70px 55px;
+                        padding: 70px 50px;
                     }
                     @media(max-width: $maxMobile){
                         padding: 50px 15px;
@@ -415,7 +416,7 @@
                 margin-bottom: 20px;
             }
             @media(max-width: $maxMobile){
-                width: 150px;
+                width: 116px;
                 margin-right: 0;
                 margin-bottom: 20px;
             }
@@ -551,11 +552,17 @@
                 color: #0A3F3C;
                 font-size: 24px;
                 text-align: center;
+                @media(max-width: $maxMobile){
+                    font-size: 22px;
+                }
             }
             .paragraph--list-1-mobile{
                 color: #0A3F3C;
                 text-align: center;
                 font-size: 14px;
+                @media(max-width: $maxMobile){
+                    font-size: 16px
+                }
             }
         }
     }
