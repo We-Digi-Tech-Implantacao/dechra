@@ -6,7 +6,8 @@
         },
         "children":[
             "image#wallpaper-plans",
-            "rich-text#title-plans"
+            "rich-text#title-plans",
+            "custom-plans"
         ]
     },
     "flex-layout.row#wallpaper-plans":{
