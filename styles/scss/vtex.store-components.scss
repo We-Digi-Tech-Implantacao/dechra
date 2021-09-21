@@ -40,6 +40,12 @@
 }
 .imageElement--icon-button{
     width: 20px;
+    @media(max-width: $maxTablet){
+        width: 30px;
+    }
+    @media(max-width: $maxMobile){
+        width: 26px;
+    }
 }
 .imageElement--wallpaper{
     position: absolute;
@@ -120,4 +126,7 @@
 .imageElement--logo-signature{
     width: 63px;
     padding: 40px;
+}
+.logoImage--logo-mobile{
+    
 }

@@ -79,6 +79,14 @@
 }
 
 :global(.vtex-slider-layout-0-x-slide){
+    // &:nth-child(odd){
+    //     border-right: 1px solid #000
+    // }    
+    // &:last-child{
+    //     border: 0 !important
+    // }
+    // border-bottom: 1px solid #000;
+    
     position: initial !important;
     @media(max-width: $maxMobile){
         position: relative !important;
@@ -582,19 +590,7 @@
         
     }
 }
-.vtex-slider-layout-0-x-slide{
-    :nth-child(odd){
-        border-right: 1px solid #000
-    }
-}
-.vtex-slider-layout-0-x-slide{
-    border-bottom: 1px solid #000
-}
-.vtex-slider-layout-0-x-slide{
-    :last-child{
-        border: 0 !important
-    }
-}
+
 .sliderTrack--list-1{
     width: 100%!important;
     display: flex;

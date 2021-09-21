@@ -97,6 +97,12 @@
             color: #0A3F3C;
             font-weight: bold;
             font-size: 13px;
+            @media(max-width: $maxTablet){
+                display: none;
+            }
+            @media(max-width: $maxMobile){
+                display: none;
+            }
         }
     }
 }
