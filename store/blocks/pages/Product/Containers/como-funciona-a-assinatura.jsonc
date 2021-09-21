@@ -19,7 +19,7 @@
     },
     "rich-text#title-container-2": {
         "props": {
-          "text": "Como funciona a assinatura?",
+          "text": "## Como funciona a assinatura?\n\nO E-residência é uma plataforma digital, destinada a residentes e cirurgiões formados, com o intuito de auxiliar na tomada de decisões e aperfeiçoamento teórico.\n\nA plataforma é acessada através de uma assinatura, com isso, os assinantes podem escolher o que querem estudar, na hora e onde quiserem. O conteúdo é organizado por áreas e subáreas da Medicina, entregando conteúdos não lineares, nos mais diversos formatos.",
           "blockClass": "title-container-2"
         }
     },

@@ -25,6 +25,7 @@
 .container--home-list-instructions{
     .wrapper--home-list-instructions{
         .heading--home-list-instructions{
+            position: initial !important;
             font-size: 36px;
             color: #fff;
             font-weight: 500;
@@ -45,7 +46,7 @@
                 font-size: 20px;
             }
             @media(max-width: $maxMobile){
-                font-size: 14px;
+                font-size: 16px;
             }
         }
     }
@@ -65,14 +66,14 @@
         width: 280px;
     }
     @media(max-width: $maxMobile){
-        width: 180px;
-        height: 40px;
+        width: 200px;
+        height: 50px;
         text-align: center;
     }
     .infoCardCallActionText--home-list-instructions{
         text-decoration: none;
         @media(max-width: $maxMobile){
-            font-size: 12px;
+            font-size: 13px;
         }
     }
 }
@@ -235,6 +236,7 @@
     .infoCardContainer--home-list-user{
         padding: 0;
         align-items: flex-start;
+        background: transparent;
         @media(max-width: $maxMobile){
             display: flex;
             flex-direction: column-reverse;
@@ -359,6 +361,12 @@
 .infoCardContainer--home-list-platform {
     .infoCardTextContainer--home-list-platform {
         align-items: flex-start;
+        @media(max-width: $maxTablet){
+            align-items: flex-start;
+        }
+        @media(max-width: $maxMobile){
+            align-items: center;
+        }
     }
 }
 
@@ -574,6 +582,19 @@
         
     }
 }
+.vtex-slider-layout-0-x-slide{
+    :nth-child(odd){
+        border-right: 1px solid #000
+    }
+}
+.vtex-slider-layout-0-x-slide{
+    border-bottom: 1px solid #000
+}
+.vtex-slider-layout-0-x-slide{
+    :last-child{
+        border: 0 !important
+    }
+}
 .sliderTrack--list-1{
     width: 100%!important;
     display: flex;
@@ -582,6 +603,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     //gap: 15px;
+  
     .slide--list-1{
         width: 50% !important;
         margin-top: 15px;
@@ -599,7 +621,14 @@
 
     }
 }
-.heading--wallpaper-product{
-    bottom: 100px;
-    position: relative;
+.infoCardTextContainer--wallpaper-product{
+    .container--wallpaper-product{
+        .wrapper--wallpaper-product{
+            .heading--wallpaper-product{
+                bottom: 100px !important;
+                position: relative !important;
+            }
+        }
+    }
 }
+

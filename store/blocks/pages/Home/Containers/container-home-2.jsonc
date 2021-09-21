@@ -6,9 +6,8 @@
         },
         "children":[
             "flex-layout.col#container-home-title",
-            "list-context.info-card-list#slider-user",
+            "list-context.info-card-list#slider-user"
             //"flex-layout.row#container-home-body",
-            "image#wallpaper"
         ]
     },
     "flex-layout.col#container-home-title":{
@@ -86,11 +85,5 @@
               "showPaginationDots": "never",
               "blockClass": "home-list-user"
           }
-    },
-    "image#wallpaper": {
-        "props": {
-          "src": "assets/images/wallpaper.png",
-          "blockClass": "wallpaper"
-        }
     }
 }

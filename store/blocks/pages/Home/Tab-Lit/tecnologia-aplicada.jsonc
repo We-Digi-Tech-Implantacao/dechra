@@ -14,8 +14,8 @@
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado 3",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "headline": "## Laboratório com simulação realística",
+                    "subhead": "Permite que os alunos reproduzam, em pacientes simulados, procedimentos rotineiros desde um curativo até atendimento às paradas cardiorrespiratórias. Visando desenvolver prontidão para atuação segura com pacientes reais.",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
                 },
@@ -29,8 +29,23 @@
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado 3",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "headline": "## Mesa digital de dissecação e casos clínicos",
+                    "subhead": "Esta mesa possibilita o estudo de exames de imagem, aprendendo mais sobre a anatomia radiológica, e podendo realizar treinamentos de cirurgias e dissecação virtuais.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 3",
+                    "id": "home-instruction-3",
+                    "blockClass": "home-platform",
+                    "htmlId": "home-instruction-3",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/image-1.png",
+                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Laboratório de anatomia em realidade virtual 3D",
+                    "subhead": "Nosso laboratório oferece interação do aluno com todas as estruturas do corpo humano, através de óculos de realidade virtual. Dessa forma, o aluno é capaz de navegar pelos sistemas  muscular, cardiovascular, nervoso, digestivo, entre outros.",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
                 }

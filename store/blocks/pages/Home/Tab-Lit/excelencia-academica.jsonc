@@ -14,8 +14,8 @@
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado 1",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "headline": "## Projeto pedagógico diferenciado",
+                    "subhead": "Currículos alinhados  às tendências mais atuais, priorizando o aluno no centro do aprendizado com metodologias ativas. Eficácia reconhecida com aprovação em programas residência/concursos médicos.",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
                 },
@@ -29,8 +29,23 @@
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado 1",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "headline": "## Plataformas virtuais de ensino personalizado",
+                    "subhead": "No IDOMED, nossos alunos têm acesso a vídeo aulas, simulados personalizados, questões comentadas, mapas mentais, casos clínicos, para que possam compreender melhor a vivência nos cenários de prática, e artigos científicos.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 1",
+                    "id": "home-instruction-1",
+                    "blockClass": "home-platform",
+                    "htmlId": "home-instruction-1",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/image-1.png",
+                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Corpo docente altamente qualificado e atualizado",
+                    "subhead": "Coordenadores, professores e preceptores cuidadosamente selecionados, com alta titulação e especialização.",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
                 }

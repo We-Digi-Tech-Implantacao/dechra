@@ -14,8 +14,8 @@
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado 4",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "headline": "## IDOMED carreiras",
+                    "subhead": "Programa de interação acadêmica e profissional para construir uma visão empreendedora, facilitando a escolha da especialidade médica, como também é possível desenvolver soft skills para a gestão estratégica da carreira",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
                 },
@@ -29,8 +29,23 @@
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Plataforma virtuais de ensino personalizado 4",
-                    "subhead": "Acesso a vídeo, simulados personalizados, questões comentadas, maps mentais, casos clpinicos e artigos científico, que associam a vivência nos cenários de prática ao conteúdo acadêmico.",
+                    "headline": "## Incentivo a atividades extracurriculares, pesquisa e extensão",
+                    "subhead": "Ir além da sala aula é extremamente importante para a formação de profissionais da saúde, por isso, aqui na IDOMED incentivamos nossos alunos a realizarem  estágios, participarem de ligas acadêmicas, pesquisas científicas e monitorias que oferecem uma ampla gama de oportunidades para o enriquecimento do currículo profissional.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 4",
+                    "id": "home-instruction-4",
+                    "blockClass": "home-platform",
+                    "htmlId": "home-instruction-4",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/image-1.png",
+                    "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Centro de treinamento autorizado AHA",
+                    "subhead": "Aqui no IDOMED, nossos alunos têm credenciamento para ministrar cursos chancelados pela American Heart Association (AHA), com o objetivo de aperfeiçoar habilidades em protocolos internacionais.",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
                 }

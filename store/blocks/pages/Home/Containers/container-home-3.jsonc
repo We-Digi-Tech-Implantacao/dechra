@@ -5,7 +5,7 @@
             "colSizing": "auto"
         },
         "children":[
-            "image#wallpaper-medical-carrer",
+            //"image#wallpaper-medical-carrer",
             "rich-text#title-medical-carrer"
         ]
     },

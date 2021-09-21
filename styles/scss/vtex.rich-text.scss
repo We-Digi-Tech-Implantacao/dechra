@@ -121,17 +121,10 @@
     }
 }
 .container--title-medical-carrer{
-    position: absolute;
+    //position: absolute;
     left: 0;
     top: 0;
     .wrapper--title-medical-carrer{
-        padding: 50px 0 0 95px;
-        @media(max-width: $maxTablet){
-            padding: 50px 0 0 15px;
-        }
-        @media(max-width: $maxMobile){
-            padding: 50px 0 0 15px;
-        }
         .heading--title-medical-carrer{
             font-size: 30px;
             font-weight: 500;
@@ -155,13 +148,13 @@
 .container--text-container-4{
     position: absolute;
     width: 700px !important;
-    top: 225px;
+    top: 50px;
     right: 230px;
     @media(max-width: $maxTablet){
         position: absolute;
-        width: 350px !important;
-        top: 134px;
-        right: 30px;
+        width: 500px!important;
+        top: 335px;
+        right: 110px;
     }
     @media(max-width: $maxMobile){
         position: absolute;
@@ -180,6 +173,7 @@
         .heading--text-container-4{
             color: #0A3F3C;
             font-size: 30px;
+            font-weight: 500;
             @media(max-width: $maxMobile){
                 font-size: 20px;
             }
@@ -194,14 +188,23 @@
         margin: 0 !important;
     }
     .wrapper--title-container-2{
+        .heading--title-container-2{
+            color: #0A3F3C;
+            font-weight: 500;
+            text-align: center;
+            @media(max-width: $maxMobile){
+                font-size: 23px;
+            }
+        }
         .paragraph--title-container-2{
-            font-size: 30px;
+            font-size: 20px;
             color: #0A3F3C;
             font-weight: 500;
             margin-top: 0;
-            margin-bottom: 50px;
+            text-align: center;
             @media(max-width: $maxMobile){
-                font-size: 20px;
+                font-size: 16px;
+                padding: 0 15px;
                 margin-bottom: 20px;
             }
         }

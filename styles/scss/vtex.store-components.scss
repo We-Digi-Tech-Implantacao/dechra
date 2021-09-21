@@ -67,8 +67,12 @@
     height: auto;
 }
 .imageElement--wallpaper-container-4{
-    padding-top: 20px;
+    padding-top: 115px;
+    @media(max-width: $maxTablet){
+        padding-top: 40px;
+    }
     @media(max-width: $maxMobile){
+        padding-top: 36px;
         height: 326px;
         transform: scaleX(-1);
     }
