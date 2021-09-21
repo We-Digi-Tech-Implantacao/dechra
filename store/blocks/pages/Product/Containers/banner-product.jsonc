@@ -1,17 +1,17 @@
 {
-    "flex-layout.row#wallpaper-product":{
+    "flex-layout.row#wallpaper-product-01":{
         "props":{
             "blockClass": "container-wallpaper-product",
             "colSizing": "auto"
         },
         "children":[
-            "list-context.info-card-list#wallpaper-product",
+            "list-context.info-card-list#wallpaper-product-01",
             "custom-signNow"
         ]
     },
 
-    "list-context.info-card-list#wallpaper-product": {
-        "title": "Lista de sliders principal",
+    "list-context.info-card-list#wallpaper-product-01": {
+        "title": "Produto Principal",
         "props": {
             "blockClass": ["home-list-instructions", "wallpaper-product"],
             "infoCards": [
@@ -35,10 +35,10 @@
             ]
         },
         "children": [
-            "slider-layout#home-list-instructions"
+            "slider-layout#list-product"
         ]
       },
-      "slider-layout#home-list-instructions": {
+      "slider-layout#list-product": {
           "title": "Slider principal",
           "props": {
               "itemsPerPage": {

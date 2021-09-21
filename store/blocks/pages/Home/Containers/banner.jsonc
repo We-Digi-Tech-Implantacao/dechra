@@ -1,6 +1,6 @@
 {
-    "list-context.info-card-list#home-list-instructions": {
-        "title": "Lista de sliders principal",
+    "list-context.info-card-list#home-list-instructions-01": {
+        "title": "Banner Principal",
         "props": {
             "blockClass": "home-list-instructions",
             "infoCards": [

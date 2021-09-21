@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.info-card-list#home-list-instructions",
+      "list-context.info-card-list#home-list-instructions-01",
       "flex-layout.row#container-home-2",
       "flex-layout.row#container-home-3",
       "flex-layout.row#container-home-4",
