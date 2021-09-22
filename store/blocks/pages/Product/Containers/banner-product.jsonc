@@ -18,7 +18,7 @@
                 {
                     "title": "Instrução 2",
                     "id": "home-instruction-2",
-                    "blockClass": ["home-instructions", "wallpaper-product"],
+                    "blockClass": ["home-instructions"],
                     "htmlId": "home-instruction-2",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/wallpaper-product.jpg",
