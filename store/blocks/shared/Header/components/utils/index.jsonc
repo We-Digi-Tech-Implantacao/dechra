@@ -28,9 +28,10 @@
     },
     "link.product#util-1": {
         "props": {
-          "href": "https://idomed.blackboard.com/",
+          "href": "https://idomed.blackboard.com",
           "label": "Login",
-          "blockClass": "button"
+          "blockClass": "button",
+          "target": "_self"
         },
         "children":[
             "image#icon"
