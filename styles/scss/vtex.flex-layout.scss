@@ -382,7 +382,7 @@
 	.flexRowContent--faq {
 		width: auto !important;
 		justify-content: center;
-		margin-left: 255px;
+		margin-left: 0;
 		@media (max-width: $maxTablet) {
 			margin: 0;
 			width: auto !important;
@@ -443,18 +443,20 @@
 	}
 }
 .flexRowContent--container-title-why-sign{
+	width: 727px;
+    margin: 70px auto;
 	display: flex;
     flex-direction: column;
     align-items: flex-start;
-	margin: 90px 0;
 	@media (max-width: $maxTablet) {
 		margin: 0;
-		align-items: flex-start;
+		align-items: center;
 	}
 	@media (max-width: $maxMobile) {
-		margin: 0;
+		width: auto !important;
 		align-items: center;
-		padding: 40px 0;
+		margin: 40px 0;
+		padding: 0
 	}
 }
 .flexRowContent--container-why-sign{
@@ -479,6 +481,11 @@
     justify-content: center;
 	flex-direction: column;
 	padding: 20px 0 0;
+	.stretchChildrenWidth{
+		&:first-child{
+			width: 100% !important
+		}
+	}
 }
 .flexRowContent--container-signature-container-2{
 	margin-top: 30px;

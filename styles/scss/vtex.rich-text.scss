@@ -262,7 +262,7 @@
     // position: absolute;
     // left: 420px;
     // top: 64px;
-    margin-left: 402px;
+    margin-left: 0;
     margin-bottom: 40px;
     width: 462px!important;
     @media (max-width: $maxTablet) {
@@ -279,9 +279,11 @@
             font-size: 36px;
             color: #0A3F3C;
             font-weight: 500;
-            margin-bottom: 0;
+            margin: 0;
             @media (max-width: $maxMobile) {
-                font-size: 26px;
+                font-size: 30px;
+                text-align: center;
+                padding: 0 30px;
             }
         }
     }
@@ -411,14 +413,22 @@
     }
 }
 .container--title-differentials{
+    justify-content: center;
+    border-bottom: 1px solid #E5E5E5;
+    @media(max-width: $maxTablet) {
+        border: none;
+    }
+    @media(max-width: $maxMobile) {
+        border: none;
+    }
     .wrapper--title-differentials{
         .heading--title-differentials{
             color: #0A3F3C;
             font-weight: bold;
             font-size: 40px;
             @media(max-width: $maxMobile) {
-                font-size: 30px;
-                margin-bottom: 50px;
+                font-size: 36px;
+                margin-bottom: 20px;
             }
         }
     }
