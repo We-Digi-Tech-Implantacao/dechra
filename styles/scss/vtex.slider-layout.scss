@@ -29,6 +29,15 @@
             font-size: 36px;
             color: #fff;
             font-weight: 500;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url("assets/images/logobranco.png");
+                background-size: 262px 57px;
+                background-repeat: no-repeat;
+                width: 265px;
+                height: 100px;
+            }
             @media(max-width: $maxTablet){
                 font-size: 30px;
             }
@@ -630,7 +639,7 @@
     .container--wallpaper-product{
         .wrapper--wallpaper-product{
             .heading--wallpaper-product{
-                bottom: 100px !important;
+                bottom: 150px !important;
                 position: relative !important;
                 @media(max-width: $maxMobile){
                     font-size: 26px
