@@ -4,15 +4,8 @@
             "blockClass": "container-why-sign"
         },
         "children":[
-            //"image#wallpaper-why-sign",
             "flex-layout.row#title-why-sign"
         ]
-    },
-    "image#wallpaper-why-sign": {
-        "props": {
-          "src": "assets/images/container-3.svg",
-          "blockClass": "wallpaper-why-sign"
-        }
     },
     "flex-layout.row#title-why-sign":{
         "props":{
@@ -25,6 +18,7 @@
         ]
     },
     "rich-text#title-why-sign": {
+        "title": "Title",
         "props": {
           "text": "Por que assinar este plano?",
           "blockClass": "title-why-sign"

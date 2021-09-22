@@ -19,12 +19,14 @@
         ]
     },
     "image#wallpaper-plans": {
+        "title": "Wallpaper",
         "props": {
           "src": "assets/images/component-3.jpg",
           "blockClass": "wallpaper-plans"
         }
     },
     "rich-text#title-plans": {
+        "title": "Titulo Planos",
         "props": {
           "text": "## Planos\n\nNisi incididunt culpa qui voluptate aliquip proident cillum nisi laborum sunt velit dolor occaecat?",
           "blockClass": "title-plans"

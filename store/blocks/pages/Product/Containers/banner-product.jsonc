@@ -11,15 +11,15 @@
     },
 
     "list-context.info-card-list#wallpaper-product-01": {
-        "title": "Produto Principal",
+        "title": "Banner de produto",
         "props": {
             "blockClass": ["home-list-instructions", "wallpaper-product"],
             "infoCards": [
                 {
-                    "title": "Instrução 2",
-                    "id": "home-instruction-2",
+                    "title": "Banner de produto",
+                    "id": "banner-de-produto",
                     "blockClass": ["home-instructions"],
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "banner-de-produto",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/wallpaper-product.jpg",
                     "mobileImageUrl": "assets/images/wallpaper-product.jpg",
@@ -39,7 +39,7 @@
         ]
       },
       "slider-layout#list-product": {
-          "title": "Slider principal",
+          "title": "Slider Banner de produto",
           "props": {
               "itemsPerPage": {
                   "desktop": 1,

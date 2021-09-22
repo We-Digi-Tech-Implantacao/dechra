@@ -8,7 +8,7 @@
         ]
     },
     "list-context.info-card-list#opinion": {
-        "title": "Lista de sliders principal",
+        "title": "Lista de sliders conheca a opiniao de quem usa no dia dia",
         "props": {
             "blockClass": "container-opinion",
             "infoCards": [
@@ -28,7 +28,7 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 1",
+                    "title": "Conheça a opinião de quem usa no dia-dia",
                     "id": "opinion",
                     "blockClass": "list-opinion",
                     "htmlId": "opinion",
@@ -49,7 +49,7 @@
         ]
       },
       "slider-layout#opinion": {
-          "title": "Slider principal",
+          "title": "Slider Conheça a opinião de quem usa no dia-dia",
           "props": {
               "itemsPerPage": {
                   "desktop": 1,
