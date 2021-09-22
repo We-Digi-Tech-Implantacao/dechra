@@ -4,7 +4,7 @@
             "blockClass": "container-container-home-4"
         },
         "children":[
-            "flex-layout.col#container-home-4",
+            //"flex-layout.col#container-home-4",
             "rich-text#container-4"
         ]
     },

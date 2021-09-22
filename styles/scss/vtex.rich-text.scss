@@ -152,25 +152,13 @@
     }
 }
 .container--text-container-4{
-    position: absolute;
-    width: 700px !important;
-    top: 50px;
-    right: 230px;
-    @media(min-width: 1600px){
-        width: 860px !important;
-        right: 22%;
-    }
+    width: 800px !important;
+    margin: 50px auto;
     @media(max-width: $maxTablet){
-        position: absolute;
-        width: 500px!important;
-        top: 335px;
-        right: 110px;
+        width: 540px!important;
     }
     @media(max-width: $maxMobile){
-        position: absolute;
         width: 350px!important;
-        top: 190px;
-        right: 33px;
     }
     .wrapper--text-container-4{
         .paragraph--text-container-4{
@@ -190,6 +178,7 @@
         }
     }
 }
+
 .container--title-container-2{
     display: flex;
     align-items: center;

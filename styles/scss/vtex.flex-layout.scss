@@ -309,10 +309,10 @@
 	background: linear-gradient(269.63deg, rgba(25, 209, 195, 0.72) 0.28%, rgba(196, 196, 196, 0) 133.7%);
 	height: 900px;
 	@media(max-width: $maxTablet){
-		height: 1435px;
+		height: 1020px;
 	}
 	@media(max-width: $maxMobile){
-		height: 1150px;
+		height: 1020px;
 	}
 }
 .flexCol--container-container-home-4-col{
@@ -510,4 +510,10 @@
 			width: 100% !important
 		}
 	}
+}
+.flexRowContent--container-container-home-4{
+	width: 100% !important;
+	background-image: url("assets/images/Frame.png");
+	background-repeat: no-repeat;
+    background-position: left;
 }
