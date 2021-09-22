@@ -45,6 +45,18 @@
             padding: 12px 20px;
             border-radius: 25px;
             font-size: 16px;
+            @media(max-width: $maxTablet){
+                background-color: transparent;
+                color: #FFA452;
+                padding: 0;
+                border-radius: none;
+            }
+            @media(max-width: $maxMobile){
+                background-color: transparent;
+                color: #FFA452;
+                padding: 0;
+                border-radius: none;
+            }
         }
     }
 }
@@ -63,5 +75,26 @@
 :global(.vtex-menu-2-x-submenuAccordion){
     @media(max-width: $maxMobile){
         padding-top: 10px;
+    }
+}
+
+.menuItem--isClosed{
+    .styledLinkContainer--menu-item-header-desktop{
+        .styledLink--menu-item-header-desktop{
+            .styledLinkContent--menu-item-header-desktop{
+                @media(max-width: $maxTablet){
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    line-height: 2;  
+                    font-weight: 100;              
+                }
+                @media(max-width: $maxMobile){
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    line-height: 2;  
+                    font-weight: 100;              
+                }
+            }
+        }
     }
 }

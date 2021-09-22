@@ -10,13 +10,13 @@
 @media(max-width: 1025px){
     .containerSignNow {   
         left: 50px;
-        top: 310px;
+        top: 365px;
     }
 }
 @media(max-width: 767px){
     .containerSignNow {
-        left: 30px;
-        top: 314px;
+        left: 23px;
+        top: 398px;
     }
 }
 .containerSignNow .plans {

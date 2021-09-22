@@ -39,7 +39,7 @@
     "image#icon": {
         "props": {
           "src": "https://idomed.vtexassets.com/arquivos/iconsvideo.png",
-          "blockClass": "icon-button"
+          "blockClass": ["icon-button", "iconLogin"]
         }
     },
     "flex-layout.col#util-2":{

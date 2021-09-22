@@ -624,6 +624,9 @@
             .heading--wallpaper-product{
                 bottom: 100px !important;
                 position: relative !important;
+                @media(max-width: $maxMobile){
+                    font-size: 26px
+                }
             }
         }
     }

@@ -74,6 +74,10 @@
 }
 .imageElement--wallpaper-container-4{
     padding-top: 115px;
+    @media(min-width: 1600px){
+        padding-top: 40px;
+        width: 420px;
+    }
     @media(max-width: $maxTablet){
         padding-top: 40px;
     }
@@ -129,4 +133,7 @@
 }
 .logoImage--logo-mobile{
     
+}
+.imageElement--iconLogin{
+    margin-right: 10px;
 }

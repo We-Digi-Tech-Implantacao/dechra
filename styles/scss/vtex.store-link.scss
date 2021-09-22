@@ -19,6 +19,22 @@
     color: #0A3F3C;
     font-size: 13px;
     font-weight: bold;
+    @media(max-width: $maxTablet) {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        text-transform: uppercase;
+        padding: 9px 0 0 21px;
+    }
+    @media(max-width: $maxMobile) {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        text-transform: uppercase;
+        padding: 9px 0 0 21px;
+    }
 }
 .link--button-signature{    
     display: flex;

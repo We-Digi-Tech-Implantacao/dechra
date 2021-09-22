@@ -175,6 +175,12 @@
 .flexCol--util{
 	align-items: center;
 	padding: 0 5px;
+	@media(max-width: $maxTablet){
+		align-items: flex-start;
+	}
+	@media(max-width: $maxMobile){
+		align-items: flex-start;
+	}
 	.flexColChild--util{
 		height: auto !important;
 	}
@@ -320,7 +326,7 @@
     width: 100%;
 	padding: 30px 100px 60px 100px;
 	@media(max-width: $maxTablet){
-	    padding: 30px 50px 60px 50px;
+	    padding: 0;
 	}
 	@media(max-width: $maxMobile){
 		padding: 30px 0px;
@@ -477,13 +483,8 @@
 .flexRowContent--container-signature-container-2{
 	margin-top: 30px;
 	@media(max-width: $maxTablet){
-		overflow: hidden;
-		display: flex;
-		flex-flow: row nowrap;
-		overflow-x: auto;
-		list-style: none;
-		align-items: center;
-		justify-content: flex-start;
+		margin-top: 30px;
+		padding: 0 15px;	
 	}
 	@media(max-width: $maxMobile){
 		overflow: hidden;
@@ -493,5 +494,6 @@
 		list-style: none;
 		align-items: center;
 		justify-content: flex-start;
+		padding: 0;
 	}
 }
