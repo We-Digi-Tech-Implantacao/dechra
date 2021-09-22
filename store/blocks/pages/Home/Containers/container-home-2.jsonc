@@ -11,6 +11,7 @@
         ]
     },
     "flex-layout.col#container-home-title":{
+        "title": "Opinião de quem usa no dia-dia",
         "props":{
             "blockClass": "container-home-title"
         },
@@ -19,12 +20,14 @@
         ]
     },
     "rich-text#title": {
+        "title": "Titulo",
         "props": {
           "text": "Conheça a opinião de quem usa no dia-dia",
           "blockClass": "title-home-2"
         }
     },
     "flex-layout.row#container-home-body":{
+        "title": "Slide de opniões",
         "props":{
             "blockClass": "container-home-slider"
         },
@@ -33,15 +36,15 @@
         ]
     },
     "list-context.info-card-list#slider-user": {
-        "title": "Lista de sliders principal",
+        "title": "Lista de sliders de opniões",
         "props": {
             "blockClass": "home-list-user",
             "infoCards": [
                 {
-                    "title": "Instrução 1",
-                    "id": "home-instruction-2",
+                    "title": "lista de opniões",
+                    "id": "opnião 1",
                     "blockClass": ["home-sliders-users"],
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "opnião 1",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/list.png",
                     "mobileImageUrl": "assets/images/list.png",
@@ -53,10 +56,10 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 1",
-                    "id": "home-instruction-2",
+                    "title": "lista de opniões",
+                    "id": "opnião 2",
                     "blockClass": ["home-sliders-users"],
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "opnião 2",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/list.png",
                     "mobileImageUrl": "assets/images/list.png",
@@ -74,7 +77,7 @@
         ]
     },
     "slider-layout#slider-user": {
-          "title": "Slider principal",
+          "title": "Slider de opniões",
           "props": {
               "itemsPerPage": {
                   "desktop": 1,

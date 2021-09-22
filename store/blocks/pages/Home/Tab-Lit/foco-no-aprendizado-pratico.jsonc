@@ -1,14 +1,14 @@
 {
     "list-context.info-card-list#home-container-2": {
-        "title": "Lista de sliders principal",
+        "title": "Lista de sliders Foco no aprendizado prático",
         "props": {
             "blockClass": "home-list-platform",
             "infoCards": [
                 {
-                    "title": "Instrução 2",
-                    "id": "home-instruction-2",
+                    "title": "Foco no aprendizado prático",
+                    "id": "foco-no-aprendizado-pratico",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "foco-no-aprendizado-pratico",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -20,10 +20,10 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 2",
-                    "id": "home-instruction-2",
+                    "title": "Foco no aprendizado prático",
+                    "id": "foco-no-aprendizado-pratico",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "foco-no-aprendizado-pratico",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -35,10 +35,10 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 2",
-                    "id": "home-instruction-2",
+                    "title": "Foco no aprendizado prático",
+                    "id": "foco-no-aprendizado-pratico",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "foco-no-aprendizado-pratico",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -50,10 +50,10 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 2",
-                    "id": "home-instruction-2",
+                    "title": "Foco no aprendizado prático",
+                    "id": "foco-no-aprendizado-pratico",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-2",
+                    "htmlId": "foco-no-aprendizado-pratico",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -71,7 +71,7 @@
         ]
       },
       "slider-layout#home-container-2": {
-          "title": "Slider principal",
+          "title": "Slider Foco no aprendizado prático",
           "props": {
               "itemsPerPage": {
                   "desktop": 1,

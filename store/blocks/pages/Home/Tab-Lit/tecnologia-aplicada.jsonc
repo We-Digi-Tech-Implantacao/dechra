@@ -1,14 +1,14 @@
 {
     "list-context.info-card-list#home-container-3": {
-        "title": "Lista de sliders principal",
+        "title": "Lista de sliders Tecnologia aplicada",
         "props": {
             "blockClass": "home-list-platform",
             "infoCards": [
                 {
-                    "title": "Instrução 3",
-                    "id": "home-instruction-3",
+                    "title": "Tecnologia aplicada",
+                    "id": "tecnologia-aplicada",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-3",
+                    "htmlId": "tecnologia-aplicada",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -20,10 +20,10 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 3",
-                    "id": "home-instruction-3",
+                    "title": "Tecnologia aplicada",
+                    "id": "tecnologia-aplicada",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-3",
+                    "htmlId": "tecnologia-aplicada",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -35,10 +35,10 @@
                     "callToActionMode": "none"
                 },
                 {
-                    "title": "Instrução 3",
-                    "id": "home-instruction-3",
+                    "title": "Tecnologia aplicada",
+                    "id": "tecnologia-aplicada",
                     "blockClass": "home-platform",
-                    "htmlId": "home-instruction-3",
+                    "htmlId": "tecnologia-aplicada",
                     "isFullModeStyle": false,
                     "imageUrl": "assets/images/image-1.png",
                     "mobileImageUrl": "https://idomed.vtexassets.com/arquivos/banner-1.jpg",
@@ -56,7 +56,7 @@
         ]
       },
       "slider-layout#home-container-3": {
-          "title": "Slider principal",
+          "title": "Slider Tecnologia aplicada",
           "props": {
               "itemsPerPage": {
                   "desktop": 1,

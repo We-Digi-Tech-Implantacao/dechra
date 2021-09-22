@@ -1,14 +1,14 @@
 {
     "list-context.info-card-list#home-list-instructions-01": {
-        "title": "Banner Principal",
+        "title": "Banner principal",
         "props": {
             "blockClass": "home-list-instructions",
             "infoCards": [
                 {
-                    "title": "Instrução 1",
-                    "id": "home-instruction-1",
+                    "title": "Banner Home",
+                    "id": "BannerHome",
                     "blockClass": "home-instructions",
-                    "htmlId": "home-instruction-1",
+                    "htmlId": "BannerHome",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/banner.jpg",
                     "mobileImageUrl": "assets/images/banner.jpg",
@@ -28,7 +28,7 @@
         ]
       },
       "slider-layout#home-list-instructions": {
-          "title": "Slider principal",
+          "title": "Slider banner principal",
           "props": {
               "itemsPerPage": {
                   "desktop": 1,

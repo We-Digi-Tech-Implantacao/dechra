@@ -1,28 +1,15 @@
 {
     "flex-layout.row#container-home-4":{
+        "title": "Sobre IDOMED",
         "props":{
             "blockClass": "container-container-home-4"
         },
         "children":[
-            //"flex-layout.col#container-home-4",
             "rich-text#container-4"
         ]
     },
-    "flex-layout.col#container-home-4":{
-        "props":{
-            "blockClass": "container-container-home-4-col"
-        },
-        "children":[
-            "image#wallpaper-container-4"
-        ] 
-    },
-    "image#wallpaper-container-4": {
-        "props": {
-          "src": "assets/images/Frame.png",
-          "blockClass": "wallpaper-container-4"
-        }
-    },
     "rich-text#container-4": {
+        "title": "IDOMED",
         "props": {
           "text": "## IDOMED: Há 20 anos sendo um marco de excelência no ensino da medicina.\n\n- São mais de 6 mil alunos;\n\n- Mais de 6 mil médicos formados;\n\n- Temos 14 unidades de ensino espalhadas por 9 estados do Brasil;\n\n- São mais de 130 mil unidades de saúde parceiras para a prática clínica.\n\nO IDOMED nasceu do encontro entre as escolas de medicina da Estácio, FAMEAC, FAPAN e UniFacid. Essas instituições acreditam que a medicina se faz na prática!\n\nNossos alunos encontrarão um corpo docente altamente especializado e titulado, laboratórios com equipamentos de última geração, parceria com os principais\n\nhospitais e unidades de saúde, para que nossos alunos possam aprender na prática e, acima de tudo, o cuidado humano.\n\n## Quando a tradição e a inovação se juntam para a formação médica.\n\nSão mais de 20 anos formando profissionais da saúde que estejam a serviço das pessoas, sempre tendo como foco a união entre a tradição e a inovação tecnológica. Estabelecemos, também, pilares importantes para atingirmos esses objetivos.",
           "blockClass": "text-container-4"
