@@ -6,7 +6,7 @@ export default function SignNow(){
         <div className={styles.containerSignNow}>
             <div className={styles.plans}>
                 <select name="select">
-                    <option disabled selected className={styles.optionTitle}>plano mensal</option>
+                    <option disabled selected className={styles.optionTitle}>Plano mensal</option>
                     <option value="valor1">Valor 1</option>
                     <option value="valor2">Valor 2</option>
                     <option value="valor3">Valor 3</option>

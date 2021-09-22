@@ -135,5 +135,11 @@
     
 }
 .imageElement--iconLogin{
-    margin-right: 10px;
+    margin-right: 0;
+    @media(max-width: $maxTablet){
+        margin-right: 10px;
+    }
+    @media(max-width: $maxMobile){
+        margin-right: 10px;
+    }
 }

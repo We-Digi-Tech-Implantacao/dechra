@@ -153,11 +153,13 @@
 }
 .container--text-container-4{
     width: 800px !important;
-    margin: 50px auto;
+    margin: 50px auto 50px 400px;
     @media(max-width: $maxTablet){
+        margin: 50px auto !important;
         width: 540px!important;
     }
     @media(max-width: $maxMobile){
+        margin: 50px auto !important;
         width: 350px!important;
     }
     .wrapper--text-container-4{
