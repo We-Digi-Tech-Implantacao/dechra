@@ -45,11 +45,11 @@
     },
     "flex-layout.col#util-2":{
         "props":{
-            "blockClass": "util"
+            "blockClass": ["util", "util-border"]
         },
         "children":[
             "image#icon-2",
-            "login"
+            "login#menu"
         ]
     },
     "image#icon-2": {
@@ -58,20 +58,20 @@
           "blockClass": "icon-button"
         }
     },
-    "login": {
+    "login#menu": {
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Acess Code LOG-IN",
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
-          "blockClass": "login",
+          "blockClass": ["login", "login-mobile"],
           "iconLabel": "Minha Conta"
         }
     },
     "flex-layout.col#util-3":{
         "props":{
-            "blockClass": ["util", "util-3"]
+            "blockClass": ["util", "util-3", "util-border"]
         },
         "children":[
             "image#icon-3",

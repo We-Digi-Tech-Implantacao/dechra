@@ -35,10 +35,19 @@
             "menu-item#menu-item-3",
             "menu-item#menu-item-4",
             "menu-item#menu-item-5",
-            "flex-layout.col#util-1"
+            "flex-layout.col#util-mobile"
         ],
         "props": {
           "orientation": "vertical"
         }
+    },
+    "flex-layout.col#util-mobile":{
+      "props": {
+        "blockClass": "util-mobile"
+      },
+      "children": [
+        "flex-layout.col#util-2",
+        "flex-layout.col#util-1"
+      ]
     }
 }

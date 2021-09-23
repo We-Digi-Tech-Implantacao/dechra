@@ -18,6 +18,18 @@
     font-weight: bold;
     padding-left: 8px;
     font-size: 13px;
+    @media(max-width: $maxTablet){
+        display: flex !important;
+        font-size: 20px!important;
+        font-weight: 500!important;
+        text-transform: uppercase;
+    }
+    @media(max-width: $maxMobile){
+        display: flex !important;
+        font-size: 20px!important;
+        font-weight: 500!important;
+        text-transform: uppercase;
+    }
 }
 :global(.vtex-minicart-2-x-minicartIconContainer){
     position: unset;

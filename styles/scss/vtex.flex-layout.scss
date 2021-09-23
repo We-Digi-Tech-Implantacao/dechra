@@ -176,10 +176,18 @@
 	align-items: center;
 	padding: 0 5px;
 	@media(max-width: $maxTablet){
-		align-items: flex-start;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		padding: 0
 	}
 	@media(max-width: $maxMobile){
-		align-items: flex-start;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		padding: 0
 	}
 	.flexColChild--util{
 		height: auto !important;
@@ -516,4 +524,41 @@
 	background-image: url("assets/images/Frame.png");
 	background-repeat: no-repeat;
     background-position: left;
+}
+
+.flexCol--util-mobile{
+	@media(max-width: $maxTablet){
+		margin-top: 30px;
+		margin-left: 21px;
+		.flexColChild--util-mobile {
+			padding-top: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #0A3F3C;
+			padding: 10px;
+			border-radius: 5px;	
+			margin-bottom: 10px;
+			.flexCol--util{
+
+			}
+		}
+	}
+	@media(max-width: $maxMobile){
+		margin-top: 30px;
+		margin-left: 21px;
+		.flexColChild--util-mobile {
+			padding-top: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #0A3F3C;
+			padding: 10px;
+			border-radius: 5px;	
+			margin-bottom: 10px;
+			.flexCol--util{
+
+			}
+		}
+	}
 }

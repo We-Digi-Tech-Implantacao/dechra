@@ -61,8 +61,11 @@
 .containerSignNow .plans select .optionTitle{
     display: none;
 }
-.containerSignNow .plans .containerPrice {
 
+@media(max-width: 767px){
+    .containerSignNow .plans .containerPrice {
+        margin-top: 25px;
+    }
 }
 .containerSignNow .plans .containerPrice strong{
     color: #FFA452;

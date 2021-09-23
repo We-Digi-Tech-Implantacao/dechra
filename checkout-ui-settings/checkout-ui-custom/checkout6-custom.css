@@ -1,0 +1,28 @@
+.containerHeader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 15px;
+  width: 100%;
+  max-width: 100%;
+}
+.containerHeader .logo{
+  width: 130px;
+}
+.containerHeader .containerIcon a .iconSolcial{
+  width: 40px;
+  padding: 0 5px;
+}
+.containerFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #E6E6E6;
+  padding: 30px;
+}
+.containerFooter .containerIcon .icon{
+  width: 30px;
+  padding: 0 5px;
+}

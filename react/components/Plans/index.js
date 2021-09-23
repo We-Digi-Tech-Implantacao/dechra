@@ -4,7 +4,7 @@ import styles from './styles.css'
 export default function Plans(){
     return(
         <div className={styles.container}>
-            <div className={styles.containerPlans}>
+            {/* <div className={styles.containerPlans}>
                 <div className={styles.title}>
                     <strong>MENSAL</strong>
                 </div>
@@ -16,7 +16,7 @@ export default function Plans(){
                 <div className={styles.button}>
                     <a href="">Assine agora</a>
                 </div>
-            </div>
+            </div> */}
 
             <div className={styles.containerPlans}>
                 <div className={styles.title}>
@@ -33,7 +33,7 @@ export default function Plans(){
                 </div>
             </div>
 
-            <div className={styles.containerPlans}>
+            {/* <div className={styles.containerPlans}>
                 <div className={styles.title}>
                     <strong>EQUIPE</strong>
                 </div>
@@ -45,7 +45,7 @@ export default function Plans(){
                 <div className={styles.button}>
                     <a href="">Assine agora</a>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

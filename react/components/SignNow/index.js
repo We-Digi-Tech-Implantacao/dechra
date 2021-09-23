@@ -5,12 +5,12 @@ export default function SignNow(){
     return(
         <div className={styles.containerSignNow}>
             <div className={styles.plans}>
-                <select name="select">
+                {/* <select name="select">
                     <option disabled selected className={styles.optionTitle}>Plano mensal</option>
                     <option value="valor1">Valor 1</option>
                     <option value="valor2">Valor 2</option>
                     <option value="valor3">Valor 3</option>
-                </select>
+                </select> */}
                 <div className={styles.containerPrice}>
                     <strong>por apenar</strong>
                     <h2>R$ 299,90</h2>
