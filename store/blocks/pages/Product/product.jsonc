@@ -2,7 +2,8 @@
   "store.custom#product": {
     "children": [
       "flex-layout.row#wallpaper-product-01",
-      "flex-layout.row#signature-responsive",
+      "responsive-layout.desktop#signature",
+      "responsive-layout.mobile#signature",
       "flex-layout.row#plans",
       "flex-layout.row#differentials",
       "responsive-layout.mobile",

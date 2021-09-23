@@ -360,6 +360,9 @@
 	display: flex;
     align-items: center;
     justify-content: center;
+	@media(max-width: $maxTablet){
+		margin: 30px 0 0 0;
+	}
 	@media(max-width: $maxMobile){
 		margin: 30px 0 0 0;
 	}

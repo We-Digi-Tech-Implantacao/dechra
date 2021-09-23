@@ -650,6 +650,13 @@
 }
 .sliderLayoutContainer--carousel{
     .paginationDotsContainer--carousel{
+        margin: 0;
+        @media(max-width: $maxTablet){
+            margin: 0 0 10px 0 ;
+        }
+        @media(max-width: $maxMobile){
+            margin: 0;
+        }
         .paginationDot--carousel--isActive{
             background-color: #0A3F3C !important;
         }

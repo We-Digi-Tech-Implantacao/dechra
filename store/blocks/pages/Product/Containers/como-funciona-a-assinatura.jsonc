@@ -1,11 +1,4 @@
 {
-    "flex-layout.row#signature-responsive":{
-        "children":[
-            "responsive-layout.desktop#signature",
-            "responsive-layout.mobile#signature"
-        ]
-    },
-    
     "responsive-layout.desktop#signature":{
         "children": [
             "flex-layout.row#signature-desktop"
