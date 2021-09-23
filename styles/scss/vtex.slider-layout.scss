@@ -103,23 +103,23 @@
 }
 .sliderLayoutContainer--home-list-user{
     position: initial !important;
-    @media(max-width: $maxMobile){
-        position: relative !important;
-    }
+    // @media(max-width: $maxMobile){
+    //     position: relative !important;
+    // }
     .sliderLeftArrow--home-list-user{
             position: absolute;
             top: 80px;
             right: 0;
             left: 760px;
-            @media(max-width: $maxTablet){
-                left: 550px;
-            }
-            @media(max-width: $maxMobile){
-                position: absolute;
-                left: -2% !important;
-                top: 50%;
-                padding: 0;
-            }
+            // @media(max-width: $maxTablet){
+            //     left: 550px;
+            // }
+            // @media(max-width: $maxMobile){
+            //     position: absolute;
+            //     left: -2% !important;
+            //     top: 50%;
+            //     padding: 0;
+            // }
             &::before{
                 content: '';
                 display: block;
@@ -134,10 +134,10 @@
         .caretIcon--home-list-user{
             color: #0A3F3C;
             opacity: 0;
-            @media(max-width: $maxMobile){
-                opacity: 1;
-                width: 20px;
-            }
+            // @media(max-width: $maxMobile){
+            //     opacity: 1;
+            //     width: 20px;
+            // }
         }
     }
     .sliderRightArrow--home-list-user{
@@ -145,16 +145,16 @@
             top: 80px;
             right: 0;
             left: 850px;
-            @media(max-width: $maxTablet){
-                left: 650px;
-            }
-            @media(max-width: $maxMobile){
-                position: absolute;
-                /* right: auto; */
-                top: 50%;
-                left: 94% !important;
-                padding: 0;
-            }
+            // @media(max-width: $maxTablet){
+            //     left: 650px;
+            // }
+            // @media(max-width: $maxMobile){
+            //     position: absolute;
+            //     /* right: auto; */
+            //     top: 50%;
+            //     left: 94% !important;
+            //     padding: 0;
+            // }
             &::before{
                 content: '';
                 display: block;
@@ -168,10 +168,10 @@
         .caretIcon--home-list-user{
             color: #0A3F3C;
             opacity: 0;
-            @media(max-width: $maxMobile){
-                opacity: 1;
-                width: 20px;
-            }
+            // @media(max-width: $maxMobile){
+            //     opacity: 1;
+            //     width: 20px;
+            // }
         }
     }
 }
@@ -203,24 +203,24 @@
     align-items: flex-start;
     padding: 0px ;
     margin-top: 40px;
-    @media(max-width: $maxTablet){
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    @media(max-width: $maxMobile){
-        width: 100% !important;
-        margin: 0;
-        align-items: center;
-    }
+    // @media(max-width: $maxTablet){
+    //     margin-left: 20px;
+    //     margin-top: 20px;
+    // }
+    // @media(max-width: $maxMobile){
+    //     width: 100% !important;
+    //     margin: 0;
+    //     align-items: center;
+    // }
     .container--home-list-user{
         width: 60% !important;
-        @media(max-width: $maxTablet){
-            width: 80% !important;
-        }
-        @media(max-width: $maxMobile){
-            width: 92% !important;
-            justify-content: center;
-        }
+        // @media(max-width: $maxTablet){
+        //     width: 80% !important;
+        // }
+        // @media(max-width: $maxMobile){
+        //     width: 92% !important;
+        //     justify-content: center;
+        // }
         .wrapper--home-list-user{
             .paragraph--home-list-user{
                 color: #727272;
@@ -228,11 +228,11 @@
                 line-height: 1.5;
                 margin-bottom: 20px;
                 margin-top: 0;
-                @media(max-width: $maxMobile){
-                    text-align: center;
-                    margin-top: 20px;
-                    margin-bottom: 0;
-                }
+                // @media(max-width: $maxMobile){
+                //     text-align: center;
+                //     margin-top: 20px;
+                //     margin-bottom: 0;
+                // }
                 .strong--home-list-user{
                     &:first-child{
                         color: #0A3F3C;
@@ -254,24 +254,26 @@
         padding: 0;
         align-items: flex-start;
         background: transparent;
-        @media(max-width: $maxMobile){
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-        }
+        // @media(max-width: $maxMobile){
+        //     display: flex;
+        //     flex-direction: column-reverse;
+        //     align-items: center;
+        // }
         .infoCardImageContainer--home-list-user{
             .infoCardImage--home-list-user{
                 width: 180px;
                 height: 180px;
                 border-radius: 100%;
-                @media(max-width: $maxTablet){
-                    width: 150px;
-                    height: 140px;
-                }
-                @media(max-width: $maxMobile){
-                    width: 103px;
-                    height: 103px;
-                }
+                object-position: top;
+                object-fit: cover !important;
+                // @media(max-width: $maxTablet){
+                //     width: 150px;
+                //     height: 140px;
+                // }
+                // @media(max-width: $maxMobile){
+                //     width: 103px;
+                //     height: 103px;
+                // }
             }
         }
     }
@@ -294,9 +296,39 @@
         }
     }
 }
+.sliderLayoutContainer--container-home-2-mobile{
+    .sliderTrackContainer--container-home-2-mobile{
+        .sliderTrack--container-home-2-mobile{
+            .slide--container-home-2-mobile--firstVisible{
+                .slideChildrenContainer--container-home-2-mobile{
+                    @media(max-width: $maxTablet){
+                        padding: 0 15px 50px !important;
+                    }
+                    @media(max-width: $maxMobile){
+                        padding: 0 15px 50px !important;
+                    }
+                }
+            }
+        }
+    }
+}
 .infoCardContainer--home-list-platform{
     display: flex;
     align-items: flex-start;
+    @media(max-width: $maxMobile){
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+.infoCardContainer--container-home-2-mobile{
+    display: flex;
+    align-items: flex-start;
+    @media(max-width: $maxTablet){
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
     @media(max-width: $maxMobile){
         display: flex;
         flex-direction: column-reverse;
@@ -321,10 +353,55 @@
             margin: 0;
             @media(max-width: $maxTablet){
                 font-size: 18px;
+                text-align: center;
             }
             @media(max-width: $maxMobile){
                 font-size: 16px;
                 text-align: center;
+            }
+        }
+    }
+}
+.container--home-list-platform{
+    .wrapper--home-list-platform{
+        .heading--home-list-platform{
+            font-size: 30px;
+            font-weight: 500;
+            color: #0A3F3C;
+            @media(max-width: $maxTablet){
+                font-size: 26px;
+            }
+            @media(max-width: $maxMobile){
+                font-size: 19px;
+                text-align: center;
+            }
+        }
+        .paragraph--home-list-platform{
+            color: #0A3F3C;
+            font-size: 20px;
+            margin: 0;
+            @media(max-width: $maxTablet){
+                font-size: 18px;
+                margin-top: 20px;
+            }
+            @media(max-width: $maxMobile){
+                font-size: 16px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+        .strong--container-home-2-mobile{
+            @media(max-width: $maxTablet){
+                &:first-child{
+                    margin-top: 10px;
+                    font-size: 20px;
+                }
+            }
+            @media(max-width: $maxMobile){
+                &:first-child{
+                    margin-top: 10px;
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -335,7 +412,7 @@
         width: 20px;
         padding-left: 35px;
         @media(max-width: $maxTablet){
-            padding-left: 10px;
+            padding-left: 0px;
         }
         @media(max-width: $maxMobile){
             padding-left: 0;
@@ -348,11 +425,21 @@
         width: 20px;
         padding-right: 35px;
         @media(max-width: $maxTablet){
-            padding-right: 10px;
+            padding-right: 0px;
         }
         @media(max-width: $maxMobile){
-            padding-left: 0;
+            padding-left: 0 !important;
         }
+    }
+}
+.sliderLeftArrow--container-home-2-mobile{
+    .caretIcon--container-home-2-mobile{
+        color: #0A3F3C;
+    }
+}
+.sliderRightArrow--container-home-2-mobile{
+    .caretIcon--container-home-2-mobile{
+        color: #0A3F3C;
     }
 }
 .infoCardImageContainer--home-list-platform{
@@ -375,6 +462,33 @@
     }
 }
 
+.infoCardImageContainer--container-home-2-mobile{
+    @media(max-width: $maxTablet){
+        padding: 0 0 0 50px;
+    }
+    @media(max-width: $maxMobile){
+        padding: 0
+    }
+    .infoCardImage--container-home-2-mobile{
+        height: 350px;
+        width: 100%;
+        @media(max-width: $maxTablet){
+            height: 160px;
+            width: 160px;
+            /* display: none; */
+            border-radius: 100%;
+            object-position: top;
+        }
+        @media(max-width: $maxMobile){
+            height: 120px;
+            width: 120px;
+            /* display: none; */
+            border-radius: 100%;
+            object-position: top;
+        }
+    }
+}
+
 .infoCardContainer--home-list-platform {
     .infoCardTextContainer--home-list-platform {
         align-items: flex-start;
@@ -383,6 +497,19 @@
         }
         @media(max-width: $maxMobile){
             align-items: center;
+        }
+    }
+}
+.infoCardContainer--container-home-2-mobile {
+    .infoCardTextContainer--container-home-2-mobile {
+        align-items: flex-start;
+        @media(max-width: $maxTablet){
+            align-items: center;
+            width: 500px;
+        }
+        @media(max-width: $maxMobile){
+            align-items: center;
+            width: auto !important
         }
     }
 }

@@ -110,6 +110,9 @@
     width: 466px !important;
     @media(max-width: $maxMobile){
         width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .wrapper--title-home-2{
         .paragraph--title-home-2{
@@ -119,9 +122,13 @@
             color: #0A3F3C;
             @media(max-width: $maxTablet){
                 font-size: 26px;
+                padding: 20px 23px 0;
+                text-align: center;
             }
             @media(max-width: $maxMobile){
-                font-size: 19px;
+                font-size: 23px;
+                padding: 20px 23px 0;
+                text-align: center;
             }
         }
     }
