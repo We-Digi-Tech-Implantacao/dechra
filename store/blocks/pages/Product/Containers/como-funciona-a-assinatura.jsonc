@@ -1,5 +1,54 @@
 {
-    "flex-layout.row#signature": {
+    "flex-layout.row#signature-responsive":{
+        "children":[
+            "responsive-layout.desktop#signature",
+            "responsive-layout.mobile#signature"
+        ]
+    },
+    
+    "responsive-layout.desktop#signature":{
+        "children": [
+            "flex-layout.row#signature-desktop"
+        ]
+    },
+    "responsive-layout.mobile#signature":{
+        "children": [
+            "flex-layout.row#signature-mobile"
+        ]
+    },
+    "flex-layout.row#signature-mobile": {
+        "props":{
+            "blockClass": "container-signature",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.row#title-container-2",
+            "slider-layout#signature-mobile"
+        ]
+    },
+    "slider-layout#signature-mobile": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "blockClass": "carousel",
+          "autoplay": {
+              "timeout": 3000
+          }
+        },
+        "children": [
+            "flex-layout.col#signature-1",
+            "flex-layout.col#signature-2",
+            "flex-layout.col#signature-3"
+        ]
+      },
+ 
+
+    "flex-layout.row#signature-desktop": {
         "props":{
             "blockClass": "container-signature",
             "colSizing": "auto"
