@@ -362,9 +362,9 @@
         }
     }
 }
-.container--home-list-platform{
-    .wrapper--home-list-platform{
-        .heading--home-list-platform{
+.container--container-home-2-mobile{
+    .wrapper--container-home-2-mobile{
+        .heading--container-home-2-mobile{
             font-size: 30px;
             font-weight: 500;
             color: #0A3F3C;
@@ -376,7 +376,7 @@
                 text-align: center;
             }
         }
-        .paragraph--home-list-platform{
+        .paragraph--container-home-2-mobile{
             color: #0A3F3C;
             font-size: 20px;
             margin: 0;
@@ -390,20 +390,20 @@
                 margin-top: 20px;
             }
         }
-        .strong--container-home-2-mobile{
-            @media(max-width: $maxTablet){
-                &:first-child{
-                    margin-top: 10px;
-                    font-size: 20px;
-                }
-            }
-            @media(max-width: $maxMobile){
-                &:first-child{
-                    margin-top: 10px;
-                    font-size: 20px;
-                }
-            }
-        }
+        // .strong--container-home-2-mobile{
+        //     @media(max-width: $maxTablet){
+        //         &:first-child{
+        //             margin-top: 10px;
+        //             font-size: 20px;
+        //         }
+        //     }
+        //     @media(max-width: $maxMobile){
+        //         &:first-child{
+        //             margin-top: 10px;
+        //             font-size: 20px;
+        //         }
+        //     }
+        // }
     }
 }
 .sliderLeftArrow--home-list-platform{
@@ -502,14 +502,11 @@
 }
 .infoCardContainer--container-home-2-mobile {
     .infoCardTextContainer--container-home-2-mobile {
-        align-items: flex-start;
         @media(max-width: $maxTablet){
             align-items: center;
-            width: 500px;
         }
         @media(max-width: $maxMobile){
             align-items: center;
-            width: auto !important
         }
     }
 }

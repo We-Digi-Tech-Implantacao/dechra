@@ -124,7 +124,7 @@
                   "tablet": 1,
                   "phone": 1
               },
-              "infinite": false,
+              "infinite": true,
               "showPaginationDots": "never",
               "blockClass": "home-list-user"
           }
