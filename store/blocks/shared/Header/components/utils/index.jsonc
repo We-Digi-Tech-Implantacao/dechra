@@ -31,7 +31,7 @@
           "href": "https://idomed.blackboard.com",
           "label": "Login",
           "blockClass": "button",
-          "target": "_self"
+          "target": "_blanck"
         },
         "children":[
             "image#icon"
@@ -92,11 +92,17 @@
         }
     },
     "minicart.v2": {
+        "props": {
+            "blockClass": "container-minicart.v2"
+        },
         "children": [
             "minicart-base-content"
         ]
     },
     "minicart-base-content": {
+        "props": {
+            "blockClass": "container-minicart-base-content"
+        },
         "blocks": [
             "minicart-empty-state"
         ],
@@ -114,22 +120,34 @@
         ]
     },
     "flex-layout.col#minicart-footer": {
+        "props": {
+            "blockClass": "container-minicart-footer"
+        },
         "children": [
             "minicart-summary",
             "minicart-checkout-button"
         ]
     },
     "minicart-product-list": {
+        "props": {
+            "blockClass": "container-minicart-product-list"
+        },
         "blocks": [
             "product-list#minicart"
         ]
     },
     "product-list#minicart": {
+        "props": {
+            "blockClass": "container-product-lis-minicart"
+        },
         "blocks": [
             "product-list-content-mobile"
         ]
     },
     "minicart-summary": {
+        "props": {
+            "blockClass": "container-minicart-summary"
+        },
         "blocks": [
             "checkout-summary.compact#minicart"
         ]
@@ -139,6 +157,7 @@
             "summary-totalizers#minicart"
         ],
         "props": {
+            "blockClass": "container-checkout-summary.compact",
             "totalizersToShow": [
                 "Items",
                 "Discounts"
@@ -148,15 +167,22 @@
     "summary-totalizers#minicart": {
         "props": {
             "showTotal": true,
-            "showDeliveryTotal": false
+            "showDeliveryTotal": false,
+            "blockClass": "container-summary-totalizers"
         }
     },
     "minicart-empty-state": {
+        "props": {
+            "blockClass": "container-minicart-empty-state"
+        },
         "children": [
             "flex-layout.row#empty-state"
         ]
     },
     "flex-layout.row#empty-state": {
+        "props": {
+            "blockClass": "container-empty-state"
+        },
         "children": [
             "flex-layout.col#empty-state"
         ]
@@ -168,12 +194,14 @@
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "middle",
-            "rowGap": 0
+            "rowGap": 0,
+            "blockClass": "container-empty-state-col"
         }
     },
     "rich-text#minicart-default-empty-state": {
         "props": {
-            "text": "Seu carrinho está vazio."
+            "text": "Seu carrinho está vazio.",
+            "blockClass": "minicart-default-empty-state"
         }
     }
 }
