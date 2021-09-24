@@ -132,7 +132,16 @@
 
     "flex-layout.row#container-home-2-mobile":{
         "props":{
-            "blockClass": "container-home-2-mobile",
+            //"blockClass": "container-home-2-mobile",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.col#container-home-2-mobile"
+        ]
+    },
+    "flex-layout.col#container-home-2-mobile":{
+        "props":{
+            //"blockClass": "container-home-2-mobile",
             "colSizing": "auto"
         },
         "children":[

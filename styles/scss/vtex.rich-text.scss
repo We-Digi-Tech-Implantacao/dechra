@@ -108,11 +108,19 @@
 }
 .container--title-home-2 {
     width: 466px !important;
+    @media(max-width: $maxTablet){
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
     @media(max-width: $maxMobile){
         width: 100% !important;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
     }
     .wrapper--title-home-2{
         .paragraph--title-home-2{
@@ -166,15 +174,15 @@
         width: 540px!important;
     }
     @media(max-width: $maxMobile){
-        margin: 50px auto !important;
-        width: 350px!important;
+        margin: 90px 0 auto!important;
+        width: 300px!important;
     }
     .wrapper--text-container-4{
         .paragraph--text-container-4{
             font-size: 18px;
             line-height: 1.5;
             @media(max-width: $maxMobile){
-                font-size: 16px;
+                font-size: 14px;
             }
         }
         .heading--text-container-4{

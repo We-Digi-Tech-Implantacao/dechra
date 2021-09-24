@@ -42,7 +42,7 @@
                 font-size: 30px;
             }
             @media(max-width: $maxMobile){
-                font-size: 22px;
+                font-size: 26px;
             }
         }
         .paragraph--home-list-instructions{
@@ -55,7 +55,7 @@
                 font-size: 20px;
             }
             @media(max-width: $maxMobile){
-                font-size: 16px;
+                font-size: 20px;
             }
         }
     }
@@ -344,7 +344,7 @@
                 font-size: 26px;
             }
             @media(max-width: $maxMobile){
-                font-size: 19px;
+                font-size: 20px;
                 text-align: center;
             }
         }
@@ -356,13 +356,22 @@
                 text-align: center;
             }
             @media(max-width: $maxMobile){
-                font-size: 16px;
+                font-size: 14px;
                 text-align: center;
             }
         }
     }
 }
 .container--container-home-2-mobile{
+    @media(max-width: $maxTablet){
+        align-items: center;
+        justify-content: center;
+    }
+    @media(max-width: $maxMobile){
+        width: 300px !important;
+        align-items: center;
+        justify-content: center;
+    }
     .wrapper--container-home-2-mobile{
         .heading--container-home-2-mobile{
             font-size: 30px;
@@ -385,7 +394,7 @@
                 margin-top: 20px;
             }
             @media(max-width: $maxMobile){
-                font-size: 16px;
+                font-size: 14px;
                 text-align: center;
                 margin-top: 20px;
             }
@@ -464,7 +473,9 @@
 
 .infoCardImageContainer--container-home-2-mobile{
     @media(max-width: $maxTablet){
-        padding: 0 0 0 50px;
+        margin: 0 auto;
+        width: auto;
+        padding: 0 !important;
     }
     @media(max-width: $maxMobile){
         padding: 0
