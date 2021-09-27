@@ -6,7 +6,8 @@
     "blocks": [
       "list-context.info-card-list#home-banner",
       "flex-layout.row#section-1",
-      "flex-layout.row#section-3"
+      "flex-layout.row#section-3",
+      "list-context.info-card-list#home-section-4"
     ]
   }
 }

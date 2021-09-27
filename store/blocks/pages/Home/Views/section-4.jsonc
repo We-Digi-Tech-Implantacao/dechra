@@ -1,0 +1,43 @@
+{
+    "list-context.info-card-list#home-section-4": {
+        "title": "Banner section 4",
+        "props": {
+            "blockClass": "home-list-section-4",
+            "infoCards": [
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section4",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": true,
+                    "imageUrl": "assets/images/section4.jpg",
+                    "mobileImageUrl": "assets/images/section4.jpg",
+                    "textPosition": "right",
+                    "textAlignment": "center",
+                    "headline": "## Produtos para cães",
+                    "subhead": "**Com até 30% OFF**",
+                    "textMode": "rich-text",
+                    "callToActionMode": "link",
+                    "callToActionText": "Comprar agora",
+                    "callToActionUrl": "/comprar-agora"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#home-section-4"
+        ]
+      },
+      "slider-layout#home-section-4": {
+          "title": "Slider section 4",
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 1,
+                  "tablet": 3,
+                  "phone": 2
+              },
+              "infinite": true,
+              "showPaginationDots": "never",
+              "blockClass": "home-list-section-4"
+          }
+        }
+}

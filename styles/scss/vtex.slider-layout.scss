@@ -70,3 +70,47 @@
         width: 300px;
     }
 }
+
+.infoCardContainer--home-list-section-4{
+    height: 550px;
+    background-position: initial !important;
+}
+.infoCardTextContainer--home-list-section-4{
+    display: flex;
+    align-items: center;
+    .container--home-list-section-4 {
+        .wrapper--home-list-section-4 {
+            .heading--home-list-section-4 {
+                font-size: 36px;
+                font-weight: 100;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                color: #5B5478;
+                margin: 0 0 15px 0;
+            }
+            .paragraph--home-list-section-4{
+                margin: 0 0 10px 0;
+                .strong--home-list-section-4{
+                    font-size: 30px;
+                    color: #5B5478;
+                }
+            }
+        }
+    }
+}
+.infoCardCallActionContainer--home-list-section-4{
+    border: 1px solid #5B5478;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    .infoCardCallActionText--home-list-section-4{
+        text-decoration: none;
+        color: #5B5478;
+        font-size: 26px;
+        margin: 0;
+        padding: 20px;
+    }
+}
