@@ -43,3 +43,30 @@
         color: #fff;
     }
 }
+.infoCardContainer--home-section-3{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: transparent;
+    align-items: center;
+    .infoCardTextContainer--home-section-3{
+        .container--home-section-3{
+            .wrapper--home-section-3{
+                .paragraph--home-section-3{
+                    text-align: center;
+                    color: #7C7C7E;
+                    flex-wrap: nowrap;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+.sliderTrack--home-section-3{
+    align-items: baseline;
+    padding: 0 0 50px 0;
+}
+.infoCardImageContainer--home-section-3{
+    .infoCardImage--home-section-3{
+        width: 300px;
+    }
+}

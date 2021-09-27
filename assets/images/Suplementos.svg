@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="152" viewBox="0 0 152 152">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 71 66">
+      <image width="71" height="66" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABCCAYAAAAFfcusAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAR6ADAAQAAAABAAAAQgAAAAA/y0+hAAADu0lEQVR4Ae1a4XXaMBAOff0fOkHdCcIGcSYInQAxQem/vP6JM0HIBHEnaDfATFA6QZ0JSiag3yXgJy7mZINkIap77wNJd/p0+sxZJqR3c/PtLHC7R/6TA/ZQYO4YKIEte7fVC6+TIuVDhKEd7+QIXRzanA0b1JFEcepUWY+dmjh32FevAa4ETSrXqYlTbcxGI4ojqHhq4txir6sGmAmaVK5TE6famI1G6OIsbYgAjkUdT+ji0KYegOe6zTUcmyMuq4sNXRza0wSYss3RUb3rSGehZykGlnyQ+qcgTt2+rIxFcQQZ3wu+Y3alSO4LkAADgFujo3o9iY7+co2feKd72IuFKM4jMlev6Vt7TcBESAEFfAZKXlZ9DP4CSM2u8Rdr1n0KMFzZFC1V9dw0KIcfQJ+LozBoShAhTqwP1onAnMBHpdSFkQYTLg4l6NMSYXHFfL/R/wTsOrLbjH8Az3fGf2265zxhQskm2ezSxbhoSJiwuAz9ko3t211iogJGGsHAJE6O4EybYLuZgnDWkDRhcbQhp8bLyulioZFHcYQrZhLnFnNdHulNS0rYgjuXSRx3KwfAzMUpPee88Lz+1vL8tMrhHQAKOAc2Rs8Utk+Hyw35+p2eMzI2JnVHcHIOKb61j4tDBBOABNIXprECsGkrRqZY39RtG2/ie+PnZfUm4H8eiOIIV18vqz7i6IudAhJAt5necdT+A94CuANKwGR0jypNQS39t3r8Rhy6x5AAJJAvS7CwAobAVyAHJMvhLKSAPXxb4lBZkSC+hdH3Qfk8AgN90EebxMkASujY7N53QiTONUtijH7PA65YHin6Xi8aiZMAuuV6p8N2gbXmbD2vpUXiRNuhQBRnhzA0vDnKhZCXur+QAvb0PWFeuefcTqaZxFHIgo5VV5aDeOyK/FBeU1llhy5gmK/g93oiSfmZxPkoTbbk83oiSXswlRWfy49a7m/SJzHOmwT6jmkrTmoh4QIclxZ4nFOYysp5Ase8QBRHuDpRnCiOoIDgip8cQZy2p5VA1blrhBWdnnohi6NcX45YVoLCURxBnLZltRK4unbRLxQLy4vOdL624uhzfbdJmMJlEqayon8gcGnPIC9cLnAIt+mTo0CeAX3AhU1dkNriNIlDH92hrcVC4zGVVWj7sZpvFEeQM4ojiFN3z3H6fUXIhVxt/nxKPxc5fe6qE6egLAMw5yddSGW17PqCkTg2flFwkTc9INKjxMaKTaOj9zmVlQImwAA4FiuRyBRYaglRn2z4+ub0dQH26T8sGaS56wDvNAAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="Grupo_317" data-name="Grupo 317" transform="translate(-0.063)">
+    <circle id="Elipse_6" data-name="Elipse 6" cx="76" cy="76" r="76" transform="translate(0.063)" fill="rgba(0,0,0,0.03)"/>
+    <rect id="Imagem_72" data-name="Imagem 72" width="66" height="61" transform="translate(43.063 46)" fill="url(#pattern)"/>
+  </g>
+</svg>

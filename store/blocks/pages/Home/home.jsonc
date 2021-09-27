@@ -1,8 +1,12 @@
 {
   "store.home": {
+    "props":{
+      "blockClass": "home"
+    },
     "blocks": [
       "list-context.info-card-list#home-banner",
-      "flex-layout.row#section-1"
+      "flex-layout.row#section-1",
+      "flex-layout.row#section-3"
     ]
   }
 }

@@ -1,0 +1,147 @@
+{
+    "flex-layout.row#section-3":{
+        "props": {
+            "blockClass": "container-section-3"
+        },
+        "children":[
+            "flex-layout.col#section-3"
+        ]
+    },
+    "flex-layout.col#section-3":{
+        "props": {
+            "blockClass": "container-section-3-col"
+        },
+        "children":[
+            "flex-layout.row#title-section-3",
+            "list-context.info-card-list#home-section-3"
+        ]
+    },
+    "flex-layout.row#title-section-3":{
+        "props": {
+            "blockClass": "title-section-3"
+        },
+        "children":[
+            "rich-text#title-section-3"
+        ]
+    },
+    "rich-text#title-section-3": {
+        "props": {
+          "text": "## Escolha por tipo de produto",
+          "blockClass": "title-section-3"
+        }
+    },
+    "list-context.info-card-list#home-section-3": {
+        "title": "Banner principal",
+        "props": {
+            "blockClass": "home-section-3",
+            "infoCards": [
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section-3",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/Vacinas.svg",
+                    "mobileImageUrl": "assets/images/Vacinas.svg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "",
+                    "subhead": "Vacinas",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section-3",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/SorosHiperimunes.svg",
+                    "mobileImageUrl": "assets/images/SorosHiperimunes.svg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "",
+                    "subhead": "Soros Hiperimunes",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section-3",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/Medicamentos.svg",
+                    "mobileImageUrl": "assets/images/Medicamentos.svg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "",
+                    "subhead": "Medicamentos",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section-3",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/KitsDiagnosticos.svg",
+                    "mobileImageUrl": "assets/images/KitsDiagnosticos.svg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "",
+                    "subhead": "Kits Diagnósticos",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section-3",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/Suplementos.svg",
+                    "mobileImageUrl": "assets/images/Suplementos.svg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "",
+                    "subhead": "Suplementos",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "section-3",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/images/areasTerapeuticas.svg",
+                    "mobileImageUrl": "assets/images/areasTerapeuticas.svg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "",
+                    "subhead": "Áreas Terapêuticas",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#home-list-section-3"
+        ]
+      },
+      "slider-layout#home-list-section-3": {
+          "title": "Slider tipo de produto",
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 6,
+                  "tablet": 3,
+                  "phone": 2
+              },
+              "infinite": true,
+              "showPaginationDots": "never",
+              "blockClass": "home-section-3"
+          }
+        }
+}

@@ -58,3 +58,21 @@
         }
     }
 }
+.container--title-section-3{
+    .wrapper--title-section-3{
+        padding-left: 60px;
+        .heading--title-section-3{
+            display: flex;
+            align-items: center;
+            color: #7C7C7E;
+            font-size: 30px;
+            &::after{  
+                content: '';
+                display: block;
+                border-bottom: 1px solid #E6E6E6;
+                width: 770px;
+                margin-left: 50px;
+            }
+        }
+    }
+}
