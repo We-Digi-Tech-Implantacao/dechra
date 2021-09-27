@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#section-5":{
+        "props": {
+            "blockClass": "container-section-5",
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#img-1",
+            "image#img-2"
+        ]
+    },
+    "image#img-1": {
+        "props": {
+          "src": "assets/images/gato.jpg",
+          "blockClass": "img-section-5"
+        }
+    },
+    "image#img-2": {
+        "props": {
+          "src": "assets/images/promo.jpg",
+          "blockClass": "img-section-5"
+        }
+    }
+}
