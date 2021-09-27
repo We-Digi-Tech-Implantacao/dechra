@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#section-1":{
+        "props":{
+            "blockClass": "container-section-1"
+        },
+        "children": [
+            "image#icon-1",
+            "image#icon-2",
+            "image#icon-3",
+            "image#icon-4"
+        ]
+    },
+    "image#icon-1": {
+        "props": {
+          "src": "assets/images/icon1.svg",
+          "blockClass": "icon-section-1"
+        }
+    },
+    "image#icon-2": {
+        "props": {
+          "src": "assets/images/icon2.svg",
+          "blockClass": "icon-section-1"
+        }
+    },
+    "image#icon-3": {
+        "props": {
+          "src": "assets/images/icon3.svg",
+          "blockClass": "icon-section-1"
+        }
+    },
+    "image#icon-4": {
+        "props": {
+          "src": "assets/images/icon4.svg",
+          "blockClass": "icon-section-1"
+        }
+    }
+}
