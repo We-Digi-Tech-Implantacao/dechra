@@ -13,9 +13,11 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "flex-layout.col#attendance",
       "vtex.menu@2.x:menu#Institucional",
-      "vtex.menu@2.x:menu#Ajuda"
+      "vtex.menu@2.x:menu#Ajuda",
+      "vtex.menu@2.x:menu#minha-conta",
+      "vtex.menu@2.x:menu#atendimento",
+      "flex-layout.row#icons"
     ],
     "props": {
       "blockClass": "menu-footer",
@@ -28,6 +30,7 @@
   "flex-layout.row#footer-2-desktop": {
     "children": [
       "rich-text#footer",
+      "image#credits",
       "rich-text#dev-seals"
     ],
     "props": {
@@ -37,8 +40,15 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "Todos os direitos reservados © 2021",
+      "text": "Dechra - CNPJ: 00.000.000/0001-00 © Todos os direitos reservados. 2021",
       "blockClass": "footer"
+    }
+  },
+  "image#credits": {
+    "props": {
+      "src": "https://wedigi.vtexassets.com/arquivos/catoes-pagamentos.png",
+      "maxHeight": 45,
+      "blockClass": "credits"
     }
   },
   "rich-text#dev-seals": {
@@ -48,113 +58,48 @@
     }
   },
 
-  "flex-layout.col#attendance":{
-    "props":{
-      "blockClass": "container-attendance"
-    },
-    "children":[
-      "rich-text#attendance",
-      "flex-layout.row#atendimento-contact",
-      "link.product#ombudsman"
-    ]
-  },
-  "link.product#ombudsman": {
-    "props": {
-      "href": "/ouvidoria",
-      "label": "Ouvidoria",
-      "blockClass": "text-ombudsman"
-    }
-  },
-  "rich-text#attendance":{
-    "props": {
-      "text": "**Central de Atendimento para os Alunos de Medicina**\nCanal exclusivo para alunos das instituições IDOMED",
-      "blockClass": "title-attendance"
-    }
-  },
-  "flex-layout.row#atendimento-contact":{
-    "props":{
-      "blockClass": "container-attendance-contact"
-    },
-    "children":[
-      "image#tel",
-      "flex-layout.col#atendimento-contact-number"
-    ]
-  },
-  "image#tel": {
-    "props": {
-      "src": "https://idomed.vtexassets.com/arquivos/carbon_phone-voice.png",
-      "blockClass": "tel"
-    }
-  },
-  "flex-layout.col#atendimento-contact-number":{
-    "props":{
-      "blockClass": "container-attendance-contact-number"
-    },
-    "children":[
-      "rich-text#contact-number"
-    ]
-  },
-  "rich-text#contact-number":{
-    "props": {
-      "text": "**0800 880 6770**\nSeg a Sex das 8h às 19h Sáb das 8h às 12h",
-      "blockClass": "title-contact-number"
-    }
-  },
   "vtex.menu@2.x:menu#Institucional": {
     "props": {
       "orientation": "vertical",
       "blockClass": "menu-footer",
       "items": [
         {
-          "id": "menu-item-conheca-o-idomed",
+          "id": "menu-item-quem-somos",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/conheca-o-idomed",
+            "href": "/quem-somos",
             "noFollow": false,
-            "tagTitle": "Conheça o IDOMED",
-            "text": "Conheça o IDOMED"
+            "tagTitle": "Quem somos",
+            "text": "Quem somos"
           }
         },
         {
-          "id": "menu-item-Iniciativas",
+          "id": "menu-item-como-funciona",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/Iniciativas",
+            "href": "/como-funciona",
             "noFollow": false,
-            "tagTitle": "Iniciativas",
-            "text": "Iniciativas"
+            "tagTitle": "Como Funciona",
+            "text": "Como Funciona"
           }
         },
         {
-          "id": "menu-item-onde-estudar",
+          "id": "menu-item-contato",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/onde-estudar",
+            "href": "/contato",
             "noFollow": false,
-            "tagTitle": "Onde estudar",
-            "text": "Onde estudar"
-          }
-        },
-        {
-          "id": "menu-item-fale-com-a-gente",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/fale-com-a-gente",
-            "noFollow": false,
-            "tagTitle": "Fale com a gente",
-            "text": "Fale com a gente"
+            "tagTitle": "Contato",
+            "text": "Contato"
           }
         }
       ]
@@ -188,42 +133,29 @@
           }
         },
         {
-          "id": "menu-item-como-comprar",
+          "id": "menu-item-politica-de-privacidade",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/como-comprar",
+            "href": "/politica-de-privacidade",
             "noFollow": false,
-            "tagTitle": "Como comprar",
-            "text": "Como comprar"
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
           }
         },
         {
-          "id": "menu-item-politicas",
+          "id": "menu-item-temos-e-condicoes",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/politicas",
+            "href": "/temos-e-condicoes",
             "noFollow": false,
-            "tagTitle": "Políticas",
-            "text": "Políticas"
-          }
-        },
-        {
-          "id": "menu-item-sac",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/sac",
-            "noFollow": false,
-            "tagTitle": "SAC",
-            "text": "SAC"
+            "tagTitle": "Termos e Condições",
+            "text": "Termos e Condições"
           }
         }
       ]
@@ -238,8 +170,128 @@
       "blockClass": "menu-footer"
     }
   },
-  
-
+  "vtex.menu@2.x:menu#minha-conta":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer",
+      "items": [
+        {
+          "id": "menu-item-cadastre-se",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cadastre-se",
+            "noFollow": false,
+            "tagTitle": "Cadastre-se / Login",
+            "text": "Cadastre-se / Login"
+          }
+        },
+        {
+          "id": "menu-item-meus-pedidos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/meus-pedidos",
+            "noFollow": false,
+            "tagTitle": "Meus Pedidos",
+            "text": "Meus Pedidos"
+          }
+        },
+        {
+          "id": "menu-item-meus-enderecos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/meus-enderecos",
+            "noFollow": false,
+            "tagTitle": "Meus Endereços",
+            "text": "Meus Endereços"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#title-footer-minha-conta"
+    ]
+  },
+  "rich-text#title-footer-minha-conta": {
+    "props": {
+      "text": "Minha Conta",
+      "blockClass": "menu-footer"
+    }
+  },
+  "vtex.menu@2.x:menu#atendimento":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer",
+      "items": [
+        {
+          "id": "menu-item-number-tel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            //"href": "/cadastre-se",
+            "noFollow": false,
+            "tagTitle": "0800 400 7997",
+            "text": "0800 400 7997"
+          }
+        },
+        {
+          "id": "menu-item-numero-cel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            //"href": "/meus-pedidos",
+            "noFollow": false,
+            "tagTitle": "(43) 9 9135-1168",
+            "text": "(43) 9 9135-1168"
+          }
+        }
+      ]
+    },
+    "children": [
+      "rich-text#title-footer-atendimento"
+    ]
+  },
+  "rich-text#title-footer-atendimento": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "menu-footer"
+    }
+  },
+  "flex-layout.row#icons":{
+    "props":{
+      "blockClass": "icons"
+    },
+    "children":[
+      "image#icon1",
+      "image#icon2"
+    ]
+  },
+  "image#icon1": {
+    "props": {
+      "src": "assets/images/pci.png",
+      "maxHeight": 100,
+      "blockClass": "icon"
+    }
+  },
+  "image#icon2": {
+    "props": {
+      "src": "assets/images/google.png",
+      "maxHeight": 45,
+      "blockClass": "icon"
+    }
+  },
   // MOBILE
   "footer-layout.mobile": {
     "children": [
@@ -254,6 +306,7 @@
     },
     "children": [
       "rich-text#footer",
+      "image#credits",
       "rich-text#dev-seals"
     ]
   },
@@ -279,7 +332,9 @@
     "children": [
       "menu-item#Institucional-mobile",
       "menu-item#Ajuda-mobile",
-      "flex-layout.col#attendance"
+      "menu-item#Minha-conta",
+      "menu-item#atendimento",
+      "flex-layout.row#icons"
     ],
     "props": {
       "blockClass": [
@@ -317,55 +372,42 @@
       "blockClass": "footer-mobile",
       "items": [
         {
-          "id": "menu-item-conheca-o-idomed",
+          "id": "menu-item-quem-somos",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/conheca-o-idomed",
+            "href": "/quem-somos",
             "noFollow": false,
-            "tagTitle": "Conheça o IDOMED",
-            "text": "Conheça o IDOMED"
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
           }
         },
         {
-          "id": "menu-item-Iniciativas",
+          "id": "menu-item-como-funciona",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/Iniciativas",
+            "href": "/como-funciona",
             "noFollow": false,
-            "tagTitle": "Iniciativas",
-            "text": "Iniciativas"
+            "tagTitle": "Como Funciona",
+            "text": "Como Funciona"
           }
         },
         {
-          "id": "menu-item-onde-estudar",
+          "id": "menu-item-contato",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/onde-estudar",
+            "href": "/contato",
             "noFollow": false,
-            "tagTitle": "Onde estudar",
-            "text": "Onde estudar"
-          }
-        },
-        {
-          "id": "menu-item-fale-com-a-gente",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/fale-com-a-gente",
-            "noFollow": false,
-            "tagTitle": "Fale com a gente",
-            "text": "Fale com a gente"
+            "tagTitle": "Contato",
+            "text": "Contato"
           }
         }
       ]
@@ -414,42 +456,158 @@
           }
         },
         {
-          "id": "menu-item-como-comprar",
+          "id": "menu-item-politica-de-privacidade",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/como-comprar",
+            "href": "/politica-de-privacidade",
             "noFollow": false,
-            "tagTitle": "Como comprar",
-            "text": "Como comprar"
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
           }
         },
         {
-          "id": "menu-item-politicas",
+          "id": "menu-item-termos-e-condicoes",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/politicas",
+            "href": "/termos-e-condicoes",
             "noFollow": false,
-            "tagTitle": "Políticas",
-            "text": "Políticas"
+            "tagTitle": "Termos e Condições",
+            "text": "Termos e Condições"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#Minha-conta":{
+    "props": {
+      "id": "menu-item-Minha-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Minha-conta",
+        "text": "Minha-conta"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#Minha-conta-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Minha-conta-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile",
+      "items": [
+        {
+          "id": "menu-item-cadastre-se",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cadastre-se",
+            "noFollow": false,
+            "tagTitle": "Cadastre-se / Login",
+            "text": "Cadastre-se / Login"
           }
         },
         {
-          "id": "menu-item-sac",
+          "id": "menu-item-meus-Pedidos",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/sac",
+            "href": "/meus-Pedidos",
             "noFollow": false,
-            "tagTitle": "SAC",
-            "text": "SAC"
+            "tagTitle": "Meus Pedidos",
+            "text": "Meus Pedidos"
+          }
+        },
+        {
+          "id": "menu-item-meus-endereco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/meus-endereco",
+            "noFollow": false,
+            "tagTitle": "Meus endereço",
+            "text": "Meus endereço"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#atendimento":{
+    "props": {
+      "id": "menu-item-atendimento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "atendimento",
+        "text": "atendimento"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#atendimento-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#atendimento-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#atendimento-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#atendimento-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile",
+      "items": [
+        {
+          "id": "menu-item-cadastre-se",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            //"href": "/cadastre-se",
+            "noFollow": false,
+            "tagTitle": "0800 400 7997",
+            "text": "0800 400 7997"
+          }
+        },
+        {
+          "id": "menu-item-meus-Pedidos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            //"href": "/meus-Pedidos",
+            "noFollow": false,
+            "tagTitle": "(43) 9 9135-1168",
+            "text": "(43) 9 9135-1168"
           }
         }
       ]

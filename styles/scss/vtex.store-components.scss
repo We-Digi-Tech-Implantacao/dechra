@@ -1,157 +1,19 @@
 @import 'variables';
 
-.imageElement--tel{
-    width: 35px;
-    height: 35px;
-}
 :global(.vtex-store-components-3-x-container){
-    padding: 0;
-    max-width: 100% !important;
-}
-:global(.vtex-store-components-3-x-logoContainer){
     padding: 0 !important;
 }
-:global(.vtex-login-2-x-label){
-    white-space: nowrap !important;
-    color: #0A3F3C;
-    text-transform: none;
-    font-weight: bold;
-    padding-left: 8px;
-    font-size: 13px;
-    @media(max-width: $maxTablet){
-        display: flex !important;
-        font-size: 20px!important;
-        font-weight: 500!important;
-        text-transform: uppercase;
-    }
-    @media(max-width: $maxMobile){
-        display: flex !important;
-        font-size: 20px!important;
-        font-weight: 500!important;
-        text-transform: uppercase;
-    }
-}
-:global(.vtex-minicart-2-x-minicartIconContainer){
-    position: unset;
-    :global(.vtex-minicart-2-x-cartIcon){
-        opacity: 0;
-    }
-}
-:global(.vtex-minicart-2-x-minicartQuantityBadge){
-    width: 11px;
-    height: 11px;
-    background-color: #0A3F3C;
-}
-.imageElement--img-banner-2{
-    opacity: 0.8;
-}
-:global(.vtex-button){
-    :global(.vtex-button__label){
-        padding: 0 !important;
-    }
-}
-.imageElement--icon-button{
-    width: 20px;
-    @media(max-width: $maxTablet){
-        width: 30px;
-    }
-    @media(max-width: $maxMobile){
-        width: 26px;
-    }
-}
-.imageElement--wallpaper{
-    position: absolute;
-    width: 265px;
-    height: auto;
-    bottom: 0;
-    right: 0;
-    @media(max-width: $maxTablet){
-        width: 175px;
-    }
-    @media(max-width: $maxMobile){
-        display: none;
-        // width: 155px;
-        // opacity: .8;
-    }
-}
-.imageElement--wallpaper-medical-carrer{
-    height: 650px;
-    @media(max-width: $maxMobile){
-        height: 540px;
-    }
-}
-.imageElement--wallpaper-container-home-4{
-    width: 100%;
-    height: auto;
-}
-.imageElement--wallpaper-container-4{
-    padding-top: 115px;
-    @media(min-width: 1600px){
-        padding-top: 40px;
-        width: 420px;
-    }
-    @media(max-width: $maxTablet){
-        padding-top: 40px;
-    }
-    @media(max-width: $maxMobile){
-        padding-top: 36px;
-        height: 326px;
-        transform: scaleX(-1);
-    }
-}
-
-.logoLink--logo-signature{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border-radius: 100%;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-    .logoContainer--logo-signature{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .logoImage--logo-signature{
-            width: 63px;
+.imageElement--icon{
+    &:first-child{
+        margin: 0 20px 0 0;
+        @media(max-width: $maxMobile){
+            margin: 0;
         }
     }
-}
-.imageElement--wallpaper-plans{
-    max-width: 100% !important;
-    width: 100%;
-    height: 900px;
-    object-fit: cover;
-    object-position: center;
-    @media(max-width: $maxMobile){
-        height: 800px;
-    }
-}
-.imageElement--wallpaper-why-sign{
-    object-fit: cover;
-    object-position: bottom;
-    @media(max-width: $maxTablet){
-        display: none;
-    }
-    @media(max-width: $maxMobile){
-        display: none;
-    }
-}
-
-.imageElement--logo-signature{
-    width: 63px;
-    padding: 40px;
-}
-.logoImage--logo-mobile{
-    
-}
-.imageElement--iconLogin{
-    margin-right: 0;
-    @media(max-width: $maxTablet){
-        margin-right: 10px;
-    }
-    @media(max-width: $maxMobile){
-        margin-right: 10px;
+    &:last-child{
+        margin: 0 0 0 20px;
+        @media(max-width: $maxMobile){
+            margin: 0;
+        }
     }
 }

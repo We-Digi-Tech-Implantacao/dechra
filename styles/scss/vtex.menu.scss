@@ -6,93 +6,38 @@
         .styledLinkContainer--menu-footer{
             margin: 0 !important;
             .styledLink--menu-footer{
-                color: #fff!important;
+                color: #000 !important;
                 font-weight: 100;
                 font-size: 14px;
-                line-height: 2.5;
+                line-height: 2;
             }
         }
     }
 }
-.styledLinkContent--menu-mobile{
-	color: #fff;
-    align-items: center;
-    text-transform: uppercase;
-}
-.styledLinkContent--footer-mobile {
-    color: #fff;
-    text-transform: uppercase;
-}
-.menuItem--menu-mobile {
-}
-.accordionIcon--isOpen{
-    font-size: 20px;
-    color: #fff;
-}
-.accordionIcon--isClosed{
-    font-size: 20px;
-    color: #fff;
-}
-.menuContainer--header-desktop{
-    display: flex;
-    align-items: center;
-}
-.styledLinkContainer--subscribe-now{
-    .styledLink--subscribe-now{
-        .styledLinkContent--subscribe-now{
-            background-color: #FFA452;
-            color: #fff;
-            padding: 12px 20px;
-            border-radius: 25px;
-            font-size: 16px;
-            @media(max-width: $maxTablet){
-                background-color: transparent;
-                color: #FFA452;
-                padding: 0;
-                border-radius: none;
-            }
-            @media(max-width: $maxMobile){
-                background-color: transparent;
-                color: #FFA452;
-                padding: 0;
-                border-radius: none;
-            }
-        }
-    }
-}
-.menuContainerNav--header-desktop{
-    .menuContainer--header-desktop{
-        .menuItem--menu-item-header-desktop{
-            .styledLinkContainer--menu-item-header-desktop{
-                margin-left: 1rem;
-                margin-right: 1rem;
-                padding: 0;
-            }
-        }
-    }
-}
-
-:global(.vtex-menu-2-x-submenuAccordion){
-    @media(max-width: $maxMobile){
-        padding-top: 10px;
-    }
-}
-
-.menuItem--isClosed{
-    .styledLinkContainer--menu-item-header-desktop{
-        .styledLink--menu-item-header-desktop{
-            .styledLinkContent--menu-item-header-desktop{
-                @media(max-width: $maxTablet){
+.menuItem--menu-mobile{
+    .styledLinkContainer--menu-mobile{
+        .styledLink--menu-mobile{
+            .styledLinkContent--menu-mobile{
+                color: #000 !important;
+                font-size: 16px;
+                text-transform: uppercase;
+                .accordionIcon--menu-mobile{
+                    color: #000 !important;
                     font-size: 20px;
-                    text-transform: uppercase;
-                    line-height: 2;  
-                    font-weight: 100;              
                 }
-                @media(max-width: $maxMobile){
-                    font-size: 20px;
+            }
+        }
+    }
+}
+.menuContainer--footer-mobile{
+    .menuItem--isClosed{
+        .styledLinkContainer--footer-mobile{
+            .styledLink--footer-mobile{
+                .styledLinkContent--footer-mobile{
+                    color: #4D4D4D!important;
+                    font-size: 14px;
+                    font-weight: 100;
                     text-transform: uppercase;
-                    line-height: 2;  
-                    font-weight: 100;              
                 }
             }
         }

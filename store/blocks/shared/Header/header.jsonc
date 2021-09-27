@@ -13,44 +13,82 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#header"
+      "sticky-layout#desktop"
     ]
   },
-  "header-layout.mobile": {
-    "children": [
-      "flex-layout.row#header-mobile"
-    ]
-  },
-  "flex-layout.row#header":{
+  "sticky-layout#desktop": {
     "props": {
-      "blockClass": "container-header",
-      "colSizing":"auto"
+      "blockClass": "sticky-header"
     },
     "children": [
-      "logo#desktop",
-      "vtex.menu@2.x:menu#header-desktop",
-      "header-row#util-desktop"
+      "flex-layout.row#desktop"
     ]
   },
-  "logo#desktop": {
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "title": "Logotipo da loja",
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://idomed.vtexassets.com/arquivos/_logo_.png",
-      "width": "130"
+      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "width": "80"
     }
   },
-  "vtex.menu@2.x:menu#header-desktop": {
-      "title": "Itens de Menu Desktop",
-      "props": {
-          "blockClass": "header-desktop"
-      },
-      "children": [
-          "menu-item#menu-item-1",
-          "menu-item#menu-item-2",
-          "menu-item#menu-item-3",
-          "menu-item#menu-item-4",
-          "menu-item#menu-item-5"
-      ]
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
   }
 }

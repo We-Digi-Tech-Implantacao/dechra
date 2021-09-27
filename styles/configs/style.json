@@ -324,91 +324,91 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.785rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "LibreFranklin, sans-serif",
+        "fontFamily": "Effra, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
