@@ -1,23 +1,24 @@
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Light.ttf);
+	font-family: 'Helvetica';
+	src: url(assets/fonts/Helvetica-Neue/Helvetica-Light.ttf);
 	font-weight: 300;
 }
 
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Regular.ttf);
+	font-family: 'Helvetica';
+	src: url(assets/fonts/Helvetica-Neue/Helvetica-Regular.ttf);
 	font-weight: 400;
 }
 
+
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Medium.ttf);
+	font-family: 'Helvetica';
+	src: url(assets/fonts/Helvetica-Neue/Helvetica-Medium.ttf);
 	font-weight: 500;
 }
 
 @font-face {
-	font-family: 'Effra';
-	src: url(assets/fonts/Effra/Effra-Bold.ttf);
+	font-family: 'Helvetica';
+	src: url(assets/fonts/Helvetica-Neue/Helvetica-Bold.ttf);
 	font-weight: 700;
 }

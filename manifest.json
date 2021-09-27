@@ -1,7 +1,7 @@
 {
-  "name": "wedigi-store",
-  "vendor": "wedigi",
-  "version": "0.0.5",
+  "name": "dechra-store",
+  "vendor": "lojadechra",
+  "version": "0.0.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
