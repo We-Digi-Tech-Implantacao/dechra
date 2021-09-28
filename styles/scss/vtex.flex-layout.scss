@@ -45,12 +45,12 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	.stretchChildrenWidth {
-		.flexRow--container-text-footer {
-			.flexRowContent--container-text-footer {
-			}
-		}
-	}
+	// .stretchChildrenWidth {
+	// 	.flexRow--container-text-footer {
+	// 		.flexRowContent--container-text-footer {
+	// 		}
+	// 	}
+	// }
 }
 .flexCol--container-email-footer {
 	@media (max-width: $maxMobile) {
@@ -147,8 +147,8 @@
 		@media (max-width: $maxTablet) {
 			padding: 0;
 		}
-		.stretchChildrenWidth {
-		}
+		// .stretchChildrenWidth {
+		// }
 	}
 }
 .flexRowContent--menu-footer-mobile {
