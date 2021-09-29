@@ -42,6 +42,8 @@
             :global(.vtex-button__label){
                 padding: 0;
                 margin: 0;
+                text-transform: initial;
+                font-size: 18px;
             }
         }
     }
