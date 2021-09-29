@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#section-6":{
+        "props":{
+            "blockClass": "container-section-6",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#section-6",
+            "image#img-section-6"
+        ]
+    },
+    "flex-layout.col#section-6":{
+        "props":{
+            "blockClass": "container-section-6-col"
+        },
+        "children": [
+            "flex-layout.col#section-6-email"
+        ]
+    },
+    "image#img-section-6": {
+        "props": {
+          "src": "assets/images/cadastrese.png",
+          "blockClass": "img-section-6"
+        }
+    },
+    "flex-layout.col#section-6-email":{
+        "props":{
+            "blockClass": "container-section-6-email"
+        },
+        "children": [
+            "rich-text#title-section-6-title",
+            "newsletter-form#Register"
+        ]
+    },
+    "rich-text#title-section-6-title": {
+        "props": {
+          "text": "## Cadastre-se\n\nPreencha seus dados para receber nossas novidades e promoções!",
+          "blockClass": "title-section-6"
+        }
+    },
+    "newsletter-form#Register":{
+        "props": {
+            "blockClass": ["email-section-6"]
+        },
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-submit"
+          ]
+    },
+    "newsletter-input-email":{
+        "props":{
+            "blockClass": ["input-email"],
+            "placeholderText": "Insira seu e-mail"
+        }
+    },
+    "newsletter-input-name":{
+        "props":{
+            "blockClass": ["input-name"],
+            "placeholderText": "Insira seu nome"
+
+        }
+    },
+    "newsletter-submit":{
+        "props":{
+            "blockClass": ["input-sumit"],
+            "submitButtonLabel": "Enviar"
+        }
+    }
+}

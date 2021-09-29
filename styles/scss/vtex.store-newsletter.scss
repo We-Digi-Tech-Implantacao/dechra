@@ -1,0 +1,48 @@
+@import 'variables';
+
+.newsletterForm--email-section-6{
+    position: relative;
+    .emailInputContainer--input-email{
+        :global(.vtex-input){
+            :global(.vtex-input-prefix__group){
+                border: none;
+                border-bottom: 1px solid #E6E6E6;
+                border-radius: 0;
+                background: none;
+                margin: 50px 0 0 0;
+                :global(.vtex-styleguide-9-x-input){
+                    background: transparent;
+                }
+            }
+        }
+    }
+    
+    .nameInputContainer--input-name{
+        :global(.vtex-input){
+            :global(.vtex-input-prefix__group){
+                border: none;
+                border-bottom: 1px solid #E6E6E6;
+                border-radius: 0;
+                background: none;
+                :global(.vtex-styleguide-9-x-input){
+                    background: transparent;
+                }
+            }
+        }
+    }
+    .formSubmitContainer--input-sumit{
+        :global(.vtex-button){
+            position: absolute;
+            top: 90px;
+            right: 0;
+
+            background: none;
+            color: #123F78;
+            border: none;
+            :global(.vtex-button__label){
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}

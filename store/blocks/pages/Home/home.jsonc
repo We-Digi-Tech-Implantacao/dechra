@@ -8,7 +8,8 @@
       "flex-layout.row#section-1",
       "flex-layout.row#section-3",
       "list-context.info-card-list#home-section-4",
-      "flex-layout.row#section-5"
+      "flex-layout.row#section-5",
+      "flex-layout.row#section-6"
     ]
   }
 }
