@@ -269,6 +269,42 @@
       "blockClass": "menu-footer"
     }
   },
+  "flex-layout.row#atendimento-mobile":{
+    "props":{
+      "blockClass": "atendimento-mobile"
+    },
+    "children":[
+      "rich-text#title-atendimento-mobile",
+      "flex-layout.row#atendimento-number-mobile"
+    ]
+  },
+  "rich-text#title-atendimento-mobile": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": ["menu-footer", "menu-atendimento-mobile"]
+    }
+  },
+  "flex-layout.row#atendimento-number-mobile":{
+    "props":{
+      "blockClass": "atendimento-number-mobile"
+    },
+    "children":[
+      "rich-text#number-1-atendimento-mobile",
+      "rich-text#number-2-atendimento-mobile"
+    ]
+  },
+  "rich-text#number-1-atendimento-mobile":{
+    "props": {
+      "text": "0800 400 7997",
+      "blockClass": "number-1-atendimento-mobile"
+    }
+  },
+  "rich-text#number-2-atendimento-mobile":{
+    "props": {
+      "text": "(43) 9 9135-1168",
+      "blockClass": "number-2-atendimento-mobile"
+    }
+  },
   "flex-layout.row#icons":{
     "props":{
       "blockClass": "icons"
@@ -305,8 +341,8 @@
       "colSizing": "auto"
     },
     "children": [
-      "rich-text#footer",
       "image#credits",
+      "rich-text#footer",
       "rich-text#dev-seals"
     ]
   },
@@ -333,7 +369,8 @@
       "menu-item#Institucional-mobile",
       "menu-item#Ajuda-mobile",
       "menu-item#Minha-conta",
-      "menu-item#atendimento",
+      //"menu-item#atendimento",
+      "flex-layout.row#atendimento-mobile",
       "flex-layout.row#icons"
     ],
     "props": {

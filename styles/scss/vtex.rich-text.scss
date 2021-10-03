@@ -112,6 +112,10 @@
         position: absolute;
         left: 31px;
         bottom: 0;
+        @media (max-width: 767px) {
+            left: 15px;
+            bottom: 5px;  
+        }
         .paragraph--cupom{
             font-size: 24px;
             color: #5B5478;
@@ -120,6 +124,9 @@
             text-align: right;
             letter-spacing: 3px;
             text-transform: uppercase;
+            @media (max-width: 767px) {
+                font-size: 14px;
+            }
         }
     }
 }
@@ -128,10 +135,17 @@
         position: absolute;
         right: 31px;
         bottom: 0;
+        @media (max-width: 767px) {
+            right: 22px;
+            bottom: 5px;
+        }
         .paragraph--cats{
             font-size: 36px;
             color: #5B5478;
             margin: 0;
+            @media (max-width: 767px) {
+                font-size: 26px;
+            }
         }
     }
 }
@@ -141,11 +155,75 @@
         position: absolute;
         right: 5px;
         bottom: -27px;
+        @media (max-width: $maxTablet) {
+            right: 50px;
+        }
+        @media (max-width: 767px) {
+            right: 1px;
+            bottom: -16.5px;
+        }
         .paragraph--promo{
             font-size: 60px;
             color: #fff;
             margin: 0;
             letter-spacing: 3px;
+            @media (max-width: 767px) {
+                font-size: 35px;
+            }
         }
     }
+}
+.container--number-1-atendimento-mobile{
+    align-items: center;
+    justify-content: center;
+    .wrapper--number-1-atendimento-mobile{
+        .paragraph--number-1-atendimento-mobile{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: #4D4D4D;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url("assets/images/phone.svg");
+                background-size: 20px;
+                background-repeat: no-repeat;
+                width: 21px;
+                height: 30px;
+                margin-right: 5px;
+            }
+            &::after{
+                content: '';
+                border-right: 1px solid #4D4D4D;
+                width: 1px;
+                height: 30px;
+                margin-left: 25px;
+            }
+        }
+    }
+}
+.container--number-2-atendimento-mobile{
+    align-items: center;
+    justify-content: center; 
+    .wrapper--number-2-atendimento-mobile{
+        .paragraph--number-2-atendimento-mobile{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: #4D4D4D;
+            &::before{
+                content: '';
+                display: block;
+                background-image: url("assets/images/whatsapp.svg");
+                background-size: 20px;
+                background-repeat: no-repeat;
+                width: 22px;
+                height: 25px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.paragraph--menu-atendimento-mobile{
+    text-transform: uppercase;
 }

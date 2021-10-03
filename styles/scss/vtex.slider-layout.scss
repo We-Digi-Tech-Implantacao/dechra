@@ -85,6 +85,9 @@
 .infoCardTextContainer--home-list-section-4{
     display: flex;
     align-items: center;
+    @media(max-width: $maxMobile){
+        margin: -250px auto 0;
+    }
     .container--home-list-section-4 {
         .wrapper--home-list-section-4 {
             .heading--home-list-section-4 {
@@ -94,12 +97,26 @@
                 letter-spacing: 5px;
                 color: #5B5478;
                 margin: 0 0 15px 0;
+                @media(max-width: $maxTablet){
+                    font-size: 24px;
+                    text-align: center;
+                }
+                @media(max-width: $maxMobile){
+                    font-size: 24px;
+                    text-align: center;
+                }
             }
             .paragraph--home-list-section-4{
                 margin: 0 0 10px 0;
                 .strong--home-list-section-4{
                     font-size: 30px;
                     color: #5B5478;
+                    @media(max-width: $maxTablet){
+                        font-size: 25px;
+                    }
+                    @media(max-width: $maxMobile){
+                        font-size: 25px;
+                    }
                 }
             }
         }
@@ -113,11 +130,25 @@
     justify-content: center;
     text-decoration: none;
     border-radius: 10px;
+    @media(max-width: $maxTablet){
+        width: 340px;
+    }
+    @media(max-width: $maxMobile){
+        width: 340px;
+    }
     .infoCardCallActionText--home-list-section-4{
         text-decoration: none;
         color: #5B5478;
         font-size: 26px;
         margin: 0;
         padding: 20px;
+        @media(max-width: $maxTablet){
+            font-size: 20px;
+            padding: 15px;
+        }
+        @media(max-width: $maxMobile){
+            font-size: 20px;
+            padding: 15px;
+        }
     }
 }

@@ -207,9 +207,9 @@
 .flexCol--menu-mobile {
 	.flexColChild--menu-mobile {
 		padding: 20px 0;
-		border-bottom: 1px solid #fff;
+		border-bottom: 1px solid #BDBDBD;
 		&:last-child {
-			border-bottom: 1px solid #fff;
+			border-bottom: 1px solid #BDBDBD;
 		}
 	}
 }
@@ -239,7 +239,14 @@
 	border-bottom: 1px solid #E6E6E6;
 }
 .flexRowContent--container-section-6{
-	padding: 50px
+	padding: 50px;
+	@media (max-width: $maxTablet) {
+		display: flex;
+		flex-direction: column;
+	}
+	@media (max-width: 767px) {
+		padding: 50px 20px;
+	}
 }
 .flexRowContent--section-6-sing{
 	display: flex;
@@ -251,6 +258,15 @@
 	position: relative;
 }
 .flexRowContent--container-section-5{
+	@media(max-width: $maxTablet){
+		display: flex;
+    	flex-direction: column;
+		
+			.stretchChildrenWidth{
+				width: auto !important;
+			}
+		
+	}
 	.stretchChildrenWidth{
 		// &:first-child{
 		// 	width: 50% !important;
@@ -269,5 +285,22 @@
 				}
 			}
 		}
+	}
+}
+.flexRowContent--section-6-sing-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.flexRowContent--atendimento-number-mobile{
+	display: flex;
+	flex-direction: row;
+}
+.flexRowContent--atendimento-mobile{
+	@media(max-width: $maxTablet){
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	flex-direction: column;
 	}
 }

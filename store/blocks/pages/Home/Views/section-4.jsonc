@@ -11,7 +11,7 @@
                     "htmlId": "BannerHome",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/section4.jpg",
-                    "mobileImageUrl": "assets/images/section4.jpg",
+                    "mobileImageUrl": "assets/images/section4mobile.png",
                     "textPosition": "right",
                     "textAlignment": "center",
                     "headline": "## Produtos para cães",
