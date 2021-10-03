@@ -5,8 +5,19 @@
             "colSizing": "auto"
         },
         "children":[
+            "flex-layout.row#img-1",
+            "flex-layout.row#img-2"
+        ]
+    },
+    "flex-layout.row#img-1":{
+        "props":{
+            "blockClass": "container-img-1",
+            "colSizing": "auto"
+        },
+        "children":[
             "image#img-1",
-            "image#img-2"
+            "rich-text#cupom",
+            "rich-text#cats"
         ]
     },
     "image#img-1": {
@@ -15,10 +26,38 @@
           "blockClass": "img-section-5"
         }
     },
+    "rich-text#cupom": {
+        "props": {
+          "text": "Utilize nosso\ncupom",
+          "blockClass": "cupom"
+        }
+    },
+    "rich-text#cats": {
+        "props": {
+          "text": "**GATOS10**",
+          "blockClass": "cats"
+        }
+    },
+    "flex-layout.row#img-2":{
+        "props":{
+            "blockClass": "container-img-1",
+            "colSizing": "auto"
+        },
+        "children":[
+            "image#img-2",
+            "rich-text#promo"
+        ]
+    },
     "image#img-2": {
         "props": {
           "src": "assets/images/promo.jpg",
           "blockClass": "img-section-5"
+        }
+    },
+    "rich-text#promo": {
+        "props": {
+          "text": "Promo**#semprejuntos**",
+          "blockClass": "promo"
         }
     }
 }

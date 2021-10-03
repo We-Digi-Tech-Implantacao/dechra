@@ -12,6 +12,7 @@
                 margin: 50px 0 0 0;
                 :global(.vtex-styleguide-9-x-input){
                     background: transparent;
+                    padding: 0 !important;
                 }
             }
         }
@@ -24,8 +25,10 @@
                 border-bottom: 1px solid #E6E6E6;
                 border-radius: 0;
                 background: none;
+                margin-top: 50px;
                 :global(.vtex-styleguide-9-x-input){
                     background: transparent;
+                    padding: 0 !important;
                 }
             }
         }

@@ -29,7 +29,8 @@
         },
         "children": [
             "rich-text#title-section-6-title",
-            "newsletter-form#Register"
+            "newsletter-form#Register",
+            "flex-layout.row#section-6-sing"
         ]
     },
     "rich-text#title-section-6-title": {
@@ -65,6 +66,52 @@
         "props":{
             "blockClass": ["input-sumit"],
             "submitButtonLabel": "Enviar"
+        }
+    },
+    "flex-layout.row#section-6-sing":{
+        "props":{
+            "blockClass": "section-6-sing",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#title-section-6-title-sing",
+            "flex-layout.row#section-6-icons-sing"
+        ]
+    },
+    "rich-text#title-section-6-title-sing":{
+        "props": {
+            "text": "Siga-nos",
+            "blockClass": "title-section-6-title-sing"
+        }
+    },
+    "flex-layout.row#section-6-icons-sing":{
+        "props":{
+            "blockClass": "section-6-sing-row",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#facebook",
+            "rich-text#instagram",
+            "rich-text#whatsapp"
+        ]
+    },
+
+    "rich-text#facebook": {
+        "props": {
+          "text": "[![](https://lojadechra.vtexassets.com/arquivos/facebook.png)](https://vtex.com/br-pt/)",
+          "blockClass": "icon-sing"
+        }
+    },
+    "rich-text#instagram": {
+        "props": {
+          "text": "[![](https://lojadechra.vtexassets.com/arquivos/instagram.png)](https://vtex.com/br-pt/)",
+          "blockClass": "icon-sing"
+        }
+    },
+    "rich-text#whatsapp": {
+        "props": {
+          "text": "[![](https://lojadechra.vtexassets.com/arquivos/whatsapp.png)](https://vtex.com/br-pt/)",
+          "blockClass": "icon-sing"
         }
     }
 }

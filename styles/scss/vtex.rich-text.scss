@@ -90,3 +90,61 @@
         }
     }
 }
+.container--title-section-6-title-sing{
+    margin-right: 50px;
+    .wrapper--title-section-6-title-sing{
+        .paragraph--title-section-6-title-sing{
+            font-size: 18px;
+            color: #053471;
+        }
+    }
+}
+.container--icon-sing{
+    .wrapper--icon-sing{
+        .paragraph--icon-sing{
+            margin-right: 30px;
+        }
+    }
+}
+.container--cupom{
+    .wrapper--cupom{
+        position: absolute;
+        left: 31px;
+        bottom: 0;
+        .paragraph--cupom{
+            font-size: 24px;
+            color: #5B5478;
+            font-weight: 100;
+            margin: 0;
+            text-align: right;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+    }
+}
+.container--cats{
+    .wrapper--cats{
+        position: absolute;
+        right: 31px;
+        bottom: 0;
+        .paragraph--cats{
+            font-size: 36px;
+            color: #5B5478;
+            margin: 0;
+        }
+    }
+}
+
+.container--promo{
+    .wrapper--promo{
+        position: absolute;
+        right: 5px;
+        bottom: -27px;
+        .paragraph--promo{
+            font-size: 60px;
+            color: #fff;
+            margin: 0;
+            letter-spacing: 3px;
+        }
+    }
+}
