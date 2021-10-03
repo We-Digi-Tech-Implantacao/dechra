@@ -2,6 +2,8 @@
 
 :global(.vtex-store-components-3-x-container){
     padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
 }
 .imageElement--icon{
     &:first-child{
@@ -19,4 +21,8 @@
 }
 .imageElement--icon-section-1{
     width: 200px;
+}
+.imageElement--img-section-5{
+    width: 100%;
+    max-width: 100%;
 }

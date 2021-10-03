@@ -1,8 +1,7 @@
 {
     "flex-layout.row#section-5":{
         "props": {
-            "blockClass": "container-section-5",
-            "colSizing": "auto"
+            "blockClass": "container-section-5"
         },
         "children":[
             "flex-layout.row#img-1",

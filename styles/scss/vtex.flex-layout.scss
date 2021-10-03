@@ -239,7 +239,7 @@
 	border-bottom: 1px solid #E6E6E6;
 }
 .flexRowContent--container-section-6{
-	padding: 50px;
+	padding: 50px
 }
 .flexRowContent--section-6-sing{
 	display: flex;
@@ -249,4 +249,25 @@
 }
 .flexRowContent--container-img-1 {
 	position: relative;
+}
+.flexRowContent--container-section-5{
+	.stretchChildrenWidth{
+		// &:first-child{
+		// 	width: 50% !important;
+		// }
+		.flexRow--container-img-1{
+			max-width: 100%;
+			width: 100%;
+			.flexRowContent--container-img-1{
+				width: 100%;
+				max-width: 100%;
+				.stretchChildrenWidth{
+					&:first-child{
+						max-width: 100% !important;
+						width: 100% !important;
+					}
+				}
+			}
+		}
+	}
 }
