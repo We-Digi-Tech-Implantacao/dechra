@@ -9,7 +9,7 @@
     }
     @media(max-width: $maxMobile){
         width: 80%!important;
-        margin-left: 25px;
+        margin: 250px auto 0;
     }
 }
 .infoCardContainer--home-list-instructions{
@@ -19,7 +19,7 @@
         height: calc(655px - 90px);
     }
     @media(max-width: $maxMobile){
-        height: calc(735px - 90px);
+        height: calc(500px - 90px);
     }
     .infoCardTextContainer--home-list-instructions{
         .container--home-list-instructions{
@@ -28,6 +28,13 @@
                     color: #fff;
                     font-size: 60px;
                     font-weight: 400;
+                    @media(max-width: $maxMobile){
+                        color: #fff;
+                        font-size: 40px;
+                        font-weight: 400;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
                 }
             }
         }
