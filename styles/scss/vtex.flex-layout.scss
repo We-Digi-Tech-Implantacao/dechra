@@ -237,10 +237,7 @@
     align-items: center;
 	margin: 10px 0;
 }
-.flexRow--container-section-1{
-	padding: 50px 0;
-	border-bottom: 1px solid #E6E6E6;
-}
+
 .flexRowContent--container-section-6{
 	padding: 50px;
 	@media (max-width: $maxTablet) {
@@ -325,22 +322,5 @@
 	}
 	.stretchChildrenWidth {
 		width: auto !important;
-	}
-}
-.flexRowContent--container-section-1{
-	// display: flex;
-	// flex-direction: row;
-	@media(max-width: $maxMobile){
-		overflow:hidden;
-        padding: 0 15px 0 15px;
-        display: flex;
-        flex-flow: row nowrap;
-        overflow-x: auto;
-        list-style: none;
-        align-items: center;
-        justify-content: flex-start;
-        &::-webkit-scrollbar {
-            display: none !important;
-        }
 	}
 }

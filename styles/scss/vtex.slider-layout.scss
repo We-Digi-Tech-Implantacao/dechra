@@ -70,13 +70,32 @@
 }
 .sliderTrack--home-section-3{
     align-items: baseline;
-    padding: 0 0 50px 0;
+    padding: 50px 0;
 }
 .infoCardImageContainer--home-section-3{
+    width: 65% !important ;
     .infoCardImage--home-section-3{
         width: 300px;
         @media(max-width: $maxMobile){
             width: 130px;
+        }
+    }
+}
+.infoCardImageContainer--home-section-1{
+    width: 70% !important ;
+    @media(max-width: $maxTablet){
+        width: 75% !important ;
+    }
+    @media(max-width: $maxMobile){
+        width: 75% !important ;
+    }
+    .infoCardImage--home-section-1{
+        width: 300px;
+        @media(max-width: $maxTablet){
+            width: 350px;
+        }
+        @media(max-width: $maxMobile){
+            width: 350px;
         }
     }
 }
@@ -153,5 +172,29 @@
             font-size: 20px;
             padding: 15px;
         }
+    }
+}
+.sliderArrows--home-section-1{
+    .caretIcon--home-section-3 {
+        color: #053471 !important;
+        width: 20px !important;
+    }
+}
+.sliderArrows--home-section-1{
+    .caretIcon--home-section-1{
+        color: #053471 !important;
+        width: 20px !important;
+    }
+}
+.sliderArrows--home-section-3 {
+    .caretIcon--home-section-3{
+        color: #7C7C7E ;
+        width: 20px !important ;
+    }
+}
+.sliderArrows--home-section-3{
+    .caretIcon--home-section-3{
+        color: #7C7C7E ;
+        width: 20px !important ;
     }
 }

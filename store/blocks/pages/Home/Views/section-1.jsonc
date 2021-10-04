@@ -1,37 +1,182 @@
 {
-    "flex-layout.row#section-1":{
-        "props":{
-            "blockClass": "container-section-1"
-        },
-        "children": [
-            "image#icon-1",
-            "image#icon-2",
-            "image#icon-3",
-            "image#icon-4"
-        ]
+    "responsive-layout.desktop#home-section-1":{
+      "children": [
+        "list-context.info-card-list#home-section-1"
+      ]
     },
-    "image#icon-1": {
+    "list-context.info-card-list#home-section-1": {
+      "title": "Banner principal",
+      "props": {
+          "blockClass": ["home-section-3", "home-section-1"],
+          "infoCards": [
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon1.svg",
+                  "mobileImageUrl": "assets/images/icon1.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              },
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon2.svg",
+                  "mobileImageUrl": "assets/images/icon2.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              },
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon3.svg",
+                  "mobileImageUrl": "assets/images/icon3.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              },
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon4.svg",
+                  "mobileImageUrl": "assets/images/icon4.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              }
+          ]
+      },
+      "children": [
+          "slider-layout#home-list-section-1"
+      ]
+    },
+    "slider-layout#home-list-section-1": {
+        "title": "Slider tipo de produto",
         "props": {
-          "src": "assets/images/icon1.svg",
-          "blockClass": "icon-section-1"
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": ["home-section-3", "home-section-1"]
         }
     },
-    "image#icon-2": {
-        "props": {
-          "src": "assets/images/icon2.svg",
-          "blockClass": "icon-section-1"
-        }
+    "responsive-layout.mobile#section-1-mobile":{
+      "children": [
+        "list-context.info-card-list#home-section-1-mobile"
+      ]
     },
-    "image#icon-3": {
-        "props": {
-          "src": "assets/images/icon3.svg",
-          "blockClass": "icon-section-1"
-        }
+    "list-context.info-card-list#home-section-1-mobile": {
+      "title": "Banner principal",
+      "props": {
+          "blockClass": ["home-section-3", "home-section-1"],
+          "infoCards": [
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon1.svg",
+                  "mobileImageUrl": "assets/images/icon1.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              },
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon2.svg",
+                  "mobileImageUrl": "assets/images/icon2.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              },
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon3.svg",
+                  "mobileImageUrl": "assets/images/icon3.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              },
+              {
+                  "title": "Banner Home",
+                  "id": "BannerHome",
+                  "blockClass": ["section-3", "section-1"],
+                  "htmlId": "BannerHome",
+                  "isFullModeStyle": false,
+                  "imageUrl": "assets/images/icon4.svg",
+                  "mobileImageUrl": "assets/images/icon4.svg",
+                  "textPosition": "left",
+                  "textAlignment": "center",
+                  "headline": "",
+                  "subhead": "",
+                  "textMode": "rich-text",
+                  "callToActionMode": "none"
+              }
+          ]
+      },
+      "children": [
+          "slider-layout#home-list-section-1-mobile"
+      ]
     },
-    "image#icon-4": {
+    "slider-layout#home-list-section-1-mobile": {
+        "title": "Slider tipo de produto",
         "props": {
-          "src": "assets/images/icon4.svg",
-          "blockClass": "icon-section-1"
+            "itemsPerPage": {
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": ["home-section-3", "home-section-1"],
+            "autoplay": {
+              "timeout": 3000
+            }
         }
     }
 }

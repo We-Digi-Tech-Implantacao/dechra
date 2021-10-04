@@ -5,7 +5,8 @@
     },
     "blocks": [
       "list-context.info-card-list#home-banner",
-      "flex-layout.row#section-1",
+      "responsive-layout.desktop#home-section-1",
+      "responsive-layout.mobile#section-1-mobile",
       "flex-layout.row#section-3",
       "list-context.info-card-list#home-section-4",
       "flex-layout.row#section-5",
