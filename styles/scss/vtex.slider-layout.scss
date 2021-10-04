@@ -75,6 +75,9 @@
 .infoCardImageContainer--home-section-3{
     .infoCardImage--home-section-3{
         width: 300px;
+        @media(max-width: $maxMobile){
+            width: 130px;
+        }
     }
 }
 

@@ -55,23 +55,59 @@
             font-weight: 400;
             margin-bottom: 0;
             font-size: 18px;
+            @media(max-width: $maxTablet){
+                font-weight: 500;
+            }
+            @media(max-width: $maxMobile){
+                font-weight: 500;
+            }
         }
     }
 }
 .container--title-section-3{
+    @media(max-width: $maxTablet){
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    @media(max-width: $maxMobile){
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
     .wrapper--title-section-3{
         padding-left: 60px;
+        @media(max-width: $maxTablet){
+            padding: 0 !important;
+        }
+        @media(max-width: $maxMobile){
+            padding: 0 !important;
+        }
         .heading--title-section-3{
             display: flex;
             align-items: center;
             color: #7C7C7E;
             font-size: 30px;
+            @media(max-width: $maxTablet){
+                text-align: center;
+                font-size: 24px;
+            }
+            @media(max-width: $maxMobile){
+                text-align: center;
+                font-size: 24px;
+            }
             &::after{  
                 content: '';
                 display: block;
                 border-bottom: 1px solid #E6E6E6;
                 width: 770px;
                 margin-left: 50px;
+                @media(max-width: $maxTablet){
+                    display: none;
+                }
+                @media(max-width: $maxMobile){
+                    display: none;
+                }
             }
         }
     }
@@ -180,24 +216,55 @@
         .paragraph--number-1-atendimento-mobile{
             display: flex;
             align-items: center;
-            font-size: 18px;
+            width: 124px;
+            font-size: 15px;
             color: #4D4D4D;
+            margin-top: 0;
+            @media(max-width: $maxTablet){
+                font-size: 18px;
+                width: 211px!important;
+            }
+            @media(max-width: $maxMobile){
+                font-size: 18px;  
+                width: 211px!important;  
+            }
             &::before{
                 content: '';
                 display: block;
                 background-image: url("assets/images/phone.svg");
-                background-size: 20px;
+                background-size: 16px;
                 background-repeat: no-repeat;
-                width: 21px;
-                height: 30px;
+                width: 17px;
+                height: 21px;
                 margin-right: 5px;
+                @media(max-width: $maxTablet){
+                    background-size: 20px;     
+                    width: 23px;
+                    height: 25px;
+                }
+                @media(max-width: $maxMobile){
+                    background-size: 20px;        
+                    width: 23px;
+                    height: 25px;
+                }
             }
-            &::after{
-                content: '';
-                border-right: 1px solid #4D4D4D;
-                width: 1px;
-                height: 30px;
-                margin-left: 25px;
+            @media(max-width: $maxTablet){
+                &::after{
+                    content: '';
+                    border-right: 1px solid #4D4D4D;
+                    width: 1px;
+                    height: 30px;
+                    margin-left: 30px;
+                }
+            }
+            @media(max-width: $maxMobile){
+                &::after{
+                    content: '';
+                    border-right: 1px solid #4D4D4D;
+                    width: 1px;
+                    height: 30px;
+                    margin-left: 30px;
+                }
             }
         }
     }
@@ -209,17 +276,38 @@
         .paragraph--number-2-atendimento-mobile{
             display: flex;
             align-items: center;
-            font-size: 18px;
+            width: 135px!important;
+            font-size: 15px;
             color: #4D4D4D;
+            margin-top: 0;
+            @media(max-width: $maxTablet){
+                font-size: 18px;
+                width: 163px!important;
+            }
+            @media(max-width: $maxMobile){
+                font-size: 18px;  
+                width: 163px!important;
+            }
+
             &::before{
                 content: '';
                 display: block;
                 background-image: url("assets/images/whatsapp.svg");
-                background-size: 20px;
+                background-size: 16px;
                 background-repeat: no-repeat;
-                width: 22px;
-                height: 25px;
+                width: 16px;
+                height: 16px;
                 margin-right: 5px;
+                @media(max-width: $maxTablet){
+                    background-size: 20px;
+                    width: 20px;
+                    height: 21px;
+                }
+                @media(max-width: $maxMobile){
+                    background-size: 20px;  
+                    width: 20px;
+                    height: 21px;
+                }
             }
         }
     }

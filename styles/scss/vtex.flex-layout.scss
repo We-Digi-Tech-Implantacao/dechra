@@ -211,6 +211,9 @@
 		&:last-child {
 			border-bottom: 1px solid #BDBDBD;
 		}
+		.flexRow--atendimento-mobile{
+			//padding: 0 15px;
+		}
 	}
 }
 .flexRowContent--menu-footer-mobile {
@@ -294,13 +297,42 @@
 }
 .flexRowContent--atendimento-number-mobile{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	@media(max-width: $maxTablet){
+		display: flex;
+		flex-direction: row;
+	}
+	@media(max-width: $maxMobile){
+		display: flex;
+		flex-direction: row;
+	}
 }
 .flexRowContent--atendimento-mobile{
+	display: flex;
+    flex-direction: column;
 	@media(max-width: $maxTablet){
 		display: flex;
     	justify-content: center;
     	align-items: center;
     	flex-direction: column;
+	}
+	@media(max-width: $maxMobile){
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	flex-direction: column;
+	}
+}
+.flexRowContent--container-section-1{
+	display: flex;
+	flex-direction: row;
+	@media(max-width: $maxMobile){
+		// padding: 0 15px 0 15px;
+		// display: flex;
+		// flex-flow: row nowrap;
+		// overflow-x: auto;
+		// list-style: none;
+		// align-items: center;
+		// justify-content: flex-start;
 	}
 }

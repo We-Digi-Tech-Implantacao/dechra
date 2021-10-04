@@ -16,7 +16,8 @@
       "vtex.menu@2.x:menu#Institucional",
       "vtex.menu@2.x:menu#Ajuda",
       "vtex.menu@2.x:menu#minha-conta",
-      "vtex.menu@2.x:menu#atendimento",
+      "flex-layout.row#atendimento-mobile",
+      //"vtex.menu@2.x:menu#atendimento",
       "flex-layout.row#icons"
     ],
     "props": {
@@ -286,7 +287,8 @@
   },
   "flex-layout.row#atendimento-number-mobile":{
     "props":{
-      "blockClass": "atendimento-number-mobile"
+      "blockClass": "atendimento-number-mobile",
+      "colSizing": "auto"
     },
     "children":[
       "rich-text#number-1-atendimento-mobile",
