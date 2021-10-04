@@ -24,13 +24,51 @@
 
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
+      "flex-layout.row#shelf-img-and-btn",
+      "product-summary-brand",
       "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-identifier.summary",
-      "add-to-cart-button"
+      "flex-layout.row#prices",
+      "product-installments"
     ]
+  },
+  "flex-layout.row#shelf-img-and-btn": {
+    "children": [
+      "product-summary-image#shelf",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "shelf-img-and-btn"
+    }
+  },
+  "flex-layout.row#prices": {
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "price-row",
+      "horizontalAlign": "left",
+      "colSizing": "auto"
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showNavigationArrows": "never",
+      "aspectRatio": "1:1",
+      "showBadge": false,
+      "width": {
+        "mobile": "",
+        "desktop": "715px"
+      },
+      "height": {
+        "mobile": "",
+        "desktop": "715px"
+      },
+      "hoverImage": {
+          "label": "hover",
+          "criteria": "label"
+      }
+    }
   }
 }

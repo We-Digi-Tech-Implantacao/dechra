@@ -7,9 +7,11 @@
       "list-context.info-card-list#home-banner",
       "responsive-layout.desktop#home-section-1",
       "responsive-layout.mobile#section-1-mobile",
+      "flex-layout.row#home-aux-showcase",
       "flex-layout.row#section-3",
       "list-context.info-card-list#home-section-4",
       "flex-layout.row#section-5",
+      "flex-layout.row#home-aux-showcase",
       "flex-layout.row#section-6"
     ]
   }

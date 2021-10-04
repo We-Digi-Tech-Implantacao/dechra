@@ -1,0 +1,63 @@
+.container {
+    margin: 0 auto;
+  
+    .nameContainer {
+      justify-content: left;
+      padding: 10px 0;
+    }
+  
+    .productBrand {
+      font-weight: 100;
+      color: #78787A;
+      font-size: 14px;
+    }
+  
+    .productBrandContainer,
+    .priceContainer {
+      text-align: left;
+    }
+  
+    .productBrandContainer {
+      font-weight: bold;
+      color: #053471;
+      font-size: 14px;
+    }
+  
+    .element {
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      align-items: center;
+    }
+  
+    .imageContainer {
+      .image {
+        width: 100% !important;
+        height: auto !important;
+        max-height: unset;
+        max-width: 100% !important;
+        border-radius: 7px;
+        margin-bottom: 20px;
+      }
+    }
+  
+    :global(.vtex-button) {
+      border: 0;
+      background-color: #053471;
+      border-color: #053471;
+      position: absolute;
+      bottom: 114px;
+      left: 82px;
+      display: none;
+      width: 284px;
+      text-transform: initial;
+      :global(.vtex-button__label) {
+        padding: 0 !important;
+      }
+    }
+    &:hover {
+      :global(.vtex-button) {
+        display: block;
+      }
+    }
+  }

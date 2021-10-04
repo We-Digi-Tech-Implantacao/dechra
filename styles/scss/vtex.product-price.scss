@@ -1,0 +1,25 @@
+.sellingPrice,
+.installments,
+.listPrice {
+  align-self: start;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+}
+
+.listPrice {
+  font-style: italic;
+  width: fit-content;
+  font-weight: lighter;
+  margin-right: 10px;
+}
+
+.installments {
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.sellingPrice {
+  font-weight: bold;
+  color: #053471;
+  font-size: 14px;
+}

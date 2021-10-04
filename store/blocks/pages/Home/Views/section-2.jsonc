@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#home-aux-showcase": {
+      "children": ["flex-layout.col#home-aux-showcase"],
+      "props": {
+        "blockClass": "home-aux-showcase"
+      },
+      "title": "Vitrine Auxiliar"
+    },
+    "flex-layout.col#home-aux-showcase": {
+      "children": [
+        "rich-text#home-aux-title",
+        "list-context.product-list#aux-showcase-1"
+      ],
+      "props": {
+        "blockClass": "home-aux-showcase",
+        "verticalAlign": "left"
+      },
+      "title": "Coluna da Vitrine Auxiliar"
+    },
+    "rich-text#home-aux-title": {
+      "title": "Título da Vitrine Auxiliar",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "## Lançamentos",
+        "blockClass": "showcase-title"
+      }
+    },
+    "list-context.product-list#aux-showcase-1": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#home-aux-showcase"]
+    },
+    "slider-layout#home-aux-showcase": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "never",
+        "blockClass": "home-aux-showcase",
+        "fullWidth": true
+      },
+    "title": "Slider da Vitrine Auxiliar"
+    }
+  }

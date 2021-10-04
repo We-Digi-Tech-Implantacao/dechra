@@ -131,7 +131,7 @@
             "slider-layout#home-list-section-3"
         ]
       },
-      "slider-layout#home-list-section-3": {
+        "slider-layout#home-list-section-3": {
           "title": "Slider tipo de produto",
           "props": {
               "itemsPerPage": {

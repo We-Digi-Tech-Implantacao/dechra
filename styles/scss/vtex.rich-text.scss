@@ -321,3 +321,14 @@
 .paragraph--menu-atendimento-mobile{
     text-transform: uppercase;
 }
+.container--showcase-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper--showcase-title{
+        .heading--showcase-title{
+            color: #053471;
+            font-size: 30px;
+        }
+    }
+}

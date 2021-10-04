@@ -324,3 +324,13 @@
 		width: auto !important;
 	}
 }
+.flexRow--shelf-img-and-btn{
+	.flexRowContent--shelf-img-and-btn{
+		.stretchChildrenWidth{
+			width: auto !important
+		}
+	}
+}
+.flexCol--home-aux-showcase{
+	padding: 50px 0;
+}
