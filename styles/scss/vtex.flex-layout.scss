@@ -310,6 +310,7 @@
 .flexRowContent--atendimento-mobile{
 	display: flex;
     flex-direction: column;
+    align-items: flex-start;
 	@media(max-width: $maxTablet){
 		display: flex;
     	justify-content: center;
@@ -322,17 +323,24 @@
     	align-items: center;
     	flex-direction: column;
 	}
+	.stretchChildrenWidth {
+		width: auto !important;
+	}
 }
 .flexRowContent--container-section-1{
-	display: flex;
-	flex-direction: row;
+	// display: flex;
+	// flex-direction: row;
 	@media(max-width: $maxMobile){
-		// padding: 0 15px 0 15px;
-		// display: flex;
-		// flex-flow: row nowrap;
-		// overflow-x: auto;
-		// list-style: none;
-		// align-items: center;
-		// justify-content: flex-start;
+		overflow:hidden;
+        padding: 0 15px 0 15px;
+        display: flex;
+        flex-flow: row nowrap;
+        overflow-x: auto;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-start;
+        &::-webkit-scrollbar {
+            display: none !important;
+        }
 	}
 }

@@ -139,7 +139,7 @@
                   "tablet": 3,
                   "phone": 2
               },
-              "infinite": false,
+              "infinite": true,
               "showPaginationDots": "never",
               "blockClass": "home-section-3"
           }

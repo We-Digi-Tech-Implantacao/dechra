@@ -210,8 +210,14 @@
     }
 }
 .container--number-1-atendimento-mobile{
-    align-items: center;
-    justify-content: center;
+    @media(max-width: $maxTablet){
+        align-items: center;
+        justify-content: center;
+    }
+    @media(max-width: $maxMobile){
+        align-items: center;
+        justify-content: center; 
+    }
     .wrapper--number-1-atendimento-mobile{
         .paragraph--number-1-atendimento-mobile{
             display: flex;
