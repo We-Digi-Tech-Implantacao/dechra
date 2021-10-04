@@ -1,6 +1,8 @@
 .container {
-    margin: 0 auto;
-  
+    margin: 10px auto;
+    box-shadow: inset 0 0 0 #bdbdbd, 0 0 6px #bdbdbd;
+    height: 430px;
+    border-radius: 10px;
     .nameContainer {
       justify-content: left;
       padding: 10px 0;
@@ -46,7 +48,7 @@
       background-color: #053471;
       border-color: #053471;
       position: absolute;
-      bottom: 114px;
+      bottom: 153px;
       left: 82px;
       display: none;
       width: 284px;
