@@ -3,6 +3,7 @@
 :global(.vtex-minicart-2-x-openIconContainer){
     :global(.vtex-button){
         :global(.vtex-button__label){
+            padding: 0 !important;
             :global(.vtex-minicart-2-x-minicartIconContainer){
                 &::before{
                     content: '';

@@ -337,6 +337,7 @@
 .flexRow--container-header{
 	padding: 15px 0px;
 	background-color: #fff;
+	border-top: 3px solid #053471;
 }
 .flexRow--container-menu{
 	display: flex;
@@ -352,7 +353,7 @@
 	}
 }
 .flexRow--main-header-mobile{
-	padding: 10px 5px;
+	padding: 10px;
 }
 .flexRowContent--main-header-mobile{
 	:global(.vtex-store-components-3-x-logoLink){
@@ -368,4 +369,9 @@
 			padding: 0 !important;
 		}
 	}
+}
+.flexRowContent--container-header{
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
 }

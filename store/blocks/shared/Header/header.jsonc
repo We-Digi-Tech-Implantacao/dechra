@@ -36,8 +36,14 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.row#menu",
-      "flex-layout.col#spacer",
+      //"flex-layout.col#spacer",
       "search-bar",
+      "flex-layout.row#utils"
+      
+    ]
+  },
+  "flex-layout.row#utils":{
+    "children":[
       "locale-switcher",
       "login",
       "minicart.v2"
