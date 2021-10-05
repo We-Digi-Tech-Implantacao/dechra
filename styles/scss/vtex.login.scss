@@ -1,1 +1,26 @@
 @import 'variables';
+
+:global(.vtex-login-2-x-container){
+    :global(.vtex-button){
+        &::before{
+            content: '';
+            display: block;
+            background-image: url('assets/images/user.svg');
+            background-size: 20px;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 21px;
+            margin: 0 auto;
+        }
+        :global(.vtex-button__label){
+            :global(.vtex-login-2-x-label){
+                color: #053471;
+                text-transform: initial;
+                padding-left: 6px!important;
+            }
+            :global(.items-center){
+                padding: 0 !important;
+            }
+        }
+    }
+}

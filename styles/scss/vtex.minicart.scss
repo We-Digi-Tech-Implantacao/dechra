@@ -1,1 +1,40 @@
 @import 'variables';
+
+:global(.vtex-minicart-2-x-openIconContainer){
+    :global(.vtex-button){
+        :global(.vtex-button__label){
+            :global(.vtex-minicart-2-x-minicartIconContainer){
+                &::before{
+                    content: '';
+                    display: block;
+                    background-image: url('assets/images/carrino.svg');
+                    background-size: 20px;
+                    background-repeat: no-repeat;
+                    width: 20px;
+                    height: 20px;
+                    margin: 0 auto;
+                }
+                &::after{
+                    content: 'Carrinho';
+                    display: block;
+                    color: #053471;
+                    font-size: 14px;
+                    text-transform: initial;
+                    padding-top: .25rem;
+                    padding-bottom: .25rem;
+                }
+                :global(.vtex-minicart-2-x-cartIcon){
+                    display: none !important;
+                }
+                :global(.vtex-minicart-2-x-minicartQuantityBadge){
+                    border-radius: 100%;
+                    width: 12px;
+                    height: 12px;
+                    top: 0px !important;
+                    left: 40px !important;
+                    background-color: #D6822D;
+                }
+            }
+        }
+    }
+}

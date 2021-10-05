@@ -103,6 +103,12 @@
       "blockClass": "container-search"
     }
   },
+  "login":{
+    "props":{
+      "blockClass": "container-login",
+      "iconLabel": "Conta"
+    }
+  },
   "header-layout.mobile": {
     "children": [
       "sticky-layout#mobile"
