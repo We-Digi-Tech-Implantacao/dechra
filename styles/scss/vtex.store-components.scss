@@ -33,7 +33,7 @@
             border-radius: 25px;
             border: none;
             :global(.vtex-styleguide-9-x-input){
-                background-color: #EFF5FB;
+                background-color: #FAFAFA;
                 color: #053471;
                 &::placeholder{
                     color: #053471;
@@ -41,7 +41,7 @@
                 }
             }
             :global(.vtex-input__suffix){
-                background-color: #EFF5FB;
+                background-color: #FAFAFA;
                 padding: 0 !important;
                 .suffixWrapper--container-search{
                     .searchBarIcon--container-search {
