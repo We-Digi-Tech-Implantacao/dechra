@@ -338,6 +338,7 @@
 	padding: 15px 0px;
 	background-color: #fff;
 	border-top: 3px solid #053471;
+	box-shadow: inset 0 0 0 #707070, 0 0 6px #707070;
 }
 .flexRow--container-menu{
 	display: flex;
@@ -349,7 +350,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0;
+		padding: 10px 0;
 	}
 }
 .flexRow--main-header-mobile{
