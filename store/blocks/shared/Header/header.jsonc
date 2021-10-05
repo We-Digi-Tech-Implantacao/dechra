@@ -30,10 +30,12 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "container-header"
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "flex-layout.row#menu",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -41,10 +43,15 @@
       "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
+  "flex-layout.row#menu":{
+    "props":{
+      "blockClass": "container-menu"
+    },
+    "children":[
+      "image#book",
+      "image#dog",
+      "image#cat"
+    ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -59,8 +66,41 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": "assets/images/logo.svg",
       "width": "80"
+    }
+  },
+  "image#book": {
+    "props": {
+      "src": "assets/images/book.svg",
+      "maxHeight": 45,
+      "blockClass": "icon-menu"
+    }
+  },
+  "image#dog": {
+    "props": {
+      "src": "assets/images/dog.svg",
+      "maxHeight": 45,
+      "blockClass": "icon-menu"
+    }
+  },
+  "image#cat": {
+    "props": {
+      "src": "assets/images/cat.svg",
+      "maxHeight": 45,
+      "blockClass": "icon-menu"
+    }
+  },
+
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "search-bar":{
+    "props":{
+      "blockClass": "container-search"
     }
   },
   "header-layout.mobile": {
