@@ -100,7 +100,8 @@
   },
   "search-bar":{
     "props":{
-      "blockClass": "container-search"
+      "blockClass": "container-search",
+      "placeholder": "Digite aqui o que você procura…"
     }
   },
   "login":{

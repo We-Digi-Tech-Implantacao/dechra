@@ -29,6 +29,7 @@
     :global(.vtex-input){
         :global(.vtex-input-prefix__group){
             width: 545px;
+            height: 40px;
             border-radius: 25px;
             border: none;
             :global(.vtex-styleguide-9-x-input){
@@ -36,13 +37,28 @@
                 color: #053471;
                 &::placeholder{
                     color: #053471;
+                    font-size: 14px;
                 }
             }
             :global(.vtex-input__suffix){
                 background-color: #EFF5FB;
+                padding: 0 !important;
                 .suffixWrapper--container-search{
                     .searchBarIcon--container-search {
                         color: #053471;
+                        &::before{
+                            content: '';
+                            display: block;
+                            background-image: url('assets/images/pesquisa.svg');
+                            background-size: 22px;
+                            background-repeat: no-repeat;
+                            width: 22px;
+                            height: 22px;
+                            margin: 0 auto;
+                        }
+                        :global(.vtex-store-components-3-x-searchIcon){
+                            display: none !important;
+                        }
                     }
                 }
             }
