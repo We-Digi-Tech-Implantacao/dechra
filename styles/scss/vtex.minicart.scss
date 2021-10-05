@@ -13,6 +13,16 @@
                     width: 20px;
                     height: 20px;
                     margin: 0 auto;
+                    @media(max-width: $maxTablet){
+                        background-size: 25px;
+                        width: 25px;
+                        height: 25px;
+                    }
+                    @media(max-width: $maxMobile){
+                        background-size: 25px;
+                        width: 25px;
+                        height: 25px;
+                    }
                 }
                 &::after{
                     content: 'Carrinho';
@@ -22,17 +32,31 @@
                     text-transform: initial;
                     padding-top: .25rem;
                     padding-bottom: .25rem;
+                    @media(max-width: $maxTablet){
+                        display: none !important;
+                    }
+                    @media(max-width: $maxMobile){
+                        display: none !important;
+                    }
                 }
                 :global(.vtex-minicart-2-x-cartIcon){
                     display: none !important;
                 }
                 :global(.vtex-minicart-2-x-minicartQuantityBadge){
                     border-radius: 100%;
-                    width: 12px;
-                    height: 12px;
+                    width: 13px;
+                    height: 13px;
                     top: 0px !important;
                     left: 40px !important;
                     background-color: #D6822D;
+                    @media(max-width: $maxTablet){
+                        top: 5px!important;
+                        left: 30px!important;
+                    }
+                    @media(max-width: $maxMobile){
+                        top: 5px!important;
+                        left: 30px!important;
+                    }
                 }
             }
         }

@@ -1,1 +1,42 @@
 @import 'variables';
+
+:global(.vtex-store-drawer-0-x-openIconContainer){
+    @media(max-width: $maxTablet){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::before{
+			content: '';
+			display: block;
+			background-image: url('assets/images/drawer.svg');
+            background-size: 30px;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 21px;
+            margin-left: 10px;
+		}
+    }
+    @media(max-width: $maxMobile){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::before{
+			content: '';
+			display: block;
+			background-image: url('assets/images/drawer.svg');
+		    background-size: 30px;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 21px;
+            margin-left: 10px;
+		}
+    }
+    :global(.vtex-store-drawer-0-x-menuIcon){
+        @media(max-width: $maxTablet){
+            display: none
+        }
+        @media(max-width: $maxMobile){
+            display: none
+        }
+    }
+}

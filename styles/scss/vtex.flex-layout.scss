@@ -351,3 +351,21 @@
 		padding: 0;
 	}
 }
+.flexRow--main-header-mobile{
+	padding: 10px 5px;
+}
+.flexRowContent--main-header-mobile{
+	:global(.vtex-store-components-3-x-logoLink){
+		display: flex;
+		&::after{
+			content: '';
+			display: block;
+			border-right: 1px solid #DEDEDE;
+			height: 64px;
+    		margin-left: 15px;
+		}
+		:global(.vtex-store-components-3-x-logoContainer){
+			padding: 0 !important;
+		}
+	}
+}

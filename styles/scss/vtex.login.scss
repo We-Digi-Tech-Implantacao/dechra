@@ -2,6 +2,18 @@
 
 :global(.vtex-login-2-x-container){
     :global(.vtex-button){
+        @media(max-width: $maxTablet){
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        @media(max-width: $maxMobile){
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: row-reverse;
+        }
         &::before{
             content: '';
             display: block;
@@ -11,6 +23,17 @@
             width: 20px;
             height: 21px;
             margin: 0 auto;
+            @media(max-width: $maxTablet){
+                background-size: 25px;
+                width: 25px;
+                height: 25px;
+            }
+            @media(max-width: $maxMobile){
+                background-size: 25px;
+                width: 25px;
+                height: 25px;
+            }
+           
         }
         :global(.vtex-button__label){
             :global(.vtex-login-2-x-label){
