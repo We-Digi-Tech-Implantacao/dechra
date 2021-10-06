@@ -40,8 +40,9 @@
             right: 0;
 
             background: none;
-            color: #123F78;
+            color: #123F78 !important;
             border: none;
+            background-color: transparent !important;
             :global(.vtex-button__label){
                 padding: 0;
                 margin: 0;
