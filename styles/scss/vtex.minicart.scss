@@ -93,3 +93,12 @@
         padding: 0 !important;
     }
 }
+ 
+:global(.vtex-minicart-2-x-minicartWrapperContainer){
+    @media(max-width: $maxTablet){
+        width: 50px !important;
+    }
+    @media(max-width: $maxMobile){
+        width: 50px !important;
+    }
+}
