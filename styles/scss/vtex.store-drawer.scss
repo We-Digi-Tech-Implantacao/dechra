@@ -40,3 +40,28 @@
         }
     }
 }
+:global(.vtex-store-drawer-0-x-closeIconButton){
+    @media(max-width: $maxTablet){
+        position: absolute;
+        right: 8px;
+        top: 28px;
+    }
+    @media(max-width: $maxMobile){
+        position: absolute;
+        right: 8px;
+        top: 28px;
+    }
+    :global(.vtex-store-drawer-0-x-closeIcon){
+        color: #053471;
+    }
+}
+:global(.vtex-store-drawer-0-x-childrenContainer){
+    @media(max-width: $maxTablet){
+        padding: 30px 8px;
+        border-bottom: 1px solid rgb(233, 233, 233);
+    }
+    @media(max-width: $maxMobile){
+        padding: 30px 8px;
+        border-bottom: 1px solid rgb(233, 233, 233);
+    }
+}

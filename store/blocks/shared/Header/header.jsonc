@@ -44,7 +44,7 @@
   },
   "flex-layout.row#utils":{
     "children":[
-      "locale-switcher",
+      "rich-text#requests",
       "login",
       "minicart.v2"
     ]
@@ -110,6 +110,12 @@
       "placeholder": "Digite aqui o que você procura…"
     }
   },
+  "rich-text#requests": {
+    "props": {
+      "text": "[![](assets/images/feather-list.svg)](/)",
+      "blockClass": "icon-menu"
+    }
+  },
   "login":{
     "props":{
       "blockClass": "container-login",
@@ -131,7 +137,6 @@
       "logo",
       "drawer",
       "flex-layout.col#spacer",
-      "login",
       "minicart.v2"
     ],
     "props": {
@@ -142,6 +147,46 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "flex-layout.row#header-drawer"
+    ],
+    "props": {
+      //"orientation": "vertical",
+      "blockClass": "drawer"
+    }
+  },
+  "flex-layout.row#header-drawer":{
+    "props":{
+      "blockClass": "header-drawer"
+    },
+    "children":[
+      "flex-layout.col#header-drawer-text"
+    ]
+  },
+  "flex-layout.col#header-drawer-text":{
+    "props":{
+      "blockClass": "header-drawer-text"
+    },
+    "children":[
+      "rich-text#header-drawer-title",
+      "login#mobile"
+    ]
+  },
+  "rich-text#header-drawer-title": {
+    "props": {
+      "text": "Olá, seja bem-vindo(a)!",
+      "blockClass": "title-header-drawer"
+    }
+  },
+  "login#mobile":{
+    "props":{
+      "blockClass": "login-drawer-header",
+      "iconLabel": "Cadastre-se / Login"
+    }
   }
 }

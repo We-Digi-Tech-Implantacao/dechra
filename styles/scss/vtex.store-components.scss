@@ -67,4 +67,10 @@
 }
 :global(.vtex-store-components-3-x-logoContainer){
     padding: 0 !important;
+    @media(max-width: $maxTablet){
+        min-width: auto !important;
+    }
+    @media(max-width: $maxMobile){
+        min-width: auto !important;
+    }
 }

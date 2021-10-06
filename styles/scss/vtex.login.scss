@@ -6,13 +6,13 @@
             align-items: center;
             justify-content: center;
             display: flex;
-            flex-direction: row-reverse;
+            flex-direction: row;
         }
         @media(max-width: $maxMobile){
             align-items: center;
             justify-content: center;
             display: flex;
-            flex-direction: row-reverse;
+            flex-direction: row;
         }
         &::before{
             content: '';
@@ -24,14 +24,10 @@
             height: 21px;
             margin: 0 auto;
             @media(max-width: $maxTablet){
-                background-size: 25px;
-                width: 25px;
-                height: 25px;
+                display: none;;
             }
             @media(max-width: $maxMobile){
-                background-size: 25px;
-                width: 25px;
-                height: 25px;
+                display: none;
             }
            
         }
@@ -40,9 +36,39 @@
                 color: #053471;
                 text-transform: initial;
                 padding-left: 6px!important;
+                @media(max-width: $maxMobile){
+                    display: flex;
+                }
             }
             :global(.items-center){
                 padding: 0 !important;
+            }
+        }
+    }
+    :global(.vtex-login-2-x-buttonLink){
+        :global(.vtex-button){
+            min-height: auto !important;
+            :global(.vtex-button__label){
+                @media(max-width: $maxTablet){
+                    padding: 0 !important;
+                }
+                @media(max-width: $maxMobile){
+                    padding: 0 !important;
+                }
+            }
+            :global(.vtex-login-2-x-label){
+                @media(max-width: $maxTablet){
+                    padding: 0 !important;
+                    color: #707070 !important;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                @media(max-width: $maxMobile){
+                    padding: 0 !important;
+                    color: #707070 !important;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
             }
         }
     }

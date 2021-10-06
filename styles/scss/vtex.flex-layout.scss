@@ -355,6 +355,7 @@
 }
 .flexRow--main-header-mobile{
 	padding: 10px;
+	background-color: #fff;
 }
 .flexRowContent--main-header-mobile{
 	:global(.vtex-store-components-3-x-logoLink){
@@ -375,4 +376,8 @@
     display: flex;
 	justify-content: space-around;
     align-items: center;
+}
+.flexCol--header-drawer-text{
+	display: flex;
+    align-items: flex-start
 }

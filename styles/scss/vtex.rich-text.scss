@@ -332,3 +332,46 @@
         }
     }
 }
+.container--icon-menu{
+    align-items: center;
+    justify-content: flex-end;
+    .wrapper--icon-menu{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &::after{
+            content: 'Pedidos';
+            display: block;
+            color: #053471;
+            font-size: 14px;
+            text-transform: initial;
+            padding-top: .25rem;
+            padding-bottom: .25rem;
+            font-weight: 500;
+        }
+        .paragraph--icon-menu{
+            margin: 0;
+            line-height: .6 !important;
+        }
+        .link--icon-menu{
+            .image--icon-menu{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+.container--title-header-drawer{
+    .wrapper--title-header-drawer{
+        display: flex;
+        align-items: center;
+        
+        .paragraph--title-header-drawer{
+            margin: 0;
+            color: #053471;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
