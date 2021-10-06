@@ -47,7 +47,7 @@
             :global(.vtex-login-2-x-label){
                 color: #053471;
                 text-transform: initial;
-                padding-left: 6px!important;
+                padding-left: 5px!important;
                 @media(max-width: $maxTablet){
                     display: flex;
                     padding: 0 !important;
@@ -178,4 +178,65 @@
 }
 :global(.vtex-login-2-x-box){
     right: -96px !important;
+}
+:global(.vtex-pageHeader__title){
+    color: #053471;
+}
+:global(.b--action-primary){
+    color: #053471 !important;
+    border-color: #053471 !important;
+}
+
+:global(.vtex-pageHeader__children){
+    :global(.vtex-my-cards-1-x-newCardButton){
+        :global(.c-on-action-primary){
+            background-color: #053471 !important;
+            padding: 5px 15px !important;
+            :global(.vtex-button__label){
+                color: #fff;
+                font-size: 13px;
+            }
+        }
+    }
+    :global(.newAddressButton){
+        :global(.c-on-action-primary){
+            background-color: #053471 !important;
+            padding: 5px 15px !important;
+            :global(.vtex-button__label){
+                color: #fff;
+                font-size: 13px;
+            }
+        }
+    }
+}
+:global(.vtex-profile-form-3-x-profileContainer){
+    :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper){
+        :global(.vtex-button){
+            border: 1px solid #053471 !important;
+            background-color: transparent !important;
+            color: #053471 !important;
+        }   
+    }
+    :global(.vtex-button){
+        background-color: #053471;
+        border: none;
+        :global(.vtex-button__label){
+            color: #fff;
+        }
+    }
+}
+
+:global(.bg-disabled,){
+    background-color: #053471;
+    color: #fff !important;
+    :global(.bg-emphasis){
+        color: #fff !important;
+    }
+}
+
+:global(.bg-action-primary) {
+    background-color: #053471 !important;
+    color: #fff !important;   
+    font-size: 13px;
+    //border: 2px solid #053471
 }
