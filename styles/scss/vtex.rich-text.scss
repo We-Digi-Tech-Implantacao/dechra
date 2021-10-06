@@ -335,6 +335,13 @@
 .container--icon-menu{
     align-items: center;
     justify-content: flex-end;
+    margin-right: 10px;
+    @media(max-width: $maxTablet){
+        margin-right: 0
+    }
+    @media(max-width: $maxMobile){
+        margin-right: 0
+    }
     .wrapper--icon-menu{
         display: flex;
         align-items: center;

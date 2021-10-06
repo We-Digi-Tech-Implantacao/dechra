@@ -1,5 +1,7 @@
 @import 'variables';
 
+
+
 :global(.vtex-login-2-x-container){
     :global(.vtex-button){
         @media(max-width: $maxTablet){
@@ -7,12 +9,14 @@
             justify-content: center;
             display: flex;
             flex-direction: row;
+            min-height: auto !important;
         }
         @media(max-width: $maxMobile){
             align-items: center;
             justify-content: center;
             display: flex;
             flex-direction: row;
+            min-height: auto !important;
         }
         &::before{
             content: '';
@@ -24,7 +28,7 @@
             height: 21px;
             margin: 0 auto;
             @media(max-width: $maxTablet){
-                display: none;;
+                display: none;
             }
             @media(max-width: $maxMobile){
                 display: none;
@@ -32,12 +36,25 @@
            
         }
         :global(.vtex-button__label){
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            @media(max-width: $maxTablet){
+                padding: 0 !important;
+            }
+            @media(max-width: $maxMobile){
+                padding: 0 !important;
+            }
             :global(.vtex-login-2-x-label){
                 color: #053471;
                 text-transform: initial;
                 padding-left: 6px!important;
+                @media(max-width: $maxTablet){
+                    display: flex;
+                    padding: 0 !important;
+                }
                 @media(max-width: $maxMobile){
                     display: flex;
+                    padding: 0 !important;
                 }
             }
             :global(.items-center){
@@ -48,6 +65,12 @@
     :global(.vtex-login-2-x-buttonLink){
         :global(.vtex-button){
             min-height: auto !important;
+            @media(max-width: $maxTablet){
+                padding: 0 !important;
+            }
+            @media(max-width: $maxMobile){
+                padding: 0 !important;
+            }
             :global(.vtex-button__label){
                 @media(max-width: $maxTablet){
                     padding: 0 !important;
@@ -72,4 +95,87 @@
             }
         }
     }
+}
+
+:global(.vtex-login-2-x-loginOptionsContainer){
+    :global(.vtex-login-2-x-options){
+        :global(.vtex-login-2-x-formTitle){
+            color: #053471;
+            font-size: 18px;
+        }
+    }
+}
+
+:global(.vtex-login-2-x-optionsListItem){
+    :global(.vtex-login-2-x-button){
+        :global(.vtex-button){
+            border: none !important;
+            :global(.vtex-button__label){
+                border: 1px solid rgb(233, 233, 233);
+                width: 100%;
+                min-height: 2.5rem;
+                font-size: 12px;
+                color: #707070;
+                transition: .2s;
+                &:hover{
+                    color: #053471;
+                    border-color:#053471;
+                }
+            }
+        }
+    }
+}
+
+:global(.vtex-login-2-x-sendButton){
+    :global(.vtex-button){
+        background-color: #053471 !important;
+        border-color: #053471;
+        :global(.vtex-button__label){
+            padding-bottom: 0 !important;
+        }
+    }
+}
+
+:global(.vtex-login-2-x-emailVerification ){
+    :global(.vtex-login-2-x-formTitle){
+        font-size: 17px;
+    }
+}
+
+:global(.vtex-login-2-x-profile){
+    color: #053471 !important;
+    text-transform: initial;
+    @media(max-width: $maxTablet){
+        display: flex;
+        padding: 0 !important;
+        max-width: 100% !important;
+        color: #979899 !important;
+    }
+    @media(max-width: $maxMobile){
+        display: flex;
+        padding: 0 !important;
+        max-width: 100% !important;
+        color: #979899 !important;
+    }
+}
+:global(.vtex-login-2-x-accountOptions){
+    :global(.vtex-login-2-x-button){
+        color: #707070;
+        text-transform: .2s;
+        &:hover{
+            color: #053471;
+        }
+    }
+    :global(.vtex-button ){
+        :global(.vtex-button__label){
+            color: #707070;
+            text-transform: .2s;
+            &:hover{
+                color: #053471;
+            }
+        }
+    }
+}
+:global(.vtex-login-2-x-box){
+    right: -96px !important;
 }

@@ -43,6 +43,10 @@
     ]
   },
   "flex-layout.row#utils":{
+    "props": {
+      "blockClass": "container-util",
+      "colSizing": "auto"
+    },
     "children":[
       "rich-text#requests",
       "login",

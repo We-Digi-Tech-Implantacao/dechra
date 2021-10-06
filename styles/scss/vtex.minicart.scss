@@ -63,3 +63,33 @@
         }
     }
 }
+
+:global(.vtex-minicart-2-x-drawerContent){
+    :global(.vtex-minicart-2-x-closeIconContainer){
+        :global(.vtex-minicart-2-x-closeIconButton){
+            :global(.vtex-minicart-2-x-closeIcon){
+                color: #000;
+            }
+        }
+    }
+}
+:global(.vtex-minicart-2-x-childrenContainer){
+    :global(.vtex-minicart-2-x-minicartSideBarContentWrapper){
+        :global(.vtex-minicart-2-x-minicartTitle){
+            color: #000;
+        }
+    }
+}
+
+:global(.vtex-minicart-2-x-minicartContainer){
+    margin-left: 10px;
+    @media(max-width: $maxTablet){
+        margin-left: 0
+    }
+    @media(max-width: $maxMobile){
+        margin-left: 0
+    }
+    :global(.vtex-minicart-2-x-openIconContainer){
+        padding: 0 !important;
+    }
+}
