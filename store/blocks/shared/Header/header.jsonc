@@ -58,9 +58,10 @@
       "blockClass": "container-menu"
     },
     "children":[
-      "image#book",
-      "image#dog",
-      "image#cat"
+      "flex-layout.row#header-desktop-menu"
+      // "image#book",
+      // "image#dog",
+      // "image#cat"
     ]
   },
   "flex-layout.col#logo-desktop": {

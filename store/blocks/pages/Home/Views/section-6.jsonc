@@ -98,19 +98,19 @@
 
     "rich-text#facebook": {
         "props": {
-          "text": "[![](https://lojadechra.vtexassets.com/arquivos/facebook.png)](https://vtex.com/br-pt/)",
+          "text": "[![](https://lojadechra.vtexassets.com/arquivos/facebook.png)](/)",
           "blockClass": "icon-sing"
         }
     },
     "rich-text#instagram": {
         "props": {
-          "text": "[![](https://lojadechra.vtexassets.com/arquivos/instagram.png)](https://vtex.com/br-pt/)",
+          "text": "[![](https://lojadechra.vtexassets.com/arquivos/instagram.png)](/)",
           "blockClass": "icon-sing"
         }
     },
     "rich-text#whatsapp": {
         "props": {
-          "text": "[![](https://lojadechra.vtexassets.com/arquivos/whatsapp.png)](https://vtex.com/br-pt/)",
+          "text": "[![](https://lojadechra.vtexassets.com/arquivos/whatsapp.png)](/)",
           "blockClass": "icon-sing"
         }
     }

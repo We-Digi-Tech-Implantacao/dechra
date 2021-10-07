@@ -1,0 +1,146 @@
+{
+    "flex-layout.row#header-desktop-menu": {
+        "children": [
+          "custom-menu#default"
+        ],
+        "props": {
+          "blockClass": "container-header-section-1-subsection-2",
+          "width": "100%"
+        }
+      },
+      "custom-menu#default": {
+        "props": {
+          "blockClass": "default",
+          "data": [
+            {
+              "label": "Educações",
+              "link": "/Educaoes",
+              "hasChildren": true,
+              "infoCard": {
+                "imageUrl": "https://ibmecio.vtexassets.com/arquivos/submenu.jpg",
+                "title": "Aqui você nunca para de aprender",
+                "button": {
+                  "label": "Dê o próximo passo",
+                  "link": "#"
+                }
+              },
+              "children": [
+                {
+                  "categories": [
+                    {
+                      "items": [
+                        {
+                          "label": "ACADEMIA DECHRA",
+                          "link": "/"
+                        },
+                        {
+                          "label": "ARTIGOS",
+                          "link": "/Finanças"
+                        },
+                        {
+                          "label": "EBOOKS",
+                          "link": "/"
+                        },
+                        {
+                          "label": "BLOGS",
+                          "link": "/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+                "label": "Cães",
+                "link": "/caes",
+                "hasChildren": true,
+                "infoCard": {
+                  "imageUrl": "assets/images/submenucaes.jpg",
+                  "title": "Osurnia®\n\n Somos todos ouvidos.\n\n Aplica-se como um líquido. Forma-se como um gel. Ativo onde é necessário.",         
+                  "button": {
+                    "label": "Saiba mais",
+                    "link": "#"
+                  }
+                },
+                "children": [
+                  {
+                    "categories": [
+                      {
+                        "items": [
+                            {
+                            "label": "ANTIPULGAS",
+                            "link": "/"
+                            },
+                            {
+                            "label": "ANTIBIOTICO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "ANTIINFLAMATÓRIO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "DERMATOLOGICO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "ENDOCRINOLOGICO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "HIGIENE BUCAL",
+                            "link": "/"
+                            },
+                            {
+                            "label": "KIT DIAGNOSTICO",
+                            "link": "/"
+                            }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "categories": [
+                      {
+                        "items": [
+                            {
+                            "label": "OTOLOGICO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "PROBIÓTICO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "SORO HIPERIMUNE",
+                            "link": "/"
+                            },
+                            {
+                            "label": "VACINAS",
+                            "link": "/"
+                            },
+                            {
+                            "label": "VERMIFUGO",
+                            "link": "/"
+                            },
+                            {
+                            "label": "VITAMINAS E SUPLEMENTOS",
+                            "link": "/"
+                            }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+            },
+            {
+              "label": "Gatos",
+              "link": "/gatos",
+              "hasChildren": false,
+              "children": []
+            }
+          ]
+        }
+    }
+}
