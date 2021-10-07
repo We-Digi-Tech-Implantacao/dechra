@@ -10,19 +10,41 @@
 	.menuItemContainer > a {
 		display: flex;
 		align-items: center;
+		flex-direction: column;
 		text-decoration: none;
 		color: #707070;
 		text-transform: initial;
 		font-size: 16px;
-		padding: 0 10px;
+		padding: 0 18px;
 	}
-	.menuItemContainer > a::after{
+
+	.menuItemContainer > a:first-child::before {
+		content: '';
+		display: block;
+		background-image: url('https://lojadechra.vtexassets.com/assets/vtex/assets-builder/lojadechra.dechra-store/0.0.4/images/book___3676f81e9f367ae57ab382dab754fa73.svg');
+		background-repeat: no-repeat;
+		background-size: 30px;
+		width: 30px;
+		height: 30px;
+		padding-bottom: 10px;
+	}
+	.menuItemContainer > a:last-child::before {
+		content: '';
+		display: block;
+		background-image: url('https://lojadechra.vtexassets.com/assets/vtex/assets-builder/lojadechra.dechra-store/0.0.4/images/cat___6aa56d4f342ebb79152285892195804e.svg') !important;
+		background-repeat: no-repeat;
+		background-size: 30px;
+		width: 30px;
+		height: 30px;
+		padding-bottom: 10px;
+	}
+	/* .menuItemContainer > a::after{
 		content: '';
 		display: block;
 		border-right: 1px solid #F4F4F4;
 		height: 50px;
 		padding: 0 10px;
-	}
+	} */
 	.menuItemContainer > a:last-child::after{
 		border: none;
 	}
@@ -56,20 +78,25 @@
 		align-items: flex-start;
 	}
 	.infoCard a {
-		background-color: #2C46FF;
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+
+		background-color: transparent;
 		color: #fff;
-		padding: 13px 25px;
-		border-radius: 20px;
-		display: block;
+		border: 1px solid #fff;
+		padding: 15px 25px;
+		border-radius: 10px;
 		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 12px;
-		letter-spacing: 1.8px;
+		text-transform: initial;
+		font-weight: 300;
+		font-size: 18px;
+		letter-spacing: 1px;
+		width: 200px;
 	}
 	.infoCard h3 {
 		color: #fff;
-		text-align: center;
+		text-align: initial;
 		font-weight: 400;
 		font-size: 28px;
 		width: 450px;

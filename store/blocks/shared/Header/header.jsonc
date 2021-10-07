@@ -59,9 +59,9 @@
     },
     "children":[
       "flex-layout.row#header-desktop-menu"
-      // "image#book",
-      // "image#dog",
-      // "image#cat"
+      //"image#book",
+      //"image#dog",
+      //"image#cat"
     ]
   },
   "flex-layout.col#logo-desktop": {

@@ -10,7 +10,7 @@
       },
       "custom-menu#default": {
         "props": {
-          "blockClass": "default",
+          "blockClass": ["default", "default-educacao"],
           "data": [
             {
               "label": "Educações",
@@ -18,10 +18,10 @@
               "hasChildren": true,
               "infoCard": {
                 "imageUrl": "https://ibmecio.vtexassets.com/arquivos/submenu.jpg",
-                "title": "Aqui você nunca para de aprender",
+                "title": "",
                 "button": {
-                  "label": "Dê o próximo passo",
-                  "link": "#"
+                  "label": "none",
+                  "link": "none"
                 }
               },
               "children": [
