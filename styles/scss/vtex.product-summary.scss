@@ -30,6 +30,7 @@
       background-color: #fff;
       border-radius: 10px;
       align-items: center;
+      position: relative;
     }
   
     .imageContainer {
@@ -48,9 +49,9 @@
       background-color: #053471;
       border-color: #053471;
       position: absolute;
-      bottom: 153px;
-      left: 82px;
-      display: none;
+      bottom: 145px;
+      left: 9px;
+      //display: none;
       width: 284px;
       text-transform: initial;
       :global(.vtex-button__label) {

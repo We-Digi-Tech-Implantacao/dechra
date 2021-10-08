@@ -49,12 +49,13 @@ function Mobile({ data }) {
   return (
     <div className={`${handles.customMenu}`}>
       {data.map((item, key) =>
-        <div className={`${handles.menuItemContainer}`} key={key}>
+        <div className={`${handles.menuItemContainer} ${handles["menuItemContainer" + key]}`} key={key}>
+          
           <Link to={item?.link}>{item?.label}</Link>
           {item.hasChildren ?
             <div className={`${handles.customSubMenuWrapper}`}>
               <div className={`${handles.customMenuContainer}`}>
-                {item?.children?.map(department =>
+                {item?.children?.map((department, key) =>
                   <div className={`${handles.departmentItem}`}>
                     <h2>
                       <Link to={department?.departmentLink}>{department?.departmentLabel}</Link>

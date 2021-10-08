@@ -10,7 +10,7 @@
       },
       "custom-menu#default": {
         "props": {
-          "blockClass": ["default", "default-educacao"],
+          "blockClass": ["default"],
           "data": [
             {
               "label": "Educações",
@@ -20,8 +20,8 @@
                 "imageUrl": "https://ibmecio.vtexassets.com/arquivos/submenu.jpg",
                 "title": "",
                 "button": {
-                  "label": "none",
-                  "link": "none"
+                  "label": false,
+                  "link": false
                 }
               },
               "children": [

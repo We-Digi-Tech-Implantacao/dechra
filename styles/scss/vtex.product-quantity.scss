@@ -1,0 +1,38 @@
+
+.quantitySelectorTitle{
+    display: none;
+}
+.quantitySelectorStepper{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+}
+
+:global(.vtex-numeric-stepper-container){
+    :global(.vtex-numeric-stepper__input){
+        background-color: transparent;
+        border: none;    
+        color: #fff; 
+        width: 50px !important;
+    }
+    :global(.vtex-numeric-stepper__plus-button-container){
+        :global(.vtex-numeric-stepper__plus-button){
+            background-color: transparent;
+            border: none; 
+            width: 0em !important;
+            :global(.vtex-numeric-stepper__plus-button__text){
+                color: #fff;
+            }
+        }
+    }
+    :global(.vtex-numeric-stepper__minus-button-container){
+        :global(.vtex-numeric-stepper__minus-button){
+            background-color: transparent;
+            border: none; 
+            width: 0em !important;
+            :global(.vtex-numeric-stepper__minus-button__text){
+                color: #fff;
+            }
+        }
+    }
+}

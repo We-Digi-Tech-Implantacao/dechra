@@ -23,12 +23,79 @@
   },
 
   "product-summary.shelf": {
+    // "children": [
+    //   "flex-layout.row#shelf-img-and-btn",
+    //   "product-summary-brand",
+    //   "product-summary-name",
+    //   "flex-layout.row#prices",
+    //   "product-installments"
+    // ]
     "children": [
-      "flex-layout.row#shelf-img-and-btn",
-      "product-summary-brand",
-      "product-summary-name",
-      "flex-layout.row#prices",
-      "product-installments"
+      "flags",
+      "stack-layout#prodsum",
+      "flex-layout.row#shelf-container-name-stars",
+      //"product-rating-summary",
+      "flex-layout.row#list-and-selling-price-summary",
+      // "product-installments",
+      // "product-installments-list",
+      //"custom-product-installments",
+      "flex-layout.row#summary-buy-button"
+    ]
+  },
+  
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "message": "{savingsPercentage} OFF"
+    }
+  },
+  "flex-layout.row#summary-buy-button": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "summary-buy-button"
+    },
+    "children": [
+      "product-summary-quantity",
+      // "add-to-cart-button",
+      "wdt-add-to-minicart-and-open"
+    ]
+  },
+  "flex-layout.row#list-and-selling-price-summary": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "list-and-selling-price-summary"
+    },
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ]
+  },
+  "stack-layout#prodsum": {
+    "props": {
+      "blockClass": "prodsum"
+    },
+    "children": [
+      "product-summary-image#shelf",
+      "product-price-savings#summary"
+    ]
+  },
+  "flex-layout.row#shelf-container-name-stars": {
+    "props": {
+      "blockClass": "shelf-container-name-stars"
+    },
+    "children": [
+      "flex-layout.col#shelf-container-name-stars"
+    ]
+  },
+  "flex-layout.col#shelf-container-name-stars": {
+    "props": {
+      "blockClass": "shelf-container-name-stars"
+    },
+    "children": [
+      //"trustvox-stars",
+      "product-summary-name"
     ]
   },
   "flex-layout.row#shelf-img-and-btn": {

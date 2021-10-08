@@ -1,20 +1,23 @@
-.flag {
-    top: 10px;
-    right: 10px;
+
+.flagProduct {
+    top: 30px;
+    right: 30px;
     color: white;
     width: max-content !important;
     z-index: 2;
-    padding: 7px 12px;
+    padding: 10px 15px;
     position: absolute;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     background-color: #1675bf;
     border-radius: 30px;
-    font-family: "Charlevoix Pro", sans-serif;
     font-weight: 800;
 }
 @media (max-width: 767px) {
-    .flag {
+    .flagProduct {
         font-size: 12px;
+        padding: 7px 12px;
+        top: 15px;
+        right: 15px;
     }
 }

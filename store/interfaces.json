@@ -1,5 +1,20 @@
 {
     "custom-menu": {
         "component": "CustomMenu"
+    },
+    "flags": {
+        "component": "Flag"
+    },
+    "flag-product": {
+        "component": "FlagProduct"
+    },
+    "custom-product-installments": {
+        "component": "ProductInstallments"
+    },
+    "wdt-add-to-minicart-and-open": {
+        "component": "AddToMinicartButton"
+    },
+    "trustvox-stars": {
+        "component": "TrustvoxStars"
     }
 }
