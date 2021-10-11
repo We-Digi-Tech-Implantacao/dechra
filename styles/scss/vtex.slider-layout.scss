@@ -28,6 +28,7 @@
                     color: #fff;
                     font-size: 60px;
                     font-weight: 400;
+                    margin: 0;
                     @media(max-width: $maxMobile){
                         color: #fff;
                         font-size: 40px;
@@ -36,10 +37,41 @@
                         text-transform: uppercase;
                     }
                 }
+                .paragraph--home-list-instructions{
+                    color: #fff;
+                }
             }
         }
     }
 }
+.infoCardContainer--banner-dogs{
+    .infoCardTextContainer--banner-dogs{
+        margin-left: 100px !important;
+        width: 37%!important;
+        @media(max-width: $maxTablet){
+            margin-left: 30px!important;
+            margin: 0px;
+        }
+        @media(max-width: $maxMobile){
+            margin-left: 30px!important;
+            margin: 0px;
+        }
+        .container--banner-dogs{
+            .wrapper--banner-dogs{
+                .heading--banner-dogs{
+                    color: #053471 !important;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+                .paragraph--banner-dogs{
+                    color: #053471 !important;
+                }
+            }
+        }
+    }
+}
+
+
 .sliderArrows--home-list-instructions{
     .caretIcon--home-list-instructions{
         color: #fff;
@@ -200,4 +232,12 @@
 }
 .sliderTrack--home-section-1{
     border-bottom: 1px solid #E6E6E6;
+}
+.infoCardContainer--banner-dogs{
+    @media(max-width: $maxTablet){
+        height: calc(290px - 90px);
+    }
+    @media(max-width: $maxMobile){
+        height: calc(290px - 90px);
+    }
 }

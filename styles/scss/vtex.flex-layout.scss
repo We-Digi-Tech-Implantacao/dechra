@@ -382,3 +382,35 @@
 	display: flex;
     align-items: flex-start
 }
+.flexRowContent--container-section-3-dogs{
+	align-items: center;
+	@media(max-width: $maxTablet){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	@media(max-width: $maxMobile){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.stretchChildrenWidth{
+		&:first-child{
+			width: 45% !important;
+			@media(max-width: $maxTablet){
+				width: 100% !important;
+			}
+			@media(max-width: $maxMobile){
+				width: 100% !important;
+			}
+		}
+		&:last-child{
+			@media(max-width: $maxTablet){
+				width: 100% !important;
+			}
+			@media(max-width: $maxMobile){
+				width: 100% !important;
+			}
+		}
+	}
+}

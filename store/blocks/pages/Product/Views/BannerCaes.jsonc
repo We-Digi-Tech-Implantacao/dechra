@@ -1,0 +1,95 @@
+{
+    "responsive-layout.desktop": {
+        "children": ["list-context.info-card-list#dogs-banner"]
+      },
+    "list-context.info-card-list#dogs-banner": {
+        "title": "Banner principal",
+        "props": {
+            "blockClass": ["home-list-instructions", "banner-dogs"],
+            "infoCards": [
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "home-instructions",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": true,
+                    "imageUrl": "assets/images/caes.jpg",
+                    "mobileImageUrl": "assets/images/caes.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Cães",
+                    "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#dogs-list-banner"
+        ]
+      },
+      "slider-layout#dogs-list-banner": {
+          "title": "Slider banner principal",
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 1,
+                  "tablet": 1,
+                  "phone": 1
+              },
+              "infinite": true,
+              "showPaginationDots": "never",
+              "blockClass": ["home-list-instructions", "banner-dogs"]
+          }
+        },
+    "responsive-layout.phone": {
+        "children": [
+            "list-context.info-card-list#dogs-banner-phone",
+            "rich-text#text-banner-phone"
+        ]
+    },
+    "list-context.info-card-list#dogs-banner-phone": {
+        "title": "Banner principal",
+        "props": {
+            "blockClass": ["home-list-instructions", "banner-dogs"],
+            "infoCards": [
+                {
+                    "title": "Banner Home",
+                    "id": "BannerHome",
+                    "blockClass": "home-instructions",
+                    "htmlId": "BannerHome",
+                    "isFullModeStyle": true,
+                    "imageUrl": "assets/images/caes.jpg",
+                    "mobileImageUrl": "assets/images/caes.jpg",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "## Cachorros",
+                    "subhead": "",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#dogs-list-banner-phone"
+        ]
+      },
+      "slider-layout#dogs-list-banner-phone": {
+          "title": "Slider banner principal",
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 1,
+                  "tablet": 1,
+                  "phone": 1
+              },
+              "infinite": true,
+              "showPaginationDots": "never",
+              "blockClass": ["home-list-instructions", "banner-dogs"]
+          }
+        },
+        "rich-text#text-banner-phone": {
+            "props": {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+              "blockClass": "text-banner-phone"
+            }
+        }
+}

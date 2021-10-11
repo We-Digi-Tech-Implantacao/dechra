@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#section-3-dogs":{
+        "props":{
+            "blockClass": "container-section-3-dogs"
+        },
+        "children": [
+            "image#img-section-3-dogs",
+            "rich-text#title-section-3-dogs"
+        ]
+    },
+    "image#img-section-3-dogs": {
+        "props": {
+          "src": "assets/images/section3caes.jpg",
+          "blockClass": "img-section-3-dogs"
+        }
+    },
+    "rich-text#title-section-3-dogs": {
+        "props": {
+          "text": "## Produtos farmacêuticos para cachorros\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+          "blockClass": "title-section-3-dogs"
+        }
+    }
+}

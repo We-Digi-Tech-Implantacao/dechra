@@ -1,6 +1,9 @@
 {
-  "store.product": {
-    "children": [
+  "store.custom#product": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.phone",
+      "flex-layout.row#section-3-dogs"
     ]
   }
 }

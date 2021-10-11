@@ -382,3 +382,40 @@
         }
     }
 }
+.container--title-section-3-dogs{
+    padding: 0 50px;
+    @media(max-width: $maxTablet){
+        padding: 0 15px;
+    }
+    @media(max-width: $maxMobile){
+        padding: 0 15px;
+    }
+    .wrapper--title-section-3-dogs{
+        .heading--title-section-3-dogs{
+            color: #053471;
+            @media(max-width: $maxTablet){
+                text-align: center;
+            }
+            @media(max-width: $maxMobile){
+                text-align: center;
+            }
+        }
+        .paragraph--title-section-3-dogs{
+            color: #053471;
+            @media(max-width: $maxTablet){
+                text-align: left;
+            }
+            @media(max-width: $maxMobile){
+                text-align: left;
+            }
+        }
+    }
+}
+.container--text-banner-phone{
+    padding: 0 15px;
+    .wrapper--text-banner-phone{
+        .paragraph--text-banner-phone{
+            color: #053471;
+        }
+    }
+}
