@@ -158,7 +158,8 @@
   },
   "menu#drawer": {
     "children": [
-      "flex-layout.row#header-drawer"
+      "flex-layout.row#header-drawer",
+      "flex-layout.col#drawer-menu-mobile"
     ],
     "props": {
       //"orientation": "vertical",
@@ -192,6 +193,242 @@
     "props":{
       "blockClass": "login-drawer-header",
       "iconLabel": "Cadastre-se / Login"
+    }
+  },
+  "flex-layout.col#drawer-menu-mobile": {
+    "children": [
+      "flex-layout.col#menu-drawer-mobile"
+    ],
+    "props": {
+      "blockClass": ["container-menu", "container-menu-drawer"],
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#menu-drawer-mobile": {
+    "children": [
+      "menu-item#Institucional-drawer-mobile",
+      "menu-item#Ajuda-drawer-mobile",
+      "menu-item#Minha-drawer-conta"
+      //"menu-item#atendimento",
+    ],
+    "props": {
+      "blockClass": [
+        ["menu-mobile", "menu-mobile-drawer"]
+      ]
+    }
+  },
+  "menu-item#Institucional-drawer-mobile": {
+    "props": {
+      "id": "menu-item-Institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["menu-mobile", "menu-mobile-drawer"],
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Institucional-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Institucional-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#Institucional-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Institucional-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["footer-mobile", "drawer-mobile"],
+      "items": [
+        {
+          "id": "menu-item-quem-somos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/quem-somos",
+            "noFollow": false,
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
+          }
+        },
+        {
+          "id": "menu-item-como-funciona",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/como-funciona",
+            "noFollow": false,
+            "tagTitle": "Como Funciona",
+            "text": "Como Funciona"
+          }
+        },
+        {
+          "id": "menu-item-contato",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/contato",
+            "noFollow": false,
+            "tagTitle": "Contato",
+            "text": "Contato"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#Ajuda-drawer-mobile": {
+    "props": {
+      "id": "menu-item-Ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["menu-mobile", "menu-mobile-drawer"],
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ajuda-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Ajuda-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#Ajuda-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Ajuda-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["footer-mobile", "drawer-mobile"],
+      "items": [
+        {
+          "id": "menu-item-duvidas-frequentes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/duvidas-frequentes",
+            "noFollow": false,
+            "tagTitle": "Dúvidas Frequentes",
+            "text": "Dúvidas Frequentes"
+          }
+        },
+        {
+          "id": "menu-item-politica-de-privacidade",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/politica-de-privacidade",
+            "noFollow": false,
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
+          }
+        },
+        {
+          "id": "menu-item-termos-e-condicoes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/termos-e-condicoes",
+            "noFollow": false,
+            "tagTitle": "Termos e Condições",
+            "text": "Termos e Condições"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#Minha-drawer-conta":{
+    "props": {
+      "id": "menu-item-Minha-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["menu-mobile", "menu-mobile-drawer"],
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Minha-conta",
+        "text": "Minha-conta"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion": {
+    "children": [
+      "vtex.menu@2.x:menu#Minha-conta-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Minha-conta-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["footer-mobile", "drawer-mobile"],
+      "items": [
+        {
+          "id": "menu-item-cadastre-se",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cadastre-se",
+            "noFollow": false,
+            "tagTitle": "Cadastre-se / Login",
+            "text": "Cadastre-se / Login"
+          }
+        },
+        {
+          "id": "menu-item-meus-Pedidos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/meus-Pedidos",
+            "noFollow": false,
+            "tagTitle": "Meus Pedidos",
+            "text": "Meus Pedidos"
+          }
+        },
+        {
+          "id": "menu-item-meus-endereco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/meus-endereco",
+            "noFollow": false,
+            "tagTitle": "Meus endereço",
+            "text": "Meus endereço"
+          }
+        }
+      ]
     }
   }
 }

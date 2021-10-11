@@ -60,8 +60,14 @@
             .wrapper--banner-dogs{
                 .heading--banner-dogs{
                     color: #053471 !important;
-                    font-size: 30px;
-                    font-weight: 500;
+                    @media(max-width: $maxTablet){
+                        font-size: 30px;
+                        font-weight: 500;
+                    }
+                    @media(max-width: $maxMobile){
+                        font-size: 30px;
+                        font-weight: 500;
+                    }
                 }
                 .paragraph--banner-dogs{
                     color: #053471 !important;
@@ -241,3 +247,4 @@
         height: calc(290px - 90px);
     }
 }
+

@@ -1,0 +1,207 @@
+{
+    "flex-layout.row#menu-mobile-header": {
+        "children": [
+            "custom-menu#item-1-mob"
+        ],
+        "props": {
+            "blockClass": [
+                "menu-mobile-header"
+            ],
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "isFullWidth": true
+        }
+    },
+    "custom-menu#item-1-mob": {
+        "props": {
+            "blockClass": "default",
+            "data": [
+                {
+                    "departmentLabel": "MBA",
+                    "departmentLink": "/mba",
+                    "aditionalInfo": "",
+                    "categories": [
+                        {
+                            "typeItems": "On Line",
+                            "items": [
+                                {
+                                    "label": "Contoladoria",
+                                    "link": "/Contoladoria"
+                                },
+                                {
+                                    "label": "Finanças",
+                                    "link": "/Finanças"
+                                },
+                                {
+                                    "label": "Gerenciamento de Projetos",
+                                    "link": "/Gerenciamento de Projetos"
+                                },
+                                {
+                                    "label": "Gestão de Negócios",
+                                    "link": "/Gestão de Negócios"
+                                },
+                                {
+                                    "label": "Gestão de Pessoas",
+                                    "link": "/Gestão de Pessoas"
+                                },
+                                {
+                                    "label": "Metodologias agéis",
+                                    "link": "/Metodologias agéis"
+                                },
+                                {
+                                    "label": "Mkt, Branding e Consumo",
+                                    "link": "/Mkt, Branding e Consumo"
+                                },
+                                {
+                                    "label": "Big Data",
+                                    "link": "/Big Data"
+                                },
+                                {
+                                    "label": "Pós-Graduação em Estudos Diplomáticos",
+                                    "link": "/Pós-Graduação em Estudos Diplomáticos"
+                                },
+                                {
+                                    "label": "Inteligência Artificial",
+                                    "link": "/Inteligência Artificial"
+                                },
+                                {
+                                    "label": "Direito Agrário e Ambiental",
+                                    "link": "/Direito Agrário e Ambiental"
+                                },
+                                {
+                                    "label": "Gestão do Agonegócio",
+                                    "link": "/Gestão do Agonegócio"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "departmentLabel": "EXTENSÃO",
+                    "departmentLink": "/EXTENSÃO",
+                    "aditionalInfo": "(Curta duração)",
+                    "categories": [
+                        {
+                            "typeItems": "On Line",
+                            "items": [
+                                {
+                                    "label": "Adm. do Capital de Giro ",
+                                    "link": "/Adm. do Capital de Giro "
+                                },
+                                {
+                                    "label": "Contabilidade Financeira e Gerencial ",
+                                    "link": "/Contabilidade Financeira e Gerencial "
+                                },
+                                {
+                                    "label": "Economia ",
+                                    "link": "/Economia "
+                                },
+                                {
+                                    "label": "Estatística Aplicada ",
+                                    "link": "/Estatística Aplicada "
+                                },
+                                {
+                                    "label": "Estratégia Empresarial ",
+                                    "link": "/Estratégia Empresarial "
+                                },
+                                {
+                                    "label": "Gerenciamento de Projetos ",
+                                    "link": "/Gerenciamento de Projetos "
+                                },
+                                {
+                                    "label": "Gestão de MKT ",
+                                    "link": "/Gestão de MKT "
+                                },
+                                {
+                                    "label": "Gestão de Operações ",
+                                    "link": "/Gestão de Operações "
+                                },
+                                {
+                                    "label": "Gestão de Pessoas e Liderança ",
+                                    "link": "/Gestão de Pessoas e Liderança "
+                                },
+                                {
+                                    "label": "Gestão Financeira ",
+                                    "link": "/Gestão Financeira "
+                                },
+                                {
+                                    "label": "Inovação e Empreendedorismo ",
+                                    "link": "/Inovação e Empreendedorismo "
+                                }
+                            ]
+                        },
+                        {
+                            "typeItems": "live/presencial",
+                            "items": [
+                                {
+                                    "label": "Gestão de Qualidade no Atendimento",
+                                    "link": "/Gestão de Qualidade no Atendimento"
+                                },
+                                {
+                                    "label": "Gestão Operacional de Caixa",
+                                    "link": "/Gestão Operacional de Caixa"
+                                },
+                                {
+                                    "label": "Valuation",
+                                    "link": "/Valuation"
+                                },
+                                {
+                                    "label": "Gerenciamento de Projetos Ágil",
+                                    "link": "/Gerenciamento de Projetos Ágil"
+                                },
+                                {
+                                    "label": "Formação de Creators (Youtubers)",
+                                    "link": "/Formação de Creators (Youtubers)"
+                                },
+                                {
+                                    "label": "Finanças para não Financeiros",
+                                    "link": "/Finanças para não Financeiros"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "departmentLabel": "Solcorp",
+                    "departmentLink": "/Solcorp",
+                    "aditionalInfo": "Para empresas",
+                    "categories": [
+                        {
+                            "typeItems": "",
+                            "items": [
+                                {
+                                    "label": "Proteção de Dados Pessoais (LGPD/GDPR)",
+                                    "link": "/Proteção de Dados Pessoais (LGPD/GDPR)"
+                                },
+                                {
+                                    "label": "4PS (Processos, Pessoas, Projetos e Problemas)",
+                                    "link": "/4PS (Processos, Pessoas, Projetos e Problemas)"
+                                },
+                                {
+                                    "label": "Derivativos no Mercado de Energia",
+                                    "link": "/Derivativos no Mercado de Energia"
+                                },
+                                {
+                                    "label": "Gerenciamento de Processos de Negócio",
+                                    "link": "/Gerenciamento de Processos de Negócio"
+                                },
+                                {
+                                    "label": "Gestão de Negócios Familiares e Processo Sucessórios",
+                                    "link": "/Gestão de Negócios Familiares e Processo Sucessórios"
+                                },
+                                {
+                                    "label": "Direito Digital",
+                                    "link": "/Direito Digital"
+                                },
+                                {
+                                    "label": "Big Data Analytcs",
+                                    "link": "/Big Data Analytcs"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
