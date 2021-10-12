@@ -142,6 +142,7 @@
       "logo",
       "drawer",
       "flex-layout.col#spacer",
+      "search-bar",
       "minicart.v2"
     ],
     "props": {

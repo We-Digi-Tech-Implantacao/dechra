@@ -32,6 +32,12 @@
             height: 40px;
             border-radius: 25px;
             border: none;
+            @media(max-width: $maxTablet){
+                width: 345px;
+            }
+            @media(max-width: $maxMobile){
+                width: 173px;
+            }
             :global(.vtex-styleguide-9-x-input){
                 background-color: #FAFAFA;
                 color: #053471;
