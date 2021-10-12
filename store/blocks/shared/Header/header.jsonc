@@ -209,7 +209,7 @@
     "children": [
       "menu-item#Institucional-drawer-mobile",
       "menu-item#Ajuda-drawer-mobile",
-      "menu-item#Minha-drawer-conta"
+      "menu-item#Minha-drawer-gatos"
       //"menu-item#atendimento",
     ],
     "props": {
@@ -229,8 +229,8 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Institucional",
-        "text": "Institucional"
+        "tagTitle": "Educações",
+        "text": "Educações"
       }
     },
     "blocks": [
@@ -248,42 +248,55 @@
       "blockClass": ["footer-mobile", "drawer-mobile"],
       "items": [
         {
-          "id": "menu-item-quem-somos",
+          "id": "menu-item-academia-dechra",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/quem-somos",
+            "href": "/academia-dechra",
             "noFollow": false,
-            "tagTitle": "Quem Somos",
-            "text": "Quem Somos"
+            "tagTitle": "Academia Dechra",
+            "text": "Academia Dechra"
           }
         },
         {
-          "id": "menu-item-como-funciona",
+          "id": "menu-item-artigos",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/como-funciona",
+            "href": "/artigos",
             "noFollow": false,
-            "tagTitle": "Como Funciona",
-            "text": "Como Funciona"
+            "tagTitle": "Artigos",
+            "text": "Artigos"
           }
         },
         {
-          "id": "menu-item-contato",
+          "id": "menu-item-ebooks",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/contato",
+            "href": "/ebooks",
             "noFollow": false,
-            "tagTitle": "Contato",
-            "text": "Contato"
+            "tagTitle": "Ebooks",
+            "text": "Ebooks"
+          }
+        },
+        {
+          "id": "menu-item-blog",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/blog",
+            "noFollow": false,
+            "tagTitle": "Blog",
+            "text": "Blog"
           }
         }
       ]
@@ -291,7 +304,7 @@
   },
   "menu-item#Ajuda-drawer-mobile": {
     "props": {
-      "id": "menu-item-Ajuda",
+      "id": "menu-item-caes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -300,8 +313,8 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Ajuda",
-        "text": "Ajuda"
+        "tagTitle": "CÃES",
+        "text": "CÃES"
       }
     },
     "blocks": [
@@ -319,48 +332,178 @@
       "blockClass": ["footer-mobile", "drawer-mobile"],
       "items": [
         {
-          "id": "menu-item-duvidas-frequentes",
+          "id": "menu-item-antipulgas",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/duvidas-frequentes",
+            "href": "/antipulgas",
             "noFollow": false,
-            "tagTitle": "Dúvidas Frequentes",
-            "text": "Dúvidas Frequentes"
+            "tagTitle": "ANTIPULGAS",
+            "text": "ANTIPULGAS"
           }
         },
         {
-          "id": "menu-item-politica-de-privacidade",
+          "id": "menu-item-antibiotico",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/politica-de-privacidade",
+            "href": "/antibiotico",
             "noFollow": false,
-            "tagTitle": "Política de Privacidade",
-            "text": "Política de Privacidade"
+            "tagTitle": "ANTIBIOTICO",
+            "text": "ANTIBIOTICO"
           }
         },
         {
-          "id": "menu-item-termos-e-condicoes",
+          "id": "menu-item-antiinflamatório",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/termos-e-condicoes",
+            "href": "/antiinflamatório",
             "noFollow": false,
-            "tagTitle": "Termos e Condições",
-            "text": "Termos e Condições"
+            "tagTitle": "ANTIINFLAMATÓRIO",
+            "text": "ANTIINFLAMATÓRIO"
+          }
+        },
+        {
+          "id": "menu-item-dermatologico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/dermatologico",
+            "noFollow": false,
+            "tagTitle": "DERMATOLOGICO",
+            "text": "DERMATOLOGICO"
+          }
+        },
+        {
+          "id": "menu-item-endocrinologico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/endocrinologico",
+            "noFollow": false,
+            "tagTitle": "ENDOCRINOLOGICO",
+            "text": "ENDOCRINOLOGICO"
+          }
+        },
+        {
+          "id": "menu-item-higiene-bucal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/higiene-bucal",
+            "noFollow": false,
+            "tagTitle": "HIGIENE BUCAL",
+            "text": "HIGIENE BUCAL"
+          }
+        },
+        {
+          "id": "menu-item-kit-diagnostico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/kit-diagnostico",
+            "noFollow": false,
+            "tagTitle": "KIT DIAGNOSTICO",
+            "text": "KIT DIAGNOSTICO"
+          }
+        },
+        {
+          "id": "menu-item-otologico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/otologico",
+            "noFollow": false,
+            "tagTitle": "OTOLOGICO",
+            "text": "OTOLOGICO"
+          }
+        },
+        {
+          "id": "menu-item-probiotico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/probiotico",
+            "noFollow": false,
+            "tagTitle": "PROBIÓTICO",
+            "text": "PROBIÓTICO"
+          }
+        },
+        {
+          "id": "menu-item-soro-hiperimune",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/soro-hiperimune",
+            "noFollow": false,
+            "tagTitle": "SORO HIPERIMUNE",
+            "text": "SORO HIPERIMUNE"
+          }
+        },
+        {
+          "id": "menu-item-vacinas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/vacinas",
+            "noFollow": false,
+            "tagTitle": "VACINAS",
+            "text": "VACINAS"
+          }
+        },
+        {
+          "id": "menu-item-vermifugo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/vermifugo",
+            "noFollow": false,
+            "tagTitle": "VERMIFUGO",
+            "text": "VERMIFUGO"
+          }
+        },
+        {
+          "id": "menu-item-vitaminas-e-suplementos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/vitaminas-e-suplementos",
+            "noFollow": false,
+            "tagTitle": "VITAMINAS E SUPLEMENTOS",
+            "text": "VITAMINAS E SUPLEMENTOS"
           }
         }
       ]
     }
   },
-  "menu-item#Minha-drawer-conta":{
+  "menu-item#Minha-drawer-gatos":{
     "props": {
       "id": "menu-item-Minha-conta",
       "type": "custom",
@@ -369,66 +512,63 @@
       "blockClass": ["menu-mobile", "menu-mobile-drawer"],
       "itemProps": {
         "type": "internal",
-        "href": "",
+        "href": "/gatos",
         "noFollow": false,
-        "tagTitle": "Minha-conta",
-        "text": "Minha-conta"
+        "tagTitle": "Gatos",
+        "text": "Gatos"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion"
-    ]
-  },
-  "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion": {
-    "children": [
-      "vtex.menu@2.x:menu#Minha-conta-mobile"
-    ]
-  },
-  "vtex.menu@2.x:menu#Minha-conta-mobile": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": ["footer-mobile", "drawer-mobile"],
-      "items": [
-        {
-          "id": "menu-item-cadastre-se",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/cadastre-se",
-            "noFollow": false,
-            "tagTitle": "Cadastre-se / Login",
-            "text": "Cadastre-se / Login"
-          }
-        },
-        {
-          "id": "menu-item-meus-Pedidos",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/meus-Pedidos",
-            "noFollow": false,
-            "tagTitle": "Meus Pedidos",
-            "text": "Meus Pedidos"
-          }
-        },
-        {
-          "id": "menu-item-meus-endereco",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/meus-endereco",
-            "noFollow": false,
-            "tagTitle": "Meus endereço",
-            "text": "Meus endereço"
-          }
-        }
-      ]
     }
   }
+  // "vtex.menu@2.x:submenu.accordion#Minha-conta-mobile-accordion": {
+  //   "children": [
+  //     //"vtex.menu@2.x:menu#Minha-conta-mobile"
+  //   ]
+  // },
+  // "vtex.menu@2.x:menu#Minha-conta-mobile": {
+  //   "props": {
+  //     "orientation": "vertical",
+  //     "blockClass": ["footer-mobile", "drawer-mobile"],
+  //     "items": [
+  //       {
+  //         "id": "menu-item-cadastre-se",
+  //         "type": "custom",
+  //         "iconId": null,
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/cadastre-se",
+  //           "noFollow": false,
+  //           "tagTitle": "Cadastre-se / Login",
+  //           "text": "Cadastre-se / Login"
+  //         }
+  //       },
+  //       {
+  //         "id": "menu-item-meus-Pedidos",
+  //         "type": "custom",
+  //         "iconId": null,
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/meus-Pedidos",
+  //           "noFollow": false,
+  //           "tagTitle": "Meus Pedidos",
+  //           "text": "Meus Pedidos"
+  //         }
+  //       },
+  //       {
+  //         "id": "menu-item-meus-endereco",
+  //         "type": "custom",
+  //         "iconId": null,
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/meus-endereco",
+  //           "noFollow": false,
+  //           "tagTitle": "Meus endereço",
+  //           "text": "Meus endereço"
+  //         }
+  //       }
+  //     ]
+  //   }
+  //}
 }

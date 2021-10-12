@@ -18,7 +18,7 @@
     .styledLinkContainer--menu-mobile{
         .styledLink--menu-mobile{
             .styledLinkContent--menu-mobile{
-                color: #053471 !important;
+                color: #4D4D4D !important;
                 font-size: 16px;
                 text-transform: uppercase;
                 @media(max-width: $maxTablet){
@@ -29,7 +29,7 @@
                 }
                 .accordionIcon--menu-mobile{
                     color: #053471 !important;
-                    font-size: 20px;
+                    font-size: 0;
                 }
             }
         }
@@ -55,4 +55,29 @@
 }
 .menuContainerNav--drawer{
     width: 100% !important;
+}
+.accordionIcon--menu-mobile{
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("assets/images/navigateup.png");
+        background-repeat: no-repeat;
+        width: 17px;
+        height: 17px;
+        background-size: 17px;
+    }
+}
+.accordionIcon--menu-mobile--isClosed{
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("assets/images/arrowdown.png");
+        background-repeat: no-repeat;
+        width: 17px;
+        height: 17px;
+        background-size: 17px;
+    }
+}
+.menuItem--menu-mobile-drawer{
+    border-bottom: 1px solid #e9e9e9
 }
