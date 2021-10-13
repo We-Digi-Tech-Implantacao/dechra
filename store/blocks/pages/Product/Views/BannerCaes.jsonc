@@ -11,7 +11,8 @@
         },
         "children": [
             "list-context.info-card-list#dogs-banner",
-            "custom-order"
+            "custom-order",
+            "filter-trigger"
         ]
     },
     "list-context.info-card-list#dogs-banner": {
@@ -56,7 +57,17 @@
     "responsive-layout.phone": {
         "children": [
             "list-context.info-card-list#dogs-banner-phone",
-            "rich-text#text-banner-phone"
+            "rich-text#text-banner-phone",
+            "flex-layout.row#section-3-dogs-buttons"
+        ]
+    },
+    "flex-layout.row#section-3-dogs-buttons":{
+        "props": {
+            "blockClass": "section-3-dogs-buttons"
+        },
+        "children": [
+            "custom-order",
+            "filter-trigger"
         ]
     },
     "list-context.info-card-list#dogs-banner-phone": {

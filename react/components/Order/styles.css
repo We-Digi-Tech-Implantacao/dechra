@@ -1,6 +1,6 @@
 .containerSignNow {
     position: absolute;
-    right: 55px;
+    right: 20px;
     top: 515px;
     width: auto !important;
 
@@ -15,8 +15,9 @@
 }
 @media(max-width: 767px){
     .containerSignNow {
-        left: 23px;
-        top: 445px;
+        /* left: 23px;
+        top: 445px; */
+        position: initial;
     }
 }
 .containerSignNow .plans {
@@ -31,21 +32,21 @@
         flex-direction: column;;
     }
     .containerSignNow .plans select{
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         width: 180px;
         height: 75px;
     }
 }
-.containerSignNow .plans select {
-    border: 2px solid #053471;
+.containerSignNow .plans select {    
+    border: 1px solid #053471;
     color: #053471;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
     background: transparent;
-    width: 215px;
-    height: 70px;
+    width: 250px;
+    height: 65px;
     border-radius: 15px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     padding: 10px;
     font-size: 18px;
     flex-wrap: wrap;
@@ -53,10 +54,21 @@
     background-image: url("../../../assets/images/arrowdownblue.png");
     background-repeat: no-repeat;
     background-position: right 10px top 50%;
-    background-size: 20px;
+    background-size: 13px;
+    -o-object-fit: cover;
     object-fit: cover;
-    outline:0; 
+    outline: 0;
     cursor: pointer;
+    letter-spacing: 2px;
+    padding: 0 20px;
+}
+@media(max-width: 767px){
+    .containerSignNow .plans select {    
+        position: initial;
+        width: 180px !important;
+        height: 50px;
+        font-size: 16px;
+    }
 }
 .containerSignNow .plans select::-ms-expand {
    display: none;

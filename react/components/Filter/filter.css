@@ -159,12 +159,49 @@
     font-size: 16px;
 }
 .button {
-    top: 16px;
-    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     cursor: pointer;
-    border: 1px solid #dedede;
-    padding: 10px 25px;
-    display: block;
+    border: 1px solid #053471;
+    color: #053471;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: transparent !important;
     position: absolute;
     background-color: #f3f3f3;
+    left: 100px;
+    top: 515px;
+    width: 250px !important;
+    height: 65px;
+    border-radius: 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.button::before {
+    content: '';
+    display: block;
+    background-image: url("https://lojadechra.vtexassets.com/arquivos/filter.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 40px;
+    height: 20px;
+}
+@media(max-width: 767px){
+    .button {
+        position: initial;
+        width: 180px !important;
+        height: 50px;
+        font-size: 16px;
+    }
+    .button::before {
+        content: '';
+        display: block;
+        background-image: url("https://lojadechra.vtexassets.com/arquivos/filter.png");
+        background-repeat: no-repeat;
+        background-size: 15px;
+        width: 25px;
+        height: 15px;
+    }
 }
