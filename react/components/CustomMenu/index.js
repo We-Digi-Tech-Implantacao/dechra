@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react'
-import './styles.css'
+import handles from './styles.css'
 
-import { useCssHandles } from 'vtex.css-handles'
+//import { useCssHandles } from 'vtex.css-handles'
 import { Link } from 'vtex.render-runtime'
 import { useDevice } from 'vtex.device-detector'
 
-const CSS_HANDLES = ['infoCard', 'menuItemContainer', 'customMenu', 'customMenuContainer', 'departmentItem', 'categoriesContainer', 'categoryItem', 'customSubMenuWrapper']
+//const CSS_HANDLES = ['infoCard', 'menuItemContainer', 'customMenu', 'customMenuContainer', 'departmentItem', 'categoriesContainer', 'categoryItem', 'customSubMenuWrapper']
 
 function Desktop({ data }) {
-  const handles = useCssHandles(CSS_HANDLES)
+  //const handles = useCssHandles(CSS_HANDLES)
   return (
     <div className={`${handles.customMenu}`}>
-      {data.map(item =>
-        <div className={`${handles.menuItemContainer}`}>
+      {data.map((item, key) =>
+        <div className={`${handles.menuItemContainer} ${handles["menuItemContainer" + key]}`} key={key}>
           <Link to={item?.link}>{item?.label}</Link>
           {item.hasChildren ?
             <div className={`${handles.customSubMenuWrapper}`}>
@@ -45,7 +45,7 @@ function Desktop({ data }) {
 }
 
 function Mobile({ data }) {
-  const handles = useCssHandles(CSS_HANDLES)
+  //const handles = useCssHandles(CSS_HANDLES)
   return (
     <div className={`${handles.customMenu}`}>
       {data.map((item, key) =>
