@@ -1,0 +1,8 @@
+.availableQuantityNormal {
+    color: #00a6dd;
+    font-size: .85rem;
+}
+.availableQuantityDanger {
+    color: red;
+    font-size: .85rem;
+}

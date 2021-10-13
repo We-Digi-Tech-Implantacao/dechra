@@ -1,0 +1,26 @@
+.productImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productImages div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.productImages div:first-child {
+    width: 100%;
+    max-width: 100%;
+}
+.productImages div:first-child::before {
+}
+.productImages img {
+    display: block;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+}

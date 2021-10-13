@@ -1,10 +1,617 @@
 {
-  "store.custom#product": {
-    "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.phone",
-      //"filter-trigger",
-      "flex-layout.row#section-3-dogs"
+  "store.product": {
+    "children": [
+      "responsive-layout.desktop#product",
+      "responsive-layout.mobile#product"
     ]
+  },
+  "responsive-layout.desktop#product": {
+    "children": [
+      "flex-layout.row#product-main",
+      "flex-layout.row#container-description-rattings",
+      "__fold__",
+      "shelf.relatedProducts#view"
+    ]
+  },
+  "responsive-layout.tablet#product": {
+    "children": [
+      "shelf.relatedProducts#view-tablet"
+    ]
+  },
+  "responsive-layout.mobile#product": {
+    "children": [
+      "flex-layout.row#product-main-mobile",
+      "trustvox",
+      "__fold__",
+      "shelf.relatedProducts#view"
+    ]
+  },
+  "shelf.relatedProducts#view-tablet": {
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 2,
+        "titleText": "Sugestões"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "flex-layout.row#product-main-mobile": {
+    "props": {
+      "blockClass": "product-main-mobile"
+    },
+    "children": [
+      "flex-layout.col#product-main-mobile"
+    ]
+  },
+  "flex-layout.row#product-image-mobile": {
+    "props": {
+      "blockClass": "product-main-mobile"
+    },
+    "children": [
+      "flag-product",
+      "stack-layout#mobile"
+    ]
+  },
+  "flex-layout.col#product-main-mobile": {
+    "props": {
+      "blockClass": "pdp-right-col"
+    },
+    "children": [
+      "flex-layout.row#product-image-mobile",
+      "flex-layout.row#share-and-starts",
+      "flex-layout.row#product-name",
+      "sku-selector#pdp",
+      "tags",
+      "wdt-custom-product-nutritional-table",
+      "product-description",
+      "condition-layout.product#is-product-available"
+    ]
+  },
+  "flex-layout.row#container-description-rattings": {
+    "children": [
+      "flex-layout.col#container-product-description",
+      "trustvox"
+    ],
+    "props": {
+      "blockClass": [
+        "container-description-rattings"
+      ],
+      "verticalAlign": "top",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#container-product-description": {
+    "children": [
+      "rich-text#product-title-description",
+      "product-description"
+    ],
+    "props": {
+      "blockClass": [
+        "container-product-description"
+      ]
+    }
+  },
+  "rich-text#product-title-description": {
+    "props": {
+      "blockClass": [
+        "product-title-description"
+      ],
+      "text": "## Descrição"
+    }
+  },
+  "shelf.relatedProducts#view": {
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "itemsPerPage": 4,
+        "titleText": "Sugestões"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#page-product"
+    ]
+  },
+  "shelf.relatedProducts#buy": {
+    "props": {
+      "recommendation": "buy",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "titleText": "SUGESTÕES"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "link#not-in-brazil": {
+    "props": {
+      "target": "_blank",
+      "label": "Not in Brazil?",
+      "href": "https://www.uvline.shop",
+      "blockClass": "not-in-brazil"
+    }
+  },
+  "rich-text#relatedProducts": {
+    "props": {
+      "text": "Produtos relacionados",
+      "blockClass": "relatedProducts"
+    }
+  },
+  "list-context.product-list#relatedProducts": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#main-relatedProducts"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#main-relatedProducts": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": [
+        "product-page-breadcrumbs",
+        "pdp-breadcrumbs"
+      ]
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "pdp-description"
+    },
+    "children": [
+      "tab-layout#product-description"
+    ]
+  },
+  "tab-layout#product-description": {
+    "children": [
+      "tab-list#product-description",
+      "tab-content#product-description"
+    ],
+    "props": {
+      "blockClass": [
+        "product-description",
+        "product-description-pdp"
+      ],
+      "defaultActiveTabId": "product-description"
+    }
+  },
+  "tab-list#product-description": {
+    "children": [
+      "tab-list.item#description"
+    ]
+  },
+  "tab-list.item#description": {
+    "props": {
+      "tabId": "product-description",
+      "label": "Descrição",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#composition": {
+    "props": {
+      "tabId": "product-composition",
+      "label": "Composições"
+    }
+  },
+  "tab-list.item#measures": {
+    "props": {
+      "tabId": "product-measures",
+      "label": "Medidas"
+    }
+  },
+  "tab-content#product-description": {
+    "children": [
+      "tab-content.item#description",
+      "tab-content.item#composition",
+      "tab-content.item#measures"
+    ]
+  },
+  "tab-content.item#description": {
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "tabId": "product-description"
+    }
+  },
+  "tab-content.item#composition": {
+    "children": [],
+    "props": {
+      "tabId": "product-composition",
+      "blockClass": "composition"
+    }
+  },
+  "tab-content.item#measures": {
+    "children": [],
+    "props": {
+      "tabId": "product-measures",
+      "blockClass": "measures"
+    }
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "pdp-product-main"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-specification-badges"
+    ]
+  },
+  "stack-layout#mobile": {
+    "props": {
+      "blockClass": "mobile"
+    },
+    "children": [
+      "product-images#default",
+      "product-specification-badges"
+    ]
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.col#stack": {
+    "children": [
+      "stack-layout"
+    ],
+    "props": {
+      "width": "50%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "props": {
+      "blockClass": "product-image"
+    },
+    "children": [
+      "condition-layout.product#product-image",
+      "flex-layout.col#product-flag",
+      "product-price-savings#summary"
+    ]
+  },
+  "condition-layout.product#product-image": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "14"
+          }
+        }
+      ],
+      "Then": "product-images#default-pdp",
+      "Else": "custom-product-images"
+    }
+  },
+  "product-images#default-pdp": {
+    "props": {
+      "blockClass": "default-pdp",
+      "hiddenImages": "tabela",
+      "maxHeight": 900,
+      "thumbnailsOrientation": "horizontal"
+    }
+  },
+  "flex-layout.col#product-flag": {
+    "props": {
+      "width": 0
+    },
+    "children": [
+      "flag-product"
+    ]
+  },
+  "product-images#default": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "auto"
+      },
+      "displayThumbnailsArrows": true,
+      "hiddenImages": "tabelademedida"
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 4,
+      "blockClass": "pdp-right-col"
+    },
+    "children": [
+      "flex-layout.row#share-and-starts",
+      "vtex.store-components:product-name",
+      "wdt-custom-product-nutritional-table",
+      "sku-selector#pdp",
+      "tags",
+      "condition-layout.product#is-product-available"
+    ]
+  },
+  "sku-selector#pdp": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "maxItems": 50,
+      "disableUnavailableSelectOptions": false,
+      "visibility": "more-than-one"
+    }
+  },
+  "flex-layout.row#share-and-starts": {
+    "props": {
+      "blockClass": "share-and-stars",
+      "colSizing": "auto"
+    },
+    "children": [
+      "modal-trigger#share",
+      "trustvox-stars"
+    ]
+  },
+  "condition-layout.product#is-product-available": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#right-col-available-item",
+      "Else": "flex-layout.col#right-col-unavailable-item"
+    }
+  },
+  "flex-layout.col#right-col-available-item": {
+    "children": [
+      "flex-layout.row#container-price-buy-button",
+      "flex-layout.row#shipping"
+    ]
+  },
+  "flex-layout.row#container-price-buy-button": {
+    "children": [
+      "flex-layout.row#selling-price",
+      "flex-layout.col#buy-button"
+    ],
+    "props": {
+      "blockClass": "container-price-buy-button",
+      "colSizing": "auto",
+      "colGap": 4
+    }
+  },
+  "flex-layout.col#buy-button": {
+    "props": {
+      "colGap": 0,
+      "blockClass": "buy-button"
+    },
+    "children": [
+      "flex-layout.row#buy-button",
+      "available-quantity"
+    ]
+  },
+  "flex-layout.col#right-col-unavailable-item": {
+    "children": [
+      "availability-subscriber"
+    ]
+  },
+  "flex-layout.row#shipping": {
+    "props": {
+      "blockClass": "shipping-simulator"
+    },
+    "children": [
+      "shipping-simulator",
+      "modal-trigger#shipping"
+    ]
+  },
+  "modal-trigger#shipping": {
+    "props": {
+      "blockClass": "shipping"
+    },
+    "children": [
+      "rich-text#shipping",
+      "modal-layout#shipping"
+    ]
+  },
+  "rich-text#shipping": {
+    "props": {
+      "text": "**FRETE GRÁTIS** CONSULTE AS CONDIÇÕES",
+      "blockClass": "shipping"
+    }
+  },
+  "modal-layout#shipping": {
+    "props": {
+      "blockClass": "modal-share"
+    },
+    "children": [
+      "modal-actions.close",
+      "rich-text#shipping-modal"
+    ]
+  },
+  "rich-text#shipping-modal": {
+    "props": {
+      "blockClass": "frete-gratis",
+      "text": "Frete grátis para compras acima de R$200,00."
+    }
+  },
+  "rich-text#product-description": {
+    "props": {
+      "text": "Juntamos um queridinho dos brasileiros, a pasta de amendoim, versão 100% integral, ao nosso chocolate super cremoso, tudo isso sem açúcar. E, como num passe de mágica criamos mais uma delícia, pra te acompanhar o dia todo, todos os dias.",
+      "blockClass": "product-description"
+    }
+  },
+  "flex-layout.row#product-page-seals": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "product-page-seals"
+    },
+    "children": [
+      "image#product-page-seals-1",
+      "image#product-page-seals-2",
+      "image#product-page-seals-3"
+    ]
+  },
+  "image#product-page-seals-1": {
+    "props": {
+      "src": "https://goldko.vtexassets.com/arquivos/sem-adicao-de-acucares.png"
+    }
+  },
+  "image#product-page-seals-2": {
+    "props": {
+      "src": "https://goldko.vtexassets.com/arquivos/sem-gluten.png"
+    }
+  },
+  "image#product-page-seals-3": {
+    "props": {
+      "src": "https://goldko.vtexassets.com/arquivos/veganos.png"
+    }
+  },
+  "modal-trigger#share": {
+    "props": {
+      "blockClass": "share-button"
+    },
+    "children": [
+      "rich-text#share",
+      "modal-layout#share"
+    ]
+  },
+  "rich-text#share": {
+    "props": {
+      "text": "Compartilhar",
+      "blockClass": "share-button"
+    }
+  },
+  "modal-layout#share": {
+    "props": {
+      "blockClass": "modal-share"
+    },
+    "children": [
+      "modal-actions.close",
+      "rich-text#share-modal",
+      "share#default"
+    ]
+  },
+  "rich-text#share-modal": {
+    "props": {
+      "blockClass": "modal-share",
+      "text": "### Compartilhe\n O que é bom precisa ser compartilhado né? Espalhe essa delícia por aí 😀"
+    }
+  },
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "selling-price"
+    },
+    "children": [
+      "flex-layout.row#list-and-selling-price",
+      "custom-product-installments"
+    ]
+  },
+  "flex-layout.row#list-and-selling-price": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "list-and-selling-price"
+    },
+    "children": [
+      "product-list-price#summary",
+      "product-selling-price#summary"
+    ]
+  },
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": [
+        "summary-buy-button",
+        "pdp-buy-button"
+      ]
+    },
+    "children": [
+      "product-quantity",
+      "wdt-add-to-minicart-and-open#product-page"
+    ]
+  },
+  "wdt-add-to-minicart-and-open#product-page": {
+    "props": {
+      "blockClass": "product-page"
+    }
+  },
+  "add-to-cart-button#pdp": {
+    "props": {
+      "text": "Adicionar"
+    }
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": true,
+        "Pinterest": true
+      }
+    }
   }
 }

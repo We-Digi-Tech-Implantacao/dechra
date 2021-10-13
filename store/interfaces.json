@@ -28,5 +28,20 @@
     },
     "custom-order":{
         "component": "Order"
+    },
+    "trustvox": {
+        "component": "Trustvox"
+    },
+    "tags": {
+        "component": "Tags"
+    },
+    "wdt-custom-product-nutritional-table": {
+        "component": "NutritionalTable"
+    },
+    "custom-product-images": {
+        "component": "ProductImages"
+    },
+    "available-quantity": {
+        "component": "AvailableQuantity"
     }
 }

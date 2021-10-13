@@ -93,7 +93,7 @@ export const Stars = styled.div`
   * {
     color: #1675bf !important;
     .ts-shelf-container .ts-sprite {
-      /* background-image: url('https://goldko.vtexassets.com/arquivos/sprite.png'); */
+      background-image: url('https://goldko.vtexassets.com/arquivos/sprite.png');
     }
     .ts-shelf-container .ts-sprite {
       

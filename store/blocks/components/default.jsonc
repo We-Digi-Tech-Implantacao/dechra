@@ -137,5 +137,41 @@
           "criteria": "label"
       }
     }
+  },
+
+  "product-summary.shelf#page-product": {
+    "children": [
+      "flags",
+      "stack-layout#prodsum",
+      "flex-layout.row#shelf-container-name-stars-product",
+      "product-rating-summary",
+      "flex-layout.row#list-and-selling-price-summary",
+      // "product-installments",
+      // "product-installments-list",
+      "custom-product-installments",
+      "flex-layout.row#summary-buy-button"
+    ]
+  },
+  "flex-layout.row#shelf-container-name-stars-product": {
+    "props": {
+      "blockClass": "shelf-container-name-stars"
+    },
+    "children": [
+      "flex-layout.col#shelf-container-name-stars-product"
+    ]
+  },
+  "flex-layout.col#shelf-container-name-stars-product": {
+    "props": {
+      "blockClass": "shelf-container-name-stars"
+    },
+    "children": [
+      "trustvox-stars",
+      "product-summary-name#page-product"
+    ]
+  },
+  "product-summary-name#page-product": {
+    "props": {
+      "tag": "h2"
+    }
   }
 }

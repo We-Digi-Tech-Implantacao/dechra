@@ -1,0 +1,14 @@
+.tagsWrapper {
+    display: flex;
+    align-items: center;
+}
+.tagsWrapper img {
+    height: auto;
+    display: block;
+    max-width: 30%;
+    max-height: 60px;
+    padding-right: 15px;
+}
+.tagsWrapper img:last-child {
+    padding: 0;
+}
