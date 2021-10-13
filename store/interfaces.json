@@ -16,5 +16,17 @@
     },
     "trustvox-stars": {
         "component": "TrustvoxStars"
+    },
+    "custom-filter": {
+        "component": "Filter"
+    },
+    "filter-selected": {
+        "component": "FilterSelected"
+    },
+    "filter-trigger": {
+        "component": "FilterTrigger"
+    },
+    "custom-order":{
+        "component": "Order"
     }
 }

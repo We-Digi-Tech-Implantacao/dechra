@@ -1,7 +1,19 @@
 {
     "responsive-layout.desktop": {
-        "children": ["list-context.info-card-list#dogs-banner"]
+        "children": [
+            "flex-layout.row#dogs-banner"
+        ]
       },
+    "flex-layout.row#dogs-banner":{
+        "props":{
+            "blockClass": "container-dogs-banner",
+            "colSizing": "auto"
+        },
+        "children": [
+            "list-context.info-card-list#dogs-banner",
+            "custom-order"
+        ]
+    },
     "list-context.info-card-list#dogs-banner": {
         "title": "Banner principal",
         "props": {

@@ -47,13 +47,16 @@
 .infoCardContainer--banner-dogs{
     .infoCardTextContainer--banner-dogs{
         margin-left: 100px !important;
+        margin-bottom: 90px !important;
         width: 37%!important;
         @media(max-width: $maxTablet){
             margin-left: 30px!important;
+            margin-bottom: 0px !important;
             margin: 0px;
         }
         @media(max-width: $maxMobile){
             margin-left: 30px!important;
+            margin-bottom: 0px !important;
             margin: 0px;
         }
         .container--banner-dogs{

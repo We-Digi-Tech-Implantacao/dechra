@@ -57,8 +57,8 @@
 		display: block;
 		background-image: url('https://lojadechra.vtexassets.com/assets/vtex/assets-builder/lojadechra.dechra-store/0.0.4/images/dog___bf9feed15683a736ef6e3d9ced6cbe46.svg');
 		background-repeat: no-repeat;
-		background-size: 30px;
-		width: 30px;
+		background-size: 35px;
+		width: 35px;
 		height: 30px;
 		padding-bottom: 10px;
 	}
@@ -104,7 +104,10 @@
 		justify-content: flex-end;
 		align-items: flex-start;
 	}
-	.infoCard a {
+	.menuItemContainer1 .infoCard a{
+		display: none;
+	}
+	.menuItemContainer1 .infoCard a {
 		display: flex;
     	align-items: center;
     	justify-content: center;

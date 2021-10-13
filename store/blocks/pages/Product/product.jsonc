@@ -3,6 +3,7 @@
     "blocks": [
       "responsive-layout.desktop",
       "responsive-layout.phone",
+      //"filter-trigger",
       "flex-layout.row#section-3-dogs"
     ]
   }
