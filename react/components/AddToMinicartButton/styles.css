@@ -22,6 +22,19 @@
 	height: 30px;
     padding-left: 14px;
 }
+.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page{
+	font-size: 0;
+}
+.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before{
+	content: "Comprar";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-left: 60px;
+    padding-right: 10px;
+    text-transform: initial;
+}
 /* .buttonQuickviewWrapper .buttonDataContainer::after {
 	width: 16px;
 	height: 16px;

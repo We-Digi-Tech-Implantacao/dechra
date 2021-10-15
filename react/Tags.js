@@ -35,7 +35,7 @@ function Tags() {
     if (!properties || !categoryId) return null
     return (
         <div className={style.tagsWrapper}>
-            {categoryId && categoryId === "14" ? null :
+            {/* {categoryId && categoryId === "14" ? null :
                 <img src={`https://goldko.vtexassets.com/arquivos/TAG---ZERO-ADICAO-DE-ACUCARES.png?v=3`} />}
             {properties.map(prop => {
                 if (prop.name != "Características") return
@@ -58,7 +58,7 @@ function Tags() {
                         })}
                     </>
                 )
-            })}
+            })} */}
         </div>
     )
 }

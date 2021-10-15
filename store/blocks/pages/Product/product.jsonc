@@ -74,7 +74,8 @@
   "flex-layout.row#container-description-rattings": {
     "children": [
       "flex-layout.col#container-product-description",
-      "trustvox"
+      "trustvox",
+      "product-specifications"
     ],
     "props": {
       "blockClass": [
@@ -108,8 +109,9 @@
       "recommendation": "view",
       "productList": {
         "itemsPerPage": 4,
-        "titleText": "Sugestões"
-      }
+        "titleText": "Produtos Similares"
+      },
+      "blockClass": "relatedProducts-view"
     },
     "blocks": [
       "product-summary.shelf#page-product"
@@ -301,7 +303,8 @@
     ],
     "props": {
       "width": "50%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "container-stack"
     }
   },
   "flex-layout.row#product-image": {
@@ -310,8 +313,16 @@
     },
     "children": [
       "condition-layout.product#product-image",
-      "flex-layout.col#product-flag",
-      "product-price-savings#summary"
+      "flex-layout.row#product-savings"
+    ]
+  },
+  "flex-layout.row#product-savings":{
+    "props":{
+      "blockClass": "product-savings"
+    },
+    "children":[
+      "product-price-savings#summary",
+      "flex-layout.col#product-flag"
     ]
   },
   "condition-layout.product#product-image": {
@@ -506,7 +517,7 @@
       "blockClass": "share-button"
     },
     "children": [
-      "rich-text#share",
+      //"rich-text#share",
       "modal-layout#share"
     ]
   },
@@ -556,7 +567,7 @@
   },
   "product-list-price#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": ["summary", "summary-2"]
     }
   },
   "product-selling-price#summary": {
@@ -564,7 +575,7 @@
       "markers": [
         "highlight"
       ],
-      "blockClass": "summary"
+      "blockClass": ["summary", "summary-2"]
     }
   },
   "flex-layout.row#buy-button": {
@@ -580,11 +591,17 @@
       "wdt-add-to-minicart-and-open#product-page"
     ]
   },
+  "product-quantity":{
+    "props":{
+      "blockClass": "product-quantity"
+    }
+  },
   "wdt-add-to-minicart-and-open#product-page": {
     "props": {
       "blockClass": "product-page"
     }
   },
+  
   "add-to-cart-button#pdp": {
     "props": {
       "text": "Adicionar"

@@ -83,3 +83,80 @@
 .imageElement--img-section-3-dogs{
     width: 100%;
 }
+
+:global(.vtex-product-context-provider){
+    background-color: #fff !important;
+}
+:global(.vtex-store-components-3-x-content){
+    line-height: 20px;
+}
+.productDescriptionTitle {
+    display: none !important;
+}
+.productNameContainer {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.productBrand {
+    color: #053471;
+    font-size: 30px;
+    font-weight: bold;
+}
+.shippingTable {
+    border: 1px solid #DEDEDE;
+    width: 600px !important;
+}
+:global(.vtex-input-prefix__group){
+    border: none;
+    border-bottom: 1px solid #e3e4e6;
+    border-radius: 0;
+    :global(.vtex-address-form-4-x-input){
+        padding: 0 !important;
+    }
+    :global(.vtex-input__suffix){
+        padding: 0 40px;
+    }
+}
+.shippingContainer{
+    position: relative;
+    :global(.vtex-button){
+        position: absolute;
+        top: 26px !important;
+        right: 0;
+        background-color: transparent !important;
+        color: #053471 !important;
+        border: none;
+        width: auto;
+        height: auto;
+        :global(.vtex-button__label){
+            padding: 0 !important;
+        }
+    }
+}
+.shippingContainer :global(.vtex-button) :global(.vtex-button__label) {
+	font-size: 0;
+}
+.shippingContainer :global(.vtex-button) :global(.vtex-button__label)::before {
+	content: "Calcular";
+	color: #053471;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+
+:global(.vtex-address-form__postalCode){
+    :global(.vtex-input){
+        :global(.vtex-input__label){
+            font-size: 0;
+            &::before{
+                content: 'Calcule seu frete';
+                display: block;
+                color: #053471;
+                font-weight: 400;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+        }
+    }
+}

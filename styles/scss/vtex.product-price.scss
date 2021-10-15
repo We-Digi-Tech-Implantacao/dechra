@@ -26,11 +26,23 @@
 
 .savings{
   color: #fff;
-  background-color: #D6822D;
-  padding: 5px;
-  border-radius: 25px;
+    background-color: #D6822D;
+    padding: 5px;
+    border-radius: 25px;
+    width: 75px!important;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .listPriceValue{
   color: #78787A;
   font-size: 14px;
+}
+.sellingPrice--summary-2{
+  font-size: 18px !important;
+}
+.currencyContainer--summary-2{
+  font-size: 18px !important;
+  font-style: normal;
 }

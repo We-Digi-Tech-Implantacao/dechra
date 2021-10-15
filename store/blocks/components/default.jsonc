@@ -33,7 +33,7 @@
     "children": [
       "flags",
       "stack-layout#prodsum",
-      "flex-layout.row#shelf-container-name-stars",
+      //"flex-layout.row#shelf-container-name-stars",
       //"product-rating-summary",
       "flex-layout.row#list-and-selling-price-summary",
       // "product-installments",
@@ -165,7 +165,7 @@
       "blockClass": "shelf-container-name-stars"
     },
     "children": [
-      "trustvox-stars",
+      //"trustvox-stars",
       "product-summary-name#page-product"
     ]
   },

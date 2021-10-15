@@ -1,15 +1,18 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  padding: 30px;
+  padding: 50px;
   @media (max-width: 767px) {
     padding: 15px;
   }
   .ts-title {
-    margin: 0;
     padding-bottom: 15px;
-    color: #1675bf;
-    font-size: 2.25rem;
+    color: #053471;
+    font-size: 18px;
+  }
+  .ts-text {
+    color: #79797B;
+    font-size: 16px;
   }
   .trustvox-widget,
   .trustvox-widget div,

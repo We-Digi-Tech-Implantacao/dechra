@@ -4,8 +4,13 @@
 }
 .quantitySelectorStepper{
     position: absolute;
-    top: 250px;
-    left: 25px;
+    top: 248px;
+    right: 223px;
+}
+.quantitySelectorStepper--product-quantity{
+    position: absolute;
+    top: 266px;
+    right: 285px;
 }
 
 :global(.vtex-numeric-stepper-container){
@@ -14,6 +19,8 @@
         border: none;    
         color: #fff; 
         width: 50px !important;
+        font-size: 18px;
+        font-weight: 500;
     }
     :global(.vtex-numeric-stepper__plus-button-container){
         :global(.vtex-numeric-stepper__plus-button){
@@ -22,6 +29,7 @@
             width: 0em !important;
             :global(.vtex-numeric-stepper__plus-button__text){
                 color: #fff;
+                font-size: 18px;
             }
         }
     }
@@ -32,6 +40,7 @@
             width: 0em !important;
             :global(.vtex-numeric-stepper__minus-button__text){
                 color: #fff;
+                font-size: 18px;
             }
         }
     }

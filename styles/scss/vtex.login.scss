@@ -1,7 +1,5 @@
 @import 'variables';
 
-
-
 :global(.vtex-login-2-x-container){
     :global(.vtex-button){
         @media(max-width: $maxTablet){
@@ -185,6 +183,7 @@
 :global(.b--action-primary){
     color: #053471 !important;
     border-color: #053471 !important;
+    height: 46px
 }
 
 :global(.vtex-pageHeader__children){
@@ -239,4 +238,6 @@
     color: #fff !important;   
     font-size: 13px;
     //border: 2px solid #053471
+    width: 311px;
+    height: 58px;
 }

@@ -45,9 +45,9 @@ function StarsDetail() {
 
     return (
         <S.Stars>
-            <a class="trustvox-fluid-jump trustvox-widget-rating" href="#trustvox-reviews" title="Pergunte e veja opiniões de quem já comprou">
+            {/* <a class="trustvox-fluid-jump trustvox-widget-rating" href="#trustvox-reviews" title="Pergunte e veja opiniões de quem já comprou">
                 <div class="trustvox-shelf-container" data-trustvox-product-code-js={ProductContext?.product?.productId} data-trustvox-should-skip-filter="true" data-trustvox-display-rate-schema="true"></div>
-            </a>
+            </a> */}
         </S.Stars>
     );
 }

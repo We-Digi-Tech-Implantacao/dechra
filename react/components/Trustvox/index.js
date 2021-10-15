@@ -51,8 +51,9 @@ function Trustvox() {
     return (
         <>
             <S.Container>
-                <h2 className="ts-title">Avaliações</h2>
-                <div id="_trustvox_widget"></div>
+                <h2 className="ts-title">Materiais Complementares</h2>
+                <span className="ts-text">Folheto Sedativos PET</span>
+                {/* <div id="_trustvox_widget"></div> */}
             </S.Container>
         </>
     );
