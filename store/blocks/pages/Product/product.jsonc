@@ -74,8 +74,7 @@
   "flex-layout.row#container-description-rattings": {
     "children": [
       "flex-layout.col#container-product-description",
-      "trustvox",
-      "product-specifications"
+      "flex-layout.col#materials"
     ],
     "props": {
       "blockClass": [
@@ -83,6 +82,21 @@
       ],
       "verticalAlign": "top",
       "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#materials":{
+    "props":{
+      "blockClass": "container-materials"
+    },
+    "children":[
+      "trustvox",
+      "rich-text#materials"
+    ]
+  },
+  "rich-text#materials": {
+    "props": {
+      "text": "[![](https://lojadechra.vtexassets.com/arquivos/download.png)](https://www.google.com/)",
+      "blockClass": "button-materials"
     }
   },
   "flex-layout.col#container-product-description": {

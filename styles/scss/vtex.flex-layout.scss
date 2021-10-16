@@ -500,3 +500,9 @@
 // 		}
 // 	}
 // }
+.flexCol--container-materials{
+	padding: 50px;
+	.flexColChild--container-materials{
+		height: auto !important;
+	}
+}
