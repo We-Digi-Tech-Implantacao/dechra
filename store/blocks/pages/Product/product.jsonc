@@ -388,11 +388,72 @@
     "children": [
       //"flex-layout.row#share-and-starts",
       "flex-layout.row#product-name",
+      "flex-layout.row#indicated",
       "wdt-custom-product-nutritional-table",
       "sku-selector#pdp",
       "tags",
       "condition-layout.product#is-product-available"
     ]
+  },
+  "flex-layout.row#indicated":{
+    "props":{
+      "blockClass": "container-Indicated",
+      "colSizing": "auto"
+    },
+    "children":[
+      "rich-text#text-indicated",
+      "flex-layout.row#presentation-documents"
+    ]
+  },
+  "rich-text#text-indicated": {
+    "props": {
+      "text": "Indicado como sedativo para cães.\n\n**Venda sob prescrição do Médico Veterinário, com retenção obrigatória da notificação de receita.** ",
+      "blockClass": "text-indicated"
+    }
+  },
+  "flex-layout.row#presentation-documents":{
+    "props":{
+      "blockClass": "container-presentation-documents"
+    },
+    "children":[
+      "flex-layout.col#presentation",
+      "flex-layout.col#documents"
+    ]
+  },
+  "flex-layout.col#presentation":{
+    "props":{
+      "blockClass": "container-presentation"
+    },
+    "children":[
+      "rich-text#text-presentation"
+    ]
+  },
+  "rich-text#text-presentation": {
+    "props": {
+      "text": "**Apresentação**\n\nFrasco-ampola contendo 20 mL.",
+      "blockClass": "text-indicated"
+    }
+  },
+  "flex-layout.col#documents":{
+    "props":{
+      "blockClass": "container-documents"
+    },
+    "children":[
+      "rich-text#text-documents",
+      "rich-text#button-documents"
+    ]
+  },
+  "rich-text#text-documents": {
+    "props": {
+      "text": "**Documentos**",
+      "blockClass": ["text-presentation", "text-indicated"]
+    }
+  },
+  "rich-text#button-documents": {
+    "props": {
+      "text": "[![](https://lojadechra.vtexassets.com/arquivos/download.png)](https://www.google.com/)",
+      "blockClass": ["button-materials", "button-documents"]
+    }
   },
   "sku-selector#pdp": {
     "props": {

@@ -456,6 +456,34 @@
         }
     }
 }
+.container--button-documents{
+    .wrapper--button-documents{
+        .paragraph--button-documents{        
+            background-color: #F2F2F2;
+            width: 135px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            .link--button-documents{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                &::before{
+                    content: 'Bula' !important;
+                    display: block;
+                    color: #79797B;  
+                    font-size: 16px;
+                    padding-right: 10px;
+                }
+                .image--button-documents{
+
+                }
+            }
+        }
+    }
+}
 
 .container--share-button{
     .wrapper--share-button{    
@@ -470,6 +498,13 @@
                 height: 40px;
                 cursor: pointer;
             }
+        }
+    }
+}
+.container--text-indicated{
+    .wrapper--text-indicated{
+        .paragraph--text-indicated{
+            color: #78787A;
         }
     }
 }
