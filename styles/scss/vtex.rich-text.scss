@@ -456,3 +456,20 @@
         }
     }
 }
+
+.container--share-button{
+    .wrapper--share-button{    
+        .paragraph--share-button{
+           font-size: 0;
+           &::before{
+                content: '';
+                display: block;
+                background-image: url('assets/images/compartilhar.svg');
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}

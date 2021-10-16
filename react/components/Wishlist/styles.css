@@ -1,0 +1,35 @@
+:global(.vtex-alert) {
+    left: 50%;
+    bottom: 30px;
+    z-index: 1;
+    position: fixed;
+    transform: translateX(-50%);
+    max-width: 500px;
+    transition: bottom .5s linear;
+}
+
+:global(.back-down) {
+    bottom: -100px;
+}
+
+.buttonWishlist {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+    white-space: nowrap;
+    border: 0;
+}
+
+.buttonWishlist img {
+    margin-right: 10px;
+    filter: invert(1);
+}
+.buttonWishlist span {
+    font-family: "Roboto Mono", sans-serif;
+}

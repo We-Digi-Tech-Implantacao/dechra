@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#container-share-wishlist": {
+        "props": {
+          "blockClass": "container-share-wishlist"
+        },
+        "children": [
+          "modal-trigger#share"
+         // "wishlist-button"
+        ]
+      },
+      "modal-trigger#share": {
+        "props": {
+          "blockClass": "share-button"
+        },
+        "children": [
+          "rich-text#share",
+          "modal-layout#share"
+        ]
+      },
+      "rich-text#share": {
+        "props": {
+          "text": "Compartilhar",
+          "blockClass": "share-button"
+        }
+      },
+      "modal-layout#share": {
+        "props": {
+          "blockClass": "modal-share"
+        },
+        "children": [
+          "modal-actions.close",
+          "rich-text#share-modal",
+          "share"
+        ]
+      },
+      "rich-text#share-modal": {
+        "props": {
+          "blockClass": "modal-share",
+          "text": "### Compartilhe\nCompartilhe com seus amigos e família!"
+        }
+      }
+}

@@ -386,8 +386,8 @@
       "blockClass": "pdp-right-col"
     },
     "children": [
-      "flex-layout.row#share-and-starts",
-      "vtex.store-components:product-name",
+      //"flex-layout.row#share-and-starts",
+      "flex-layout.row#product-name",
       "wdt-custom-product-nutritional-table",
       "sku-selector#pdp",
       "tags",
@@ -461,7 +461,8 @@
     },
     "children": [
       "shipping-simulator",
-      "modal-trigger#shipping"
+      //"modal-trigger#shipping",
+      "wdt-custom-shipping-product-page"
     ]
   },
   "modal-trigger#shipping": {
@@ -623,10 +624,13 @@
   },
   "flex-layout.row#product-name": {
     "props": {
-      "marginBottom": 3
+      "marginBottom": 3,
+      "colSizing": "auto",
+      "blockClass": "container-product-name"
     },
     "children": [
-      "vtex.store-components:product-name"
+      "vtex.store-components:product-name",
+      "flex-layout.row#container-share-wishlist"
     ]
   },
   "product-price#product-details": {

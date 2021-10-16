@@ -43,5 +43,11 @@
     },
     "available-quantity": {
         "component": "AvailableQuantity"
+    },
+    "wishlist-button": {
+        "component": "WishlistButton"
+    },
+    "wdt-custom-shipping-product-page": {
+        "component": "ShippingProductPage"
     }
 }

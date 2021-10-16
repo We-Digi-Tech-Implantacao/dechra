@@ -1,0 +1,83 @@
+:global(.vtex-alert) {
+    left: 50%;
+    bottom: 30px;
+    z-index: 1;
+    position: fixed;
+    transform: translateX(-50%);
+    max-width: 500px;
+    transition: bottom .5s linear;
+}
+
+:global(.back-down) {
+    bottom: -100px;
+}
+
+.buttonWishlistSummary {
+    width: 18px;
+    cursor: pointer;
+    height: 18px;
+    display: flex;
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    
+    border: 0;
+    padding: 5px;
+    background-color: transparent;
+
+    top: 7px;
+    left: 10px;
+    z-index: 2;
+    position: absolute;
+}
+.buttonWishlistSummary img {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .buttonWishlistSummary {
+        top: 0;
+        left: 0;
+        padding: 15px;
+    }
+}
+
+.stopPropagation {
+    display: block;
+}
+:global(.vtex-modal__modal) {
+    max-width: 500px;
+}
+:global(.vtex-modal__modal) p {
+    color: #1A2D00;
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.8;
+}
+:global(.vtex-modal__modal) :global(.vtex-styleguide-9-x-scrollBar) {
+    padding-top: 3rem;
+}
+:global(.vtex-modal__confirmation) {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+:global(.vtex-modal__confirmation) :global(.vtex-button__label) {
+    padding: 8px 20px !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+:global(.vtex-modal__confirmation) :global(.vtex-button) {
+    border: 2px solid #3f413c;
+    display: block;
+    color: #000;
+}
+:global(.vtex-modal__confirmation) > :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 8px 26px !important;
+    font-weight: normal;
+    color: #fff;
+    background: #000;
+}
