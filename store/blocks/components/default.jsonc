@@ -23,13 +23,6 @@
   },
 
   "product-summary.shelf": {
-    // "children": [
-    //   "flex-layout.row#shelf-img-and-btn",
-    //   "product-summary-brand",
-    //   "product-summary-name",
-    //   "flex-layout.row#prices",
-    //   "product-installments"
-    // ]
     "children": [
       "flags",
       "stack-layout#prodsum",

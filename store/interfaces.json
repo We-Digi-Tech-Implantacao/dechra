@@ -49,5 +49,8 @@
     },
     "wdt-custom-shipping-product-page": {
         "component": "ShippingProductPage"
+    },
+    "category-bot": {
+        "component": "CategoryBot"
     }
 }
