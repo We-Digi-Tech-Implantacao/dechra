@@ -35,6 +35,18 @@
     padding-right: 20px;
     text-transform: initial;
 }
+@media (max-width: 767px) {
+	.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before{
+		content: "Comprar";
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		cursor: pointer;
+		padding-left: 65px;
+		padding-right: 30px;
+		text-transform: initial;
+	}
+}
 /* .buttonQuickviewWrapper .buttonDataContainer::after {
 	width: 16px;
 	height: 16px;

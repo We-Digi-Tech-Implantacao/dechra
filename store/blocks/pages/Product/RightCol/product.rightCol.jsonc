@@ -4,9 +4,14 @@
           "blockClass": "container-share-wishlist"
         },
         "children": [
+          "wishlist-button",
           "modal-trigger#share"
-         // "wishlist-button"
         ]
+      },
+      "wishlist-button":{
+        "props": {
+          "blockClass": "wishlist-button"
+        }
       },
       "modal-trigger#share": {
         "props": {

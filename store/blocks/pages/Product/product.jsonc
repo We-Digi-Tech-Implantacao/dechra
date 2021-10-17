@@ -21,7 +21,7 @@
   "responsive-layout.mobile#product": {
     "children": [
       "flex-layout.row#product-main-mobile",
-      "trustvox",
+      "flex-layout.row#container-description-rattings",
       "__fold__",
       "shelf.relatedProducts#view"
     ]
@@ -49,7 +49,8 @@
   },
   "flex-layout.row#product-image-mobile": {
     "props": {
-      "blockClass": "product-main-mobile"
+      "blockClass": "product-main-mobile",
+      "colSizing": "auto"
     },
     "children": [
       "flag-product",
@@ -61,14 +62,57 @@
       "blockClass": "pdp-right-col"
     },
     "children": [
+      "flex-layout.row#product-name-mobile",
+      "flex-layout.row#share-mobile",
       "flex-layout.row#product-image-mobile",
-      "flex-layout.row#share-and-starts",
-      "flex-layout.row#product-name",
       "sku-selector#pdp",
       "tags",
       "wdt-custom-product-nutritional-table",
-      "product-description",
-      "condition-layout.product#is-product-available"
+      // "product-description",
+      "flex-layout.row#indicated",
+      "condition-layout.product#is-product-available-mobile"
+    ]
+  },
+  "condition-layout.product#is-product-available-mobile": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#right-col-available-item-mobile",
+      "Else": "flex-layout.col#right-col-unavailable-item"
+    }
+  },
+  "flex-layout.col#right-col-available-item-mobile": {
+    "children": [
+      "flex-layout.row#container-price-buy-button"
+      //"flex-layout.row#shipping"
+    ]
+  },
+  "flex-layout.row#share-mobile": {
+    "props":{
+      "blockClass": "share-mobile",
+      "colSizing": "auto"
+    },
+    "children":[
+      "flex-layout.row#product-savings",
+      "flex-layout.row#wishlist"
+    ]
+  },
+  "flex-layout.row#wishlist":{
+    "props":{
+      "blockClass": "wishlist-mobile"
+    },
+    "children":[
+      "wishlist-button",
+      "modal-trigger#share"
+    ]
+  },
+  "flex-layout.row#product-name-mobile":{
+    "children": [
+      "vtex.store-components:product-name"
+      //"flex-layout.row#container-share-wishlist-mobile"
     ]
   },
   "flex-layout.row#container-description-rattings": {
@@ -511,6 +555,11 @@
       "available-quantity"
     ]
   },
+  "available-quantity":{
+    "props": {
+      "blockClass": "available-quantity"
+    }
+  },
   "flex-layout.col#right-col-unavailable-item": {
     "children": [
       "availability-subscriber"
@@ -588,15 +637,15 @@
       "src": "https://goldko.vtexassets.com/arquivos/veganos.png"
     }
   },
-  "modal-trigger#share": {
-    "props": {
-      "blockClass": "share-button"
-    },
-    "children": [
-      //"rich-text#share",
-      "modal-layout#share"
-    ]
-  },
+  // "modal-trigger#share": {
+  //   "props": {
+  //     "blockClass": "share-button"
+  //   },
+  //   "children": [
+  //     //"rich-text#share",
+  //     "modal-layout#share"
+  //   ]
+  // },
   "rich-text#share": {
     "props": {
       "text": "Compartilhar",

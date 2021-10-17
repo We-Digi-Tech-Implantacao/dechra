@@ -240,4 +240,10 @@
     //border: 2px solid #053471
     width: 311px;
     height: 58px;
+    @media(max-width: $maxTablet){
+        width: 310px
+    }
+    @media(max-width: $maxMobile){
+        width: 100%;
+    }
 }

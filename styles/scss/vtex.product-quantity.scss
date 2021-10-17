@@ -1,3 +1,4 @@
+@import 'variables';
 
 .quantitySelectorTitle{
     display: none;
@@ -6,14 +7,36 @@
     position: absolute;
     top: 248px;
     right: 223px;
+    @media(max-width: $maxTablet){
+        display: none;
+    }
+    @media(max-width: $maxMobile){
+        display: none;
+    }
 }
 .quantitySelectorStepper--product-quantity{
     position: absolute;
-    top: 513px;
-    right: 285px;
+    top: 13px;
+    right: 235px;
+    @media(max-width: $maxTablet){
+        display: flex !important;
+        top: 15px;
+        right: 223px;
+    }
+    @media(max-width: $maxMobile){
+        display: flex !important;
+        top: 24px;
+        right: 275px;
+    }
 }
 
 :global(.vtex-numeric-stepper-container){
+    @media(max-width: $maxTablet){
+        //display: none;
+    }
+    @media(max-width: $maxMobile){
+        //display: none;
+    }
     :global(.vtex-numeric-stepper__input){
         background-color: transparent;
         border: none;    

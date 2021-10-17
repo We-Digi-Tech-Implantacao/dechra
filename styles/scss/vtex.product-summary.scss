@@ -6,7 +6,7 @@
     height: 430px;
     border-radius: 10px;
     @media(max-width: $maxMobile){
-      height: 310px;
+      height: 425px;
     }
     .nameContainer {
       justify-content: left;
@@ -61,16 +61,7 @@
       height: 40px !important;
       text-transform: initial;
       @media(max-width: $maxTablet){
-        border: 0;
-        background-color: #053471;
-        border-color: #053471;
-        position: absolute;
-        bottom: 145px;
-        left: 9px;
-        //display: none;
-        width: 284px;
-        height: 40px !important;
-        text-transform: initial;
+        display: none;
       }
       @media(max-width: $maxMobile){
         display: none;

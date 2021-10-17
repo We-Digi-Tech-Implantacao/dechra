@@ -14,11 +14,11 @@
 
 .buttonWishlist {
     cursor: pointer;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: flex-start;
     border-radius: 5px;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
     font-size: 1rem;
     color: #fff;
     background-color: transparent;
@@ -26,10 +26,23 @@
     border: 0;
 }
 
+.buttonWishlist::before{
+    content: '';
+    display: block;
+    background-image: url('https://lojadechra.vtexassets.com/arquivos/favorito.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
 .buttonWishlist img {
     margin-right: 10px;
     filter: invert(1);
+    display: none;
 }
 .buttonWishlist span {
     font-family: "Roboto Mono", sans-serif;
+    display: none;
 }
