@@ -17,7 +17,7 @@
               "link": "/Educaoes",
               "hasChildren": true,
               "infoCard": {
-                "imageUrl": "https://ibmecio.vtexassets.com/arquivos/submenu.jpg",
+                "imageUrl": "assets/images/submenucaes.jpg",
                 "title": "",
                 "button": {
                   "label": false,
@@ -54,7 +54,7 @@
             },
             {
                 "label": "Cães",
-                "link": "/caes",
+                "link": "/category",
                 "hasChildren": true,
                 "infoCard": {
                   "imageUrl": "assets/images/submenucaes.jpg",
