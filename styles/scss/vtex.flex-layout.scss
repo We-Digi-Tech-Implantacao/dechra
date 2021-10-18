@@ -512,7 +512,7 @@
 		&:first-child{
 			border-bottom: 1px solid #DEDEDE;
 			padding: 35px 0px 15px 0px!important;
-			width: 360px!important;
+			width: 350px!important;
     		margin: 0 auto;
 		}
     }
@@ -585,7 +585,7 @@
 		margin: 0 auto;
     }
     @media(max-width: $maxMobile){
-		width: 360px!important;
+		width: 350px!important;
 		margin: 0 auto;
     }
 }

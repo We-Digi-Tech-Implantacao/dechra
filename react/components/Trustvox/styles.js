@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   @media (max-width: 767px) {
-    padding: 15px;
+    /* padding: 15px; */
   }
   .ts-title {
     padding-bottom: 15px;

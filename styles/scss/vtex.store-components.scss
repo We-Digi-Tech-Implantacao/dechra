@@ -34,13 +34,20 @@
             border: none;
             @media(max-width: $maxTablet){
                 width: 345px;
+                display: flex;
+                flex-direction: row-reverse;
+                padding-right: 10px;
             }
             @media(max-width: $maxMobile){
                 width: 173px;
+                display: flex;
+                flex-direction: row-reverse;
+                padding-right: 10px;
             }
             :global(.vtex-styleguide-9-x-input){
                 background-color: #FAFAFA;
                 color: #053471;
+                display: none;
                 &::placeholder{
                     color: #053471;
                     font-size: 14px;
@@ -52,6 +59,12 @@
                 .suffixWrapper--container-search{
                     .searchBarIcon--container-search {
                         color: #053471;
+                        @media(max-width: $maxTablet){
+                            background-color: #fff;
+                        }
+                        @media(max-width: $maxMobile){
+                            background-color: #fff;
+                        }
                         &::before{
                             content: '';
                             display: block;
@@ -177,6 +190,11 @@
         width: 365px !important;
     }
     @media(max-width: $maxMobile){
-        width: 365px !important;
+        width: 330px!important;
+    }
+}
+.logoImage {
+    @media(max-width: $maxMobile){
+        height: 65px;
     }
 }
