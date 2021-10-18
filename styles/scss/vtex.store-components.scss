@@ -47,7 +47,13 @@
             :global(.vtex-styleguide-9-x-input){
                 background-color: #FAFAFA;
                 color: #053471;
-                display: none;
+                display: flex;
+                @media(max-width: $maxTablet){
+                    display: none;
+                }
+                @media(max-width: $maxMobile){
+                    display: none;
+                }
                 &::placeholder{
                     color: #053471;
                     font-size: 14px;
