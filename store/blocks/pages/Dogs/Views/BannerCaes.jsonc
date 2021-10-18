@@ -11,8 +11,8 @@
         },
         "children": [
             "list-context.info-card-list#dogs-banner",
-            "custom-order",
-            "filter-trigger"
+            "custom-order"
+            //"filter-trigger"
         ]
     },
     "list-context.info-card-list#dogs-banner": {
@@ -66,8 +66,8 @@
             "blockClass": "section-3-dogs-buttons"
         },
         "children": [
-            "custom-order",
-            "filter-trigger"
+            "custom-order"
+            //"filter-trigger"
         ]
     },
     "list-context.info-card-list#dogs-banner-phone": {

@@ -12,7 +12,7 @@ function SearchPageColorSelector() {
         setOpen(!open)
     })
 
-    console.log(filters)
+    console.log(filters, 'filters')
 
     return (
         <div className={style.filtersWrapper}>

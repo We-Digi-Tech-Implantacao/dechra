@@ -12,7 +12,7 @@ export default function FilterTrigger() {
     })
 
     useEffect(() => {
-        //defineOpen(!open)
+        defineOpen(!open)
     }, [open])
 
     return (

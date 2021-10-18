@@ -323,6 +323,7 @@
     
     "flex-layout.row#result": {
       "children": [
+        "custom-filter",
         "flex-layout.col#content"
       ],
       "props": {
@@ -520,6 +521,7 @@
         "showOnMobile": true
       }
     },
+    
     "gallery": {
       "blocks": [
         "product-summary.shelf"
