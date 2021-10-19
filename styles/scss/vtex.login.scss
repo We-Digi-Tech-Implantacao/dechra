@@ -181,9 +181,9 @@
     color: #053471;
 }
 :global(.b--action-primary){
-    color: #053471 !important;
-    border-color: #053471 !important;
-    height: 46px
+    //color: #053471 !important;
+    //border-color: #053471 !important;
+    height: 30px
 }
 
 :global(.vtex-pageHeader__children){
@@ -225,25 +225,10 @@
     }
 }
 
-:global(.bg-disabled,){
+:global(.bg-disabled){
     background-color: #052B5C !important;
     color: #A4A4A4 !important;
     :global(.bg-emphasis){
         color: #fff !important;
-    }
-}
-
-:global(.bg-action-primary) {
-    background-color: #053471 !important;
-    color: #fff !important;   
-    font-size: 13px;
-    //border: 2px solid #053471
-    width: 311px;
-    height: 58px;
-    @media(max-width: $maxTablet){
-        width: 310px
-    }
-    @media(max-width: $maxMobile){
-        width: 100%;
     }
 }

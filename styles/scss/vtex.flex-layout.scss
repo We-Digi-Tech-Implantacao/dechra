@@ -627,6 +627,23 @@
 }
 .flexCol--buy-button{
 	position: relative;
+	.flexColChild--buy-button{
+		.flexRow--summary-buy-button{
+			position: initial;
+			.flexRowContent--pdp-buy-button{
+				.stretchChildrenWidth   {
+					
+						:global(.vtex-button){
+							background-color: transparent;
+							:global(.vtex-button__label){
+
+							}
+						}
+					
+				}
+			}
+		}
+	}
 }
 .flexRowContent--product-main-mobile{
 	@media(max-width: $maxTablet){
@@ -634,4 +651,17 @@
 		align-items: center;
 		justify-content: center;
     }
+}
+.flexRow--summary-buy-button{
+	position: absolute;
+	bottom: 125px;
+	@media(max-width: $maxTablet){
+        display: none
+    }
+	@media(max-width: $maxMobile){
+		display: none
+    }
+	.flexRowContent--summary-buy-button{
+		position: relative;
+	}
 }

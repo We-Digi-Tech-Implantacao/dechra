@@ -5,13 +5,13 @@
 }
 .quantitySelectorStepper{
     position: absolute;
-    top: 248px;
-    right: 223px;
+    top: 5px;
+    right: 225px;
     @media(max-width: $maxTablet){
-        display: none;
+        //display: none;
     }
     @media(max-width: $maxMobile){
-        display: none;
+        //display: none;
     }
 }
 .quantitySelectorStepper--product-quantity{

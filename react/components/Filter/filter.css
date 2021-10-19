@@ -99,9 +99,9 @@
     display: flex;
     position: relative;
     align-items: flex-start;
-    padding-top: 65px;
+    padding-top: 0px;
     flex-direction: column;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 .priceRange .filtersWrapper {
     padding-top: 0;
@@ -122,8 +122,11 @@
     }
 }
 .filtersContainer.open {
-    width: 350px;
-    max-width: 350px;
+    width: 300px;
+    max-width: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+    position: initial !important;
 }
 .filterCheckBox {
     width: 12px;

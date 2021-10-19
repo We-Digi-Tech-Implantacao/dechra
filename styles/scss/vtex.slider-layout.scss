@@ -251,3 +251,17 @@
     }
 }
 
+:global(.vtex-slider){
+    :global(.vtex-slider__base){
+        :global(.vtex-slider__base-internal){
+            width: auto;
+            height: 25px;
+            //background-color:  #053471;
+        }   
+    }
+    :global(.vtex-slider__selector-container){
+        :global(.vtex-slider__selector){
+            //background-color: #053471;
+        }
+    }
+}
