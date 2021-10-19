@@ -59,8 +59,15 @@
                         left: 30px!important;
                     }
                 }
+               
             }
         }
+    }
+}
+.minicartCheckoutButton{
+    :global(.vtex-button){
+        background-color: #053471;
+        border: none;
     }
 }
 

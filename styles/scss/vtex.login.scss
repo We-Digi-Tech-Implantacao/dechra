@@ -185,7 +185,31 @@
     //border-color: #053471 !important;
     height: 30px
 }
-
+:global(.vtex-checkbox__line-container){
+    :global(.vtex-checkbox__container){
+        :global(.vtex-checkbox__inner-container){
+            height: 16px !important; 
+        }
+    }
+}
+:global(.vtex-my-account-1-x-boxContainerBody){
+    :global(.vtex-button){
+        background-color: #053471;
+        border: none;
+        :global(.vtex-button__label){
+            color: #fff !important; 
+        }
+    }
+}
+:global(.vtex-my-authentication-1-x-savePassButton_container){
+    :global(.vtex-button){
+        background-color: #053471;
+        border: none;
+        :global(.vtex-button__label){
+            color: #fff;
+        }
+    }
+}
 :global(.vtex-pageHeader__children){
     :global(.vtex-my-cards-1-x-newCardButton){
         :global(.c-on-action-primary){
