@@ -333,6 +333,7 @@
     },
     "flex-layout.row#result-mobile": {
       "children": [
+        "flex-layout.row#content",
         "flex-layout.col#content"
       ],
       "props": {
@@ -340,6 +341,16 @@
         "blockClass": "result"
       }
     },
+    "flex-layout.row#content":{
+      "props": {
+        "blockClass": "content-mobile"
+      },
+      "children": [
+        "custom-filter",
+        "order-by.v2"
+      ]
+    },
+
     "flex-layout.col#filter-title": {
       "children": [
         "search-title.v2"

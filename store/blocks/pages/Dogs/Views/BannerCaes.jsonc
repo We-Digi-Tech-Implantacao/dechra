@@ -11,9 +11,15 @@
         },
         "children": [
             "list-context.info-card-list#dogs-banner",
-            "custom-order"
+            //"custom-order"
+            "order-by.v2"
             //"filter-trigger"
         ]
+    },
+    "order-by.v2":{
+        "props":{
+            "blockClass": "order-by"
+        }
     },
     "list-context.info-card-list#dogs-banner": {
         "title": "Banner principal",
@@ -66,8 +72,7 @@
             "blockClass": "section-3-dogs-buttons"
         },
         "children": [
-            "custom-order"
-            //"filter-trigger"
+           
         ]
     },
     "list-context.info-card-list#dogs-banner-phone": {

@@ -1,10 +1,90 @@
+@import 'variables';
+
 .gallery {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px 0;
+    @media(max-width: 1025px){
+        padding: 0;
+    }
+    @media(max-width: 767px){
+        padding: 0;
+    }
 }
 .galleryItem--normal{
     flex-basis: 35% !important;
     max-width: 28% !important;
+}
+.orderByDropdown--order-by{
+    position: absolute;
+    right: 50px;
+    top: 392px;
+    width: auto !important;
+    @media(max-width: 1025px){
+        right: 17px;
+        top: 466px;
+        position: initial;
+    }
+    @media(max-width: 767px){
+        right: 10px;
+        top: 466px;
+        position: initial;
+
+    }
+    .orderByButton--order-by{
+        border: 1px solid #053471;
+        text-transform: uppercase;
+        font-weight: 500;
+        background: transparent;
+        width: 300px;
+        height: 65px;
+        border-radius: 15px;
+     
+        @media(max-width: $maxTablet){
+            margin: 0 auto;
+        }
+        @media(max-width: 767px){
+            width: 170px;
+        }
+        .filterPopupTitle--order-by{
+            color: #707070;
+            font-size: 18px;
+            letter-spacing: 2px;
+            @media(max-width: 1025px){
+                font-size: 14px;
+            }
+            @media(max-width: 767px){
+                font-size: 14px;
+            }
+            .orderByText--order-by {
+                color: #053471;
+                font-size: 18px;
+                letter-spacing: 2px;
+                @media(max-width: 1025px){
+                    font-size: 14px;
+                }
+                @media(max-width: 767px){
+                    font-size: 14px;
+                }
+            }
+            .filterPopupArrowIcon--order-by {
+                color: #053471;
+                .caretIcon--order-by{
+                    color: #053471;
+                }
+            }
+        }
+    }
+}
+.orderByOptionsContainer {
+    @media(max-width: $maxTablet){
+        width: 250px;      
+        top: 71px;
+        right: 40px;
+    }
+    @media(max-width: $maxMobile){
+        top: 75px;
+        right: 0px;
+    }
 }
