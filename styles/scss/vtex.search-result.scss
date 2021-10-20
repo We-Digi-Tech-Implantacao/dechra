@@ -25,11 +25,13 @@
         right: 17px;
         top: 466px;
         position: initial;
+        padding: 0;
     }
     @media(max-width: 767px){
         right: 10px;
         top: 466px;
         position: initial;
+        padding: 0;
 
     }
     .orderByButton--order-by{
@@ -45,7 +47,9 @@
             margin: 0 auto;
         }
         @media(max-width: 767px){
-            width: 170px;
+            width: 170px;  
+            height: 55px; 
+            margin: 0
         }
         .filterPopupTitle--order-by{
             color: #707070;
@@ -53,9 +57,11 @@
             letter-spacing: 2px;
             @media(max-width: 1025px){
                 font-size: 14px;
+                text-transform: initial;
             }
             @media(max-width: 767px){
                 font-size: 14px;
+                text-transform: initial;
             }
             .orderByText--order-by {
                 color: #053471;
@@ -63,9 +69,11 @@
                 letter-spacing: 2px;
                 @media(max-width: 1025px){
                     font-size: 14px;
+                    text-transform: uppercase;
                 }
                 @media(max-width: 767px){
                     font-size: 14px;
+                    text-transform: uppercase;
                 }
             }
             .filterPopupArrowIcon--order-by {
@@ -84,7 +92,11 @@
         right: 40px;
     }
     @media(max-width: $maxMobile){
-        top: 75px;
-        right: 0px;
+        width: 180px;
+        top: 465px;
+        right: 10px;
     }
+}
+.filterPopupButton {
+    align-items: center;
 }
