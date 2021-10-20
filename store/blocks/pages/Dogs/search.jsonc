@@ -543,7 +543,7 @@
         "maxItemsPerRow": {
           "desktop": 4,
           "tablet": 2,
-          "phone": 1
+          "phone": 2
         }
       }
     }

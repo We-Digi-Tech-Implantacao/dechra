@@ -179,7 +179,7 @@
     "props": {
       "recommendation": "buy",
       "productList": {
-        "maxItems": 12,
+        "maxItems": 4,
         "itemsPerPage": 4,
         "titleText": "SUGESTÕES"
       }
@@ -217,8 +217,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 2,
-        "phone": 1
+        "tablet": 4,
+        "phone": 4
       },
       "infinite": false,
       "fullWidth": false,

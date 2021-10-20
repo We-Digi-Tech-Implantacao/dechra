@@ -265,3 +265,22 @@
         }
     }
 }
+
+.slide--home-aux-showcase{
+    @media(max-width: $maxMobile){
+        width: 50% !important;
+    }
+}
+.sliderTrack--home-aux-showcase{
+    @media(max-width: $maxMobile){
+        transform: unset !important;
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+  
+}
+.slideChildrenContainer--home-aux-showcase{
+    @media(max-width: $maxMobile){
+        padding: 0 10px;
+    }
+}

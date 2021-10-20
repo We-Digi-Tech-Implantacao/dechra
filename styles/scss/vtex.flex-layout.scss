@@ -675,6 +675,9 @@
 .flexRowContent--content-mobile{
 	display: flex;
     flex-direction: row;
+	@media(max-width: $maxMobile){
+		padding-bottom: 25px;
+	}
 }
 .flexRowContent--result{
 	@media(max-width: $maxTablet){

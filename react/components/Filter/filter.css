@@ -219,9 +219,9 @@
     height: 20px;
 }
 @media(max-width: 1025px) {
-    .button {
+    /* .button {
         display: none !important;
-    }
+    } */
     .filtersWrapperMobile{
         display: flex;
         position: absolute !important;
