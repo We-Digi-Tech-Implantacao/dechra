@@ -88,7 +88,7 @@
 .orderByOptionsContainer {
     @media(max-width: $maxTablet){
         width: 250px;      
-        top: 71px;
+        top: 412px;
         right: 40px;
     }
     @media(max-width: $maxMobile){
@@ -98,16 +98,32 @@
     }
 }
 .filterPopupButton {
-    display: flex;
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    border: 1px solid #053471;
-    text-transform: uppercase;
-    font-weight: 500;
-    background: transparent;
-    
-    height: 55px;
-    border-radius: 15px;
-    margin: 0 0 0 15px;
+    @media(max-width: $maxTablet){
+        display: flex;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        border: 1px solid #053471;
+        text-transform: uppercase;
+        font-weight: 500;
+        background: transparent;
+        width: 300px;
+        height: 65px;
+        border-radius: 15px;
+        margin: 0 0 0 15px;
+    }
+    @media(max-width: $maxMobile){
+        display: flex;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        border: 1px solid #053471;
+        text-transform: uppercase;
+        font-weight: 500;
+        background: transparent;
+        width: auto;
+        height: 55px;
+        border-radius: 15px;
+        margin: 0 0 0 15px;
+    }
 }

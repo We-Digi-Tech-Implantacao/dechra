@@ -60,7 +60,7 @@
               "blockClass": ["home-list-instructions", "banner-dogs"]
           }
         },
-    "responsive-layout.phone": {
+    "responsive-layout.mobile": {
         "children": [
             "list-context.info-card-list#dogs-banner-phone",
             "rich-text#text-banner-phone",
