@@ -1,3 +1,8 @@
+@media(max-width: 1024px) {
+	.buttonQuickviewWrapper {
+		display: none;
+	}
+}
 @media (max-width: 767px) {
 	.buttonQuickviewWrapper {
 		display: none;

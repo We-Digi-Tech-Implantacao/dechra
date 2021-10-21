@@ -509,9 +509,9 @@
 	@media(max-width: $maxTablet){
 		&:first-child{
 			border-bottom: 1px solid #DEDEDE;
-			padding: 35px 0px 15px 0px!important;
-			width: 585px!important;
-    		margin: 0 auto;
+			padding: 35px 20px 15px !important;
+			width: 100% !important;
+			margin: 0 auto;
 		}  
     }
     @media(max-width: $maxMobile){
@@ -526,7 +526,7 @@
 .flexRowContent--container-price-buy-button {
     padding: 40px 0;
 	@media(max-width: $maxTablet){
-    	padding: 40px 105px;    
+    	padding: 40px 20px;    
     }
     @media(max-width: $maxMobile){
     	padding: 40px 15px;    
@@ -621,7 +621,7 @@
 .flexRowContent--share-mobile{
 	
 	@media(max-width: $maxTablet){
-        padding: 30px 105px 10px;
+        padding: 30px 50px 10px;
     }
 	@media(max-width: $maxMobile){
         display: flex;

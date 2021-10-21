@@ -542,8 +542,8 @@
         "maxItemsCategory": 9,
         "maxItemsPerRow": {
           "desktop": 4,
-          "tablet": 2,
-          "phone": 2
+          "tablet": 4,
+          "phone": 4
         }
       }
     }

@@ -296,6 +296,7 @@
         :global(.vtex-shelf-1-x-slide){
             width: 50% !important;
             height: auto !important; 
+            padding-right: 15px;
         }
     }   
         @media(max-width: $maxMobile){
@@ -308,6 +309,7 @@
             :global(.vtex-shelf-1-x-slide){
                 width: 50% !important;
                 height: auto !important; 
+                padding-right: 15px;
             }
         }   
 }

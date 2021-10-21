@@ -23,7 +23,22 @@
       "flex-layout.row#product-main-mobile",
       "flex-layout.row#container-description-rattings",
       "__fold__",
-      "shelf.relatedProducts#view"
+      "shelf.relatedProducts#view-mobile"
+    ]
+  },
+  "shelf.relatedProducts#view-mobile": {
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        
+        "itemsPerPage": 4,
+        "minItemsPerPage": 4,
+        "titleText": "Produtos Similares"
+      },
+      "blockClass": "relatedProducts-view"
+    },
+    "blocks": [
+      "product-summary.shelf"
     ]
   },
   "shelf.relatedProducts#view-tablet": {
@@ -31,7 +46,7 @@
       "recommendation": "view",
       "productList": {
         "maxItems": 4,
-        "itemsPerPage": 2,
+        "itemsPerPage": 4,
         "titleText": "Sugestões"
       }
     },
@@ -166,6 +181,7 @@
     "props": {
       "recommendation": "view",
       "productList": {
+        "maxItems": 4,
         "itemsPerPage": 4,
         "titleText": "Produtos Similares"
       },
