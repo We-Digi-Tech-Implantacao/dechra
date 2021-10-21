@@ -280,3 +280,16 @@
     }
 
 }
+.filterBreadcrumbsText {
+    color: #053471;
+}
+.accordionFilterItemTitle{
+    color: #707070;
+}
+.caretIcon{
+    color: #707070;
+    padding: 0 10px;
+}
+.filterBreadcrumbsItemName {
+    color: #707070;
+}
