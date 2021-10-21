@@ -479,15 +479,15 @@
 	@media(max-width: $maxTablet){
 		border-bottom: 1px solid #E6E6E6;
 		border-right: 0;
-		width: 535px!important;
-		padding: 0;
+		width: 100%!important;
+		padding: 0 20px;
 		margin-bottom: 0;
 	}
 	@media(max-width: $maxMobile){
 		border-bottom: 1px solid #E6E6E6;
 		border-right: 0;
-		width: 360px !important;
-		padding: 0;
+		width: 100%!important;
+		padding: 0 15px;
 		margin-bottom: 0;
 	}
 }
@@ -529,7 +529,7 @@
     	padding: 40px 105px;    
     }
     @media(max-width: $maxMobile){
-    	padding: 40px 20px;    
+    	padding: 40px 15px;    
     }
 }
 .flexRowContent--shipping-simulator{
@@ -587,12 +587,12 @@
 	padding-bottom: 20px;
     border-bottom: 1px solid #DEDEDE;
 	@media(max-width: $maxTablet){
-		width: 535px!important;
-		margin: 0 auto;
+		width: 100% !important;
+		padding: 0 20px;
     }
     @media(max-width: $maxMobile){
-		width: 350px!important;
-		margin: 0 auto;
+		width: 100% !important;
+		padding: 0 15px;
     }
 }
 .flexColChild--container-documents{
@@ -625,7 +625,7 @@
     }
 	@media(max-width: $maxMobile){
         display: flex;
-    	padding: 30px 20px 10px;
+    	padding: 30px 15px 10px;
     }
 }
 .flexRowContent--wishlist-mobile{
@@ -663,10 +663,10 @@
 	position: absolute;
 	bottom: 125px;
 	@media(max-width: $maxTablet){
-        display: none
+        
     }
 	@media(max-width: $maxMobile){
-		display: none
+		
     }
 	.flexRowContent--summary-buy-button{
 		position: relative;

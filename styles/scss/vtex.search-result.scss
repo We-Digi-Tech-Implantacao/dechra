@@ -49,7 +49,7 @@
         @media(max-width: 767px){
             width: 170px;  
             height: 55px; 
-            margin: 0
+            margin-right: 15px;
         }
         .filterPopupTitle--order-by{
             color: #707070;
@@ -76,13 +76,13 @@
                     text-transform: uppercase;
                 }
             }
-            .filterPopupArrowIcon--order-by {
-                color: #053471;
-                .caretIcon--order-by{
-                    color: #053471;
-                }
-            }
         }
+    }
+}
+.filterPopupArrowIcon--order-by {
+    color: #053471;
+    .caretIcon--order-by{
+        color: #053471 !important;
     }
 }
 .orderByOptionsContainer {
@@ -98,5 +98,16 @@
     }
 }
 .filterPopupButton {
-    align-items: center;
+    display: flex;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    border: 1px solid #053471;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: transparent;
+    
+    height: 55px;
+    border-radius: 15px;
+    margin: 0 0 0 15px;
 }

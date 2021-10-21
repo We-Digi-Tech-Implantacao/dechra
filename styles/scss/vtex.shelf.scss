@@ -11,3 +11,9 @@
 .sliderContainer--relatedProducts-view{
     padding: 0 0 50px 0;
 }
+:global(.vtex-shelf-1-x-arrow){
+    display: none;
+}
+:global(.vtex-slider-0-x-dotsContainer){
+    display: none;
+}

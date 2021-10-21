@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+	.buttonQuickviewWrapper {
+		display: none;
+	}
+}
+	
 .buttonQuickviewWrapper .buttonDataContainer {
 	font-size: 1rem;
 }
@@ -35,6 +41,11 @@
     padding-right: 20px;
     text-transform: initial;
 }
+@media(max-width: 1024px) {
+	.buttonQuickviewWrapper:global(.product-page) {
+		width: 310px
+	}
+}
 @media (max-width: 767px) {
 	.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before{
 		content: "Comprar";
@@ -47,14 +58,10 @@
 		text-transform: initial;
 	}
 	.buttonQuickviewWrapper:global(.product-page) {
-		width: 100%;
+		width: 100% !important;
 	}
 }
-@media(max-width: 1024px) {
-	.buttonQuickviewWrapper:global(.product-page) {
-		width: 310px
-	}
-}
+
 /* .buttonQuickviewWrapper .buttonDataContainer::after {
 	width: 16px;
 	height: 16px;

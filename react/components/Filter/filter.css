@@ -112,12 +112,7 @@
     }
 }
 @media (max-width: 767px) {
-    .filtersWrapper {
-        flex-direction: initial;
-        display: block;
-        width: 195px !important;
 
-    }
 }
 .priceRange .filtersWrapper {
     padding-top: 0;
@@ -219,23 +214,9 @@
     height: 20px;
 }
 @media(max-width: 1025px) {
-    /* .button {
+    .button {
         display: none !important;
-    } */
-    .filtersWrapperMobile{
-        display: flex;
-        position: absolute !important;
-        top: 0;
-    
-        border: 1px solid #053471;
-        text-transform: uppercase;
-        font-weight: 500;
-        background: transparent;
-        width: 300px;
-        height: 65px;
-        border-radius: 15px;
-        margin: 0 10px;
-    }
+    } 
     .filterPopupTitle {
         font-size: 0;
     }
@@ -246,7 +227,7 @@
         background-repeat: no-repeat;
         background-size: 18px;
         width: 20px;
-        height: 17px;
+        height: 16px;
     }
     .filterPopupArrowIcon {
         display: flex;
@@ -268,20 +249,6 @@
     .button {
         display: none !important;
     }
-    .filtersWrapperMobile{
-        display: flex;
-        position: absolute !important;
-        top: 0;
-
-        border: 1px solid #053471;
-        text-transform: uppercase;
-        font-weight: 500;
-        background: transparent;
-        width: 165px !important;
-        height: 55px !important;
-        border-radius: 15px;
-        margin: 0 10px;
-    }
     .filterPopupTitle {
         font-size: 0;
     }
@@ -292,7 +259,7 @@
         background-repeat: no-repeat;
         background-size: 18px;
         width: 20px;
-        height: 17px;
+        height: 16px;
     }
     .filterPopupArrowIcon {
         display: flex;
