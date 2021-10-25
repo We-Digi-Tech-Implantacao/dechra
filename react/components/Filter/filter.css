@@ -187,7 +187,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     cursor: pointer;
     border: 1px solid #053471;
     color: #053471;
@@ -198,10 +197,10 @@
     background-color: #f3f3f3;
     left: 50px;
     top: -120px;
-    width: 300px !important;
-    height: 65px;
+    width: 250px!important;
+    height: 60px;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
 .button::before {
