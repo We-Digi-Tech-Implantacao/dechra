@@ -3,56 +3,77 @@
 		display: none;
 	}
 }
+
 @media (max-width: 767px) {
 	.buttonQuickviewWrapper {
 		display: none;
 	}
 }
-	
+
 .buttonQuickviewWrapper .buttonDataContainer {
 	font-size: 1rem;
 }
+
 .buttonQuickviewWrapper .buttonDataContainer::after {
 	width: 20px;
 	height: 20px;
 }
+
 .buttonQuickviewWrapper .buttonDataContainer {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
-	padding: 0 20px;
+	justify-content: flex-start;
+	padding: 0 20px 0 0;
 	font-size: 16px;
 	font-weight: 600;
 	color: #fff;
+	margin-left: 67px;
+}
+:global(.flexRowContent--summary-buy-button) .buttonQuickviewWrapper .buttonDataContainer {
+	margin-left: 90px;
+}
+
+.buttonQuickviewWrapper .buttonDataContainer {
+	display: flex;
+	position: relative;
 }
 .buttonQuickviewWrapper .buttonDataContainer::before {
 	content: '';
 	display: block;
-	border-left: 1px solid #78787A;
+	border-left: 1px solid #ffffff6e;
 	height: 30px;
-    padding-left: 14px;
+	padding-left: 14px;
 }
-.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page{
+
+.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page {
 	font-size: 0;
 }
-.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before{
+
+.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before {
 	content: "Comprar";
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    padding-left: 45px;
-    padding-right: 20px;
-    text-transform: initial;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	padding-left: 45px;
+	padding-right: 20px;
+	text-transform: initial;
 }
+.buttonQuickviewWrapper .buttonDataContainer .buttonText {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
 @media(max-width: 1024px) {
 	.buttonQuickviewWrapper:global(.product-page) {
 		width: 310px
 	}
 }
+
 @media (max-width: 767px) {
-	.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before{
+	.buttonQuickviewWrapper .buttonDataContainer .buttonText--product-page::before {
 		content: "Comprar";
 		color: #fff;
 		font-size: 18px;
@@ -62,6 +83,7 @@
 		padding-right: 30px;
 		text-transform: initial;
 	}
+
 	.buttonQuickviewWrapper:global(.product-page) {
 		width: 100% !important;
 	}
@@ -83,16 +105,18 @@
 	justify-content: center;
 	align-items: center;
 	background-color: #053471 !important;
-	color: #fff !important;   
+	color: #fff !important;
 	font-size: 13px;
 	width: 311px;
 	height: 58px;
 	border-radius: 5px;
 }
+
 .buttonQuickviewWrapper:global(.product-page) .buttonDataContainer {
-  font-size: 1rem;
+	font-size: 1rem;
 }
+
 .buttonQuickviewWrapper:global(.product-page) .buttonDataContainer::after {
-  width: 20px;
+	width: 20px;
 	height: 20px;
 }

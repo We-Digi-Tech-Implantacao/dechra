@@ -21,6 +21,7 @@
       "blockClass": "sticky-header"
     },
     "children": [
+      "login-identifier",
       "flex-layout.row#desktop"
     ]
   },
@@ -142,7 +143,7 @@
       "logo",
       "drawer",
       "flex-layout.col#spacer",
-      "search-bar",
+      "custom-search-bar#mobile",
       "minicart.v2"
     ],
     "props": {
@@ -151,6 +152,11 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "custom-search-bar#mobile": {
+    "children": [
+      "search-bar"
+    ]
   },
   "drawer": {
     "children": [
@@ -246,7 +252,10 @@
   "vtex.menu@2.x:menu#Institucional-mobile": {
     "props": {
       "orientation": "vertical",
-      "blockClass": ["footer-mobile", "drawer-mobile"],
+      "blockClass": [
+        // "footer-mobile", 
+        "drawer-mobile"
+      ],
       "items": [
         {
           "id": "menu-item-academia-dechra",

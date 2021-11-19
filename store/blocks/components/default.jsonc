@@ -26,14 +26,32 @@
     "children": [
       "flags",
       "stack-layout#prodsum",
+      "product-summary-name#summary",
+      "rich-text#text-indicated--summary",
       //"flex-layout.row#shelf-container-name-stars",
       //"product-rating-summary",
       "flex-layout.row#list-and-selling-price-summary",
-      // "product-installments",
+      "product-installments#summary",
+      "product-price-savings#summary"
       // "product-installments-list",
       //"custom-product-installments",
-      "flex-layout.row#summary-buy-button"
     ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-summary-name#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "rich-text#text-indicated--summary": {
+    "props": {
+      "text": "Indicado como sedativo para cães.",
+      "blockClass": ["text-indicated", "text-indicated--summary"]
+    }
   },
   
   "product-price-savings#summary": {
@@ -41,7 +59,8 @@
       "markers": [
         "discount"
       ],
-      "message": "{savingsPercentage} OFF"
+      "message": "{savingsPercentage} OFF",
+      "blockClass": "summary"
     }
   },
   "flex-layout.row#summary-buy-button": {
@@ -71,7 +90,7 @@
     },
     "children": [
       "product-summary-image#shelf",
-      "product-price-savings#summary"
+      "flex-layout.row#summary-buy-button"
     ]
   },
   "flex-layout.row#shelf-container-name-stars": {

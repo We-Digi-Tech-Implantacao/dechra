@@ -49,8 +49,7 @@
                     "subhead": "Vacinas",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
-                },
-                {
+                }, {
                     "title": "Banner Home",
                     "id": "BannerHome",
                     "blockClass": "section-3",
@@ -64,8 +63,7 @@
                     "subhead": "Soros Hiperimunes",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
-                },
-                {
+                }, {
                     "title": "Banner Home",
                     "id": "BannerHome",
                     "blockClass": "section-3",
@@ -79,8 +77,7 @@
                     "subhead": "Medicamentos",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
-                },
-                {
+                }, {
                     "title": "Banner Home",
                     "id": "BannerHome",
                     "blockClass": "section-3",
@@ -94,8 +91,7 @@
                     "subhead": "Kits Diagnósticos",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
-                },
-                {
+                }, {
                     "title": "Banner Home",
                     "id": "BannerHome",
                     "blockClass": "section-3",
@@ -109,8 +105,7 @@
                     "subhead": "Suplementos",
                     "textMode": "rich-text",
                     "callToActionMode": "none"
-                },
-                {
+                }, {
                     "title": "Banner Home",
                     "id": "BannerHome",
                     "blockClass": "section-3",

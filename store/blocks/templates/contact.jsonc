@@ -1,0 +1,12 @@
+{
+    "store.custom#contact": {
+        "blocks": [
+            "flex-layout.row#contact"
+        ]
+    }, 
+    "flex-layout.row#contact": {
+        "children": [
+            "contact-form"
+        ]
+    }
+}

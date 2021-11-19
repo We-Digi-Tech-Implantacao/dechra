@@ -1,3 +1,11 @@
 {
-   
+   "store.custom#default-page": {
+      "path": "/default-page-example"
+   },
+   "store.custom#contact": {
+      "path": "/contact-example"
+   },
+   "store.custom#custom-query": {
+      "path": "/custom-query-example"
+   }
 }

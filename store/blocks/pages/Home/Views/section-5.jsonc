@@ -14,9 +14,9 @@
             "colSizing": "auto"
         },
         "children":[
-            "image#img-1",
-            "rich-text#cupom",
-            "rich-text#cats"
+            "image#img-1"
+            // "rich-text#cupom",
+            // "rich-text#cats"
         ]
     },
     "image#img-1": {
@@ -43,8 +43,8 @@
             "colSizing": "auto"
         },
         "children":[
-            "image#img-2",
-            "rich-text#promo"
+            "image#img-2"
+            // "rich-text#promo"
         ]
     },
     "image#img-2": {

@@ -323,7 +323,7 @@
   
   "flex-layout.row#result": {
     "children": [
-      "custom-filter",
+      // "custom-filter",
       "flex-layout.col#content"
     ],
     "props": {
@@ -333,7 +333,8 @@
   },
   "flex-layout.row#result-mobile": {
     "children": [
-      "flex-layout.row#content",
+      // "flex-layout.row#content",
+      "flex-layout.row#search--functions",
       "flex-layout.col#content"
     ],
     "props": {
@@ -346,7 +347,7 @@
       "blockClass": "content-mobile"
     },
     "children": [
-      "custom-filter",
+      // "custom-filter",
       "order-by.v2"
     ]
   },
@@ -447,7 +448,7 @@
   "search-result-layout.mobile": {
     "children": [
       //"responsive-layout.desktop",
-      "responsive-layout.mobile",
+      "flex-layout.row#search--main(mobile)",
       "flex-layout.row#result-mobile",
       "flex-layout.row#section-3-dogs"
     ],
@@ -542,8 +543,8 @@
       "maxItemsCategory": 9,
       "maxItemsPerRow": {
         "desktop": 4,
-        "tablet": 4,
-        "phone": 4
+        "tablet": 3,
+        "phone": 2
       }
     }
   }

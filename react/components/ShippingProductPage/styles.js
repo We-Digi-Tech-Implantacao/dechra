@@ -22,6 +22,10 @@ export const Container = styled.div`
             span {
                 display: flex !important;
                 //display: block;
+                .lojadechra-dechra-store-0-x-price {
+                    margin: 0 5px;
+                    font-weight: bold;
+                }
                 &:nth-child(1) {
                     letter-spacing: 1px;
                     text-transform: uppercase;

@@ -1,30 +1,100 @@
 {
     "responsive-layout.desktop": {
         "children": [
-            "flex-layout.row#dogs-banner"
+            "flex-layout.row#search--banner",
+            "flex-layout.row#search--functions"
         ]
-      },
-    "flex-layout.row#dogs-banner":{
-        "props":{
-            "blockClass": "container-dogs-banner",
+    },
+    "search-banner#one": {
+        "props": {
+            "area": "one",
+            "width": "100%",
+            "blockClass": "top-banner",
+            "horizontalAlignment": "center"
+        }
+    },
+    "flex-layout.row#search--banner": {
+        "props": {
+            "blockClass": "search--banner"
+        },
+        "children": [
+            "flex-layout.col#search--banner--left-col",
+            "search-banner#one"
+        ]
+    },
+    "search-banner#two": {
+        "props": {
+            "area": "two",
+            "width": "100%",
+            "blockClass": "top-banner",
+            "horizontalAlignment": "center"
+        }
+    },
+    "flex-layout.row#search--main(mobile)": {
+        "props": {
+            "blockClass": "search--main--mobile"
+        },
+        "children": [
+            "flex-layout.row#search--main--banner(mobile)",
+            "rich-text#search--seo-text"
+        ]
+    },
+    "flex-layout.row#search--main--banner(mobile)": {
+        "props": {
+            "blockClass": "search--main--banner--mobile"
+        },
+        "children": [
+            "search-banner#two",
+            "search-title.v2#mobile"
+        ]
+    },
+    "search-title.v2#mobile": {
+        "props": {
+            "blockClass": "mobile"
+        }
+    },
+    "flex-layout.col#search--banner--left-col": {
+        "props": {
+            "blockClass": "search--banner--left-col"
+        },
+        "children": [
+            "search-title.v2",
+            "rich-text#search--seo-text"
+        ]
+    },
+    "rich-text#search--seo-text": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+            "blockClass": "search--seo-text"
+        }
+    },
+    "flex-layout.row#search--functions": {
+        "props": {
+            "blockClass": "search--functions",
             "colSizing": "auto"
         },
         "children": [
-            "list-context.info-card-list#dogs-banner",
-            //"custom-order"
+            "filter-navigator.v3",
             "order-by.v2"
-            //"filter-trigger"
         ]
     },
-    "order-by.v2":{
-        "props":{
+    "filter-navigator.v3": {
+        "props": {
+            "layout": "phone"
+        }
+    },
+    "order-by.v2": {
+        "props": {
             "blockClass": "order-by"
         }
     },
     "list-context.info-card-list#dogs-banner": {
         "title": "Banner principal",
         "props": {
-            "blockClass": ["home-list-instructions", "banner-dogs"],
+            "blockClass": [
+                "home-list-instructions",
+                "banner-dogs"
+            ],
             "infoCards": [
                 {
                     "title": "Banner Home",
@@ -46,20 +116,23 @@
         "children": [
             "slider-layout#dogs-list-banner"
         ]
-      },
-      "slider-layout#dogs-list-banner": {
-          "title": "Slider banner principal",
-          "props": {
-              "itemsPerPage": {
-                  "desktop": 1,
-                  "tablet": 1,
-                  "phone": 1
-              },
-              "infinite": true,
-              "showPaginationDots": "never",
-              "blockClass": ["home-list-instructions", "banner-dogs"]
-          }
-        },
+    },
+    "slider-layout#dogs-list-banner": {
+        "title": "Slider banner principal",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": [
+                "home-list-instructions",
+                "banner-dogs"
+            ]
+        }
+    },
     "responsive-layout.mobile": {
         "children": [
             "list-context.info-card-list#dogs-banner-phone",
@@ -67,18 +140,19 @@
             "flex-layout.row#section-3-dogs-buttons"
         ]
     },
-    "flex-layout.row#section-3-dogs-buttons":{
+    "flex-layout.row#section-3-dogs-buttons": {
         "props": {
             "blockClass": "section-3-dogs-buttons"
         },
-        "children": [
-           
-        ]
+        "children": []
     },
     "list-context.info-card-list#dogs-banner-phone": {
         "title": "Banner principal",
         "props": {
-            "blockClass": ["home-list-instructions", "banner-dogs"],
+            "blockClass": [
+                "home-list-instructions",
+                "banner-dogs"
+            ],
             "infoCards": [
                 {
                     "title": "Banner Home",
@@ -100,24 +174,27 @@
         "children": [
             "slider-layout#dogs-list-banner-phone"
         ]
-      },
-      "slider-layout#dogs-list-banner-phone": {
-          "title": "Slider banner principal",
-          "props": {
-              "itemsPerPage": {
-                  "desktop": 1,
-                  "tablet": 1,
-                  "phone": 1
-              },
-              "infinite": true,
-              "showPaginationDots": "never",
-              "blockClass": ["home-list-instructions", "banner-dogs"]
-          }
-        },
-        "rich-text#text-banner-phone": {
-            "props": {
-              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
-              "blockClass": "text-banner-phone"
-            }
+    },
+    "slider-layout#dogs-list-banner-phone": {
+        "title": "Slider banner principal",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": [
+                "home-list-instructions",
+                "banner-dogs"
+            ]
         }
+    },
+    "rich-text#text-banner-phone": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+            "blockClass": "text-banner-phone"
+        }
+    }
 }

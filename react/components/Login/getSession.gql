@@ -1,0 +1,38 @@
+query {
+    profile @context(provider: "vtex.store-graphql") {
+        cacheId
+        firstName
+        lastName
+        profilePicture
+        email
+        document
+        userId
+        birthDate
+        gender
+        homePhone
+        businessPhone
+        addresses {
+            addressId
+            cacheId
+            id
+            userId
+            receiverName
+            complement
+            neighborhood
+            country
+            state
+            number
+            street
+            postalCode
+            city
+            reference
+            addressName
+            addressType
+        }
+        isCorporate
+        corporateName
+        corporateDocument
+        stateRegistration
+        passwordLastUpdate
+    }
+}

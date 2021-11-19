@@ -6,7 +6,8 @@
 .quantitySelectorStepper{
     position: absolute;
     top: 5px;
-    right: 225px;
+    left: 19px;
+    right: unset;
     @media(max-width: $maxTablet){
         //display: none;
     }

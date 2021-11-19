@@ -188,7 +188,7 @@
       "blockClass": "relatedProducts-view"
     },
     "blocks": [
-      "product-summary.shelf#page-product"
+      "product-summary.shelf"
     ]
   },
   "shelf.relatedProducts#buy": {
@@ -468,7 +468,7 @@
   "rich-text#text-indicated": {
     "props": {
       "text": "Indicado como sedativo para cães.\n\n**Venda sob prescrição do Médico Veterinário, com retenção obrigatória da notificação de receita.** ",
-      "blockClass": "text-indicated"
+      "blockClass": ["text-indicated", "text-indicated--product"]
     }
   },
   "flex-layout.row#presentation-documents":{
@@ -693,8 +693,14 @@
     },
     "children": [
       "flex-layout.row#list-and-selling-price",
-      "custom-product-installments"
+      "product-installments#product"
+      // "custom-product-installments"
     ]
+  },
+  "product-installments#product": {
+    "props": {
+      "blockClass": "product"
+    }
   },
   "flex-layout.row#list-and-selling-price": {
     "props": {
@@ -702,9 +708,19 @@
       "blockClass": "list-and-selling-price"
     },
     "children": [
-      "product-list-price#summary",
-      "product-selling-price#summary"
+      "product-list-price#product",
+      "product-selling-price#product"
     ]
+  },
+  "product-list-price#product": {
+    "props": {
+      "blockClass": "product"
+    }
+  },
+  "product-selling-price#product": {
+    "props": {
+      "blockClass": "product"
+    }
   },
   "product-list-price#summary": {
     "props": {

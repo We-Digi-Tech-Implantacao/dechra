@@ -1,1 +1,82 @@
 @import 'variables';
+
+.socialNetworkWrapper {
+    .socialNetworksContainer {
+        width: min-content;
+        margin: 5px 0 15px;
+
+        .socialNetworkLink {
+            transition: .5s ease;
+            margin-right: 20px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .socialNetworkLink {
+            text-decoration: none;
+        }
+
+        .socialNetworkLink--instagram {
+            &::before {
+                color: $dark;
+                content: "\f10a";
+                display: block;
+                font-size: 1.725rem;
+                font-family: Flaticon1;
+            }
+
+            .socialNetworkImage {
+                display: none;
+            }
+        }
+
+        .socialNetworkLink--facebook {
+
+            &::before {
+                color: $dark;
+                content: "\f11d";
+                display: block;
+                font-size: 1.725rem;
+                font-family: Flaticon1;
+            }
+
+            .socialNetworkImage {
+                display: none;
+            }
+        }
+
+        .socialNetworkLink--youtube {
+            &::before {
+                width: 30px;
+                height: 30px;
+                content: "";
+                display: block;
+                background-size: 30px;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 50 50' width='30px' height='30px'%3E%3Cpath fill='none' stroke='%23000000' stroke-miterlimit='10' stroke-width='2' d='M19.102,15.022c-0.479-1.137-0.966-0.983-1.329-1.001C17.429,14.005,17.036,14,16.642,14c-0.394,0-1.033,0.146-1.575,0.73S13,16.724,13,19.594s2.116,5.641,2.411,6.031c0.296,0.389,4.164,6.278,10.087,8.804c1.409,0.6,2.509,0.959,3.366,1.228c1.414,0.444,2.702,0.381,3.72,0.231c1.134-0.167,3.494-1.411,3.986-2.772c0.492-1.362,0.492-2.529,0.344-2.772c-0.148-0.243-0.542-0.389-1.132-0.681c-0.59-0.292-3.494-1.703-4.036-1.896c-0.542-0.195-0.935-0.292-1.329,0.292c-0.394,0.584-1.525,1.896-1.869,2.286c-0.344,0.389-0.689,0.438-1.279,0.146c-0.59-0.292-2.494-0.907-4.748-2.894c-1.756-1.546-2.941-3.455-3.285-4.039s-0.037-0.899,0.259-1.19c0.266-0.262,0.59-0.681,0.886-1.022c0.296-0.341,0.394-0.584,0.59-0.973s0.098-0.73-0.05-1.022C20.775,19.059,19.594,16.19,19.102,15.022z'/%3E%3Cpath fill='none' stroke='%23000000' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2' d='M25,3C12.85,3,3,12.85,3,25c0,4.072,1.111,7.884,3.04,11.155L3,47l11.274-2.793C17.448,45.983,21.104,47,25,47c12.15,0,22-9.85,22-22S37.15,3,25,3z'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .socialNetworkImage {
+                display: none;
+            }
+        }
+    }
+}
+
+.footerLayout {
+    z-index: 3;
+    position: relative;
+    padding-right: 0;
+    background-color: $light;
+
+    @media (max-width: 767px) {
+        padding-right: 0;
+    }
+}

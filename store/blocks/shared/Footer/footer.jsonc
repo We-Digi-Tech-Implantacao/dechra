@@ -387,7 +387,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu-mobile",
+      "blockClass": "menu-footer-mobile",
       "itemProps": {
         "type": "internal",
         "href": "",
@@ -458,7 +458,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu-mobile",
+      "blockClass": "menu-footer-mobile",
       "itemProps": {
         "type": "internal",
         "href": "",
@@ -529,7 +529,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "menu-mobile",
+      "blockClass": "menu-footer-mobile",
       "itemProps": {
         "type": "internal",
         "href": "",

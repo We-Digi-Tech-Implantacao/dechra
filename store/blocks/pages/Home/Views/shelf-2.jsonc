@@ -9,13 +9,24 @@
     "flex-layout.col#home-aux-showcase-shelf-2": {
       "children": [
         "rich-text#home-aux-title-shelf-2",
-        "list-context.product-list#aux-showcase-shelf-2"
+        "responsive-layout.desktop#aux-showcase-2",
+        "responsive-layout.mobile#aux-showcase-2"
       ],
       "props": {
         "blockClass": "home-aux-showcase",
         "verticalAlign": "left"
       },
       "title": "Coluna da Vitrine Auxiliar"
+    },
+    "responsive-layout.desktop#aux-showcase-2": {
+      "children": [
+        "list-context.product-list#aux-showcase-shelf-2"
+      ]
+    },
+    "responsive-layout.mobile#aux-showcase-2": {
+      "children": [
+        "search-result-layout.customQuery#home-2"
+      ]
     },
     "rich-text#home-aux-title-shelf-2": {
       "title": "Título da Vitrine Auxiliar",
@@ -28,7 +39,12 @@
     },
     "list-context.product-list#aux-showcase-shelf-2": {
       "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout#home-aux-showcase-shelf-2"]
+      "children": ["slider-layout#home-aux-showcase"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "maxItems": 10,
+        "collection": "140"
+      }
     },
     "slider-layout#home-aux-showcase-shelf-2": {
       "props": {

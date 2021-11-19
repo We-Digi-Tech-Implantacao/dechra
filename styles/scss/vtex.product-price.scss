@@ -9,10 +9,16 @@
 }
 
 .listPrice {
-  font-style: italic;
   width: fit-content;
-  font-weight: lighter;
-  margin-right: 10px;
+  font-style: italic;
+  margin-top: 0;
+  font-weight: 400;
+  margin-left: 5px;
+  .listPriceValue {
+    .currencyContainer {
+      font-size: 15px;
+    }
+  }
 }
 
 .installments {
@@ -21,36 +27,91 @@
 }
 
 .sellingPrice {
-  font-weight: bold;
   color: #053471;
   font-size: 18px;
+  margin-top: 0;
+  font-weight: bold;
 }
 
-.savings{
+.savings {
   color: #fff;
-    background-color: #D6822D;
-    padding: 5px;
-    border-radius: 25px;
-    width: 75px!important;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    @media(max-width: $maxMobile){
-      width: 47px!important;
-      height: 14px;
-      font-size: 12px;
-    }
+  width: auto !important;
+  height: auto;
+  padding: 9px 15px 7.5px;
+  font-size: 11px;
+  border-radius: 25px;
+  background-color: #D6822D;
+  &.savings--summary {
+    top: 15px;
+    left: 17px;
+    position: absolute;
+  }
+  .savingsPercentage {
+    font-size: 12px;
+  }
+  @media(max-width: $maxMobile) {
+    // width: 47px !important;
+    // height: 14px;
+    font-size: 12px;
+  }
 }
-.listPriceValue{
+
+.listPriceValue {
   color: #78787A;
   font-size: 18px;
   font-style: normal;
 }
-.sellingPrice--summary-2{
+
+.sellingPrice--summary-2 {
   font-size: 18px !important;
 }
-.currencyContainer--summary-2{
-  font-size: 21px !important;
-  font-style: normal;
+
+// .currencyContainer--summary-2 {
+//   font-size: 21px !important;
+//   font-style: normal;
+// }
+
+.installments--summary {
+  width: 100%;
+  color: #78787a;
+  margin: 5px 0 0;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: lowercase;
+
+  .currencyCode {
+    text-transform: uppercase;
+  }
+}
+
+.installments--summary::before {
+  content: "Ou ";
+  text-transform: capitalize;
+}
+
+.sellingPrice--product {
+  .sellingPriceValue {
+    font-size: 21px;
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.listPrice--product {
+  .listPriceValue {
+    font-size: 18px;
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.installments--product {
+  color: #78787A;
+  font-weight: 400;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 }

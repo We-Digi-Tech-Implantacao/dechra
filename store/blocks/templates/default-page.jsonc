@@ -1,0 +1,18 @@
+{
+    "store.custom#default-page": {
+        "blocks": [
+            "flex-layout.row#default-page"
+        ]
+    }, 
+    "flex-layout.row#default-page": {
+        "children": [
+            "rich-text#default-page-text"
+        ]
+    },
+    "rich-text#default-page-text": {
+        "props": {
+            "text": "# H1 Example \n\n ## H2 Example \n\n ### H3 Example \n\n Texto corrido: Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus \n\n Strong text \n\n [Link Example www.example.com](https://www.google.com/) \n\n [link text itself]: http://www.reddit.com/ \n\n ![alt text](https://lojadechra.vtexassets.com/arquivos/section3caes.jpg 'Title Text 1') \n\n Lista não ordenada: \n - Opção 1 \n - Opção 2 \n - Opção 3 \n\n ",
+            "blockClass": "default-page-text"
+        }
+    }
+}

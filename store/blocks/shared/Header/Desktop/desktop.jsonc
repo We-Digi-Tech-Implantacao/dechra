@@ -1,149 +1,591 @@
 {
-    "flex-layout.row#header-desktop-menu": {
-        "children": [
-          "custom-menu#default"
-        ],
-        "props": {
-          "blockClass": "container-header-section-1-subsection-2",
-          "width": "100%"
-        }
-      },
-      "custom-menu#default": {
-        "props": {
-          "blockClass": ["default"],
-          "data": [
-            {
-              "label": "Educações",
-              "link": "/Educaoes",
-              "hasChildren": true,
-              "infoCard": {
-                "imageUrl": "assets/images/submenucaes.jpg",
-                "title": "",
-                "button": {
-                  "label": false,
-                  "link": false
-                }
-              },
-              "children": [
-                {
-                  "categories": [
-                    {
-                      "typeItems": "EDUCAÇÃO",
-                      "items": [
-                        {
-                          "label": "ACADEMIA DECHRA",
-                          "link": "/"
-                        },
-                        {
-                          "label": "ARTIGOS",
-                          "link": "/Finanças"
-                        },
-                        {
-                          "label": "EBOOKS",
-                          "link": "/"
-                        },
-                        {
-                          "label": "BLOGS",
-                          "link": "/"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-                "label": "Cães",
-                "link": "/category",
-                "hasChildren": true,
-                "infoCard": {
-                  "imageUrl": "assets/images/submenucaes.jpg",
-                  "title": "Osurnia®\n\n Somos todos ouvidos.\n\n Aplica-se como um líquido. Forma-se como um gel. Ativo onde é necessário.",         
-                  "button": {
-                    "label": "Saiba mais",
-                    "link": "#"
-                  }
-                },
-                "children": [
-                  {
-                    "categories": [
-                      {
-                        "typeItems": "MEDICINA E SAÚDE",
-                        "items": [
-                            {
-                            "label": "ANTIPULGAS",
-                            "link": "/"
-                            },
-                            {
-                            "label": "ANTIBIOTICO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "ANTIINFLAMATÓRIO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "DERMATOLOGICO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "ENDOCRINOLOGICO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "HIGIENE BUCAL",
-                            "link": "/"
-                            },
-                            {
-                            "label": "KIT DIAGNOSTICO",
-                            "link": "/"
-                            }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "categories": [
-                      {
-                        "typeItems": "",
-                        "items": [
-                            {
-                            "label": "OTOLOGICO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "PROBIÓTICO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "SORO HIPERIMUNE",
-                            "link": "/"
-                            },
-                            {
-                            "label": "VACINAS",
-                            "link": "/"
-                            },
-                            {
-                            "label": "VERMIFUGO",
-                            "link": "/"
-                            },
-                            {
-                            "label": "VITAMINAS E SUPLEMENTOS",
-                            "link": "/"
-                            }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-            },
-            {
-              "label": "Gatos",
-              "link": "/gatos",
-              "hasChildren": false,
-              "children": []
-            }
-          ]
-        }
+  "flex-layout.row#header-desktop-menu": {
+    "children": [
+      "vtex.menu@2.x:menu#header-desktop-menu"
+    ],
+    "props": {
+      "blockClass": "container-header-section-1-subsection-2",
+      "width": "100%"
     }
+  },
+  "vtex.menu@2.x:menu#header-desktop-menu": {
+    "props": {
+      "blockClass": "header-desktop-menu"
+    },
+    "children": [
+      "menu-item#department-1",
+      "menu-item#department-2",
+      "menu-item#department-3"
+    ]
+  },
+  "menu-item#department-1": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["department-item", "department-item-1"],
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Educação",
+        "text": "Educação"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-1": {
+    "props": {
+      "blockClass": "submenu--department"
+    },
+    "children": [
+      "flex-layout.col#submenu--department-1--left-col",
+      "info-card#submenu--department-1"
+    ]
+  },
+  "flex-layout.col#submenu--department-1--left-col": {
+    "props": {
+      "width": "50%",
+      "blockClass": "submenu--department--left-col"
+    },
+    "children": [
+      "rich-text#submenu--department-1--title",
+      "vtex.menu@2.x:menu#submenu--department-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu--department-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu--department",
+      "items": [
+        {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIPULGAS",
+            "text": "ANTIPULGAS"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIBIOTICO",
+            "text": "ANTIBIOTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIINFLAMATÓRIO",
+            "text": "ANTIINFLAMATÓRIO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "DERMATOLOGICO",
+            "text": "DERMATOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ENDOCRINOLOGICO",
+            "text": "ENDOCRINOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "HIGIENE BUCAL",
+            "text": "HIGIENE BUCAL"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "KIT DIAGNOSTICO",
+            "text": "KIT DIAGNOSTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "OTOLOGICO",
+            "text": "OTOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "PROBIÓTICO",
+            "text": "PROBIÓTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "SORO HIPERIMUNE",
+            "text": "SORO HIPERIMUNE"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "VACINAS",
+            "text": "VACINAS"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "VERMIFUGO",
+            "text": "VERMIFUGO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "VITAMINAS E SUPLEMENTOS",
+            "text": "VITAMINAS E SUPLEMENTOS"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#submenu--department-1--title": {
+    "props": {
+      "text": "Medicina e Saúde",
+      "blockClass": "submenu--department--title"
+    }
+  },
+  "info-card#submenu--department-1": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/images/submenucaes.jpg",
+      "headline": "Clearance Sale",
+      "subhead": "Aplica-se como um líquido. Forma-se como um gel. Ativo onde é necessário.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "left",
+      "blockClass": "submenu--department",
+      "textAlignment": "left"
+    }
+  },
+  "menu-item#department-2": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["department-item", "department-item-2"],
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cães",
+        "text": "Cães"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-2": {
+    "props": {
+      "blockClass": "submenu--department"
+    },
+    "children": [
+      "flex-layout.col#submenu--department-2--left-col",
+      "info-card#submenu--department-2"
+    ]
+  },
+  "flex-layout.col#submenu--department-2--left-col": {
+    "props": {
+      "width": "50%",
+      "blockClass": "submenu--department--left-col"
+    },
+    "children": [
+      "rich-text#submenu--department-2--title",
+      "vtex.menu@2.x:menu#submenu--department-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu--department-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu--department",
+      "items": [
+        {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIPULGAS",
+            "text": "ANTIPULGAS"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIBIOTICO",
+            "text": "ANTIBIOTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIINFLAMATÓRIO",
+            "text": "ANTIINFLAMATÓRIO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "DERMATOLOGICO",
+            "text": "DERMATOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ENDOCRINOLOGICO",
+            "text": "ENDOCRINOLOGICO"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#submenu--department-2--title": {
+    "props": {
+      "text": "Medicina e Saúde",
+      "blockClass": "submenu--department--title"
+    }
+  },
+  "info-card#submenu--department-2": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/images/submenucaes.jpg",
+      "headline": "Clearance Sale",
+      "subhead": "Aplica-se como um líquido. Forma-se como um gel. Ativo onde é necessário.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "left",
+      "blockClass": "submenu--department",
+      "textAlignment": "left"
+    }
+  },
+  "menu-item#department-3": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["department-item", "department-item-3"],
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gatos",
+        "text": "Gatos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-3": {
+    "props": {
+      "blockClass": "submenu--department"
+    },
+    "children": [
+      "flex-layout.col#submenu--department-3--left-col",
+      "info-card#submenu--department-3"
+    ]
+  },
+  "flex-layout.col#submenu--department-3--left-col": {
+    "props": {
+      "width": "50%",
+      "blockClass": "submenu--department--left-col"
+    },
+    "children": [
+      "rich-text#submenu--department-3--title",
+      "vtex.menu@2.x:menu#submenu--department-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu--department-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu--department",
+      "items": [
+        {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIPULGAS",
+            "text": "ANTIPULGAS"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIBIOTICO",
+            "text": "ANTIBIOTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ANTIINFLAMATÓRIO",
+            "text": "ANTIINFLAMATÓRIO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "DERMATOLOGICO",
+            "text": "DERMATOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ENDOCRINOLOGICO",
+            "text": "ENDOCRINOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "HIGIENE BUCAL",
+            "text": "HIGIENE BUCAL"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "KIT DIAGNOSTICO",
+            "text": "KIT DIAGNOSTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "OTOLOGICO",
+            "text": "OTOLOGICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "PROBIÓTICO",
+            "text": "PROBIÓTICO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "SORO HIPERIMUNE",
+            "text": "SORO HIPERIMUNE"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "VACINAS",
+            "text": "VACINAS"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "VERMIFUGO",
+            "text": "VERMIFUGO"
+          }
+        }, {
+          "id": "menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "VITAMINAS E SUPLEMENTOS",
+            "text": "VITAMINAS E SUPLEMENTOS"
+          }
+        }
+      ]
+    }
+  },
+  "rich-text#submenu--department-3--title": {
+    "props": {
+      "text": "Medicina e Saúde",
+      "blockClass": "submenu--department--title"
+    }
+  },
+  "info-card#submenu--department-3": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/images/submenucaes.jpg",
+      "headline": "Clearance Sale",
+      "subhead": "Aplica-se como um líquido. Forma-se como um gel. Ativo onde é necessário.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "left",
+      "blockClass": "submenu--department",
+      "textAlignment": "left"
+    }
+  }
 }

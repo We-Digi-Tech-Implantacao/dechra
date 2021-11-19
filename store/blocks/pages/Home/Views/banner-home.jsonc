@@ -1,5 +1,5 @@
 {
-    "list-context.info-card-list#home-banner": {
+    "list-context.info-card-list#home-banner-1": {
         "title": "Banner principal",
         "props": {
             "blockClass": "home-list-instructions",
@@ -11,46 +11,61 @@
                     "htmlId": "BannerHome",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/bannerhome.jpg",
-                    "mobileImageUrl": "assets/images/bannerhome.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Em mais de 50 Países",
-                    "subhead": "",
-                    "textMode": "rich-text",
-                    "callToActionMode": "none"
-                },
-                {
+                    "headline": "Em mais de 50 Países",
+                    "subhead": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh.",
+                    "textMode": "html",
+                    "callToActionText": "Saiba mais",
+                    "callToActionUrl": "#"
+                }, {
                     "title": "Banner Home",
                     "id": "BannerHome",
                     "blockClass": "home-instructions",
                     "htmlId": "BannerHome",
                     "isFullModeStyle": true,
                     "imageUrl": "assets/images/bannerhome.jpg",
-                    "mobileImageUrl": "assets/images/bannerhome.jpg",
                     "textPosition": "left",
                     "textAlignment": "center",
-                    "headline": "## Em mais de 50 Países",
-                    "subhead": "",
-                    "textMode": "rich-text",
-                    "callToActionMode": "none"
+                    "headline": "Em mais de 50 Países",
+                    "subhead": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh.",
+                    "textMode": "html",
+                    "callToActionText": "Saiba mais",
+                    "callToActionUrl": "#"
                 }
             ]
         },
         "children": [
             "slider-layout#home-list-banner"
         ]
-      },
-      "slider-layout#home-list-banner": {
-          "title": "Slider banner principal",
-          "props": {
-              "itemsPerPage": {
-                  "desktop": 1,
-                  "tablet": 1,
-                  "phone": 1
-              },
-              "infinite": true,
-              "showPaginationDots": "never",
-              "blockClass": "home-list-instructions"
-          }
+    },
+    "list-context.image-list#home-main-carousel": {
+        "title": "Banners do Carousel de imagens principal do topo",
+        "children": ["slider-layout#home-list-banner"],
+        "props": {
+            "images": [
+                {
+                    "image": "assets/images/bannerhome.jpg",
+                    "mobileImage": "assets/images/bannerhome.jpg"
+                }, {
+                    "image": "assets/images/bannerhome.jpg",
+                    "mobileImage": "assets/images/bannerhome.jpg"
+                }
+            ]
         }
+    },
+    "slider-layout#home-list-banner": {
+        "title": "Slider banner principal",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "arrowSize": 30,
+            "showPaginationDots": "never",
+            "blockClass": "home-list-instructions"
+        }
+    }
 }

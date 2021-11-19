@@ -4,15 +4,40 @@
       "blockClass": "home"
     },
     "blocks": [
-      "list-context.info-card-list#home-banner",
+      // "list-context.info-card-list#home-banner-1",
+      "list-context.image-list#home-main-carousel",
       "responsive-layout.desktop#home-section-1",
       "responsive-layout.mobile#section-1-mobile",
+      "ruler#home",
       "flex-layout.row#home-aux-showcase",
       "flex-layout.row#section-3",
-      "list-context.info-card-list#home-section-4",
+      "link#home-section-4",
       "flex-layout.row#section-5",
       "flex-layout.row#home-aux-showcase-shelf-2",
       "flex-layout.row#section-6"
     ]
+  },
+  "ruler#home": {},
+  "link#home-section-4": {
+    "title": "Card Seção 4",
+    "props": {
+      "link": "#",
+      "blockClass": "home-list-section-4"
+    },
+    "children": ["info-card#home-section-4"]
+  },
+  "info-card#home-section-4": {
+    "props": {
+      "id": "info-card",
+      "textPosition": "left",
+      "isFullModeStyle": true,
+      "imageUrl": "https://lojadechra.vtexassets.com/assets/vtex.file-manager-graphql/images/6aa95120-754c-416f-a86f-5ec2c778f970___f4080564314fd80fef5a747730ebbcd6.png",
+      "headline": "Clearance Sale",
+      "subhead": "Sed porttitor lectus nibh. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur aliquet quam id dui posuere blandit.",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "#",
+      "blockClass": "home-list-section-4",
+      "textAlignment": "center"
+    }
   }
 }

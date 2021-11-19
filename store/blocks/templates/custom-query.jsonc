@@ -1,0 +1,102 @@
+{
+    "store.custom#custom-query": {
+        "blocks": [
+            "search-result-layout.customQuery#default"
+        ]
+    }, 
+    "search-result-layout.customQuery#default": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Teste",
+                "mapField": "ft"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#default",
+            "search-result-layout.mobile#default",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#default": {
+        "children": [
+            "flex-layout.row#search--banner(custom)",
+            "flex-layout.row#search--functions",
+            "flex-layout.row#result"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#search--banner(custom)": {
+        "props": {
+            "blockClass": "search--banner--custom"
+        },
+        "children": [
+            "image#search--banner",
+            "rich-text#search--seo-text(custom)"
+        ]
+    },
+    "rich-text#search--seo-text(custom)": {
+        "props": {
+            "text": "## Custom Query Example\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+            "blockClass": "search--seo-text--custom"
+        }
+    },
+    "image#search--banner": {
+        "props": {
+            "src": "https://lojadechra.vtexassets.com/arquivos/cat.jpg",
+            "blockClass": "search--banner"
+        }
+    },
+    "search-result-layout.mobile#default": {
+        "children": [
+            "flex-layout.row#search--banner(custom)--mobile",
+            "rich-text#search--seo-text(custom)--mobile",
+            "flex-layout.row#search--functions",
+            "flex-layout.row#result"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#search--banner(custom)--mobile": {
+        "props": {
+            "blockClass": "search--banner--custom"
+        },
+        "children": [
+            "image#search--banner--mobile",
+            "rich-text#search--seo-title(custom)--mobile"
+        ]
+    },
+    "image#search--banner--mobile": {
+        "props": {
+            "src": "assets/images/section4mobile.png",
+            "blockClass": "search--banner"
+        }
+    },
+    "rich-text#search--seo-title(custom)--mobile": {
+        "props": {
+            "text": "## Custom Query Example",
+            "blockClass": "search--seo-title--custom"
+        }
+    },
+    "rich-text#search--seo-text(custom)--mobile": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
+            "blockClass": "search--seo-text--custom"
+        }
+    }
+}

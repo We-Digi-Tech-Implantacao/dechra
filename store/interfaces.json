@@ -52,5 +52,25 @@
     },
     "category-bot": {
         "component": "CategoryBot"
+    },
+    "login-identifier": {
+        "component": "Login.Identifier"
+    },
+    "medicine-prescription": {
+        "component": "MedicinePrescription"
+    },
+    "custom-TabList": {
+        "component": "InstitucionalMenu"
+    },
+    "ruler": {
+        "component": "Home.Ruler"
+    },
+    "custom-search-bar": {
+        "component": "Header.SearchBar",
+        "composition": "children",
+        "allowed": "*"
+    },
+    "contact-form": {
+        "component": "Contact"
     }
 }

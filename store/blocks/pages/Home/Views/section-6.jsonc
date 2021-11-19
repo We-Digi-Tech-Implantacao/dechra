@@ -75,8 +75,27 @@
         },
         "children": [
             "rich-text#title-section-6-title-sing",
+            // "social-networks"
             "flex-layout.row#section-6-icons-sing"
         ]
+    },
+    "social-networks": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "/",
+                    "name": "Instagram"
+                },
+                {
+                    "url": "/",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "/",
+                    "name": "YouTube"
+                }
+            ]
+        }
     },
     "rich-text#title-section-6-title-sing":{
         "props": {
