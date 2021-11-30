@@ -72,5 +72,17 @@
     },
     "contact-form": {
         "component": "Contact"
+    },
+    "custom-indicated": {
+        "component": "CustomIndicated"
+    },
+    "custom-MedicationInstructions": {
+        "component": "MedicationInstructions"
+    },
+    "custom-ButtonDownload": {
+        "component": "ButtonDownload"
+    },
+    "custom-Description": {
+        "component": "Description"
     }
 }

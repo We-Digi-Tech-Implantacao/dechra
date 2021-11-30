@@ -1,0 +1,23 @@
+.containerBula a {
+    background-color: #F2F2F2;
+    width: 135px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    color: #79797B;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.containerBula a::after {
+    content: '';
+    display: block;
+    background-image: url('https://lojadechra.vtexassets.com/arquivos/download.png');
+    background-size: 14px;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}

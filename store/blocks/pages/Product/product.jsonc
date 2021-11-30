@@ -149,7 +149,7 @@
     },
     "children":[
       "trustvox",
-      "rich-text#materials"
+      "custom-ButtonDownload"
     ]
   },
   "rich-text#materials": {
@@ -161,7 +161,8 @@
   "flex-layout.col#container-product-description": {
     "children": [
       "rich-text#product-title-description",
-      "product-description"
+      //"product-description"
+      "custom-Description"
     ],
     "props": {
       "blockClass": [
@@ -461,15 +462,9 @@
       "colSizing": "auto"
     },
     "children":[
-      "rich-text#text-indicated",
+      "custom-indicated",
       "flex-layout.row#presentation-documents"
     ]
-  },
-  "rich-text#text-indicated": {
-    "props": {
-      "text": "Indicado como sedativo para cães.\n\n**Venda sob prescrição do Médico Veterinário, com retenção obrigatória da notificação de receita.** ",
-      "blockClass": ["text-indicated", "text-indicated--product"]
-    }
   },
   "flex-layout.row#presentation-documents":{
     "props":{
@@ -500,7 +495,7 @@
     },
     "children":[
       "rich-text#text-documents",
-      "rich-text#button-documents"
+      "custom-MedicationInstructions"
     ]
   },
   "rich-text#text-documents": {
@@ -509,12 +504,7 @@
       "blockClass": ["text-presentation", "text-indicated"]
     }
   },
-  "rich-text#button-documents": {
-    "props": {
-      "text": "[![](https://lojadechra.vtexassets.com/arquivos/download.png)](https://www.google.com/)",
-      "blockClass": ["button-materials", "button-documents"]
-    }
-  },
+  
   "sku-selector#pdp": {
     "props": {
       "hideImpossibleCombinations": false,
