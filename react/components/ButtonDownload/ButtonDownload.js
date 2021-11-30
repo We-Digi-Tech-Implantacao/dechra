@@ -9,7 +9,7 @@ export default function ButtonDownload(){
     useEffect(()=>{
         productContext?.product?.properties.map(item => {
            if(item.name == "Material-Complemento") {
-                setDownload(item.values[0])
+                setDownload(item.values[0].split(","))
            }
         })
     }, [productContext])
@@ -17,8 +17,12 @@ export default function ButtonDownload(){
     if(download == null) return null
 
     return (
-        <div className={styles.containerDownload}>
-            <a href={download} target="_blank">Download</a>
-        </div>
+        download.length && download.map(item => {
+            return (
+                <div className={styles.containerDownload}>
+                    <a href={item} target="_blank">Download</a>
+                </div>
+            )
+        })
     )
 }

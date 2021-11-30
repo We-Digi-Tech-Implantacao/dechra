@@ -9,7 +9,7 @@
 
     color: #79797B;
     font-size: 16px;
-    margin-top: 15px;
+    margin: 15px 15px 0 0;
 }
 
 .containerDownload a::after {
