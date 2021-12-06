@@ -161,7 +161,7 @@
   "flex-layout.col#container-product-description": {
     "children": [
       "rich-text#product-title-description",
-      //"product-description"
+      "product-description",
       "custom-Description"
     ],
     "props": {

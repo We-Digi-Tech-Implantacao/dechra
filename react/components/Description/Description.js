@@ -5,7 +5,8 @@ import styles from './styles.css'
 export default function Description(){
     const [description, setDescription] = useState(null)
     const productContext = useProduct()
-
+    console.log("🚀 ~ file: Description.js ~ line 8 ~ Description ~ productContext", productContext)
+    
     useEffect(()=>{
         productContext?.product?.properties.map(item => {
            if(item.name == "Informações Técnicas") {
@@ -18,7 +19,12 @@ export default function Description(){
 
     return (
        <div className={styles.containerDescription}>
-           <p>{description}</p>
+            { description &&
+                <div>               
+                    <h2 className={styles.titleDescription}>Informações Técnicas</h2>
+                    <p>{description}</p>                
+                </div>
+            }
        </div>
     )
 }

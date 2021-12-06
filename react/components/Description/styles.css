@@ -1,4 +1,11 @@
+.containerDescription {
+    padding: 30px 0 0 0;
+}
 .containerDescription p {
     color: #78787A;
     padding: 10px 0;
+}
+.containerDescription .titleDescription {
+    color: #053471;
+    font-size: 18px;
 }
