@@ -227,11 +227,10 @@
     }
 }
 .logoImage {
-    width: 100px;
+    width: 150px;
     @media (max-width: $maxMobile) {
-        width: 85px;
-        height: 85px;
-        margin: -5px 0 0;
+        width: 110px;
+        margin: -5px 0 0 0;
     }
 }
 .imageElement--search--banner {
